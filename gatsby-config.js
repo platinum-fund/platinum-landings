@@ -24,8 +24,5 @@ module.exports = {
     },
     `gatsby-plugin-less`,
     'gatsby-plugin-root-import'
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.app/offline
-    // 'gatsby-plugin-offline',
   ]
 }

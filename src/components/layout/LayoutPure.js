@@ -1,9 +1,10 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
+import TranslationProvider from 'src/components/translationProvider/TranslationProvider'
 import 'src/common.blocks/index.less'
 
 const LayoutPure = props => {
-  const { pageTitle, children } = props
+  const { pageTitle, language = 'en', children } = props
 
   return (
     <>
@@ -11,7 +12,7 @@ const LayoutPure = props => {
         <meta charSet="utf-8" />
         <title>{pageTitle}</title>
       </Helmet>
-      {children}
+      <TranslationProvider language={language}>{children}</TranslationProvider>
     </>
   )
 }
