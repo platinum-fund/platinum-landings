@@ -9,7 +9,7 @@ import LaunchSto from 'src/components/sections/launchSto/LaunchStoPure'
 import CodeExample from 'src/components/sections/codeExample/CodeExamplePure'
 
 const IndexPage = () => (
-  <Layout pageTitle="STO" language="en">
+  <Layout pageTitle="STO" language="ja">
     <main>
       <Preface />
       <BusinessGrowth />
