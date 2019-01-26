@@ -7,6 +7,7 @@ import SecuritiesServices from 'src/components/sections/securitiesServices/Secur
 import StoStandart from 'src/components/sections/stoStandart/StoStandartPure'
 import LaunchSto from 'src/components/sections/launchSto/LaunchStoPure'
 import CodeExample from 'src/components/sections/codeExample/CodeExamplePure'
+import PlatinumEquivalency from 'src/components/sections/platinumEquivalency/PlatinumEquivalencyPure'
 
 const IndexPage = () => (
   <Layout pageTitle="STO" language="en">
@@ -15,6 +16,7 @@ const IndexPage = () => (
       <BusinessGrowth />
       <StoAdvantages />
       <SecuritiesServices />
+      <PlatinumEquivalency />
       <StoStandart />
       <LaunchSto />
       <CodeExample />
