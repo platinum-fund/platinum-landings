@@ -4,23 +4,27 @@ import './section_sto-advantages.less'
 const StoAdvantagesPure = () => (
   <section className="section _sto-advantages">
     <div className="wrapper _shrink">
-      <div className="wrapper _title fz-33 _regular">
-        <h2 className="title _inline">Security Tokens -</h2>
-        <h2 className="title _orange _inline">the only way</h2>
+      <div className="headline">
+        <h2 className="title _type_section display_inline">
+          Security Tokens -
+        </h2>
+        <h2 className="title _type_section display_inline _orange">
+          the only way
+        </h2>
       </div>
       <div className="wrapper _cards flex _wrap">
-        <div className="card _dark">
-          <div className="wrapper _row">
-            <h6 className="title fz-26 _orange">For Companies</h6>
-            <p className="text fz-13 _light">
+        <div className="card _theme_tall _theme_dark">
+          <div className="card__row">
+            <h6 className="card__main-title">For Companies</h6>
+            <p className="card__description">
               WHY SHOULD YOU CREAE A SECURITY TOKEN?
             </p>
           </div>
-          <div className="wrapper _row">
-            <div className="title _wrapper">
-              <h6 className="title fz-19">Liquidity</h6>
+          <div className="card__row">
+            <div className="card__title">
+              <h6>Liquidity</h6>
             </div>
-            <p className="text fz-13 _light">
+            <p className="card__description">
               Security tokens represent a massive breakthrough in liquidity for
               private securities. With built-in programmatic ownership
               restrictions, you can sell private securities to a global pool of
@@ -28,11 +32,11 @@ const StoAdvantagesPure = () => (
               number of trading venues.
             </p>
           </div>
-          <div className="wrapper _row">
-            <div className="title _wrapper">
-              <h6 className="title fz-19">Efficiency</h6>
+          <div className="card__row">
+            <div className="card__title">
+              <h6>Efficiency</h6>
             </div>
-            <p className="text fz-13 _light">
+            <p className="card__description">
               Raise funds in cryptocurrency where your investors automatically
               receive the correct allocation of securities. Pay dividends
               automatically, create and distribute securities effortlessly, and
@@ -40,11 +44,11 @@ const StoAdvantagesPure = () => (
               waiting 3-5 business days, and manually updating spreadsheets.
             </p>
           </div>
-          <div className="wrapper _row">
-            <div className="title _wrapper">
-              <h6 className="title fz-19">Transparency</h6>
+          <div className="card__row">
+            <div className="card__title">
+              <h6>Transparency</h6>
             </div>
-            <p className="text fz-13 _light">
+            <p className="card__description">
               As a security token issuer, you can conduct your: fundraising, cap
               table management, dividend payments, and financial dealings in a
               fully transparent manner, on the Ethereum blockchain. From the
@@ -54,18 +58,18 @@ const StoAdvantagesPure = () => (
             </p>
           </div>
         </div>
-        <div className="card">
-          <div className="wrapper _row">
-            <h6 className="title fz-26 _orange">For Investors</h6>
-            <p className="text fz-13 _light">
+        <div className="card _theme_tall _theme_light">
+          <div className="card__row">
+            <h6 className="card__main-title">For Investors</h6>
+            <p className="card__description">
               WHY SHOULD YOU INVEST IN SECURITY TOKEN?
             </p>
           </div>
-          <div className="wrapper _row">
-            <div className="title _wrapper">
-              <h6 className="title fz-19">Lower fees</h6>
+          <div className="card__row">
+            <div className="card__title">
+              <h6>Lower fees</h6>
             </div>
-            <p className="text fz-13 _light">
+            <p className="card__description">
               Legacy financial systems have countless middlemen and
               rent-seekers. Security Tokens, by taking advantage of blockchain
               technology and a fully digital infrastructure, can decrease and
@@ -73,33 +77,31 @@ const StoAdvantagesPure = () => (
               markets, compliance, and securities trading.
             </p>
           </div>
-          <div className="wrapper _row">
-            <div className="title _wrapper">
-              <h6 className="title fz-19">24/7/365 Markets</h6>
+          <div className="card__row">
+            <div className="card__title">
+              <h6>24/7/365 Markets</h6>
             </div>
-            <p className="text fz-13 _light">
+            <p className="card__description">
               There are no holidays, weekends, or bank closures on the
               blockchain. You can finally have 24/7/365 access to financial
               markets.
             </p>
           </div>
-          <div className="wrapper _row">
-            <div className="title _wrapper">
-              <h6 className="title fz-19">
-                Automated Cryptoruccrency Capital Raising
-              </h6>
+          <div className="card__row">
+            <div className="card__title">
+              <h6>Automated Cryptoruccrency Capital Raising</h6>
             </div>
-            <p className="text fz-13 _light">
+            <p className="card__description">
               Contribute funds in cryptocurrency, and automatically receive the
               correct allocation of securities. No more bank wires and waiting
               3-5 business days for funds to clear.
             </p>
           </div>
-          <div className="wrapper _row">
-            <div className="title _wrapper">
-              <h6 className="title fz-19">Liquidity for Private Securities</h6>
+          <div className="card__row">
+            <div className="card__title">
+              <h6>Liquidity for Private Securities</h6>
             </div>
-            <p className="text fz-13 _light">
+            <p className="card__description">
               Security tokens represent a massive breakthrough in liquidity for
               private securities. With security tokens, you can own securities
               in a private company while having access to a global pool of
