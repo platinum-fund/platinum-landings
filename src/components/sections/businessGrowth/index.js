@@ -10,12 +10,8 @@ const BusinessGrowthPure = () => (
   <section className="section _business-growth">
     <div className="wrapper _shrink">
       <div className="headline">
-        <h2 className="title _type_section display_inline">
-          How tokenization will
-        </h2>
-        <h2 className="title _type_section _orange display_inline">
-          growth your business
-        </h2>
+        <h2 className="title _type_section ">How tokenization will</h2>
+        <h2 className="title _type_section _orange ">growth your business</h2>
       </div>
       <div className="wrapper _cards">
         <div className="card _theme_light _type_column">

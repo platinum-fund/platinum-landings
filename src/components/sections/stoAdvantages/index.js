@@ -5,12 +5,8 @@ const StoAdvantagesPure = () => (
   <section className="section _sto-advantages">
     <div className="wrapper _shrink">
       <div className="headline">
-        <h2 className="title _type_section display_inline">
-          Security Tokens -
-        </h2>
-        <h2 className="title _type_section display_inline _orange">
-          the only way
-        </h2>
+        <h2 className="title _type_section ">Security Tokens -</h2>
+        <h2 className="title _type_section  _orange">the only way</h2>
       </div>
       <div className="wrapper _cards flex _wrap">
         <div className="card _theme_tall _theme_dark">
