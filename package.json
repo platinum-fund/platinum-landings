@@ -20,7 +20,9 @@
     "react-dom": "^16.6.3",
     "react-helmet": "^5.2.0",
     "react-intl": "^2.8.0",
-    "reset-css": "^4.0.1"
+    "react-slick": "^0.23.2",
+    "reset-css": "^4.0.1",
+    "slick-carousel": "^1.8.1"
   },
   "keywords": [
     "gatsby"
