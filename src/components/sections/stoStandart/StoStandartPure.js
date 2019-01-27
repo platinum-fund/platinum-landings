@@ -4,17 +4,19 @@ import './section_sto-standart.less'
 const StoStandartPure = () => (
   <section className="section _sto-standart">
     <div className="wrapper _shrink">
-      <h2 className="title _orange">PLS-360</h2>
-      <h4 className="subtitle title fz-19 _light">
-        Platinum Sercurity Token Standard
-      </h4>
-      <h2 className="description-title text fz-16">
+      <div className="headline">
+        <h2 className="title _type_section _orange">PLS-360</h2>
+        <h4 className="title _type_subtitle">
+          Platinum Sercurity Token Standard
+        </h4>
+      </div>
+      <h2 className="description-title">
         Platinum is upgrading the existing capital markets infrastructure to
         take advantage of blockchain technology’s benefits: seamless capital
         formation; instantaneous settlement for unique, unforgeable assets;
         negligible trading fees; and countless others.
       </h2>
-      <div className="description-text text fz-13">
+      <p className="description-text">
         In order to make this upgrade possible, we believe there needs to be a
         standard for security tokens that utilizes these benefits while
         satisfying regulations. With a standard in place, security token
@@ -23,6 +25,7 @@ const StoStandartPure = () => (
         becomes easier, and adoption can be widespread. Similar to how the
         ERC-20 standard enabled the boom in utility tokens on the Ethereum
         blockchain, there needs to be a standard for security tokens.
+        <br />
         <br />
         The standard we have built at Polymath is ST-20. ST-20 is an extension
         of ERC-20 that introduces the ability to restrict transfers of
@@ -35,7 +38,7 @@ const StoStandartPure = () => (
         regulatory compliance through transfer restrictions. And beneficially,
         it is backward compatible with ERC-20 making it interoperable with much
         of the existing blockchain infrastructure available today.
-      </div>
+      </p>
     </div>
   </section>
 )

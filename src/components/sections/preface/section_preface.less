@@ -1,3 +1,60 @@
+@import '~src/common.blocks/imports/media.less';
+
 .section._preface {
-  display: block;
+  position: relative;
+  margin-bottom: 8rem;
+  height: 78.4rem;
+  color: #fff;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 105%;
+    background: url('~src/images/section-preface/background.png') no-repeat
+      center -300px;
+    background-size: cover;
+
+    @media @under-xxlg {
+      height: 120%;
+      background-position: center 0;
+    }
+  }
+
+  .wrapper._shrink {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .headline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3.3rem;
+
+    @media @under-sm {
+      align-items: flex-start;
+    }
+
+    .title._type_second {
+      margin-bottom: 0.9rem;
+      line-height: 2.6rem;
+    }
+
+    .title._type_main {
+      margin-bottom: 4.2rem;
+      color: #ff6932;
+    }
+  }
+
+  .button {
+    margin-bottom: 2rem;
+    width: 24.6rem;
+  }
 }
