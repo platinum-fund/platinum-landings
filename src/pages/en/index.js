@@ -12,6 +12,7 @@ import Reviews from 'src/components/sections/reviews'
 import Team from 'src/components/sections/team'
 import ServiceProviders from 'src/components/sections/serviceProviders'
 import LastChance from 'src/components/sections/lastChance'
+import Articles from 'src/components/sections/articles'
 
 const IndexPage = () => (
   <Layout pageTitle="STO" language="en">
@@ -27,6 +28,7 @@ const IndexPage = () => (
       <Team />
       <ServiceProviders />
       <Reviews />
+      <Articles />
       <LastChance />
     </main>
   </Layout>
