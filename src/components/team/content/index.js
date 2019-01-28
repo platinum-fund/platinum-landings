@@ -20,7 +20,7 @@ const team = [
   },
   {
     name: 'Dan Khomenko',
-    position: 'Dan Khomenko',
+    position: 'Co-founder, Head of Platinum Exchange Listing',
     photo: require('./images/team/dan-khomenko.jpg'),
     socials: [
       {
