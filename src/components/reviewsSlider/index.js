@@ -3,7 +3,7 @@ import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import './slider.less'
-import sliders from './sliders'
+import sliders from './content'
 
 const PrevArrow = ({ onClick }) => (
   <div className={`arrow _left`} onClick={onClick} />
@@ -47,7 +47,7 @@ const ReviewsSlider = props => {
     <div className="reviews-slider">
       <Slider {...settings}>
         {sliders.map((slider, index) => (
-          <div className="slide-wrapper">
+          <div className="slide-wrapper" key={slider.name + index}>
             <div className="slide" key={`review${slider.name + index}`}>
               <div className="slide__content">
                 <div className="slide__main-image-wrapper">
