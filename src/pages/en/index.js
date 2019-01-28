@@ -11,6 +11,7 @@ import PlatinumEquivalency from 'src/components/sections/platinumEquivalency'
 import Reviews from 'src/components/sections/reviews'
 import Team from 'src/components/sections/team'
 import ServiceProviders from 'src/components/sections/serviceProviders'
+import LastChance from 'src/components/sections/lastChance'
 
 const IndexPage = () => (
   <Layout pageTitle="STO" language="en">
@@ -24,8 +25,9 @@ const IndexPage = () => (
       <LaunchSto />
       <CodeExample />
       <Team />
-      <Reviews />
       <ServiceProviders />
+      <Reviews />
+      <LastChance />
     </main>
   </Layout>
 )
