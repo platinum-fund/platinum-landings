@@ -2,6 +2,7 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 import TranslationProvider from 'src/components/translationProvider/TranslationProvider'
 import 'src/common.blocks/index.less'
+import Navbar from 'src/components/navbar'
 
 const LayoutPure = props => {
   const { pageTitle, language = 'en', children } = props
@@ -12,6 +13,7 @@ const LayoutPure = props => {
         <meta charSet="utf-8" />
         <title>{pageTitle}</title>
       </Helmet>
+      <Navbar />
       <TranslationProvider language={language}>{children}</TranslationProvider>
     </>
   )

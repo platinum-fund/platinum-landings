@@ -7,9 +7,9 @@ const PlatinumEquivalencyPure = () => (
   <section className="section _platinum-equivalency">
     <div className="wrapper _shrink">
       <div className="headline">
-        <h2 className="title _type_section display_inline">The Ethereum</h2>
-        <h2 className="title _type_section _orange display_inline">Platinum</h2>
-        <h2 className="title _type_section  display_inline">Equivalency</h2>
+        <h2 className="title _type_section ">The Ethereum</h2>
+        <h2 className="title _type_section _orange ">Platinum</h2>
+        <h2 className="title _type_section  ">Equivalency</h2>
         <h4 className="title _type_subtitle">
           What Ethereum did for tokens, Platinum will do for securities
         </h4>

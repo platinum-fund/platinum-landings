@@ -5,10 +5,8 @@ const SecuritiesServicesPure = () => (
   <section className="section _securities-services">
     <div className="wrapper _shrink">
       <div className="headline">
-        <h2 className="title _type_section _orange display_inline">
-          Platinum LTD
-        </h2>
-        <h2 className="title _type_section display_inline">in securities</h2>
+        <h2 className="title _type_section _orange ">Platinum LTD</h2>
+        <h2 className="title _type_section ">in securities</h2>
         <h4 className="title _type_subtitle">
           We can provide full stack of security services
         </h4>
