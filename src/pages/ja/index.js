@@ -9,6 +9,10 @@ import LaunchSto from 'src/components/sections/launchSto'
 import CodeExample from 'src/components/sections/codeExample'
 import PlatinumEquivalency from 'src/components/sections/platinumEquivalency'
 import Reviews from 'src/components/sections/reviews'
+import Team from 'src/components/sections/team'
+import ServiceProviders from 'src/components/sections/serviceProviders'
+import LastChance from 'src/components/sections/lastChance'
+import Articles from 'src/components/sections/articles'
 
 const IndexPage = () => (
   <Layout pageTitle="STO" language="ja">
@@ -21,7 +25,11 @@ const IndexPage = () => (
       <StoStandart />
       <LaunchSto />
       <CodeExample />
+      <Team />
+      <ServiceProviders />
       <Reviews />
+      <Articles />
+      <LastChance />
     </main>
   </Layout>
 )
