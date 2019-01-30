@@ -13,10 +13,14 @@ import Team from 'src/components/sections/team'
 import ServiceProviders from 'src/components/sections/serviceProviders'
 import LastChance from 'src/components/sections/lastChance'
 import Articles from 'src/components/sections/articles'
+import Footer from 'src/components/sections/footer'
 import ContactForm from 'src/components/contactForm'
 
 const IndexPage = () => (
-  <Layout pageTitle="STO" language="en">
+  <Layout
+    pageTitle="Services for STO: Security Token Offering Consulting from Agency Platinum.fund"
+    language="en"
+  >
     <main>
       <Preface />
       <BusinessGrowth />
@@ -31,6 +35,7 @@ const IndexPage = () => (
       <Reviews />
       <Articles />
       <LastChance />
+      <Footer />
       <ContactForm />
     </main>
   </Layout>

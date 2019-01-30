@@ -1,0 +1,52 @@
+@import '~src/common.blocks/imports/media.less';
+
+.section._footer {
+  margin-top: 15rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background: #0b3954;
+
+  .wrapper._shrink {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: -1rem;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: #fff;
+  }
+
+  .column {
+    margin: 1rem;
+    width: 40%;
+    max-width: 90vw;
+
+    @media @under-sm {
+      width: 100%;
+    }
+  }
+
+  .description {
+    margin-bottom: 3rem;
+    line-height: normal;
+    font-size: 1.6rem;
+    opacity: 0.8;
+  }
+
+  .card__title {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+  }
+
+  .card__description {
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+  }
+
+  .copyright {
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+    color: hsla(0, 0%, 98%, 0.7);
+  }
+}
