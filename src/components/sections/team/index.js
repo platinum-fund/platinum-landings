@@ -10,7 +10,7 @@ const TeamSectionPure = () => (
         <h2 className="title _type_section _orange">team</h2>
       </div>
       <Team />
-      <button className="button _size_50 _theme_orange">
+      <button className="js-form-button button _size_50 _theme_orange">
         Get consultation
       </button>
     </div>
