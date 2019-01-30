@@ -11,10 +11,10 @@ const LastChance = props => (
         <h4 className="title _type_subtitle">Dont waste a chance!</h4>
       </div>
       <div className="wrapper _buttons">
-        <button className="button _size_50 _theme_orange">
+        <button className="js-form-button button _size_50 _theme_orange">
           Create SECURITY TOKEN
         </button>
-        <button className="button _size_50 _theme_black-light">
+        <button className="js-form-button button _size_50 _theme_black-light">
           Get consultation
         </button>
       </div>
