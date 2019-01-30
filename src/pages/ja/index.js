@@ -15,7 +15,10 @@ import LastChance from 'src/components/sections/lastChance'
 import Articles from 'src/components/sections/articles'
 
 const IndexPage = () => (
-  <Layout pageTitle="STO" language="ja">
+  <Layout
+    pageTitle="Services for STO: Security Token Offering Consulting from Agency Platinum.fund"
+    language="en"
+  >
     <main>
       <Preface />
       <BusinessGrowth />
