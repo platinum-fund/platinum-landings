@@ -1,4 +1,6 @@
 export default function() {
-  window.location = '/en'
+  if (typeof window !== 'undefined') {
+    window.location = '/en'
+  }
   return null
 }
