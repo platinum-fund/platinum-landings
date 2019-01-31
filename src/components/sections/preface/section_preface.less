@@ -2,8 +2,7 @@
 
 .section._preface {
   position: relative;
-  margin-bottom: 8rem;
-  height: 78.4rem;
+  margin-bottom: 9rem;
   color: #fff;
 
   &::before {
@@ -25,10 +24,16 @@
   }
 
   .wrapper._shrink {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 20rem;
+
+    @media @under-md {
+      margin-top: 10rem;
+    }
   }
 
   .headline {
@@ -53,8 +58,25 @@
     }
   }
 
+  .wrapper._buttons {
+    margin-bottom: 29.7rem;
+
+    @media @under-md {
+      margin-bottom: 10rem;
+    }
+  }
+
   .button {
     margin-bottom: 2rem;
     width: 24.6rem;
+  }
+
+  .card {
+    margin-bottom: 4.2rem;
+  }
+
+  .scroll-down {
+    bottom: -2rem;
+    opacity: 0.25;
   }
 }
