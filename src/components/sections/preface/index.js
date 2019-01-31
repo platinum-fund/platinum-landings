@@ -19,6 +19,13 @@ const PrefacePure = () => (
           Get consultation
         </button>
       </div>
+      <div className="scroll-down">
+        <p className="scroll-down__text">scroll to know more</p>
+        <img
+          className="scroll-down__icon"
+          src={require('src/images/section-preface/scroll-down.svg')}
+        />
+      </div>
     </div>
   </section>
 )
