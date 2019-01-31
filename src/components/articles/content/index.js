@@ -1,7 +1,7 @@
 const articles = [
   {
     date: 'December 21, 2018',
-    image: require('./images/media/financial.png'),
+    image: require('src/images/media/financial.png'),
     title: 'What is an STO and why your company needs help?',
     text:
       'TOKIO, JAPAN, December 22, 2018 /EINPresswire.com/ -- STO, or Security Token Offering, is a term that has been spoken these days like the gospel – with reverence...',
@@ -11,7 +11,7 @@ const articles = [
   },
   {
     date: 'December 24, 2018',
-    image: require('./images/media/alpha.png'),
+    image: require('src/images/media/alpha.png'),
     title:
       'The Roller Coaster Rise Of Cryptocurrencies In 2018 - Experts Explain',
     text:
@@ -22,7 +22,7 @@ const articles = [
   },
   {
     date: 'December 24, 2018',
-    image: require('./images/media/medium.png'),
+    image: require('src/images/media/medium.png'),
     title:
       'Security tokens in the US: regulations and exemptions under the SEC laws',
     text:
@@ -33,7 +33,7 @@ const articles = [
   },
   {
     date: 'December 25, 2018',
-    image: require('./images/media/the-daily-hodl.png'),
+    image: require('src/images/media/the-daily-hodl.png'),
     title:
       'Legal Aspects of STO in Switzerland: How to Issue Security Tokens in Crypto Valley',
     text:
@@ -44,7 +44,7 @@ const articles = [
   },
   {
     date: 'December 26, 2018',
-    image: require('./images/media/tokendesk.png'),
+    image: require('src/images/media/tokendesk.png'),
     title: 'What is an STO and why your company needs help?',
     text:
       'TOKIO, JAPAN, December 22, 2018 /EINPresswire.com/ -- STO, or Security Token Offering, is a term that has been spoken these days like the gospel – with reverence...',
@@ -54,7 +54,7 @@ const articles = [
   },
   {
     date: 'December 26, 2018',
-    image: require('./images/media/coinspeaker.png'),
+    image: require('src/images/media/coinspeaker.png'),
     title:
       '2019 as the Year of Crypto Regulation: Will STOs Become a New Trend?',
     text:
@@ -64,7 +64,7 @@ const articles = [
   },
   {
     date: 'December 25, 2018',
-    image: require('./images/media/quora.png'),
+    image: require('src/images/media/quora.png'),
     title:
       'Security tokens in the US: regulations and exemptions under the SEC laws',
     text:
@@ -75,7 +75,7 @@ const articles = [
   },
   {
     date: 'December 26, 2018',
-    image: require('./images/media/bitcoin-news.png'),
+    image: require('src/images/media/bitcoin-news.png'),
     title: 'Are STOs the Step in the Right Direction for Crypto?',
     text:
       'The ICO boom, together with Bitcoin and other altcoins’ price explosion in 2017 rode the success of Ethereum, the go-to platform for a majority of blockchain projects. However, the regulatory...',
@@ -85,7 +85,7 @@ const articles = [
   },
   {
     date: 'December 26, 2018',
-    image: require('./images/media/blockhain-today.png'),
+    image: require('src/images/media/blockhain-today.png'),
     title:
       '2019 as the Year of Crypto Regulation: Will STOs Become a New Trend?',
     text:
