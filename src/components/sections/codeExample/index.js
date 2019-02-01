@@ -4,10 +4,10 @@ import example1Image from 'src/images/section-code-example/example1.png'
 import example2Image from 'src/images/section-code-example/example2.png'
 
 const CodeExamplePure = () => (
-  <section className="section _code-example">
-    <div className="wrapper _shrink">
+  <section className="section_code-example">
+    <div className="wrapper_shrink">
       <div className="wrapper _cards">
-        <div className="card _theme_light _type_column">
+        <div className="card card_theme_light card_type_column">
           <img className="card__image" src={example1Image} />
           <div className="card__row">
             <h6 className="card__title">modules / STO / ISTO.sol</h6>
@@ -29,7 +29,7 @@ const CodeExamplePure = () => (
             </p>
           </div>
         </div>
-        <div className="card _theme_light _type_column">
+        <div className="card card_theme_light card_type_column">
           <img className="card__image" src={example2Image} />
           <div className="card__row">
             <h6 className="card__title">contracts / interfaces / IST20.sol</h6>

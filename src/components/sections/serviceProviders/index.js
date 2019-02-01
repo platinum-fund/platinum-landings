@@ -2,12 +2,12 @@ import React from 'react'
 import './section_service-providers.less'
 
 const ServiceProviders = props => (
-  <section className="section _service-providers">
-    <div className="wrapper _shrink">
+  <section className="section_service-providers">
+    <div className="wrapper_shrink">
       <div className="headline">
-        <h2 className="title _type_section">Service</h2>
-        <h2 className="title _type_section _orange">Providers</h2>
-        <h4 className="title _type_subtitle">
+        <h2 className="title title_type_section">Service</h2>
+        <h2 className="title title_type_section _orange">Providers</h2>
+        <h4 className="title title_type_subtitle">
           Do you provide services to companies that are raising capital and
           issuing securities?
         </h4>
