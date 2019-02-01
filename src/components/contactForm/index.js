@@ -1,18 +1,12 @@
 import React from 'react'
-import ContactForm from 'src/includes/ContactForm/ContactForm'
-import { contactFormConfigDefault } from 'src/includes/ContactForm/dependencies'
+import './contact-form.less'
 
-const config = {
-  ...contactFormConfigDefault,
-  buttonsClassName: 'js-form-button',
-  apiUrl: 'https://api-dev.platinum.fund/v1/inbox',
-  landingName: 'sto'
-}
-
-const ContactFormWrapper = props => (
-  <div id="contact-form">
-    <ContactForm config={config} />
-  </div>
+const ContactForm = () => (
+  <form>
+    <label>Enter your email to get the prospectus</label>
+    <input type="email" placeholder="Your email*" required />
+    <button type="submit">Get information</button>
+  </form>
 )
 
-export default ContactFormWrapper
+export default ContactForm
