@@ -7,10 +7,15 @@
     font-size: 2.3rem;
   }
 
-  &_type_main {
+  &.title_type_main {
     font-weight: 500;
     line-height: 6.1rem;
     font-size: 5.3rem;
+  }
+
+  &_type_main-attention {
+    .title_type_main();
+    color: #ff6932;
   }
 
   &_type_section {
@@ -22,6 +27,18 @@
     &:after {
       content: ' ';
     }
+  }
+
+  &.title_type_section-big {
+    display: inline;
+    font-weight: 700;
+    line-height: 5.4rem;
+    font-size: 5.2rem;
+  }
+
+  &_type_section-big-attention {
+    .title_type_section-big();
+    color: #ff6932;
   }
 
   &_type_subtitle {
