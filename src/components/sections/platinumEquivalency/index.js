@@ -14,7 +14,7 @@ const PlatinumEquivalencyPure = () => (
           What Ethereum did for tokens, Platinum will do for securities
         </h4>
       </div>
-      <div className="wrapper _images">
+      <div className="wrapper_images">
         <img className="image" src={ethGraphImage} />
         <img className="image" src={platinumGraphImage} />
       </div>

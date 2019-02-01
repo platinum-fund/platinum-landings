@@ -15,7 +15,7 @@ const BusinessGrowthPure = () => (
           growth your business
         </h2>
       </div>
-      <div className="wrapper _cards">
+      <div className="wrapper_cards">
         <div className="card card_theme_light card_type_column">
           <img className="card__image" src={equityImage} />
           <h6 className="card__title">Programmable Equity</h6>

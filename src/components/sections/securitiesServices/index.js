@@ -11,7 +11,7 @@ const SecuritiesServicesPure = () => (
           We can provide full stack of security services
         </h4>
       </div>
-      <div className="wrapper _cards">
+      <div className="wrapper_cards">
         <div className="card card_theme_light card_type_column">
           <h4 className="card__title">Security Token</h4>
           <p className="card__description">fast and safetly creation</p>

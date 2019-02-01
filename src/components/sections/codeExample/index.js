@@ -6,7 +6,7 @@ import example2Image from 'src/images/section-code-example/example2.png'
 const CodeExamplePure = () => (
   <section className="section_code-example">
     <div className="wrapper_shrink">
-      <div className="wrapper _cards">
+      <div className="wrapper_cards">
         <div className="card card_theme_light card_type_column">
           <img className="card__image" src={example1Image} />
           <div className="card__row">
