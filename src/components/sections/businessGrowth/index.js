@@ -7,14 +7,16 @@ import accessImage from 'src/images/section-business-growth/access.png'
 import equityImage from 'src/images/section-business-growth/equity.png'
 
 const BusinessGrowthPure = () => (
-  <section className="section _business-growth">
-    <div className="wrapper _shrink">
+  <section className="section_business-growth">
+    <div className="wrapper_shrink">
       <div className="headline">
-        <h2 className="title _type_section ">How tokenization will</h2>
-        <h2 className="title _type_section _orange ">growth your business</h2>
+        <h2 className="title title_type_section ">How tokenization will</h2>
+        <h2 className="title title_type_section _orange ">
+          growth your business
+        </h2>
       </div>
-      <div className="wrapper _cards">
-        <div className="card _theme_light _type_column">
+      <div className="wrapper_cards">
+        <div className="card card_theme_light card_type_column">
           <img className="card__image" src={equityImage} />
           <h6 className="card__title">Programmable Equity</h6>
           <p className="card__description">
@@ -22,7 +24,7 @@ const BusinessGrowthPure = () => (
             through programmable code.
           </p>
         </div>
-        <div className="card _theme_light _type_column">
+        <div className="card card_theme_light card_type_column">
           <img className="card__image" src={raiseCryptoImage} />
           <h6 className="card__title">Raise in Cryptocurrency</h6>
           <p className="card__description">
@@ -30,7 +32,7 @@ const BusinessGrowthPure = () => (
             investors.
           </p>
         </div>
-        <div className="card _theme_light _type_column">
+        <div className="card card_theme_light card_type_column">
           <img className="card__image" src={timeImage} />
           <h6 className="card__title">24/7 Access to Markets</h6>
           <p className="card__description">
@@ -38,7 +40,7 @@ const BusinessGrowthPure = () => (
             24/7.
           </p>
         </div>
-        <div className="card _theme_light _type_column">
+        <div className="card card_theme_light card_type_column">
           <img className="card__image" src={middlemanImage} />
           <h6 className="card__title">Elimination of Middlemen</h6>
           <p className="card__description">
@@ -46,7 +48,7 @@ const BusinessGrowthPure = () => (
             hinder the deployment of equity.
           </p>
         </div>
-        <div className="card _theme_light _type_column">
+        <div className="card card_theme_light card_type_column">
           <img className="card__image" src={accessImage} />
           <h6 className="card__title">Access to 2 Billion Unbanked</h6>
           <p className="card__description">

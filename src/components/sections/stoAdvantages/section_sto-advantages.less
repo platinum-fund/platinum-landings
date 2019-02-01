@@ -1,7 +1,9 @@
-.section._sto-advantages {
-  margin-bottom: 6.4rem;
+@import '~src/common.blocks/section/section';
 
-  .wrapper._shrink {
+.section_sto-advantages {
+  .section();
+
+  .wrapper_shrink {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,7 +13,9 @@
     text-align: center;
   }
 
-  .wrapper._cards {
+  .wrapper_cards {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 
     .card {

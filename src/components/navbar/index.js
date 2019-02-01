@@ -4,7 +4,7 @@ import './navbar.less'
 
 const Navbar = props => (
   <div className="navbar">
-    <div className="wrapper _shrink">
+    <div className="wrapper_shrink">
       <img className="navbar__logo" src={logo} />
       <button className="navbar__menu-button">Services</button>
       <div className="navbar__links">

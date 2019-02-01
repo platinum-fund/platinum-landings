@@ -2,14 +2,14 @@ import React from 'react'
 import './section_sto-advantages.less'
 
 const StoAdvantagesPure = () => (
-  <section className="section _sto-advantages">
-    <div className="wrapper _shrink">
+  <section className="section_sto-advantages">
+    <div className="wrapper_shrink">
       <div className="headline">
-        <h2 className="title _type_section ">Security Tokens -</h2>
-        <h2 className="title _type_section  _orange">the only way</h2>
+        <h2 className="title title_type_section">Security Tokens -</h2>
+        <h2 className="title title_type_section _orange">the only way</h2>
       </div>
-      <div className="wrapper _cards flex _wrap">
-        <div className="card _theme_tall _theme_dark">
+      <div className="wrapper_cards flex _wrap">
+        <div className="card card_theme_tall card_theme_dark">
           <div className="card__row">
             <h6 className="card__main-title">For Companies</h6>
             <p className="card__description">
@@ -66,7 +66,7 @@ const StoAdvantagesPure = () => (
             </p>
           </div>
         </div>
-        <div className="card _theme_tall _theme_light">
+        <div className="card card_theme_tall card_theme_light">
           <div className="card__row">
             <h6 className="card__main-title">For Investors</h6>
             <p className="card__description">
