@@ -1,4 +1,5 @@
 import React from 'react'
+import '../page_security.less'
 import Layout from 'src/components/layout/LayoutPure'
 import Preface from 'src/components/sections/preface'
 import BusinessGrowth from 'src/components/sections/businessGrowth'
@@ -21,7 +22,7 @@ const IndexPage = () => (
     pageTitle="Services for STO: Security Token Offering Consulting from Agency Platinum.fund"
     language="en"
   >
-    <main>
+    <main className="page_security">
       <Preface />
       <BusinessGrowth />
       <StoAdvantages />

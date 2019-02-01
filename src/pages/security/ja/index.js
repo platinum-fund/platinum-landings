@@ -1,4 +1,5 @@
 import React from 'react'
+import '../page_security.less'
 import Layout from 'src/components/layout/LayoutPure'
 import Preface from 'src/components/sections/preface'
 import BusinessGrowth from 'src/components/sections/businessGrowth'
