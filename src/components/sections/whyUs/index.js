@@ -4,11 +4,11 @@ import './section_why-us.less'
 const WhyUs = () => (
   <section className="section_why-us">
     <div className="wrapper_shrink">
-      <div className="headline">
-        <h2 className="title title_type_section-big">Why</h2>
-        <h2 className="title title_type_section-big-attention">Platinum</h2>
-        <h2 className="title title_type_section-big">?</h2>
-      </div>
+      <h2 className="headline">
+        <span className="title title_type_section-big">Why</span>
+        <span className="title title_type_section-big-attention">Platinum</span>
+        <span className="title title_type_section-big">?</span>
+      </h2>
       <div>Slider</div>
     </div>
   </section>
