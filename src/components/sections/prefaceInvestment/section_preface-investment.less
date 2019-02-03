@@ -1,3 +1,89 @@
+@import '~src/common.blocks/imports/media.less';
+
 .section_preface-investment {
-  // this file in development. Soon it will be fulfilled
+  position: relative;
+  padding-top: 9.5rem;
+  padding-bottom: 11.8rem;
+  min-height: 100vh;
+  box-sizing: border-box;
+  background-color: #0a0a0a;
+
+  &:after {
+    content: '';
+    position: absolute;
+    bottom: -15rem;
+    width: 42.3rem;
+    max-width: 80vw;
+    height: 44.6rem;
+    background: url('~src/images/section-preface-investment/background.png')
+      no-repeat center;
+    background-size: contain;
+  }
+
+  .wrapper_section-content {
+    z-index: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .column_left {
+    margin-right: auto;
+    max-width: 68.2rem;
+  }
+
+  .header {
+    margin-bottom: 4rem;
+
+    .headline {
+      margin-bottom: 1.3rem;
+    }
+  }
+
+  .title:not(.title_type_subtitle) {
+    display: inline;
+  }
+
+  .title_type_subtitle {
+    margin-bottom: 0;
+    line-height: 2.6rem;
+    font-size: 1.8rem;
+    color: #d7d7d7;
+    opacity: 1;
+  }
+
+  .column_right {
+    margin-top: auto;
+  }
+
+  .slider {
+    position: relative;
+    z-index: 1;
+    margin-top: auto;
+    padding-top: 3rem;
+  }
+
+  .slider__navigation {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+    @media @under-sm {
+      bottom: unset;
+      top: 3rem;
+    }
+  }
+
+  .slider__item {
+    min-height: 30rem;
+  }
+
+  .slider-item__background {
+    position: absolute;
+    bottom: -11.8rem;
+    z-index: -1;
+    overflow: hidden;
+    max-width: 60vw;
+  }
 }
