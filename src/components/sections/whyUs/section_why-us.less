@@ -1,3 +1,63 @@
 .section_why-us {
-  // this file in development. Soon it will be fulfilled
+  padding-top: 8.6rem;
+  background: #0a0a0a;
+
+  .wrapper_section-content {
+    position: relative;
+  }
+
+  .headline {
+    margin-bottom: 4.3rem;
+  }
+
+  .title_type_section-big-attention {
+    &:after {
+      content: '';
+    }
+  }
+
+  .slider {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto 0 auto auto;
+    min-height: 68.4rem;
+  }
+
+  .slider__navigation {
+    z-index: 1;
+  }
+
+  .slider__item {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+
+  .slider-item__background {
+    z-index: 0;
+    max-width: 90%;
+  }
+
+  .slider__title {
+    text-align: left;
+
+    &._center {
+      text-align: center;
+    }
+
+    &-attention {
+      font-weight: 700;
+      color: #fd6700;
+
+      &:after,
+      &:before {
+        content: ' ';
+      }
+    }
+  }
 }
