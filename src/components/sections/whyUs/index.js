@@ -4,12 +4,12 @@ import Slider from 'src/components/slider'
 import SliderItem from 'src/components/slider/SliderItemPure'
 
 const SliderItemTitle = ({ className = '' }) => (
-  <h6 className={`slider__title ${className}`}>
+  <span className={`slider__title ${className}`}>
     <span className="slider__title-attention">700+</span>
     Projects Consulted and
     <span className="slider__title-attention">$200M+</span>
     Funds Collected
-  </h6>
+  </span>
 )
 
 const WhyUs = () => (
