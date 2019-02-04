@@ -1,12 +1,23 @@
 import React from 'react'
 import './contact-form.less'
 
-const ContactForm = () => (
-  <form>
-    <label>Enter your email to get the prospectus</label>
-    <input type="email" placeholder="Your email*" required />
-    <button type="submit">Get information</button>
-  </form>
-)
+const ContactForm = props => {
+  const { label, placeholder, buttonText } = props
+
+  return (
+    <form className="contact-form">
+      <label className="contact-form__label">{label}</label>
+      <input
+        className="contact-form__input"
+        type="email"
+        placeholder={placeholder}
+        required
+      />
+      <button className="contact-form__button" type="submit">
+        {buttonText}
+      </button>
+    </form>
+  )
+}
 
 export default ContactForm

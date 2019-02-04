@@ -12,7 +12,7 @@ import Team from 'src/components/sections/team'
 
 const IndexPage = () => (
   <Layout pageTitle="Platinum" language="en">
-    <main className="page_security">
+    <main className="page_business">
       <PrefaceInvestment />
       <WhyUs />
       <WhoWeAre />
