@@ -2,7 +2,11 @@ import React from 'react'
 import './contact-form.less'
 
 const ContactForm = props => {
-  const { label, placeholder, buttonText } = props
+  const {
+    label,
+    placeholder = 'Your email*',
+    buttonText = 'Get information'
+  } = props
 
   return (
     <form className="contact-form">
