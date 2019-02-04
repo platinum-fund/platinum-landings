@@ -21,7 +21,7 @@ const TokenList = ({ list }) => (
 
 const TokenListWrapper = () => (
   <div className="token-list-wrapper">
-    <Slider fixedHeight={true}>
+    <Slider>
       <SliderItem>
         <TokenList list={tokenList.slice(0, 27)} />
       </SliderItem>
