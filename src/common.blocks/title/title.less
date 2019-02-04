@@ -22,11 +22,16 @@
     color: #fd6700;
   }
 
-  &_type_section {
+  &.title_type_section {
     display: inline;
     font-weight: 400;
     line-height: 3.8rem;
     font-size: 3.3rem;
+  }
+
+  &_type_section-attention {
+    .title_type_section();
+    color: #ff6932;
   }
 
   &.title_type_section-big {
