@@ -1,3 +1,5 @@
+@import '~src/common.blocks/imports/media.less';
+
 .title {
   font-family: 'Ubuntu', sans-serif;
 
@@ -37,8 +39,12 @@
   &.title_type_section-big {
     display: inline;
     font-weight: 700;
-    line-height: 5.4rem;
+    line-height: 1.2;
     font-size: 5.2rem;
+
+    @media @under-md {
+      font-size: 4.2rem;
+    }
   }
 
   &_type_section-big-attention {
