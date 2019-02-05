@@ -1,5 +1,5 @@
 import React from 'react'
-import config from '../config'
+import config from 'src/config/businessPage'
 import '../page_business.less'
 import Layout from 'src/components/layout/LayoutPure'
 import PrefaceInvestment from 'src/components/sections/prefaceInvestment'
