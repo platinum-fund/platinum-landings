@@ -1,4 +1,5 @@
 import React from 'react'
+import config from '../config'
 import '../page_business.less'
 import Layout from 'src/components/layout/LayoutPure'
 import PrefaceInvestment from 'src/components/sections/prefaceInvestment'
@@ -13,10 +14,10 @@ import Team from 'src/components/sections/team'
 const IndexPage = () => (
   <Layout pageTitle="Platinum" language="en">
     <main className="page_business">
-      <PrefaceInvestment />
+      <PrefaceInvestment config={config} />
       <WhyUs />
       <WhoWeAre />
-      <PlatinumBusiness />
+      <PlatinumBusiness config={config} />
       <PastSupportedTokens />
       <Reviews />
       <Articles />

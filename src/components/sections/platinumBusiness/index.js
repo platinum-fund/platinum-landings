@@ -2,7 +2,7 @@ import React from 'react'
 import './section_platinum-business.less'
 import ContactForm from 'src/components/contactForm'
 
-const PlatinumBusiness = () => (
+const PlatinumBusiness = ({ config }) => (
   <section className="section section_platinum-business">
     <div className="wrapper_section-content">
       <h2 className="headline">
@@ -96,7 +96,7 @@ const PlatinumBusiness = () => (
           </div>
         </div>
       </div>
-      <ContactForm label="Get a detailed roadmap" />
+      <ContactForm label="Get a detailed roadmap" config={config.contactForm} />
     </div>
   </section>
 )
