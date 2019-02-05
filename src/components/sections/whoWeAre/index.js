@@ -2,29 +2,23 @@ import React from 'react'
 import './section_who-we-are.less'
 import Slider from 'src/components/slider'
 import SliderItem from 'src/components/slider/SliderItemPure'
-import {
-  FirstSlideTitle,
-  SecondSlideTitle,
-  ThirdSlideTitle,
-  FourthSlideTitle,
-  FifthSlideTitle,
-  SixthSlideTitle,
-  SeventhSlideTitle,
-  EighthSlideTitle
-} from './SlidesTitles'
+import SlideTitle from './slider/SlideTitle'
+import slidesContent from './slider/content'
 
 const WhoWeAre = () => (
   <section className="section section_who-we-are">
     <div className="wrapper_section-content">
       <Slider>
-        <SliderItem title={<FirstSlideTitle />} />
-        <SliderItem title={<SecondSlideTitle />} />
-        <SliderItem title={<ThirdSlideTitle />} />
-        <SliderItem title={<FourthSlideTitle />} />
-        <SliderItem title={<FifthSlideTitle />} />
-        <SliderItem title={<SixthSlideTitle />} />
-        <SliderItem title={<SeventhSlideTitle />} />
-        <SliderItem title={<EighthSlideTitle />} />
+        {slidesContent.titles.map(title => (
+          <SliderItem
+            title={
+              <SlideTitle
+                attentionText={title.attentionText}
+                mainText={title.mainText}
+              />
+            }
+          />
+        ))}
       </Slider>
       <header className="headline">
         <h2 className="title title_type_section-big-attention">Who we are:</h2>
