@@ -1,12 +1,15 @@
+@import '~src/common.blocks/imports/media.less';
+
 .section.section_platinum-business {
   position: relative;
+  z-index: 0;
   background: #0a0a0a;
 
   &:after {
     content: '';
     position: absolute;
     top: 0;
-    z-index: 0;
+    z-index: -1;
     width: 100%;
     height: 100%;
     background: url('~src/images/section-platinum-business/background.png')
@@ -15,21 +18,33 @@
   }
 
   .headline {
-    margin-bottom: 0;
+    margin-bottom: 4rem;
+    text-align: center;
   }
 
   .section__preface {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    min-height: 61.4rem;
+    margin-bottom: 1.8rem;
+    width: 100%;
+
+    .image {
+      display: block;
+      max-width: 100%;
+      width: 50rem;
+    }
 
     .card {
-      display: flex;
       flex-direction: column;
       justify-content: center;
       padding-left: 2rem;
       padding-right: 2rem;
+
+      &__description-attention {
+        white-space: nowrap;
+      }
     }
   }
 
@@ -43,6 +58,10 @@
     .card {
       padding-top: 2.5rem;
       padding-bottom: 2.5rem;
+
+      @media @under-md {
+        margin-bottom: 2rem;
+      }
     }
 
     .card:nth-child(2n) {
