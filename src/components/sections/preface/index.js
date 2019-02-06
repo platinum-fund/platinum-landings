@@ -1,15 +1,11 @@
 import React from 'react'
 import './section_preface.less'
 
-const PrefacePure = () => (
+const PrefacePure = ({ header }) => (
   <section className="section_preface">
     <div className="wrapper_shrink">
       <div className="headline">
-        <h6 className="title title_type_second">We are experts in</h6>
-        <h1 className="title title_type_main">SECURITY TOKEN OFFERING</h1>
-        <h4 className="title title_type_second">
-          Platinum enables trillions of dollars migrate to blockchain
-        </h4>
+        <h1 className="title title_type_main">{header.title_one}</h1>
       </div>
       <div className="wrapper_buttons">
         <button className="js-form-button button button_theme_main">
