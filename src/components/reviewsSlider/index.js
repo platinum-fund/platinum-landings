@@ -2,7 +2,7 @@ import React from 'react'
 import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
-import './slider.less'
+import './reviews-slider.less'
 import sliders from './content'
 
 const PrevArrow = ({ onClick }) => (
