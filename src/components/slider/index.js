@@ -31,11 +31,33 @@ class Slider extends React.Component {
     }
   }
 
+  swipingLeft = (e, absX) => {
+    if (!this.swipeWasRecently) {
+      this.nextSlide()
+      this.swipeWasRecently = true
+      setTimeout(() => {
+        this.swipeWasRecently = false
+      }, 150)
+    }
+  }
+
+  swipingRight = (e, absX) => {
+    if (!this.swipeWasRecently) {
+      this.prevSlide()
+      this.swipeWasRecently = true
+      setTimeout(() => {
+        this.swipeWasRecently = false
+      }, 150)
+    }
+  }
+
   render() {
     return (
       <SliderPure
         nextSlide={this.nextSlide}
         prevSlide={this.prevSlide}
+        swipingLeft={this.swipingLeft}
+        swipingRight={this.swipingRight}
         currentSlideIndex={this.state.currentSlideIndex}
         lastSlideIndex={this.state.lastSlideIndex}
       >
