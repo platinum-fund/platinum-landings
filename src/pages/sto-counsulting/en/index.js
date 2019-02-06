@@ -16,7 +16,6 @@ import LastChance from 'src/components/sections/lastChance'
 import Articles from 'src/components/sections/articles'
 import Footer from 'src/components/sections/footer'
 import ContactForm from 'src/components/contactFormPopup'
-import header from './content'
 
 const IndexPage = () => (
   <Layout
@@ -24,7 +23,7 @@ const IndexPage = () => (
     language="en"
   >
     <main className="page_security">
-      <Preface header={header} />
+      <Preface />
       <BusinessGrowth />
       <StoAdvantages />
       <SecuritiesServices />
