@@ -34,7 +34,11 @@ const prefaceInvestment = ({ config }) => (
       <div className="column_right">
         <Slider>
           {content.slides.map((slide, i) => (
-            <SliderItem title={slide.title} subtitle={slide.subtitle}>
+            <SliderItem
+              title={slide.title}
+              subtitle={slide.subtitle}
+              key={`prefaceTeamSlide${i}`}
+            >
               <img className="slider-item__background" src={slide.image} />
             </SliderItem>
           ))}

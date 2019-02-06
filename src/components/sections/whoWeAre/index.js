@@ -19,6 +19,7 @@ const WhoWeAre = () => (
                 key={`whoWeAreSlideTitle${i}`}
               />
             }
+            key={`whoWeAreFeaturesSlide${i}`}
           />
         ))}
       </Slider>
