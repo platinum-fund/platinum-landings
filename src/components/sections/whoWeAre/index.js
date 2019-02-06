@@ -4,6 +4,7 @@ import Slider from 'src/components/slider'
 import SliderItem from 'src/components/slider/SliderItemPure'
 import SlideTitle from './slider/SlideTitle'
 import slidesContent from './slider/content'
+import Socials from 'src/components/socials'
 
 const WhoWeAre = () => (
   <section className="section section_who-we-are">
@@ -33,9 +34,7 @@ const WhoWeAre = () => (
           advisory and many more.
         </h6>
       </header>
-      <button className="button button_theme_light">
-        Play video about Platinum
-      </button>
+      <Socials />
     </div>
   </section>
 )
