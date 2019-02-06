@@ -19,16 +19,20 @@ const PlatinumBusiness = ({ config }) => (
             We sell
             <span className="card__title-attention">30%</span>
           </h4>
-          <h6 className="card__description">
-            Our cost now
-            <span className="card__description-attention">$12 000 000</span>
-            <br />
-            Yearly turnover
-            <span className="card__description-attention">$9 000 000</span>
-            <br />
-            Yearly income
-            <span className="card__description-attention">$1 000 000</span>
-          </h6>
+          <div className="card__description">
+            <h6 className="card__description-item">
+              Our cost now
+              <span className="card__description-attention">$12 000 000</span>
+            </h6>
+            <h6 className="card__description-item">
+              Yearly turnover
+              <span className="card__description-attention">$9 000 000</span>
+            </h6>
+            <h6 className="card__description-item">
+              Yearly income
+              <span className="card__description-attention">$1 000 000</span>
+            </h6>
+          </div>
         </div>
       </div>
       <div className="wrapper_cards">

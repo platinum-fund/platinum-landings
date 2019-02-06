@@ -1,6 +1,17 @@
+@import '~src/common.blocks/imports/media.less';
+
 .slider {
   width: 36.8rem;
   max-width: 90vw;
+
+  .slider__navigation {
+    padding: 1rem;
+    border-radius: 3px;
+
+    @media @under-lg {
+      background-color: rgba(10, 10, 10, 0.25);
+    }
+  }
 
   &__title-wrapper {
     margin-bottom: 1rem;
