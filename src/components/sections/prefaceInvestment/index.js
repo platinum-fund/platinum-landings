@@ -4,7 +4,7 @@ import ContactForm from 'src/components/contactForm'
 import Slider from 'src/components/slider'
 import SliderItem from 'src/components/slider/SliderItemPure'
 
-const prefaceInvestment = () => (
+const prefaceInvestment = ({ config }) => (
   <section className="section section_preface-investment">
     <div className="wrapper_section-content">
       <div className="column_left">
@@ -25,6 +25,7 @@ const prefaceInvestment = () => (
           label="Enter your email to get the prospectus"
           placeholder="Your email*"
           buttonText="Get information"
+          config={config.contactForm}
         />
       </div>
       <div className="column_right">

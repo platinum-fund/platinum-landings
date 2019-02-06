@@ -9,12 +9,13 @@ const WhoWeAre = () => (
   <section className="section section_who-we-are">
     <div className="wrapper_section-content">
       <Slider>
-        {slidesContent.titles.map(title => (
+        {slidesContent.titles.map((title, i) => (
           <SliderItem
             title={
               <SlideTitle
                 attentionText={title.attentionText}
                 mainText={title.mainText}
+                key={`whoWeAreSlideTitle${i}`}
               />
             }
           />
