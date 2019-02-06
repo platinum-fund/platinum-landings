@@ -29,7 +29,21 @@
     }
   }
 
+  .socials {
+    position: absolute;
+    left: -10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media @under-sm {
+      bottom: -20rem;
+      left: 0;
+    }
+  }
+
   .column_left {
+    position: relative;
     z-index: 1;
     display: flex;
     flex-direction: column;
@@ -81,6 +95,7 @@
   .slider__navigation {
     margin-bottom: 9vh;
     width: 100%;
+    background-color: rgba(10, 10, 10, 0.35);
   }
 
   .slider__item {
