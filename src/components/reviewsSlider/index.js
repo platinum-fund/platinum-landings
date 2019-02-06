@@ -28,16 +28,14 @@ const ReviewsSlider = props => {
         breakpoint: 1000,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 1,
-          adaptiveHeight: true
+          slidesToScroll: 1
         }
       },
       {
         breakpoint: 767,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1,
-          adaptiveHeight: true
+          slidesToScroll: 1
         }
       }
     ]
