@@ -1,0 +1,86 @@
+@import (css) url('https://fonts.googleapis.com/css?family=Ubuntu:700');
+@import (css) url('https://fonts.googleapis.com/css?family=Poppins:500,600');
+@import '~src/common.blocks/imports/media.less';
+
+.page_business {
+  color: #fff;
+
+  .headline {
+    margin-bottom: 0;
+  }
+
+  .title_type_main-attention {
+    font-weight: 700;
+  }
+
+  .title_type_section-big-attention {
+    font-weight: 700;
+    color: #fd6700;
+  }
+
+  .section_reviews .title_type_section,
+  .section_articles .title_type_section,
+  .section_team .title_type_section {
+    color: #000;
+  }
+
+  .section_preface-investment {
+    padding-top: 9.5rem;
+  }
+
+  .section_why-us {
+    padding-top: 8.6rem;
+  }
+
+  .section_who-we-are {
+    padding-bottom: 7.5rem;
+  }
+
+  .section_platinum-business {
+    padding-top: 7.5rem;
+    padding-bottom: 9.6rem;
+  }
+
+  .section_past-supported-tokens {
+    position: relative;
+    padding-bottom: 30rem;
+    z-index: 0;
+    overflow: hidden;
+
+    @media @under-lg {
+      padding-bottom: 15rem;
+    }
+    &:before {
+      content: '';
+      position: absolute;
+      bottom: -90vw;
+      left: -40vw;
+      z-index: -1;
+      width: 180vw;
+      height: 100vw;
+      background-color: #fff;
+      border-radius: 50%;
+    }
+  }
+
+  .section_reviews {
+    margin-bottom: 9rem;
+  }
+
+  .section_articles {
+    margin-bottom: 9rem;
+  }
+
+  .section_employee-feedback {
+    padding-top: 2.8rem;
+    padding-bottom: 10rem;
+  }
+
+  .section_team {
+    margin-bottom: 15rem;
+  }
+
+  .section_footer {
+    background: #0a0a0a;
+  }
+}

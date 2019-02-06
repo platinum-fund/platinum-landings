@@ -1,5 +1,11 @@
+@import '~src/common.blocks/imports/media.less';
+
 .title {
   font-family: 'Ubuntu', sans-serif;
+
+  &:after {
+    content: ' ';
+  }
 
   &_type_second {
     font-weight: 400;
@@ -7,21 +13,43 @@
     font-size: 2.3rem;
   }
 
-  &_type_main {
+  &.title_type_main {
     font-weight: 500;
     line-height: 6.1rem;
     font-size: 5.3rem;
   }
 
-  &_type_section {
+  &_type_main-attention {
+    .title_type_main();
+    color: #fd6700;
+  }
+
+  &.title_type_section {
     display: inline;
     font-weight: 400;
     line-height: 3.8rem;
     font-size: 3.3rem;
+  }
 
-    &:after {
-      content: ' ';
+  &_type_section-attention {
+    .title_type_section();
+    color: #ff6932;
+  }
+
+  &.title_type_section-big {
+    display: inline;
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 5.2rem;
+
+    @media @under-md {
+      font-size: 4.2rem;
     }
+  }
+
+  &_type_section-big-attention {
+    .title_type_section-big();
+    color: #ff6932;
   }
 
   &_type_subtitle {
