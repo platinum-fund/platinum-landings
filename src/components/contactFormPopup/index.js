@@ -6,12 +6,12 @@ const config = {
   ...contactFormConfigDefault,
   buttonsClassName: 'js-form-button',
   apiUrl: 'https://api-dev.platinum.fund/v1/inbox',
-  landingName: 'sto'
+  landingName: 'common'
 }
 
 const ContactFormWrapper = props => (
   <div id="contact-form">
-    <ContactForm config={config} />
+    <ContactForm config={{ ...config, ...props.config }} />
   </div>
 )
 

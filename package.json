@@ -21,6 +21,7 @@
     "react-helmet": "^5.2.0",
     "react-intl": "^2.8.0",
     "react-slick": "^0.23.2",
+    "react-swipeable": "^4.3.2",
     "reset-css": "^4.0.1",
     "slick-carousel": "^1.8.1"
   },

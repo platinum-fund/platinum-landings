@@ -3,6 +3,8 @@ import './section_preface-investment.less'
 import ContactForm from 'src/components/contactForm'
 import Slider from 'src/components/slider'
 import SliderItem from 'src/components/slider/SliderItemPure'
+import Socials from 'src/components/socials'
+import content from './content'
 
 const prefaceInvestment = ({ config }) => (
   <section className="section section_preface-investment">
@@ -27,27 +29,19 @@ const prefaceInvestment = ({ config }) => (
           buttonText="Get information"
           config={config.contactForm}
         />
+        <Socials />
       </div>
       <div className="column_right">
         <Slider>
-          <SliderItem title={'ceo'}>
-            <img
-              className="slider-item__background"
-              src={require('src/images/section-preface-investment/team/angelika.png')}
-            />
-          </SliderItem>
-          <SliderItem title={'example'}>
-            <img
-              className="slider-item__background"
-              src={require('src/images/section-preface-investment/team/alex.png')}
-            />
-          </SliderItem>
-          <SliderItem title={'example2'}>
-            <img
-              className="slider-item__background"
-              src={require('src/images/section-preface-investment/team/dmitry.png')}
-            />
-          </SliderItem>
+          {content.slides.map((slide, i) => (
+            <SliderItem
+              title={slide.title}
+              subtitle={slide.subtitle}
+              key={`prefaceTeamSlide${i}`}
+            >
+              <img className="slider-item__background" src={slide.image} />
+            </SliderItem>
+          ))}
         </Slider>
       </div>
     </div>

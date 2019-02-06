@@ -1,10 +1,13 @@
 import React from 'react'
 import './slider.less'
+import Swipeable from 'react-swipeable'
 
 const SliderPure = props => {
   const {
     nextSlide,
     prevSlide,
+    swipingRight,
+    swipingLeft,
     currentSlideIndex,
     lastSlideIndex,
     children
@@ -24,6 +27,9 @@ const SliderPure = props => {
     <div className="slider">
       <header className="slider__navigation">
         <h6 className="slider__title-wrapper">{activeSlideItem.props.title}</h6>
+        <p className="slider__subtitle-wrapper">
+          {activeSlideItem.props.subtitle}
+        </p>
         <div className="slider__progress-wrapper">
           <div className="slider__progress" style={{ width: progress + '%' }} />
         </div>
@@ -32,7 +38,15 @@ const SliderPure = props => {
           <div className="slider__arrow-right" onClick={nextSlide} />
         </div>
       </header>
-      <div className="slider__body">{childrenWrapper}</div>
+      <div className="slider__body">
+        <Swipeable
+          delta={100}
+          onSwipingLeft={swipingLeft}
+          onSwipingRight={swipingRight}
+        >
+          {childrenWrapper}
+        </Swipeable>
+      </div>
     </div>
   )
 }
