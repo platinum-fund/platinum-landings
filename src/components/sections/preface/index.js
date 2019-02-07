@@ -1,7 +1,7 @@
 import React from 'react'
 import './section_preface.less'
 
-const PrefacePure = ({ header }) => (
+const PrefacePure = ({ header, buttons }) => (
   <section className="section_preface">
     <div className="wrapper_shrink">
       <div className="headline">
@@ -23,10 +23,10 @@ const PrefacePure = ({ header }) => (
         <h4 className="title title_type_second">{header.title_little}</h4>
       </div>
       <div className="wrapper_buttons">
-        <button className="js-form-button button button_theme_main">
-          {header.button_orange}
+        <button className={buttons[0].className}>
+          {' '}
+          {header.button_orange}{' '}
         </button>
-        <button className="js-form-button button button_theme_light" />
       </div>
       <div className="card card_theme_media">
         <a
