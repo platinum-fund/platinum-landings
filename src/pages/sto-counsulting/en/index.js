@@ -16,7 +16,6 @@ import Articles from 'src/components/sections/articles'
 import Footer from 'src/components/sections/footer'
 import ContactForm from 'src/components/contactFormPopup'
 import header from 'src/components/sections/preface/content/index.js'
-import buttons from 'src/components/sections/preface/buttons.js'
 
 const IndexPage = () => (
   <Layout
@@ -24,7 +23,7 @@ const IndexPage = () => (
     language="en"
   >
     <main className="page_security">
-      <Preface header={header['sto']} buttons={buttons} />
+      <Preface header={header['sto']} />
       <StoAdvantages />
       <SecuritiesServices />
       <PlatinumEquivalency />
