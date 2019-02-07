@@ -15,6 +15,7 @@ import Team from 'src/components/sections/team'
 import ServiceProviders from 'src/components/sections/serviceProviders'
 import LastChance from 'src/components/sections/lastChance'
 import Articles from 'src/components/sections/articles'
+import CreateSecurityToken from 'src/components/sections/createSecurityToken'
 import Footer from 'src/components/sections/footer'
 import ContactForm from 'src/components/contactFormPopup'
 
@@ -27,6 +28,7 @@ const IndexPage = () => (
       <Preface />
       <BusinessGrowth />
       <StoAdvantages />
+      <CreateSecurityToken config={config} />
       <SecuritiesServices />
       <PlatinumEquivalency />
       <StoStandart />
