@@ -12,11 +12,10 @@ import PlatinumEquivalency from 'src/components/sections/platinumEquivalency'
 import Reviews from 'src/components/sections/reviews'
 import Team from 'src/components/sections/team'
 import ServiceProviders from 'src/components/sections/serviceProviders'
-import LastChance from 'src/components/sections/lastChance'
 import Articles from 'src/components/sections/articles'
 import Footer from 'src/components/sections/footer'
 import ContactForm from 'src/components/contactFormPopup'
-import header from './content'
+import header from 'src/components/sections/preface/content/index.js'
 
 const IndexPage = () => (
   <Layout
@@ -24,19 +23,18 @@ const IndexPage = () => (
     language="en"
   >
     <main className="page_security">
-      <Preface header={header} />
-      <BusinessGrowth />
+      <Preface header={header['sto']} />
       <StoAdvantages />
       <SecuritiesServices />
       <PlatinumEquivalency />
       <StoStandart />
       <LaunchSto />
       <CodeExample />
-      <Team />
       <ServiceProviders />
       <Reviews />
+      <BusinessGrowth />
       <Articles />
-      <LastChance />
+      <Team />
       <Footer />
       <ContactForm />
     </main>
