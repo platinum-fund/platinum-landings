@@ -6,15 +6,15 @@ const LaunchStoPure = () => (
     <div className="wrapper_shrink">
       <div className="headline">
         <h2 className="title title_type_section">
-          Launch Securities Tokens in Minutes
+          Immediate launch of security token
         </h2>
       </div>
       <p className="description">
-        A Security Token is a free, open standard that describes how to build
-        transfer restricted securities tokens on the Ethereum blockchain. While
-        most tokens have no limitations on who can receive, or participate in
-        the token sale, the Security Token restricts token transfers to verified
-        investors only.
+        A free open standard “Security Token” provides the directions how to
+        implement transfer restricted security tokens on the Ethereum
+        blockchain. Most tokens don’t use any limitations on receivers or
+        participants of the token sale, unlike them Security Token limits token
+        transfers to verified investors only.
       </p>
       <button className="js-form-button button button_theme_light-white">
         Launch SECURITY TOKEN
