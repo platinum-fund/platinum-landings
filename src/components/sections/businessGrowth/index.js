@@ -18,42 +18,40 @@ const BusinessGrowthPure = () => (
       <div className="wrapper_cards">
         <div className="card card_theme_light card_type_column">
           <img className="card__image" src={equityImage} />
-          <h6 className="card__title">Programmable Equity</h6>
+          <h6 className="card__title">Equity development</h6>
           <p className="card__description">
-            Polymath enables companies to take control of their equity issuance
-            through programmable code.
+            Platinum provides companies with a code which allows to manage their
+            equity issuance.
           </p>
         </div>
         <div className="card card_theme_light card_type_column">
           <img className="card__image" src={raiseCryptoImage} />
-          <h6 className="card__title">Raise in Cryptocurrency</h6>
+          <h6 className="card__title">Сryptocurrency fundraising</h6>
           <p className="card__description">
-            Raising in cryptocurrency opens up an entire wealth of new
-            investors.
+            Fundraising in crypto gives you the access to new investors.
           </p>
         </div>
         <div className="card card_theme_light card_type_column">
           <img className="card__image" src={timeImage} />
-          <h6 className="card__title">24/7 Access to Markets</h6>
+          <h6 className="card__title">Unstoppable market</h6>
           <p className="card__description">
-            No matter where you live in the world, you have access to trading
-            24/7.
+            Immediate access to trading from any place in the world.
           </p>
         </div>
         <div className="card card_theme_light card_type_column">
           <img className="card__image" src={middlemanImage} />
-          <h6 className="card__title">Elimination of Middlemen</h6>
+          <h6 className="card__title">No intermediaries</h6>
           <p className="card__description">
-            Polymath eliminates the middleman and financial structures that
-            hinder the deployment of equity.
+            Platinum eliminates the middleman and financial structures, which
+            cause more troubles with deployment of equity.
           </p>
         </div>
         <div className="card card_theme_light card_type_column">
           <img className="card__image" src={accessImage} />
-          <h6 className="card__title">Access to 2 Billion Unbanked</h6>
+          <h6 className="card__title">Access to billions of unbanked </h6>
           <p className="card__description">
-            There is a trove of wealth that is untouched by Wall Street that can
-            now be accessed through Polymath.
+            There is a huge number of unbanked, which creates another market,
+            and Platinum holds the key to it.
           </p>
         </div>
       </div>
