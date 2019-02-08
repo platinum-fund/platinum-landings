@@ -8,7 +8,7 @@ const PrefacePure = () => (
         <h6 className="title title_type_second">We are experts in</h6>
         <h1 className="title title_type_main">SECURITY TOKEN OFFERING</h1>
         <h4 className="title title_type_second">
-          Platinum enables trillions of dollars migrate to blockchain
+          Don’t waste a chance to join a huge funds blockchain rush
         </h4>
       </div>
       <div className="wrapper_buttons">
