@@ -15,7 +15,8 @@ import ServiceProviders from 'src/components/sections/serviceProviders'
 import Articles from 'src/components/sections/articles'
 import Footer from 'src/components/sections/footer'
 import ContactForm from 'src/components/contactFormPopup'
-import header from 'src/components/sections/preface/content/index.js'
+import header from 'src/components/sections/preface/content/index'
+import buttons from 'src/components/sections/preface/buttons'
 
 const IndexPage = () => (
   <Layout
@@ -23,7 +24,7 @@ const IndexPage = () => (
     language="en"
   >
     <main className="page_security">
-      <Preface header={header['sto']} />
+      <Preface header={header['sto']} buttons={buttons} />
       <StoAdvantages />
       <SecuritiesServices />
       <PlatinumEquivalency />
