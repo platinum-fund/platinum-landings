@@ -1,0 +1,86 @@
+.request-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  & > .button {
+    margin-top: 3rem;
+    width: 30rem;
+    max-width: 90vw;
+    text-transform: capitalize;
+    color: #fff;
+    -webkit-text-fill-color: #fff;
+  }
+
+  &__input {
+    all: unset;
+    margin-bottom: 3.3rem;
+    padding: 1.1rem 7%;
+    width: 57rem;
+    max-width: 90vw;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+    color: #000000;
+    background: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 23.5px;
+  }
+
+  &__radio-boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__radios-label {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+  }
+
+  &__radios-wrapper {
+    display: flex;
+  }
+
+  &__radio-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: 0 2rem;
+  }
+
+  &__radio {
+    position: relative;
+    width: 0;
+    height: 0;
+
+    &:before {
+      content: '';
+      position: absolute;
+      top: -1.2rem;
+      left: -1rem;
+      display: block;
+      width: 1.3rem;
+      height: 1.3rem;
+      border: 2px solid #ff6932;
+      border-radius: 50%;
+      opacity: 1;
+      cursor: pointer;
+      transition: background-color 0.2s, box-shadow 0.2s;
+    }
+
+    &:checked {
+      &:before {
+        background-color: #ff6932;
+        box-shadow: 0 3px 6px rgba(255, 105, 50, 0.58);
+      }
+    }
+  }
+
+  &__radio-label {
+    padding-left: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+    text-transform: capitalize;
+  }
+}
