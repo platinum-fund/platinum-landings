@@ -1,5 +1,6 @@
 import React from 'react'
 import './section_preface.less'
+import 'src/common.blocks/social/social-links.less'
 
 const PrefacePure = ({ header, buttons }) => (
   <section className="section_preface">
@@ -25,6 +26,67 @@ const PrefacePure = ({ header, buttons }) => (
       <div className="wrapper_buttons">
         <button className={buttons[0].className}>{header.button_orange}</button>
       </div>
+      <div className="social-links">
+        <p className="text">Follow us</p>
+        <div className="wrapper_links">
+          <a
+            className="service"
+            href="https://t.me/platinumfund"
+            rel="nofollow noopener noreferrer"
+            target="_blank"
+          >
+            <img
+              className="service__img"
+              src={require('src/images/icons/social/telegram.svg')}
+            />
+          </a>
+          <a
+            className="service"
+            href="https://medium.com/@PlatinumFund"
+            rel="nofollow noopener noreferrer"
+            target="_blank"
+          >
+            <img
+              className="service__img"
+              src={require('src/images/icons/social/medium.svg')}
+            />
+          </a>
+          <a
+            className="service"
+            href="https://www.facebook.com/FundPlatinum"
+            rel="nofollow noopener noreferrer"
+            target="_blank"
+          >
+            <img
+              className="service__img"
+              src={require('src/images/icons/social/facebook.svg')}
+            />
+          </a>
+          <a
+            className="service"
+            href="https://twitter.com/FundPlatinum"
+            rel="nofollow noopener noreferrer"
+            target="_blank"
+          >
+            <img
+              className="service__img"
+              src={require('src/images/icons/social/twitter.svg')}
+            />
+          </a>
+          <a
+            className="service"
+            href="#"
+            rel="nofollow noopener noreferrer"
+            target="_blank"
+          >
+            <img
+              className="service__img"
+              src={require('src/images/icons/social/line.svg')}
+            />
+          </a>
+        </div>
+      </div>
+
       <div className="card card_theme_media">
         <a
           className="card__item"
