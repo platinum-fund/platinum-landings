@@ -4,15 +4,6 @@ import Slider from 'src/components/slider'
 import SliderItem from 'src/components/slider/SliderItemPure'
 import slidesContent from './slider/content'
 
-const SliderItemTitle1 = ({ className = '' }) => (
-  <span className={`slider__title ${className}`}>
-    <span className="slider__title-attention">700+</span>
-    Projects Consulted and
-    <span className="slider__title-attention">$200M+</span>
-    Funds Collected
-  </span>
-)
-
 const WhyUs = () => (
   <section className="section section_why-us">
     <div className="wrapper_section-content">
