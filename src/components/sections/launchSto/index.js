@@ -2,10 +2,10 @@ import React from 'react'
 import './section_launch-sto.less'
 
 const LaunchStoPure = () => (
-  <section className="section _launch-sto">
-    <div className="wrapper _shrink">
+  <section className="section_launch-sto">
+    <div className="wrapper_shrink">
       <div className="headline">
-        <h2 className="title _type_section">
+        <h2 className="title title_type_section">
           Launch Securities Tokens in Minutes
         </h2>
       </div>
@@ -16,7 +16,7 @@ const LaunchStoPure = () => (
         the token sale, the Security Token restricts token transfers to verified
         investors only.
       </p>
-      <button className="js-form-button button _size_50 _theme_white">
+      <button className="js-form-button button button_theme_light-white">
         Launch SECURITY TOKEN
       </button>
     </div>

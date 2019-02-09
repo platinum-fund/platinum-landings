@@ -1,9 +1,9 @@
 @import '~src/common.blocks/imports/media.less';
+@import '~src/common.blocks/section/section';
 
-.section._preface {
+.section_preface {
+  .section();
   position: relative;
-  margin-bottom: 8rem;
-  height: 78.4rem;
   color: #fff;
 
   &::before {
@@ -24,11 +24,17 @@
     }
   }
 
-  .wrapper._shrink {
+  .wrapper_shrink {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 17rem;
+
+    @media @under-md {
+      margin-top: 10rem;
+    }
   }
 
   .headline {
@@ -37,24 +43,48 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 3.3rem;
+    text-align: center;
 
     @media @under-sm {
       align-items: flex-start;
     }
 
-    .title._type_second {
+    .title_type_second {
       margin-bottom: 0.9rem;
       line-height: 2.6rem;
     }
 
-    .title._type_main {
+    .title_type_main {
       margin-bottom: 4.2rem;
       color: #ff6932;
+      &--white {
+        color: #ffffff;
+      }
+    }
+  }
+
+  .wrapper_buttons {
+    margin-bottom: 29.7rem;
+
+    @media @under-md {
+      margin-bottom: 10rem;
     }
   }
 
   .button {
     margin-bottom: 2rem;
     width: 24.6rem;
+    &--wide {
+      width: 32.6rem;
+    }
+  }
+
+  .card {
+    margin-bottom: 4.2rem;
+  }
+
+  .scroll-down {
+    bottom: -2rem;
+    opacity: 0.25;
   }
 }

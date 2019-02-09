@@ -2,14 +2,14 @@ import React from 'react'
 import './section_sto-advantages.less'
 
 const StoAdvantagesPure = () => (
-  <section className="section _sto-advantages">
-    <div className="wrapper _shrink">
+  <section className="section_sto-advantages">
+    <div className="wrapper_shrink">
       <div className="headline">
-        <h2 className="title _type_section ">Security Tokens -</h2>
-        <h2 className="title _type_section  _orange">the only way</h2>
+        <h2 className="title title_type_section">Security Tokens -</h2>
+        <h2 className="title title_type_section _orange">the only way</h2>
       </div>
-      <div className="wrapper _cards flex _wrap">
-        <div className="card _theme_tall _theme_dark">
+      <div className="wrapper_cards flex _wrap">
+        <div className="card card_theme_tall card_theme_dark">
           <div className="card__row">
             <h6 className="card__main-title">For Companies</h6>
             <p className="card__description">
@@ -18,6 +18,10 @@ const StoAdvantagesPure = () => (
           </div>
           <div className="card__row">
             <div className="card__title">
+              <img
+                className="card__title-image"
+                src={require('src/images/section-sto-advantages/liquidity.svg')}
+              />
               <h6>Liquidity</h6>
             </div>
             <p className="card__description">
@@ -30,6 +34,10 @@ const StoAdvantagesPure = () => (
           </div>
           <div className="card__row">
             <div className="card__title">
+              <img
+                className="card__title-image"
+                src={require('src/images/section-sto-advantages/efficiency.svg')}
+              />
               <h6>Efficiency</h6>
             </div>
             <p className="card__description">
@@ -42,6 +50,10 @@ const StoAdvantagesPure = () => (
           </div>
           <div className="card__row">
             <div className="card__title">
+              <img
+                className="card__title-image"
+                src={require('src/images/section-sto-advantages/transparency.svg')}
+              />
               <h6>Transparency</h6>
             </div>
             <p className="card__description">
@@ -54,7 +66,7 @@ const StoAdvantagesPure = () => (
             </p>
           </div>
         </div>
-        <div className="card _theme_tall _theme_light">
+        <div className="card card_theme_tall card_theme_light">
           <div className="card__row">
             <h6 className="card__main-title">For Investors</h6>
             <p className="card__description">
@@ -63,6 +75,10 @@ const StoAdvantagesPure = () => (
           </div>
           <div className="card__row">
             <div className="card__title">
+              <img
+                className="card__title-image"
+                src={require('src/images/section-sto-advantages/lower-fees.svg')}
+              />
               <h6>Lower fees</h6>
             </div>
             <p className="card__description">
@@ -75,6 +91,10 @@ const StoAdvantagesPure = () => (
           </div>
           <div className="card__row">
             <div className="card__title">
+              <img
+                className="card__title-image"
+                src={require('src/images/section-sto-advantages/markets.svg')}
+              />
               <h6>24/7/365 Markets</h6>
             </div>
             <p className="card__description">
@@ -85,6 +105,10 @@ const StoAdvantagesPure = () => (
           </div>
           <div className="card__row">
             <div className="card__title">
+              <img
+                className="card__title-image"
+                src={require('src/images/section-sto-advantages/crypto.svg')}
+              />
               <h6>Automated Cryptoruccrency Capital Raising</h6>
             </div>
             <p className="card__description">
@@ -95,6 +119,10 @@ const StoAdvantagesPure = () => (
           </div>
           <div className="card__row">
             <div className="card__title">
+              <img
+                className="card__title-image"
+                src={require('src/images/section-sto-advantages/liquidity.svg')}
+              />
               <h6>Liquidity for Private Securities</h6>
             </div>
             <p className="card__description">

@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "and": "0.0.3",
     "gatsby": "^2.0.76",
     "gatsby-image": "^2.0.20",
     "gatsby-plugin-less": "^2.0.8",
@@ -14,6 +15,7 @@
     "gatsby-plugin-sharp": "^2.0.14",
     "gatsby-source-filesystem": "^2.0.8",
     "gatsby-transformer-sharp": "^2.1.8",
+    "install": "^0.12.2",
     "less": "^3.9.0",
     "prop-types": "^15.6.2",
     "react": "^16.6.3",
@@ -22,7 +24,8 @@
     "react-intl": "^2.8.0",
     "react-slick": "^0.23.2",
     "reset-css": "^4.0.1",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "yarn": "^1.13.0"
   },
   "keywords": [
     "gatsby"

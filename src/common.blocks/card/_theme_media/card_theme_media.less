@@ -1,0 +1,27 @@
+.card_theme_media {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem 0.7rem;
+  background: #fff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 17px;
+
+  .card__item {
+    padding: 1rem 0.7rem;
+    filter: grayscale(100%);
+    opacity: 0.48;
+    transition: filter 0.1s, opacity 0.1s;
+
+    &:hover {
+      filter: unset;
+      opacity: 1;
+    }
+
+    .image {
+      max-width: 11.6rem;
+      max-height: 2.8rem;
+    }
+  }
+}
