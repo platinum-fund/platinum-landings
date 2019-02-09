@@ -13,6 +13,10 @@ class Slider extends React.Component {
   componentDidMount() {
     const childrenCount = React.Children.count(this.props.children)
     this.setState({ lastSlideIndex: childrenCount - 1 })
+
+    setInterval(() => {
+      this.nextSlide()
+    }, 20000)
   }
 
   nextSlide = () => {
@@ -20,6 +24,8 @@ class Slider extends React.Component {
 
     if (currentSlideIndex < lastSlideIndex) {
       this.setState({ currentSlideIndex: currentSlideIndex + 1 })
+    } else {
+      this.setState({ currentSlideIndex: 0 })
     }
   }
 
