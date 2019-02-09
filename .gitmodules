@@ -1,3 +1,3 @@
 [submodule "src/includes"]
 	path = src/includes
-	url = https://bitbucket.org/amm-sites-devteam/sites-includes
+	url = ssh://git@gitlab.cryptozaurus.com:3022/sites-devteam/sites-includes.git
