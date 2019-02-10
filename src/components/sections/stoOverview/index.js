@@ -2,7 +2,7 @@ import React from 'react'
 import './sto-overview.less'
 
 const StoOverview = ({ contain }) => (
-  <section className="section section_sto-overview">
+  <section className="section section_sto-overview" id="stooverview">
     <div className="wrapper _shrink">
       <div className="wrapper _content">
         <h2 className="title title_type_section">

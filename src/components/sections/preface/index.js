@@ -1,5 +1,6 @@
 import React from 'react'
 import './section_preface.less'
+import 'src/common.blocks/social/social-links.less'
 
 const PrefacePure = ({ header, buttons }) => (
   <section className="section_preface">
@@ -25,87 +26,87 @@ const PrefacePure = ({ header, buttons }) => (
       <div className="wrapper_buttons">
         <button className={buttons[0].className}>{header.button_orange}</button>
       </div>
-      <div className="card card_theme_media">
-        <a
-          className="card__item"
-          href="http://markets.financialcontent.com/townhall/news/read/37494272"
-          target="_blank"
-        >
-          <img
-            className="image"
-            src={require('src/images/media/financial.png')}
-          />
+      <div className="social-links">
+        <p className="text">Follow us</p>
+        <div className="wrapper_links">
+          <a
+            className="service"
+            href="https://t.me/platinumfund"
+            rel="nofollow noopener noreferrer"
+            target="_blank"
+          >
+            <img
+              className="service__img"
+              src={require('src/images/icons/social/telegram.svg')}
+            />
+          </a>
+          <a
+            className="service"
+            href="https://medium.com/@PlatinumFund"
+            rel="nofollow noopener noreferrer"
+            target="_blank"
+          >
+            <img
+              className="service__img"
+              src={require('src/images/icons/social/medium.svg')}
+            />
+          </a>
+          <a
+            className="service"
+            href="https://www.facebook.com/FundPlatinum"
+            rel="nofollow noopener noreferrer"
+            target="_blank"
+          >
+            <img
+              className="service__img"
+              src={require('src/images/icons/social/facebook.svg')}
+            />
+          </a>
+          <a
+            className="service"
+            href="https://twitter.com/FundPlatinum"
+            rel="nofollow noopener noreferrer"
+            target="_blank"
+          >
+            <img
+              className="service__img"
+              src={require('src/images/icons/social/twitter.svg')}
+            />
+          </a>
+          <a
+            className="service"
+            href="#"
+            rel="nofollow noopener noreferrer"
+            target="_blank"
+          >
+            <img
+              className="service__img"
+              src={require('src/images/icons/social/line.svg')}
+            />
+          </a>
+        </div>
+      </div>
+      <div className="card card_theme_navigation">
+        <a className="card__item" href="#stooverview">
+          <span>{header.nav_page1}</span>
         </a>
-        <a
-          className="card__item"
-          href="https://seekingalpha.com/instablog/49582419-alena-kalionova/5251739-roller-coaster-rise-cryptocurrencies-2018-experts-explain"
-          target="_blank"
-        >
-          <img className="image" src={require('src/images/media/alpha.png')} />
+        <a className="card__item" href="#advantages">
+          <span>{header.nav_page2}</span>
         </a>
-        <a
-          className="card__item"
-          href="https://hackernoon.com/security-tokens-in-the-us-regulations-and-exemptions-under-the-sec-laws-4640b5570948"
-          target="_blank"
-        >
-          <img className="image" src={require('src/images/media/medium.png')} />
+        <a className="card__item" href="#legal">
+          <span>{header.nav_page3}</span>
         </a>
-        <a
-          className="card__item"
-          href="https://dailyhodl.com/2018/12/25/legal-aspects-of-sto-in-switzerland-how-to-issue-security-tokens-in-crypto-valley/"
-          target="_blank"
-        >
-          <img
-            className="image"
-            src={require('src/images/media/the-daily-hodl.png')}
-          />
+        <a className="card__item" href="#cases">
+          <span>{header.nav_page4}</span>
         </a>
-        <a
-          className="card__item"
-          href="https://www.tokendesk.io/the-roller-coaster-rise-of-cryptocurrencies-in-2018-experts-explain/"
-          target="_blank"
-        >
-          <img
-            className="image"
-            src={require('src/images/media/tokendesk.png')}
-          />
+        <a className="card__item" href="#media">
+          <span>{header.nav_page5}</span>
         </a>
-        <a
-          className="card__item"
-          href="https://www.coinspeaker.com/2019-crypto-regulation-stos/"
-          target="_blank"
-        >
-          <img
-            className="image"
-            src={require('src/images/media/coinspeaker.png')}
-          />
+        <a className="card__item" href="#team">
+          <span>{header.nav_page6}</span>
         </a>
-        <a
-          className="card__item"
-          href="https://hellyellie.quora.com/Security-tokens-in-the-US-regulations-and-exemptions-under-the-SEC-laws"
-          target="_blank"
-        >
-          <img className="image" src={require('src/images/media/quora.png')} />
-        </a>
-        <a
-          className="card__item"
-          href="https://www.livebitcoinnews.com/are-stos-the-step-in-the-right-direction-for-crypto/"
-          target="_blank"
-        >
-          <img
-            className="image"
-            src={require('src/images/media/bitcoin-news.png')}
-          />
-        </a>
-        <a
-          className="card__item"
-          href="http://blockchaintoday.co.kr/news/viewpage.php?wr_id=1651//blockchaintoday.co.kr/news/viewpage.php?wr_id=1651"
-          target="_blank"
-        >
-          <img
-            className="image"
-            src={require('src/images/media/blockhain-today.png')}
-          />
+        <a className="card__item" href="#faq">
+          <span>{header.nav_page7}</span>
         </a>
       </div>
       <div className="scroll-down">

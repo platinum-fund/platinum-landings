@@ -1,0 +1,33 @@
+.card_theme_navigation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem 0.7rem;
+  background: #fff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 17px;
+
+  .card__item {
+    color: #000;
+    font-size: 1.5rem;
+    padding: 1rem 3.2rem;
+    line-height: 2.3rem;
+    opacity: 0.48;
+    transition: filter 0.1s, opacity 0.1s;
+    text-decoration: none;
+    &:last-child {
+      padding-right: 5rem;
+    }
+
+    &:hover {
+      color: #ff6932;
+      opacity: 1;
+    }
+
+    .image {
+      max-width: 11.6rem;
+      max-height: 2.8rem;
+    }
+  }
+}
