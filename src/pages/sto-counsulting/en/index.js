@@ -6,13 +6,13 @@ import header from 'src/components/sections/preface/content/index'
 import buttons from 'src/components/sections/preface/buttons'
 import BusinessGrowth from 'src/components/sections/businessGrowth'
 import StoAdvantages from 'src/components/sections/stoAdvantages'
-import SecuritiesServices from 'src/components/sections/securitiesServices'
+import FundingType from 'src/components/sections/fundingType'
 import StoStandart from 'src/components/sections/stoStandart'
 import StoOverview from 'src/components/sections/stoOverview'
 import contain from 'src/components/sections/stoOverview/content/index'
+import StoCategories from 'src/components/sections/stoCategories'
+import text from 'src/components/sections/stoCategories/text/index'
 import LaunchSto from 'src/components/sections/launchSto'
-import CodeExample from 'src/components/sections/codeExample'
-import PlatinumEquivalency from 'src/components/sections/platinumEquivalency'
 import Reviews from 'src/components/sections/reviews'
 import Team from 'src/components/sections/team'
 import ServiceProviders from 'src/components/sections/serviceProviders'
@@ -28,12 +28,11 @@ const IndexPage = () => (
     <main className="page_security">
       <Preface header={header['sto']} buttons={buttons} />
       <StoOverview contain={contain} />
+      <StoCategories text={text} />
       <StoAdvantages />
-      <SecuritiesServices />
-      <PlatinumEquivalency />
+      <FundingType buttons={buttons} />
       <StoStandart />
       <LaunchSto />
-      <CodeExample />
       <ServiceProviders />
       <Reviews />
       <BusinessGrowth />

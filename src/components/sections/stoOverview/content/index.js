@@ -12,7 +12,10 @@ const contain = {
   list1: 'DIVIDENDS',
   list2: 'EQUITY',
   list3: 'PROFIT SHARING RIGHTS',
-  list4: 'BUY-BACK RIGHTS'
+  list4: 'BUY-BACK RIGHTS',
+  title_categories: 'THERE ARE',
+  title_categories_orange: '3 MAIN CATEGORIES',
+  title_categories2: 'OF TOKENIZATION ACHIEVED VIA AN',
+  title_categories_orange2: 'STO'
 }
-
 export default contain

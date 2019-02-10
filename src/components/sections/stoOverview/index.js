@@ -19,8 +19,7 @@ const StoOverview = ({ contain }) => (
           </span>
           {contain.describe2}
           <span className="section_description--bold">
-            {' '}
-            {contain.describe_word2}{' '}
+            {contain.describe_word2}
           </span>
           {contain.describe3}
         </p>
