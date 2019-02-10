@@ -13,7 +13,7 @@ const StoAdvantagesPure = () => (
           <div className="card__row">
             <h6 className="card__main-title">For Companies</h6>
             <p className="card__description">
-              WHY SHOULD YOU CREAE A SECURITY TOKEN?
+              WHY SHOULD YOU CREATE A SECURITY TOKEN?
             </p>
           </div>
           <div className="card__row">
