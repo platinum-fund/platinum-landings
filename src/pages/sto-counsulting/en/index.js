@@ -7,6 +7,7 @@ import buttons from 'src/components/sections/preface/buttons'
 import BusinessGrowth from 'src/components/sections/businessGrowth'
 import StoAdvantages from 'src/components/sections/stoAdvantages'
 import FundingType from 'src/components/sections/fundingType'
+import About from 'src/components/sections/about'
 import StoStandart from 'src/components/sections/stoStandart'
 import StoOverview from 'src/components/sections/stoOverview'
 import contain from 'src/components/sections/stoOverview/content/index'
@@ -31,6 +32,7 @@ const IndexPage = () => (
       <StoCategories text={text} />
       <StoAdvantages />
       <FundingType buttons={buttons} />
+      <About />
       <StoStandart />
       <LaunchSto />
       <ServiceProviders />
