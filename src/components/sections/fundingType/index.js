@@ -15,28 +15,28 @@ const FundingType = ({ buttons }) => (
       </div>
       <div className="wrapper_images">
         <div className="wrapper_image">
-          <img className="card_image" src={vcImage} />
+          <img className="card_image" src={vcImage} alt="VC" />
           <div className="card_text">VC</div>
         </div>
         <div className="wrapper_image">
-          <img className="card_image" src={ipoImage} />
+          <img className="card_image" src={ipoImage} alt="IPO" />
           <div className="card_text">IPO</div>
         </div>
         <div className="wrapper_image">
-          <img className="card_image" src={icoImage} />
+          <img className="card_image" src={icoImage} alt="ICO" />
           <div className="card_text">ICO</div>
         </div>
 
         <div className="wrapper_image">
-          <img className="card_image" src={stoImage} />
+          <img className="card_image" src={stoImage} alt="STO" />
           <div className="card_text">STO</div>
         </div>
       </div>
       <div className="headline">
-        <h2 className="title title_type_section">GET YOU</h2>
-        <h2 className="title title_type_section _orange">FREE CONSULTATION</h2>
-        <h2 className="title title_type_section">AND</h2>
-        <h2 className="title title_type_section _orange">PROJECT REVIEW</h2>
+        <h4 className="title title_type_second">GET YOU</h4>
+        <h4 className="title title_type_second _orange">FREE CONSULTATION</h4>
+        <h4 className="title title_type_second">AND</h4>
+        <h4 className="title title_type_second _orange">PROJECT REVIEW</h4>
       </div>
       <div className="wrapper_buttons">
         <button className={buttons[0].className}>Get the price</button>
