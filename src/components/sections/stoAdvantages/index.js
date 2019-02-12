@@ -2,7 +2,7 @@ import React from 'react'
 import './section_sto-advantages.less'
 
 const StoAdvantagesPure = () => (
-  <section className="section_sto-advantages">
+  <section className="section_sto-advantages" id="advantages">
     <div className="wrapper_shrink">
       <div className="headline">
         <h2 className="title title_type_section">Security Tokens -</h2>
