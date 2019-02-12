@@ -3,7 +3,7 @@ import './sto-overview.less'
 
 const StoOverview = ({ contain }) => (
   <section className="section section_sto-overview" id="stooverview">
-    <div className="wrapper _shrink">
+    <div className="wrapper_shrink">
       <div className="wrapper _content">
         <h2 className="title title_type_section">
           {contain.title_black}
