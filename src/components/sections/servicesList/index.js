@@ -6,7 +6,7 @@ const ServicesList = ({ buttons }) => (
     <div className="wrapper_shrink">
       <div className="headline">
         <h2 className="title title_type_section">
-          FULL LIST OF OUR{' '}
+          FULL LIST OF OUR
           <span className="title title_section _orange">SERVICES</span>
         </h2>
         <h2 className="title title_type_section">FOR STO</h2>

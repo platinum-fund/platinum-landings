@@ -17,6 +17,7 @@ import StoCategories from 'src/components/sections/stoCategories'
 import text from 'src/components/sections/stoCategories/text/index'
 import LaunchSto from 'src/components/sections/launchSto'
 import LegalSto from 'src/components/sections/legalSto'
+import Fudraising from 'src/components/sections/fudraising'
 import Reviews from 'src/components/sections/reviews'
 import Team from 'src/components/sections/team'
 import ServiceProviders from 'src/components/sections/serviceProviders'
@@ -41,6 +42,7 @@ const IndexPage = () => (
       <StoStandart />
       <LaunchSto />
       <LegalSto buttons={buttons} />
+      <Fudraising buttons={buttons} />
       <ServiceProviders />
       <Reviews />
       <BusinessGrowth />

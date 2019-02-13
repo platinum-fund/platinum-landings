@@ -3,7 +3,7 @@ import './legal-sto.less'
 import icon from '../../../images/favicon.png'
 
 const LegalSto = ({ buttons }) => (
-  <section className="section section_legal-sto ">
+  <section className="section section_legal-sto">
     <div className="wrapper_shrink">
       <div className="headline">
         <h2 className="title title_type_section">Legal for STO is IMPORTANT</h2>
@@ -39,7 +39,7 @@ const LegalSto = ({ buttons }) => (
             Legal is complicated, we would like to help you
           </h6>
           <div className="wrapper_buttons">
-            <button className={buttons[0].className}>Free consultation!</button>
+            <button className={buttons[0].className}>Get an invitation</button>
           </div>
           <img className="image_card" src={icon} />
         </div>

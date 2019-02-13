@@ -16,7 +16,10 @@ const LaunchStoPure = () => (
         the token sale, the Security Token restricts token transfers to verified
         investors only.
       </p>
-      <button className="js-form-button button button_theme_light-white">
+      <button
+        className="js-form-button button button_theme_light-white"
+        id="legal"
+      >
         Launch SECURITY TOKEN
       </button>
     </div>
