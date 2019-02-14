@@ -19,7 +19,18 @@
     background: url('~src/images/section-footer-main/background.png') no-repeat
       center 0;
     background-size: cover;
-    margin: auto;
+    @media @after-xxlg {
+      background-position-y: -15rem;
+    }
+    @media @under-sm {
+      background: linear-gradient(
+        66.77deg,
+        #01080d 15.69%,
+        #0d3440 64.54%,
+        #0e3744 70.48%,
+        #144b5b 85.25%
+      );
+    }
   }
 
   .wrapper_shrink {
@@ -27,7 +38,7 @@
     margin-bottom: 10rem;
     margin-top: 27rem;
     @media @under-sm {
-      max-width: 1210px;
+      margin-top: 10rem;
     }
   }
 
@@ -80,7 +91,7 @@
       flex-direction: row;
       justify-content: space-between;
       align-items: flex-start;
-      @media @under-xs {
+      @media @under-sm {
         flex-direction: column;
       }
     }

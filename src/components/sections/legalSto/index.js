@@ -7,11 +7,11 @@ const LegalSto = ({ buttons }) => (
     <div className="wrapper_shrink">
       <div className="headline">
         <h2 className="title title_type_section">Legal for STO is IMPORTANT</h2>
+        <h4 className="title title_type_subtitle">
+          When conducting an STO, many factors must be considered. But one of
+          the most important is the choice of jurisdiction.
+        </h4>
       </div>
-      <p className="section_description">
-        When conducting an STO, many factors must be considered. But one of the
-        most important is the choice of jurisdiction.
-      </p>
       <div className="wrapper_legalsto">
         <div className="wrapper_list">
           <h4 className="title-list">
@@ -39,7 +39,7 @@ const LegalSto = ({ buttons }) => (
             Legal is complicated, we would like to help you
           </h6>
           <div className="wrapper_buttons">
-            <button className={buttons[0].className}>Get an invitation</button>
+            <button className={buttons[0].className}>Free consultation!</button>
           </div>
           <img className="image_card" src={icon} />
         </div>

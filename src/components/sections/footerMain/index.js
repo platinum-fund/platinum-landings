@@ -4,7 +4,7 @@ import google from '../../../images/section-footer-main/google.png'
 import apple from '../../../images/section-footer-main/apple.png'
 
 const FooterMain = () => (
-  <section className="section_footer-main">
+  <section className="section_footer-main" id="faq">
     <div className="wrapper_shrink">
       <div className="wrapper_social-links">
         <div className="social-links">
@@ -564,7 +564,11 @@ const FooterMain = () => (
                     Download our app with Crypto-Fiat loans for daily needs
                   </span>
                 </a>
-                <a className="image-link" href="">
+                <a
+                  className="image-link"
+                  href="https://play.google.com/store/apps/details?id=mm.com.money"
+                  target="_blank"
+                >
                   <img src={google} />
                 </a>
                 <a className="image-link" href="">

@@ -1,23 +1,20 @@
 import React from 'react'
-import './fudraising.less'
-import firstImage from '../../../images/section-fudraising/map.png'
-import secondImage from '../../../images/section-fudraising/people.png'
-import thirdImage from '../../../images/section-fudraising/woman.png'
+import './fundraising.less'
+import firstImage from '../../../images/section-fundraising/map.png'
+import secondImage from '../../../images/section-fundraising/people.png'
+import thirdImage from '../../../images/section-fundraising/woman.png'
 
-const Fudraising = ({ buttons }) => (
-  <section className="section_about">
+const Fundraising = ({ buttons }) => (
+  <section className="section-fundraising">
     <div className="wrapper_shrink">
       <div className="headline">
         <h2 className="title title_type_section">Fundraising and roadshows</h2>
-      </div>
-      <div className="card card_type_column">
-        <p className="section_description">
+        <h4 className="title title_type_subtitle">
           We promote selected projects directly to our extensive global network
           of private and institutional investors, arrange private meetups,
           roadshows and investor pitching sessions around the globe
-        </p>
+        </h4>
       </div>
-
       <div className="wrapper_cards">
         <div className="wrapper_card">
           <img className="card_image" src={firstImage} />
@@ -49,11 +46,11 @@ const Fudraising = ({ buttons }) => (
           for the next meetup?
         </h6>
         <div className="wrapper_buttons">
-          <button className={buttons[0].className}>Free consultation!</button>
+          <button className={buttons[0].className}>Get an invitation</button>
         </div>
       </div>
     </div>
   </section>
 )
 
-export default Fudraising
+export default Fundraising

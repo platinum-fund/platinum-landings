@@ -1,6 +1,7 @@
 @import '~src/common.blocks/section/section';
 
-.section_about {
+.section-fundraising {
+  margin-bottom: 12.6rem;
   .section();
 
   .wrapper_shrink {
@@ -10,11 +11,17 @@
   }
 
   .headline {
-    margin-bottom: 1.5rem;
-    max-width: 70.2rem;
+    max-width: 58.2rem;
+    margin-bottom: 2.5rem;
     text-align: center;
     color: #354158;
   }
+
+  .title_type_subtitle {
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+  }
+
   .card {
     .card_type_column {
       width: 75%;
@@ -37,17 +44,8 @@
         border-radius: 4.5px;
       }
     }
-    .section_description {
-      font-family: Poppins, sans-serif;
-      text-align: center;
-      font-style: normal;
-      font-weight: 400;
-      line-height: normal;
-      font-size: 1.5rem;
-      margin-top: 1.5rem;
-      color: rgba(0, 0, 0, 0.6);
-    }
   }
+
   .wrapper_cards {
     display: flex;
     justify-content: space-around;
@@ -74,9 +72,13 @@
     text-align: center;
     color: #354158;
     padding-top: 2rem;
-    padding-bottom: 1.5rem;
+    padding-bottom: 2.5rem;
     &_orange {
       color: #ff6932;
     }
+  }
+
+  .wrapper_buttons {
+    justify-content: center;
   }
 }

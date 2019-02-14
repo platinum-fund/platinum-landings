@@ -4,7 +4,6 @@ import Layout from 'src/components/layout/LayoutPure'
 import Preface from 'src/components/sections/preface'
 import header from 'src/components/sections/preface/content/index'
 import buttons from 'src/components/sections/preface/buttons'
-import BusinessGrowth from 'src/components/sections/businessGrowth'
 import StoAdvantages from 'src/components/sections/stoAdvantages'
 import FundingType from 'src/components/sections/fundingType'
 import About from 'src/components/sections/about'
@@ -17,7 +16,9 @@ import StoCategories from 'src/components/sections/stoCategories'
 import text from 'src/components/sections/stoCategories/text/index'
 import LaunchSto from 'src/components/sections/launchSto'
 import LegalSto from 'src/components/sections/legalSto'
-import Fudraising from 'src/components/sections/fudraising'
+import Fundraising from 'src/components/sections/fundraising'
+import LaunchPLatform from 'src/components/sections/launchPlatform'
+import Benefits from 'src/components/sections/benefits'
 import Reviews from 'src/components/sections/reviews'
 import Team from 'src/components/sections/team'
 import FooterMain from 'src/components/sections/footerMain'
@@ -31,7 +32,7 @@ const IndexPage = () => (
   >
     <main className="page_security">
       <Preface header={header['sto']} buttons={buttons} />
-      <StoOverview contain={contain} />
+      <StoOverview contain={contain['sto']} />
       <StoCategories text={text} />
       <StoAdvantages />
       <FundingType buttons={buttons} />
@@ -41,10 +42,11 @@ const IndexPage = () => (
       <StoStandart />
       <LaunchSto />
       <LegalSto buttons={buttons} />
-      <Fudraising buttons={buttons} />
-      <BusinessGrowth />
-      <Reviews />
-      <Articles />
+      <Fundraising buttons={buttons} />
+      <LaunchPLatform buttons={buttons} />
+      <Benefits />
+      <Reviews contain={contain['title']} />
+      <Articles contain={contain['article']} />
       <Team />
       <FooterMain />
       <ContactForm />

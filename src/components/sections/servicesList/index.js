@@ -5,10 +5,8 @@ const ServicesList = ({ buttons }) => (
   <section className="section section_services-list">
     <div className="wrapper_shrink">
       <div className="headline">
-        <h2 className="title title_type_section">
-          FULL LIST OF OUR
-          <span className="title title_section _orange">SERVICES</span>
-        </h2>
+        <h2 className="title title_type_section">FULL LIST OF OUR</h2>
+        <h2 className="title title_type_section _orange">SERVICES</h2>
         <h2 className="title title_type_section">FOR STO</h2>
       </div>
       <p className="section_description">
