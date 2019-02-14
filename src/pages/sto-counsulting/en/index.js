@@ -20,9 +20,8 @@ import LegalSto from 'src/components/sections/legalSto'
 import Fudraising from 'src/components/sections/fudraising'
 import Reviews from 'src/components/sections/reviews'
 import Team from 'src/components/sections/team'
-import ServiceProviders from 'src/components/sections/serviceProviders'
+import FooterMain from 'src/components/sections/footerMain'
 import Articles from 'src/components/sections/articles'
-import Footer from 'src/components/sections/footer'
 import ContactForm from 'src/components/contactFormPopup'
 
 const IndexPage = () => (
@@ -43,12 +42,11 @@ const IndexPage = () => (
       <LaunchSto />
       <LegalSto buttons={buttons} />
       <Fudraising buttons={buttons} />
-      <ServiceProviders />
-      <Reviews />
       <BusinessGrowth />
+      <Reviews />
       <Articles />
       <Team />
-      <Footer />
+      <FooterMain />
       <ContactForm />
     </main>
   </Layout>

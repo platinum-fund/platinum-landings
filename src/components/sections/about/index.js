@@ -13,7 +13,7 @@ const About = () => (
       </div>
       <div className="card card_type_column">
         <h6 className="card__title">Platinum is</h6>
-        <p className="section_description">
+        <p className="section_description _little">
           Platinum.fund is an international STO/IEO/ICO/POST ICO consulting,
           promotion and fundraising company with offices in Tokyo, London,
           Bangkok, Seoul, Singapore, Yangon, Colombo, Phnom Penh, Moscow, Minsk
