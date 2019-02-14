@@ -12,10 +12,10 @@ const LastChance = props => (
       </div>
       <div className="wrapper_buttons">
         <button className="js-form-button button button_theme_main">
-          Create SECURITY TOKEN
+          CREATE SECURITY TOKEN NOW!
         </button>
         <button className="js-form-button button button_theme_light-black">
-          Get consultation
+          GET FREE CONSULTATION!
         </button>
       </div>
     </div>

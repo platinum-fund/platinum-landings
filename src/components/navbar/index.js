@@ -5,7 +5,7 @@ import './navbar.less'
 const Navbar = props => (
   <div className="navbar">
     <div className="wrapper_shrink">
-      <img className="navbar__logo" src={logo} alt=""/>
+      <img className="navbar__logo" src={logo} alt="" />
       <button className="navbar__menu-button">Services</button>
       <div className="navbar__links">
         <a className="navbar__link" href="https://www.platinum.fund/sto/">
