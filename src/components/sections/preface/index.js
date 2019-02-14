@@ -8,15 +8,15 @@ const PrefacePure = () => (
         <h6 className="title title_type_second">We are experts in</h6>
         <h1 className="title title_type_main">SECURITY TOKEN OFFERING</h1>
         <h4 className="title title_type_second">
-          Don’t waste a chance to join a huge funds blockchain rush
+          Launch your security token in minutes
         </h4>
       </div>
       <div className="wrapper_buttons">
         <button className="js-form-button button button_theme_main">
-          Create SECURITY TOKEN
+          CREATE SECURITY TOKEN NOW!
         </button>
         <button className="js-form-button button button_theme_light">
-          Get consultation
+          GET FREE CONSULTATION!
         </button>
       </div>
       <div className="card card_theme_media">
