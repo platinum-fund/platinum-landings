@@ -1,0 +1,92 @@
+.employee-reviews-slider {
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+
+  .slider {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-top: 15.4rem;
+    width: 100%;
+  }
+
+  .slider__navigation {
+    order: 1;
+  }
+
+  .slider__item {
+    position: relative;
+    padding: 1rem 2rem 10.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
+    border-radius: 34px;
+
+    &:after {
+      content: '';
+      position: absolute;
+      bottom: 3rem;
+      right: 4.8rem;
+      width: 6.4rem;
+      height: 4.6rem;
+      background: url('~src/images/icons/quote.svg') no-repeat center;
+      background-size: contain;
+    }
+  }
+
+  .slider__photo {
+    position: absolute;
+    top: -15.4rem;
+    width: 30.4rem;
+    max-width: 60vw;
+    height: 30.4rem;
+    max-height: 60vw;
+    border: 3px solid #ffffff;
+    box-sizing: border-box;
+    box-shadow: -4px 4px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    background-color: #eaeaea;
+
+    .image {
+      max-width: 100%;
+      border-radius: 50%;
+    }
+  }
+
+  .slider__name {
+    margin-top: 18.2rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 3rem;
+    font-size: 2rem;
+  }
+
+  .slider__position {
+    margin-bottom: 2.1rem;
+    font-weight: 500;
+    line-height: 2.3;
+    font-size: 1.5rem;
+    opacity: 0.4;
+  }
+
+  .slider__text {
+    max-width: 79.3rem;
+    font-weight: 300;
+    line-height: 2.7rem;
+    font-size: 1.8rem;
+
+    &:before {
+      content: '“';
+    }
+
+    &:after {
+      content: '”';
+    }
+  }
+}
