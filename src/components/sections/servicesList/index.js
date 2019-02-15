@@ -29,7 +29,9 @@ const ServicesList = ({ buttons }) => (
           </div>
           <h5 className="box price">from $85,000</h5>
           <div className="wrapper_buttons">
-            <button className={buttons[1].className}>View more</button>
+            <button className="js-form-button button button_theme_main">
+              View more
+            </button>
           </div>
         </div>
         <div className="box _service">
@@ -50,7 +52,9 @@ const ServicesList = ({ buttons }) => (
           </div>
           <h5 className="box price">from $40,000</h5>
           <div className="wrapper_buttons">
-            <button className={buttons[1].className}>View more</button>
+            <button className="js-form-button button button_theme_main">
+              View more
+            </button>
           </div>
         </div>
         <div className="box _service">
@@ -69,7 +73,9 @@ const ServicesList = ({ buttons }) => (
           </div>
           <h5 className="box price">from $35,000</h5>
           <div className="wrapper_buttons">
-            <button className={buttons[1].className}>View more</button>
+            <button className="js-form-button button button_theme_main">
+              View more
+            </button>
           </div>
         </div>
         <div className="box _service">
@@ -87,7 +93,9 @@ const ServicesList = ({ buttons }) => (
           </div>
           <h5 className="box price">from $50,000</h5>
           <div className="wrapper_buttons">
-            <button className={buttons[1].className}>View more</button>
+            <button className="js-form-button button button_theme_main">
+              View more
+            </button>
           </div>
         </div>
         <div className="box _service">
@@ -106,7 +114,9 @@ const ServicesList = ({ buttons }) => (
           </div>
           <h5 className="box price">from $30,000</h5>
           <div className="wrapper_buttons">
-            <button className={buttons[1].className}>View more</button>
+            <button className="js-form-button button button_theme_main">
+              View more
+            </button>
           </div>
         </div>
       </div>

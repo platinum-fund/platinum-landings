@@ -22,10 +22,12 @@ const LaunchPlatform = ({ buttons }) => (
             STO stages and marketing campaigns, process KYC/AML
           </p>
           <div className="wrapper_buttons" id="cases">
-            <button className={buttons[0].className}>Get platform demo</button>
+            <button className="js-form-button button button_theme_main">
+              Get platform demo
+            </button>
           </div>
         </div>
-        <div className="wrapper_card">
+        <div className="wrapper_image">
           <img className="card_image" src={image} />
         </div>
       </div>

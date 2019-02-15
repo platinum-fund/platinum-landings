@@ -1,7 +1,7 @@
 @import '~src/common.blocks/imports/media.less';
 @import '~src/common.blocks/section/section';
 
-.section_preface {
+.section_preface-nav {
   .section();
   position: relative;
   color: #fff;
@@ -13,14 +13,17 @@
     left: 0;
     z-index: -1;
     width: 100%;
-    height: 105%;
+    height: 100%;
     background: url('~src/images/section-preface/background.png') no-repeat
-      center -300px;
+      center -600px;
     background-size: cover;
 
     @media @under-xxlg {
-      height: 120%;
-      background-position: center 0;
+      background-position: center -100px;
+    }
+
+    @media @under-sm {
+      background-position: center -180px;
     }
   }
 
@@ -30,7 +33,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 22rem;
+    margin-top: 17rem;
 
     @media @under-md {
       margin-top: 10rem;
@@ -43,10 +46,7 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 3.3rem;
-
-    @media @under-sm {
-      align-items: flex-start;
-    }
+    text-align: center;
 
     .title_type_second {
       margin-bottom: 0.9rem;
@@ -56,28 +56,45 @@
     .title_type_main {
       margin-bottom: 4.2rem;
       color: #ff6932;
-    }
-  }
 
-  .wrapper_buttons {
-    margin-bottom: 29.7rem;
+      &--white {
+        color: #ffffff;
+      }
+    }
 
     @media @under-md {
-      margin-bottom: 10rem;
+      .title_type_main {
+        font-size: 3.5rem;
+      }
     }
-  }
 
-  .button {
-    margin-bottom: 2rem;
-    width: 28.6rem;
-  }
+    .wrapper_buttons {
+      margin-bottom: 29.7rem;
 
-  .card {
-    margin-bottom: 4.2rem;
+      @media @under-md {
+        margin-bottom: 0rem;
+      }
+    }
+
+    .button {
+      margin-bottom: 2rem;
+      width: 33.6rem;
+    }
+
+    .card {
+      margin-bottom: 4.2rem;
+    }
   }
 
   .scroll-down {
     bottom: -2rem;
     opacity: 0.25;
+  }
+
+  @media @under-sm {
+    .social_links {
+      margin-top: 4rem;
+      justify-content: center;
+    }
   }
 }

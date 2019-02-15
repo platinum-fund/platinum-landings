@@ -5,7 +5,7 @@ import ipoImage from '../../../images/funding-type/ipo.png'
 import icoImage from '../../../images/funding-type/ico.png'
 import stoImage from '../../../images/funding-type/sto.png'
 
-const FundingType = ({ buttons }) => (
+const FundingType = () => (
   <section className="section_funding-type">
     <div className="wrapper_shrink">
       <div className="headline">
@@ -39,7 +39,9 @@ const FundingType = ({ buttons }) => (
         <h4 className="title title_type_second _orange">PROJECT REVIEW</h4>
       </div>
       <div className="wrapper_buttons">
-        <button className={buttons[0].className}>Get the price</button>
+        <button className="js-form-button button button_theme_main">
+          Get the price
+        </button>
       </div>
     </div>
   </section>

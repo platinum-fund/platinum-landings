@@ -1,9 +1,7 @@
 import React from 'react'
 import '../page_security.less'
 import Layout from 'src/components/layout/LayoutPure'
-import Preface from 'src/components/sections/preface'
-import header from 'src/components/sections/preface/content/index'
-import buttons from 'src/components/sections/preface/buttons'
+import PrefaceNav from 'src/components/sections/prefaceNav'
 import StoAdvantages from 'src/components/sections/stoAdvantages'
 import FundingType from 'src/components/sections/fundingType'
 import About from 'src/components/sections/about'
@@ -11,9 +9,7 @@ import PlatinumSlider from 'src/components/sections/about-slider'
 import ServicesList from 'src/components/sections/servicesList'
 import StoStandart from 'src/components/sections/stoStandart'
 import StoOverview from 'src/components/sections/stoOverview'
-import contain from 'src/components/sections/stoOverview/content/index'
 import StoCategories from 'src/components/sections/stoCategories'
-import text from 'src/components/sections/stoCategories/text/index'
 import LaunchSto from 'src/components/sections/launchSto'
 import LegalSto from 'src/components/sections/legalSto'
 import Fundraising from 'src/components/sections/fundraising'
@@ -31,22 +27,22 @@ const IndexPage = () => (
     language="en"
   >
     <main className="page_security">
-      <Preface header={header['sto']} buttons={buttons} />
-      <StoOverview contain={contain['sto']} />
-      <StoCategories text={text} />
+      <PrefaceNav />
+      <StoOverview />
+      <StoCategories />
       <StoAdvantages />
-      <FundingType buttons={buttons} />
+      <FundingType />
       <About />
       <PlatinumSlider />
-      <ServicesList buttons={buttons} />
+      <ServicesList />
       <StoStandart />
       <LaunchSto />
-      <LegalSto buttons={buttons} />
-      <Fundraising buttons={buttons} />
-      <LaunchPLatform buttons={buttons} />
+      <LegalSto />
+      <Fundraising />
+      <LaunchPLatform />
       <Benefits />
-      <Reviews contain={contain['title']} />
-      <Articles contain={contain['article']} />
+      <Reviews />
+      <Articles />
       <Team />
       <FooterMain />
       <ContactForm />

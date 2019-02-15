@@ -39,7 +39,9 @@ const LegalSto = ({ buttons }) => (
             Legal is complicated, we would like to help you
           </h6>
           <div className="wrapper_buttons">
-            <button className={buttons[0].className}>Free consultation!</button>
+            <button className="js-form-button button button_theme_main">
+              Free consultation!
+            </button>
           </div>
           <img className="image_card" src={icon} />
         </div>

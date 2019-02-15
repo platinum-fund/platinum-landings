@@ -46,7 +46,9 @@ const Fundraising = ({ buttons }) => (
           for the next meetup?
         </h6>
         <div className="wrapper_buttons">
-          <button className={buttons[0].className}>Get an invitation</button>
+          <button className="js-form-button button button_theme_main">
+            Get an invitation
+          </button>
         </div>
       </div>
     </div>

@@ -7,8 +7,8 @@ const FooterMain = () => (
   <section className="section_footer-main" id="faq">
     <div className="wrapper_shrink">
       <div className="wrapper_social-links">
-        <div className="social-links">
-          <p className="text">Follow us:</p>
+        <div className="social_links">
+          <p className="text _white">Follow us:</p>
           <div className="wrapper_links">
             <a
               className="service"
