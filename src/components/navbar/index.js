@@ -5,13 +5,16 @@ import './navbar.less'
 const Navbar = props => (
   <div className="navbar">
     <div className="wrapper_shrink">
-      <img className="navbar__logo" src={logo} />
+      <img className="navbar__logo" src={logo} alt="" />
       <button className="navbar__menu-button">Services</button>
       <div className="navbar__links">
-        <a className="navbar__link" href="https://www.platinum.fund/sto">
+        <a className="navbar__link" href="https://www.platinum.fund/sto/">
           STO
         </a>
-        <a className="navbar__link" href="https://www.platinum.fund/listing">
+        <a className="navbar__link" href="https://www.platinum.fund/security/">
+          Create security token
+        </a>
+        <a className="navbar__link" href="https://www.platinum.fund/listing/">
           Listing
         </a>
         <a
@@ -26,22 +29,19 @@ const Navbar = props => (
         <a className="navbar__link" href="https://www.platinum.fund/wallet/">
           Wallet
         </a>
-        <a className="navbar__link" href="https://www.platinum.fund/legal">
+        <a className="navbar__link" href="https://www.platinum.fund/legal/">
           Legal
         </a>
         <a
           className="navbar__link"
-          href="https://www.platinum.fund/marketmaking"
+          href="https://www.platinum.fund/marketmaking/"
         >
           Market making
         </a>
-        <a className="navbar__link" href="https://www.platinum.fund/zmest">
+        <a className="navbar__link" href="https://www.platinum.fund/zmest/">
           Marketing
         </a>
-        <a
-          className="navbar__link"
-          href="https://hr.platinum.fund/index_en.html"
-        >
+        <a className="navbar__link" href="https://www.platinum.fund/hr/">
           Hiring!
         </a>
         <a className="navbar__link" href="https://blog.platinum.fund/">
