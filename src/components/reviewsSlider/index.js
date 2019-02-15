@@ -2,7 +2,7 @@ import React from 'react'
 import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
-import './slider.less'
+import './reviews-slider.less'
 import sliders from './content'
 
 const PrevArrow = ({ onClick }) => (
@@ -28,16 +28,14 @@ const ReviewsSlider = props => {
         breakpoint: 1000,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 1,
-          adaptiveHeight: true
+          slidesToScroll: 1
         }
       },
       {
         breakpoint: 767,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1,
-          adaptiveHeight: true
+          slidesToScroll: 1
         }
       }
     ]

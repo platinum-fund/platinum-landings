@@ -3,7 +3,7 @@ import './section_articles.less'
 import Articles from 'src/components/articles'
 
 const ArticlesSection = () => (
-  <section className="section_articles" id="media">
+  <section className="section section_articles" id="media">
     <div className="wrapper_shrink">
       <div className="headline">
         <h2 className="title title_type_section">FIND US IN</h2>

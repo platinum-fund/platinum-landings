@@ -1,4 +1,18 @@
 .section {
   display: flex;
   justify-content: center;
+
+  .wrapper_shrink {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    box-sizing: border-box;
+  }
+
+  .wrapper_section-content {
+    .wrapper_shrink();
+  }
+
+  .headline {
+    margin-bottom: 5rem;
+  }
 }

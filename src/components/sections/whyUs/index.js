@@ -1,15 +1,39 @@
 import React from 'react'
 import './section_why-us.less'
+import Slider from 'src/components/slider'
+import SliderItem from 'src/components/slider/SliderItemPure'
+import slidesContent from './slider/content'
 
 const WhyUs = () => (
-  <section className="section_why-us">
-    <div className="wrapper_shrink">
+  <section className="section section_why-us">
+    <div className="wrapper_section-content">
       <h2 className="headline">
         <span className="title title_type_section-big">Why</span>
         <span className="title title_type_section-big-attention">Platinum</span>
         <span className="title title_type_section-big">?</span>
       </h2>
-      <div>Slider</div>
+      <Slider>
+        {slidesContent.map((slideItem, i) => (
+          <SliderItem
+            title={slideItem.titles.map((titleItem, ia) => (
+              <span
+                className={
+                  titleItem.attentionText ? 'slider__title-attention' : ''
+                }
+                key={`whyUsTitle${ia}`}
+              >
+                {titleItem.text}
+              </span>
+            ))}
+            key={`whyUsSlide${i}`}
+          >
+            <img
+              className="slider-item__background"
+              src={require('src/images/section-why-us/slide-1.png')}
+            />
+          </SliderItem>
+        ))}
+      </Slider>
     </div>
   </section>
 )

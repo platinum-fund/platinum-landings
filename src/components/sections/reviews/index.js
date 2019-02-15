@@ -3,7 +3,7 @@ import ReviewsSlider from 'src/components/reviewsSlider'
 import './section_reviews.less'
 
 const Reviews = ({ contain }) => (
-  <section className="section_reviews">
+  <section className="section section_reviews">
     <div className="wrapper_shrink">
       <div className="headline">
         <h2 className="title title_type_section">

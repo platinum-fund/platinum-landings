@@ -25,11 +25,11 @@ const StoAdvantagesPure = () => (
               <h6>Liquidity</h6>
             </div>
             <p className="card__description">
-              Security tokens represent a massive breakthrough in liquidity for
-              private securities. With built-in programmatic ownership
-              restrictions, you can sell private securities to a global pool of
-              investors while allowing a liquid secondary market to develop on a
-              number of trading venues.
+              Security tokens provide a substantial liquidity for private
+              securities. Following certain ownership restrictions, which are
+              already programmed, you are open to sell private securities to a
+              global and wider pool of investors. Naturally, this green-light a
+              liquid secondary market to grow.
             </p>
           </div>
           <div className="card__row">
@@ -38,14 +38,14 @@ const StoAdvantagesPure = () => (
                 className="card__title-image"
                 src={require('src/images/section-sto-advantages/efficiency.svg')}
               />
-              <h6>Efficiency</h6>
+              <h6>Effectiveness</h6>
             </div>
             <p className="card__description">
-              Raise funds in cryptocurrency where your investors automatically
-              receive the correct allocation of securities. Pay dividends
-              automatically, create and distribute securities effortlessly, and
-              reduce back-office administrative overhead. No more bank wires,
-              waiting 3-5 business days, and manually updating spreadsheets.
+              Attract investments in cryptocurrency, and let your contributor
+              get the right allocation of securities. Ensure automatic payment
+              of dividends, produce and distribute securities easily, and
+              downgrade office operating expenses. Forget about bank transfers,
+              delays up to 7 business days and manual calculations.
             </p>
           </div>
           <div className="card__row">
@@ -57,12 +57,12 @@ const StoAdvantagesPure = () => (
               <h6>Transparency</h6>
             </div>
             <p className="card__description">
-              As a security token issuer, you can conduct your: fundraising, cap
-              table management, dividend payments, and financial dealings in a
-              fully transparent manner, on the Ethereum blockchain. From the
-              standpoint of smart contracts, security, and software development,
-              Polymath’s code is open-source and available for all to review and
-              audit.
+              Each security token producer is eligible to handle: fundraising,
+              capitalization table calculation, dividends and financial
+              transactions in a transparent way, that is using Ethereum
+              blockchain. Talking about smart contracts, security and software
+              development, Platinum provides its own code, which you can analyze
+              and examine.
             </p>
           </div>
         </div>
@@ -79,14 +79,14 @@ const StoAdvantagesPure = () => (
                 className="card__title-image"
                 src={require('src/images/section-sto-advantages/lower-fees.svg')}
               />
-              <h6>Lower fees</h6>
+              <h6>Reduced commissions</h6>
             </div>
             <p className="card__description">
-              Legacy financial systems have countless middlemen and
-              rent-seekers. Security Tokens, by taking advantage of blockchain
-              technology and a fully digital infrastructure, can decrease and
-              even remove many of the typical fees associated with capital
-              markets, compliance, and securities trading.
+              Traditional financial systems have many intermediaries and
+              rent-seekers. Security Tokens, using blockchain technology and
+              fully digital infrastructure, are able to shorten and even
+              eliminate many of the typical fees associated with capital
+              markets, adherence to requirements, and securities trading.
             </p>
           </div>
           <div className="card__row">
@@ -95,12 +95,11 @@ const StoAdvantagesPure = () => (
                 className="card__title-image"
                 src={require('src/images/section-sto-advantages/markets.svg')}
               />
-              <h6>24/7/365 Markets</h6>
+              <h6>Unstoppable market</h6>
             </div>
             <p className="card__description">
-              There are no holidays, weekends, or bank closures on the
-              blockchain. You can finally have 24/7/365 access to financial
-              markets.
+              Blockchain has no holidays, days off or bank closing. Lastly, you
+              obtain a permanent access to financial markets.
             </p>
           </div>
           <div className="card__row">
@@ -109,12 +108,12 @@ const StoAdvantagesPure = () => (
                 className="card__title-image"
                 src={require('src/images/section-sto-advantages/crypto.svg')}
               />
-              <h6>Automated Cryptoruccrency Capital Raising</h6>
+              <h6>Automated Cryptocurrency Fundraising</h6>
             </div>
             <p className="card__description">
-              Contribute funds in cryptocurrency, and automatically receive the
-              correct allocation of securities. No more bank wires and waiting
-              3-5 business days for funds to clear.
+              Present money in cryptocurrency and automatically receive the
+              right distribution of securities. Forget about bank transfers,
+              delays up to 7 business days and manual calculations.
             </p>
           </div>
           <div className="card__row">
@@ -126,10 +125,10 @@ const StoAdvantagesPure = () => (
               <h6>Liquidity for Private Securities</h6>
             </div>
             <p className="card__description">
-              Security tokens represent a massive breakthrough in liquidity for
-              private securities. With security tokens, you can own securities
-              in a private company while having access to a global pool of
-              secondary market liquidity.
+              Security tokens provide a substantial liquidity for private
+              securities. Following certain ownership restrictions, which are
+              already programmed, you are open to sell private securities to a
+              global and wider pool of investors.
             </p>
           </div>
         </div>

@@ -1,3 +1,116 @@
+@import '~src/common.blocks/imports/media.less';
+
 .section_preface-investment {
-  // this file in development. Soon it will be fulfilled
+  position: relative;
+  box-sizing: border-box;
+  background-color: #0a0a0a;
+
+  &:after {
+    content: '';
+    position: absolute;
+    bottom: -15rem;
+    width: 42.3rem;
+    max-width: 80vw;
+    height: 44.6rem;
+    background: url('~src/images/section-preface-investment/background.png')
+      no-repeat center;
+    background-size: contain;
+  }
+
+  .wrapper_section-content {
+    z-index: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+
+    @media @under-lg {
+      flex-direction: column;
+    }
+  }
+
+  .socials {
+    position: absolute;
+    left: -10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media @under-sm {
+      bottom: -20rem;
+      left: 0;
+    }
+  }
+
+  .column_left {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    max-width: 68.2rem;
+  }
+
+  .header {
+    margin-bottom: 4rem;
+
+    .headline {
+      margin-bottom: 1.3rem;
+    }
+  }
+
+  .title:not(.title_type_subtitle) {
+    display: inline;
+  }
+
+  .title_type_subtitle {
+    margin-bottom: 0;
+    line-height: 2.6rem;
+    font-size: 1.8rem;
+    color: #d7d7d7;
+    opacity: 1;
+  }
+
+  .column_right {
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: auto;
+    height: 90vh;
+
+    @media @under-lg {
+      height: 60vh;
+    }
+  }
+
+  .slider {
+    z-index: 1;
+    margin-top: auto;
+    padding-top: 3rem;
+  }
+
+  .slider__navigation {
+    margin-bottom: 9vh;
+    width: 100%;
+    background-color: rgba(10, 10, 10, 0.35);
+  }
+
+  .slider__item {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    height: 90vh;
+
+    @media @under-lg {
+      height: 60vh;
+    }
+  }
+
+  .slider-item__background {
+    height: 100%;
+  }
 }

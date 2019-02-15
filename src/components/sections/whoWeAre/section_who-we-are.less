@@ -1,3 +1,98 @@
-.section_who-we-are {
-  // this file in development. It will be fulfilled with styles soon
+@import '~src/common.blocks/imports/media.less';
+
+.section.section_who-we-are {
+  position: relative;
+  height: 80rem;
+  background: #0a0a0a;
+
+  .headline {
+    margin-bottom: 0;
+  }
+
+  .socials {
+    margin-left: -1.6rem;
+  }
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    background: url('~src/images/section-who-we-are/background.png') no-repeat
+      top right;
+    background-size: contain;
+  }
+
+  .wrapper_section-content {
+    z-index: 1;
+    align-items: flex-start;
+    justify-content: flex-end;
+  }
+
+  .slider {
+    margin-bottom: 10.8rem;
+  }
+
+  .slider__navigation {
+    @media @under-md {
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+      background-color: rgba(10, 10, 10, 0.85);
+    }
+  }
+
+  .slider__title-wrapper {
+    text-align: left;
+  }
+
+  .slider__subtitle {
+    margin-bottom: 0.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 2.1rem;
+    font-size: 1.5rem;
+    color: #d7d7d7;
+  }
+
+  .slider__title-attention {
+    color: #fd6700;
+
+    &:after,
+    &:before {
+      content: ' ';
+    }
+  }
+
+  .headline {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
+    max-width: 48.3rem;
+  }
+
+  .title_type_subtitle {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 2.4rem;
+    font-size: 1.4rem;
+    opacity: 1;
+  }
+
+  .button {
+    width: 28.4rem;
+    max-width: 90vw;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.7rem;
+    font-size: 1.2rem;
+    text-align: center;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 15px;
+  }
 }
