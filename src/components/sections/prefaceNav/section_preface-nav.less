@@ -54,22 +54,30 @@
     }
 
     .title_type_main {
+      display: inline;
       margin-bottom: 4.2rem;
-      color: #ff6932;
-
-      &--white {
+      font-size: 5rem;
+      line-height: 5.5rem;
+      color: #fd6700;
+      width: 77rem;
+      &._white {
         color: #ffffff;
+        &:before {
+          content: ' ';
+        }
       }
     }
 
     @media @under-md {
       .title_type_main {
+        width: 36rem;
         font-size: 3.5rem;
+        line-height: 4rem;
       }
     }
 
     .wrapper_buttons {
-      margin-bottom: 29.7rem;
+      margin-bottom: 20.7rem;
 
       @media @under-md {
         margin-bottom: 0rem;

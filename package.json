@@ -15,7 +15,6 @@
     "gatsby-plugin-sharp": "^2.0.14",
     "gatsby-source-filesystem": "^2.0.8",
     "gatsby-transformer-sharp": "^2.1.8",
-    "install": "^0.12.2",
     "less": "^3.9.0",
     "prop-types": "^15.6.2",
     "react": "^16.6.3",
@@ -26,7 +25,6 @@
     "react-swipeable": "^4.3.2",
     "reset-css": "^4.0.1",
     "slick-carousel": "^1.8.1",
-    "src": "^1.1.2",
     "yarn": "^1.13.0"
   },
   "keywords": [
