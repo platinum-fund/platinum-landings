@@ -1,4 +1,5 @@
 @import '~src/common.blocks/section/section';
+@import '~src/common.blocks/imports/media.less';
 
 .section-fundraising {
   margin-bottom: 12.6rem;
@@ -26,6 +27,7 @@
     .card_type_column {
       width: 75%;
     }
+
     &__title {
       position: relative;
       margin-bottom: 0.7em;
@@ -66,6 +68,7 @@
   .card_image {
     height: 132px;
   }
+
   .card_description {
     padding-top: 2rem;
     padding-bottom: 2.5rem;
@@ -73,6 +76,7 @@
     line-height: 2.6rem;
     color: #354158;
     text-align: center;
+
     &_orange {
       color: #ff6932;
     }
@@ -84,5 +88,10 @@
 
   .button {
     width: 33.6rem;
+    @media @under-sm {
+      width: 23.6rem;
+    }
   }
 }
+
+

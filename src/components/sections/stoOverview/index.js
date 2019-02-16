@@ -1,6 +1,7 @@
 import React from 'react'
 import './sto-overview.less'
 
+
 const StoOverview = () => (
   <section className="section section_sto-overview" id="stooverview">
     <div className="wrapper_shrink">

@@ -1,6 +1,8 @@
 import React from 'react'
 import './section_preface-nav.less'
 import 'src/common.blocks/social/social-links.less'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+
 
 const PrefaceNav = () => (
   <section className="section_preface-nav">
@@ -80,27 +82,27 @@ const PrefaceNav = () => (
           </div>
         </div>
         <div className="card card_theme_navigation">
-          <a className="card__item" href="#stooverview">
+          <AnchorLink className="card__item" href="#stooverview">
             <span>What is STO?</span>
-          </a>
-          <a className="card__item" href="#advantages">
+          </AnchorLink>
+          <AnchorLink className="card__item" href="#advantages">
             <span>Advantages of STO</span>
-          </a>
-          <a className="card__item" href="#legal">
+          </AnchorLink>
+          <AnchorLink className="card__item" href="#legal">
             <span>Legal for STO</span>
-          </a>
-          <a className="card__item" href="#cases">
+          </AnchorLink>
+          <AnchorLink className="card__item" href="#cases">
             <span>Cases</span>
-          </a>
-          <a className="card__item" href="#media">
+          </AnchorLink>
+          <AnchorLink className="card__item" href="#media">
             <span>Platinum Media</span>
-          </a>
-          <a className="card__item" href="#team">
+          </AnchorLink>
+          <AnchorLink className="card__item" href="#team">
             <span>Platinum Team</span>
-          </a>
-          <a className="card__item" href="#faq">
+          </AnchorLink>
+          <AnchorLink className="card__item" href="#faq">
             <span>FAQ</span>
-          </a>
+          </AnchorLink>
         </div>
         <div className="scroll-down">
           <p className="scroll-down__text">scroll to know more</p>

@@ -77,13 +77,17 @@
     justify-content: center;
     align-items: center;
     padding: 10rem 4.5rem 3.1rem;
-    width: 47rem;
+    width: 40%;
     height: 35.5rem;
     max-width: 100%;
     box-sizing: border-box;
     background: #ffffff;
     border-radius: 1rem;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+
+    @media @under-md {
+      width: 45rem;
+    }
   }
 
   .title_card {
@@ -96,6 +100,10 @@
 
   .button {
     width: 33.6rem;
+    @media @under-sm {
+      width: 23.6rem;
+
+    }
   }
 
   .image_card {

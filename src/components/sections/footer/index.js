@@ -2,7 +2,7 @@ import React from 'react'
 import './section_footer.less'
 
 const Footer = () => (
-  <section className="section_footer">
+  <section className="section_footer" id="faq">
     <div className="wrapper_shrink">
       <div className="column">
         <p className="description">
