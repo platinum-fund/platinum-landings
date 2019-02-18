@@ -1,6 +1,6 @@
 import React from 'react'
 import './section_preface-nav.less'
-import 'src/common.blocks/social/social-links.less'
+import Socials from 'src/components/socials'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const PrefaceNav = () => (
@@ -24,54 +24,9 @@ const PrefaceNav = () => (
             Free consultation!
           </button>
         </div>
-        <div className="social_links">
-          <p className="text">Follow us</p>
-          <div className="wrapper_links">
-            <a
-              className="service"
-              href="https://t.me/platinumfund"
-              rel="nofollow noopener noreferrer"
-              target="_blank"
-            >
-              <img
-                className="service__img"
-                src={require('src/images/icons/social/telegram.svg')}
-              />
-            </a>
-            <a
-              className="service"
-              href="https://medium.com/@PlatinumFund"
-              rel="nofollow noopener noreferrer"
-              target="_blank"
-            >
-              <img
-                className="service__img"
-                src={require('src/images/icons/social/medium.svg')}
-              />
-            </a>
-            <a
-              className="service"
-              href="https://www.facebook.com/FundPlatinum"
-              rel="nofollow noopener noreferrer"
-              target="_blank"
-            >
-              <img
-                className="service__img"
-                src={require('src/images/icons/social/facebook.svg')}
-              />
-            </a>
-            <a
-              className="service"
-              href="https://twitter.com/FundPlatinum"
-              rel="nofollow noopener noreferrer"
-              target="_blank"
-            >
-              <img
-                className="service__img"
-                src={require('src/images/icons/social/twitter.svg')}
-              />
-            </a>
-          </div>
+        <div className="wrapper_socials">
+          <p className="title">Follow us</p>
+          <Socials />
         </div>
         <div className="card card_theme_navigation">
           <AnchorLink className="card__item" href="#stooverview">
