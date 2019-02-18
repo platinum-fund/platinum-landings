@@ -1,8 +1,8 @@
 import React from 'react'
-import './section_launch-sto.less'
+import '../section_action-attention.less'
 
-const LaunchStoPure = () => (
-  <section className="section_launch-sto">
+const ActionAttention = () => (
+  <section className="section_action-attention">
     <div className="wrapper_shrink">
       <div className="headline">
         <h2 className="title title_type_section">
@@ -16,7 +16,7 @@ const LaunchStoPure = () => (
         participants of the token sale, unlike them Security Token limits token
         transfers to verified investors only.
       </p>
-      <div className="wrapper_buttons" id="legal">
+      <div className="wrapper_buttons">
         <button className="js-form-button button button_theme_light-white">
           Launch SECURITY TOKEN
         </button>
@@ -25,4 +25,4 @@ const LaunchStoPure = () => (
   </section>
 )
 
-export default LaunchStoPure
+export default ActionAttention

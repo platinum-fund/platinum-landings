@@ -11,7 +11,7 @@ import ServicesList from 'src/components/sections/servicesList'
 import StoStandart from 'src/components/sections/stoStandart'
 import StoOverview from 'src/components/sections/stoOverview'
 import StoCategories from 'src/components/sections/stoCategories'
-import LaunchSto from 'src/components/sections/launchSto'
+import ActionAttention from 'src/components/sections/actionAttention/sto'
 import LegalSto from 'src/components/sections/legalSto'
 import Fundraising from 'src/components/sections/fundraising'
 import LaunchPLatform from 'src/components/sections/launchPlatform'
@@ -37,7 +37,7 @@ const IndexPage = () => (
       <PlatinumSlider />
       <ServicesList />
       <StoStandart />
-      <LaunchSto />
+      <ActionAttention />
       <LegalSto />
       <Fundraising />
       <LaunchPLatform />

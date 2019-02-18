@@ -7,7 +7,7 @@ import BusinessGrowth from 'src/components/sections/businessGrowth'
 import StoAdvantages from 'src/components/sections/stoAdvantages'
 import SecuritiesServices from 'src/components/sections/securitiesServices'
 import StoStandart from 'src/components/sections/stoStandart'
-import LaunchSto from 'src/components/sections/launchSto'
+import ActionAttention from 'src/components/sections/actionAttention/sto'
 import CodeExample from 'src/components/sections/codeExample'
 import PlatinumEquivalency from 'src/components/sections/platinumEquivalency'
 import Reviews from 'src/components/sections/reviews'
@@ -32,7 +32,7 @@ const IndexPage = () => (
       <SecuritiesServices />
       <PlatinumEquivalency />
       <StoStandart />
-      <LaunchSto />
+      <ActionAttention />
       <CodeExample />
       <Team />
       <ServiceProviders />
