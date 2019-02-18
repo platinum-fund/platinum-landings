@@ -1,5 +1,5 @@
 import React from 'react'
-import './page_security.less'
+import './page_consulting.less'
 import config from 'src/config/consultingPage'
 import Layout from 'src/components/layout/LayoutPure'
 import PrefaceNav from 'src/components/sections/prefaceNav'
@@ -27,7 +27,7 @@ const IndexPage = () => (
     pageTitle="Services for STO: Security Token Offering Consulting from Agency Platinum.fund"
     language="en"
   >
-    <main className="page_security">
+    <main className="page_consulting">
       <PrefaceNav />
       <StoOverview />
       <StoCategories />
