@@ -1,0 +1,97 @@
+@import '~src/common.blocks/section/section';
+@import '~src/common.blocks/imports/media.less';
+
+.section-fundraising {
+  margin-bottom: 12.6rem;
+  .section();
+
+  .wrapper_shrink {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .headline {
+    max-width: 58.2rem;
+    margin-bottom: 2.5rem;
+    color: #354158;
+    text-align: center;
+  }
+
+  .title_type_subtitle {
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+  }
+
+  .card {
+    .card_type_column {
+      width: 75%;
+    }
+
+    &__title {
+      position: relative;
+      margin-bottom: 0.7em;
+      font-size: 2.3rem;
+      line-height: 3.5rem;
+      color: #354158;
+
+      &:after {
+        content: '';
+        position: absolute;
+        left: calc(50% - 1.4rem);
+        bottom: -0.9rem;
+        width: 2.8rem;
+        height: 0.4rem;
+        background: #ff6932;
+        border-radius: 4.5px;
+      }
+    }
+  }
+
+  .wrapper_cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    margin-bottom: 5.5rem;
+    width: 100%;
+  }
+
+  .wrapper_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 38rem;
+    margin-top: 2.5rem;
+  }
+
+  .card_image {
+    height: 132px;
+  }
+
+  .card_description {
+    padding-top: 2rem;
+    padding-bottom: 2.5rem;
+    font-size: 2.3rem;
+    line-height: 2.6rem;
+    color: #354158;
+    text-align: center;
+
+    &_orange {
+      color: #ff6932;
+    }
+  }
+
+  .wrapper_buttons {
+    justify-content: center;
+  }
+
+  .button {
+    width: 33.6rem;
+    @media @under-sm {
+      width: 23.6rem;
+    }
+  }
+}
+
+

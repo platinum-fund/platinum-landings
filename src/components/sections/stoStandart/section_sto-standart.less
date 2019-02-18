@@ -1,6 +1,8 @@
+@import '~src/common.blocks/imports/media.less';
 @import '~src/common.blocks/section/section';
 
 .section_sto-standart {
+  margin-bottom: 2.5rem;
   .section();
 
   .wrapper_shrink {
@@ -17,23 +19,25 @@
   .description-title {
     margin-bottom: 5.1rem;
     max-width: 98rem;
-    font-size: 2.6rem;
-    text-align: center;
+    font-size: 2.2rem;
     color: #354158;
+    text-align: center;
   }
 
   .description-wrapper {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     margin: -2rem;
     width: 100%;
+
+    @media @under-sm {
+      flex-direction: column;
+    }
   }
 
   .description-text {
     flex: 1;
     margin: 2rem;
-    min-width: 40rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     font-size: 1.8rem;

@@ -1,0 +1,240 @@
+@import '~src/common.blocks/section/section';
+@import '~src/common.blocks/imports/media.less';
+
+.section_footer-main {
+  .section();
+  position: relative;
+  color: #fff;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: url('~src/images/section-footer-main/background.png') no-repeat center 0;
+    background-size: cover;
+    @media @after-xxlg {
+      background-position-y: -15rem;
+    }
+    @media @under-sm {
+      background: linear-gradient(
+              66.77deg,
+              #01080d 15.69%,
+              #0d3440 64.54%,
+              #0e3744 70.48%,
+              #144b5b 85.25%
+      );
+    }
+  }
+
+  .wrapper_shrink {
+    position: relative;
+    margin-bottom: 10rem;
+    margin-top: 27rem;
+    @media @under-sm {
+      margin-top: 10rem;
+    }
+  }
+
+  .wrapper_social-links {
+    display: flex;
+    justify-content: flex-end;
+    @media @under-sm {
+      justify-content: center;
+      }
+  }
+
+  .social-links a {
+    filter: brightness(0) invert(1);
+    opacity: 1;
+  }
+
+  .wrapper_footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8rem;
+  }
+
+  .section_one {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    @media @under-sm {
+      flex-direction: column;
+    }
+  }
+
+  .section_two {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    @media @under-sm {
+      margin-top: 2rem;
+      flex-direction: column;
+    }
+  }
+
+  .column_button {
+    width: 100%;
+
+    .wrapper_content {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+      @media @under-sm {
+        flex-direction: column;
+      }
+    }
+
+    .content-title {
+      width: 19%;
+      margin-top: 20px;
+    }
+  }
+
+  .column-left {
+    width: 38%;
+
+    .wrapper_content {
+      height: 69rem;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+
+    .content-title {
+      width: 47%;
+      margin-top: 20px;
+    }
+  }
+
+  @media @under-sm {
+    .wrapper_content {
+      height: auto !important;
+    }
+
+    .content-title {
+      width: 100% !important;
+    }
+
+    .column-left {
+      width: 100%;
+    }
+  }
+
+  .column-right {
+    margin-left: 3.4rem;
+    width: calc(55% - 0.2rem);
+    @media @under-sm {
+      width: 100%;
+      margin-left: 0;
+      margin-top: 2rem;
+    }
+
+    .wrapper_content {
+      height: 70rem;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+
+    .content-title {
+      width: 30%;
+      margin-top: 20px;
+    }
+  }
+
+  .image-link {
+    display: block;
+    margin-top: 1.5rem;
+    max-width: 100%;
+  }
+
+  .section-title {
+    padding-bottom: 5px;
+    font-family: Montserrat, sans-serif;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #fd6700;
+    text-transform: uppercase;
+    border-bottom: 0.125rem solid #fd6700;
+  }
+
+  .title-links {
+    padding-bottom: 0.3rem;
+    font-family: Montserrat, sans-serif;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #fff;
+    border-bottom: 0.25px solid hsla(0, 0%, 98%, 0.75);
+    text-decoration: none;
+
+    &:hover {
+      border-color: #fff;
+    }
+
+    &._inactive {
+      padding-bottom: 0;
+      color: #ffffff;
+      text-decoration: none;
+      border: none;
+      opacity: 0.7;
+    }
+  }
+
+  .group-links {
+    display: block;
+  }
+
+  .group-link {
+    display: flex;
+    justify-content: space-between;
+    font-family: Montserrat, sans-serif;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    color: hsla(0, 0%, 98%, 0.25);
+    text-decoration: underline;
+    text-underline-position: under;
+
+    .text {
+      color: #fafafa;
+    }
+
+    &:hover {
+      color: hsla(0, 0%, 98%, 0.75);
+    }
+  }
+
+  .group-link-inactive {
+    display: flex;
+    justify-content: space-between;
+    font-family: Montserrat, sans-serif;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    color: hsla(0, 0%, 98%, 0.25);
+
+    .text {
+      color: #fafafa;
+    }
+
+    &:hover {
+      color: hsla(0, 0%, 98%, 0.25);
+    }
+  }
+}
+

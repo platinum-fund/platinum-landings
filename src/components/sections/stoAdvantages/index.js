@@ -2,7 +2,7 @@ import React from 'react'
 import './section_sto-advantages.less'
 
 const StoAdvantagesPure = () => (
-  <section className="section_sto-advantages">
+  <section className="section_sto-advantages" id="advantages">
     <div className="wrapper_shrink">
       <div className="headline">
         <h2 className="title title_type_section">Security Tokens -</h2>
@@ -13,7 +13,7 @@ const StoAdvantagesPure = () => (
           <div className="card__row">
             <h6 className="card__main-title">For Companies</h6>
             <p className="card__description">
-              WHY SHOULD YOU CREAE A SECURITY TOKEN?
+              WHY SHOULD YOU CREATE A SECURITY TOKEN?
             </p>
           </div>
           <div className="card__row">

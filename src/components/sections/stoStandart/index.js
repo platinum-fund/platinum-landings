@@ -7,7 +7,7 @@ const StoStandartPure = () => (
       <div className="headline">
         <h2 className="title title_type_section _orange">PLS-360</h2>
         <h4 className="title title_type_subtitle">
-          Platinum Sercurity Token Standard
+          Platinum Security Token Standard
         </h4>
       </div>
       <h2 className="description-title">
