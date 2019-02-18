@@ -1,5 +1,6 @@
 import React from 'react'
 import './page_security.less'
+import config from 'src/config/consultingPage'
 import Layout from 'src/components/layout/LayoutPure'
 import PrefaceNav from 'src/components/sections/prefaceNav'
 import StoAdvantages from 'src/components/sections/stoAdvantages'
@@ -20,7 +21,6 @@ import Team from 'src/components/sections/team'
 import Footer from 'src/components/sections/footer'
 import Articles from 'src/components/sections/articles'
 import ContactForm from 'src/components/contactFormPopup'
-
 
 const IndexPage = () => (
   <Layout
@@ -46,7 +46,7 @@ const IndexPage = () => (
       <Articles />
       <Team />
       <Footer />
-      <ContactForm />
+      <ContactForm config={config.contactForm} />
     </main>
   </Layout>
 )
