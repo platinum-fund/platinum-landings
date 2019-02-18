@@ -133,25 +133,6 @@ const team = [
     ]
   },
   {
-    name: 'Aliaksandr Serzhanovich',
-    position: 'Head of Marketing team',
-    photo: require('./images/team/aliaksandr-serzhanovich.jpg'),
-    socials: [
-      {
-        link: 'https://www.linkedin.com/in/aliaksandr-serzhanovich-5638852a/',
-        icon: require('src/images/icons/social/linkedin.svg')
-      },
-      {
-        link: 'https://telegram.me/Alsech',
-        icon: require('src/images/icons/social/telegram.svg')
-      },
-      {
-        link: 'skype:alsechser',
-        icon: require('src/images/icons/social/skype.svg')
-      }
-    ]
-  },
-  {
     name: 'Anzhelika Erhan',
     position: 'Senior Designer',
     photo: require('./images/team/anzhelika-erhan.jpg'),

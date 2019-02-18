@@ -1,0 +1,85 @@
+@import '~src/common.blocks/section/section';
+@import '~src/common.blocks/imports/media.less';
+
+.section_about {
+  .section();
+
+  .wrapper_shrink {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .headline {
+    margin-bottom: 2.5rem;
+    max-width: 70.2rem;
+    color: #354158;
+    text-align: center;
+  }
+  .card {
+    &__title {
+      position: relative;
+      margin-bottom: 0.7em;
+      font-size: 2.3rem;
+      line-height: 3.5rem;
+      color: #354158;
+
+      &:after {
+        content: '';
+        position: absolute;
+        left: calc(50% - 1.4rem);
+        bottom: -0.9rem;
+        width: 2.8rem;
+        height: 0.4rem;
+        background: #ff6932;
+        border-radius: 4.5px;
+      }
+    }
+    .section_description {
+      font-family: Poppins, sans-serif;
+      font-size: 1.5rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      color: rgba(0, 0, 0, 0.6);
+      text-align: center;
+    }
+
+    @media @under-sm {
+      .section_description {
+        &._little {
+          width: 100%;
+        }
+      }
+    }
+  }
+  .wrapper_cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    width: 100%;
+  }
+
+  .wrapper_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2.5rem;
+    width: 38rem;
+  }
+
+  .card_image {
+    height: 132px;
+  }
+  .card_description {
+    padding-top: 2rem;
+    font-size: 2.2rem;
+    line-height: 2.5rem;
+    color: #354158;
+    text-align: center;
+    &_orange {
+      color: #ff6932;
+    }
+  }
+}

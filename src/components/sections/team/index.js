@@ -10,9 +10,6 @@ const TeamSectionPure = () => (
         <h2 className="title title_type_section-attention">Team</h2>
       </header>
       <Team />
-      <button className="js-form-button button button_theme_main">
-        Get consultation
-      </button>
     </div>
   </section>
 )

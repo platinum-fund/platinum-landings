@@ -1,0 +1,71 @@
+@import '~src/common.blocks/section/section';
+@import '~src/common.blocks/imports/media.less';
+
+.section-benefits {
+  .section();
+
+  .wrapper_shrink {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .headline {
+    text-align: center;
+    margin-bottom: 5rem;
+  }
+
+  .title_type_section {
+    font-size: 3rem;
+    line-height: 3.4rem;
+  }
+
+  .title_type_subtitle {
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+  }
+
+  .wrapper_cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 0;
+  }
+
+  .card {
+    margin-right: 1.6rem;
+    margin-bottom: 4.7rem;
+    height: 24rem;
+    width: 26.9rem;
+    max-width: 90vw;
+    text-align: center;
+
+    &__image {
+      height: 8rem;
+    }
+
+    &__title {
+      font-size: 2.3rem;
+      margin-bottom: 0.39em;
+    }
+
+    &__description-big {
+      margin-top: 3.3rem;
+      font-family: Ubuntu, sans-serif;
+      font-size: 2.2rem;
+      line-height: 2.5rem;
+      color: #354158;
+      text-align: center;
+      opacity: 1;
+      &--orange {
+        color: #ff6932;
+        &:before {
+          content: ' ';
+        }
+        &:after {
+          content: ' ';
+        }
+      }
+    }
+  }
+}

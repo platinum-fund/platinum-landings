@@ -10,7 +10,7 @@ import './stylesheets/member/__social/member__social.less'
 import './stylesheets/member/__socials/member__socials.less'
 
 const Team = props => (
-  <div className="team">
+  <div className="team" id="team">
     {teamList.map((teamMember, i) => (
       <TeamMember {...teamMember} key={`teamMember${i}`} />
     ))}
