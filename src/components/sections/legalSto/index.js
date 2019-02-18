@@ -3,7 +3,7 @@ import './legal-sto.less'
 import icon from '../../../images/favicon.png'
 
 const LegalSto = ({ buttons }) => (
-  <section className="section section_legal-sto">
+  <section className="section section_legal-sto" id="legal">
     <div className="wrapper_shrink">
       <div className="headline">
         <h2 className="title title_type_section">Legal for STO is IMPORTANT</h2>

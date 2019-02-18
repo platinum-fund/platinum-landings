@@ -1,0 +1,43 @@
+@import '../section_details';
+
+.section_details-ieo {
+  .section_details();
+
+  .headline {
+    margin-bottom: 8.2rem;
+  }
+
+  .card {
+    height: 40rem;
+    width: 37rem;
+    max-width: 90vw;
+    text-align: center;
+
+    &__image {
+      height: 11rem;
+      margin-bottom: 4rem;
+    }
+
+    &__title {
+      position: relative;
+      font-size: 2.3rem;
+      margin-bottom: 2rem;
+
+      &:after {
+        content: '';
+        position: absolute;
+        bottom: -1.2rem;
+        left: calc(50% - 1.4rem);
+        width: 2.8rem;
+        height: 0.4rem;
+        background: #ff6932;
+        border-radius: 4.5px;
+      }
+    }
+
+    &__description {
+      font-size: 1.6rem;
+      line-height: 2.4rem;
+    }
+  }
+}
