@@ -2,12 +2,12 @@ import React from 'react'
 import './page_security.less'
 import config from 'src/config/securityPage'
 import Layout from 'src/components/layout/LayoutPure'
-import Preface from 'src/components/sections/preface'
-import BusinessGrowth from 'src/components/sections/businessGrowth'
+import Preface from 'src/components/sections/preface/security'
+import BusinessGrowth from 'src/components/sections/details/security'
 import StoAdvantages from 'src/components/sections/stoAdvantages'
 import SecuritiesServices from 'src/components/sections/securitiesServices'
 import StoStandart from 'src/components/sections/stoStandart'
-import LaunchSto from 'src/components/sections/launchSto'
+import ActionAttention from 'src/components/sections/actionAttention/sto'
 import CodeExample from 'src/components/sections/codeExample'
 import PlatinumEquivalency from 'src/components/sections/platinumEquivalency'
 import Reviews from 'src/components/sections/reviews'
@@ -32,7 +32,7 @@ const IndexPage = () => (
       <SecuritiesServices />
       <PlatinumEquivalency />
       <StoStandart />
-      <LaunchSto />
+      <ActionAttention />
       <CodeExample />
       <Team />
       <ServiceProviders />

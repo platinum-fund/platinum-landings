@@ -5,7 +5,7 @@ import secondImage from '../../../images/section-about/2.png'
 import thirdImage from '../../../images/section-about/3.png'
 
 const About = () => (
-  <section className="section_about">
+  <section className="section_about" id="section-about">
     <div className="wrapper_shrink">
       <div className="headline">
         <h2 className="title title_type_section">ABOUT</h2>
