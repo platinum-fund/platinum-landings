@@ -1,0 +1,48 @@
+@import '../section_preface.less';
+@import '~src/common.blocks/imports/media.less';
+
+.section_preface-ieo {
+  .section_preface();
+
+  .headline {
+    margin-bottom: 7rem;
+    text-align: center;
+
+    .title {
+      text-transform: uppercase;
+    }
+
+    .title_type_main,
+    .title_type_main-attention {
+      @media @under-sm {
+        text-align: left;
+        font-size: 4rem;
+      }
+    }
+  }
+
+  .button {
+    width: 33.6rem;
+  }
+
+  .wrapper_buttons {
+    margin-bottom: 24.8rem;
+
+    @media @under-md {
+      margin-bottom: 10rem;
+    }
+  }
+
+  .wrapper_socials .title {
+    margin-bottom: 0;
+
+    @media @under-md {
+      color: #fff;
+    }
+  }
+
+  .socials {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
