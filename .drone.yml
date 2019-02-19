@@ -1,0 +1,19 @@
+pipeline:
+  deploy:
+    image: appleboy/drone-ssh
+    host:
+      from_secret: ssh_host
+    port: 9991
+    username: mmdev
+    secrets: [ ssh_key ]
+    command_timeout: 360
+    script:
+      - mkdir /opt/apps/prod/static/releases/security/${DRONE_BUILD_NUMBER}/
+      - cd /opt/apps/prod/${DRONE_REPO_NAME}/
+      - git fetch && git pull && git submodule update --recursive --remote
+      - npm install && yarn install && yarn run build
+      - cp -r /opt/apps/prod/${DRONE_REPO_NAME}/public/* /opt/apps/prod/static/releases/security/${DRONE_BUILD_NUMBER}/
+      - cd /opt/apps/prod/static/releases/security/ && ln -sfn ./${DRONE_BUILD_NUMBER}/ ./release
+    when:
+      branch: master
+      event: push
