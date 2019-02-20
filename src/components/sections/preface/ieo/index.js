@@ -1,7 +1,7 @@
 import React from 'react'
 import './section_preface-ieo.less'
 import Socials from 'src/components/socials'
-import SectionsNavbar from 'src/components/SectionsNavbar'
+import SectionsNavbar from 'src/components/sectionsNavbar'
 import content from './content'
 
 const PrefacePure = () => (
