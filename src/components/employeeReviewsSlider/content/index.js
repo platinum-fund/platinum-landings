@@ -18,12 +18,6 @@ const content = [
     position: `Head of HR`
   },
   {
-    photo: require('src/images/team/highres/photos7.png'),
-    text: `In Platinum, we don't have a "Big Brother" that would be watching our every move. Moreover, my boss acknowledges that he can't know everything, that's why he values and respects the opinion based on my experience. That's very encouraging when no one tells you what to do, or not to do, of course, you should be always acting in good faith and do your job well.`,
-    position: `Finance director`,
-    name: `Natalia Klemenova`
-  },
-  {
     photo: require('src/images/team/highres/photos14.png'),
     text: `Besides the fact that Platinum is a serious company, the atmosphere here is very friendly, and you will never see a sad face. It's true that you can find many people with thinking face, but be sure that at this point a great idea is emerging. I also love that there is always something to laugh about. Even with the bad weather outside, "a dash of humor" brings back my positivity and happiness.`,
     position: `Head of affiliate marketing department `,
