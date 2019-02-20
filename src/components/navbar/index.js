@@ -44,6 +44,18 @@ const Navbar = props => (
         <div className="navbar__links-group-wrapper">
           <p className="navbar__link navbar__more-button">More</p>
           <div className="navbar__links-group">
+            <a className="navbar__link" href="https://platinum.fund/ieo/">
+              IEO
+            </a>
+            <a
+              className="navbar__link"
+              href="https://platinum.fund/sto-consulting/"
+            >
+              STO Consulting
+            </a>
+            <a className="navbar__link" href="https://platinum.fund/business/">
+              Business
+            </a>
             <a
               className="navbar__link"
               href="https://www.platinum.fund/wallet/"
