@@ -31,11 +31,6 @@ const content = {
       image: require('src/images/team/highres/photos6.png')
     },
     {
-      title: 'Natalia Klemenova',
-      subtitle: 'Finance director',
-      image: require('src/images/team/highres/photos7.png')
-    },
-    {
       title: 'Pavel Bogush',
       subtitle: 'COO',
       image: require('src/images/team/highres/photos10.png')
