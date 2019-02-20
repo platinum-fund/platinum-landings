@@ -90,4 +90,40 @@
       opacity: 1;
     }
   }
+
+  &__links-group-wrapper {
+    position: relative;
+  }
+
+  &__links-group {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+
+    @media @after-sm {
+      position: absolute;
+      top: 2rem;
+      right: -1rem;
+      display: none;
+      border-radius: 6px;
+      background-color: #fff;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.13);
+    }
+  }
+
+  &__more-button {
+    cursor: pointer;
+
+    @media @under-sm {
+      display: none;
+    }
+  }
+
+  &__more-button:hover ~ &__links-group {
+    display: flex;
+  }
+
+  &__links-group:hover {
+    display: flex;
+  }
 }

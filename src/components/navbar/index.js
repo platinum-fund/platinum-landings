@@ -21,13 +21,10 @@ const Navbar = props => (
           className="navbar__link"
           href="https://www.platinum.fund/ico-platform"
         >
-          STO &amp; ICO dashboard
+          STO & ICO dashboard
         </a>
         <a className="navbar__link" href="https://www.platinum.fund/ico-start/">
           ICO start
-        </a>
-        <a className="navbar__link" href="https://www.platinum.fund/wallet/">
-          Wallet
         </a>
         <a className="navbar__link" href="https://www.platinum.fund/legal/">
           Legal
@@ -41,12 +38,23 @@ const Navbar = props => (
         <a className="navbar__link" href="https://www.platinum.fund/zmest/">
           Marketing
         </a>
-        <a className="navbar__link" href="https://www.platinum.fund/hr/">
-          Hiring!
-        </a>
         <a className="navbar__link" href="https://blog.platinum.fund/">
           Blog
         </a>
+        <div className="navbar__links-group-wrapper">
+          <p className="navbar__link navbar__more-button">More</p>
+          <div className="navbar__links-group">
+            <a
+              className="navbar__link"
+              href="https://www.platinum.fund/wallet/"
+            >
+              Wallet
+            </a>
+            <a className="navbar__link" href="https://www.platinum.fund/hr/">
+              Hiring!
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
