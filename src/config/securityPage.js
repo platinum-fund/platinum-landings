@@ -1,6 +1,6 @@
 const config = {
   contactForm: {
-    landingName: 'sto'
+    landingName: 'security'
   }
 }
 
