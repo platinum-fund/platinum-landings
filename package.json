@@ -1,9 +1,8 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "platinum-landings",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Platinum dev team",
   "dependencies": {
     "and": "0.0.3",
     "gatsby": "^2.0.76",
