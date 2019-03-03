@@ -9,16 +9,14 @@ const PrefacePure = () => (
     <div className="wrapper_shrink">
       <header className="headline">
         <h1 className="title title_type_main">
-          Do you want to
-          <span className="title_type_main-attention">raise</span>
-          more than a
-          <span className="title_type_main-attention">million dollars</span>
-          despite the market conditions?
+          IEO - INITIAL
+          <span className="title_type_main-attention">EXCHANGE OFFERING</span>
+          TOP notch way to rise money for your project!
         </h1>
       </header>
       <div className="wrapper_buttons">
         <button className="js-form-button button button_theme_main">
-          Ask us how!
+          APPLY NOW for MORE DETAILS!
         </button>
       </div>
       <div className="wrapper_bottom">
