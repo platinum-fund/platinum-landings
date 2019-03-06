@@ -56,6 +56,9 @@ const Navbar = props => (
             <a className="navbar__link" href="https://platinum.fund/business/">
               Business
             </a>
+            <a className="navbar__link" href="https://platinum.fund/mlm/">
+              MLM
+            </a>
             <a
               className="navbar__link"
               href="https://www.platinum.fund/wallet/"
