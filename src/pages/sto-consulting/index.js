@@ -18,6 +18,7 @@ import LaunchPLatform from 'src/components/sections/launchPlatform'
 import Benefits from 'src/components/sections/benefits'
 import Reviews from 'src/components/sections/reviews'
 import Team from 'src/components/sections/team'
+import PastSupportedTokens from 'src/components/sections/PastSupportedTokens/sto-consulting'
 import Footer from 'src/components/sections/footer'
 import Articles from 'src/components/sections/articles'
 import ContactForm from 'src/components/contactFormPopup'
@@ -45,6 +46,7 @@ const IndexPage = () => (
       <Reviews />
       <Articles />
       <Team />
+      <PastSupportedTokens />
       <Footer />
       <ContactForm config={config.contactForm} />
     </main>
