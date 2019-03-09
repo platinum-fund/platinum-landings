@@ -47,12 +47,6 @@ const Navbar = props => (
             <a className="navbar__link" href="https://platinum.fund/ieo/">
               IEO
             </a>
-            <a
-              className="navbar__link"
-              href="https://platinum.fund/sto-consulting/"
-            >
-              STO Consulting
-            </a>
             <a className="navbar__link" href="https://platinum.fund/business/">
               Business
             </a>
