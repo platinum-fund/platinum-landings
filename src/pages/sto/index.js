@@ -1,6 +1,6 @@
 import React from 'react'
-import './page_consulting.less'
-import config from 'src/config/consultingPage'
+import './page_sto.less'
+import config from 'src/config/stoPage'
 import Layout from 'src/components/layout/LayoutPure'
 import PrefaceNav from 'src/components/sections/prefaceNav'
 import StoAdvantages from 'src/components/sections/stoAdvantages'
@@ -18,7 +18,7 @@ import LaunchPLatform from 'src/components/sections/launchPlatform'
 import Benefits from 'src/components/sections/benefits'
 import Reviews from 'src/components/sections/reviews'
 import Team from 'src/components/sections/team'
-import PastSupportedTokens from 'src/components/sections/pastSupportedTokens/sto-consulting'
+import PastSupportedTokens from 'src/components/sections/pastSupportedTokens/sto'
 import Footer from 'src/components/sections/footer'
 import Articles from 'src/components/sections/articles'
 import ContactForm from 'src/components/contactFormPopup'
@@ -28,7 +28,7 @@ const IndexPage = () => (
     pageTitle="Services for STO: Security Token Offering Consulting from Agency Platinum.fund"
     language="en"
   >
-    <main className="page_consulting">
+    <main className="page_sto">
       <PrefaceNav />
       <StoOverview />
       <StoCategories />
