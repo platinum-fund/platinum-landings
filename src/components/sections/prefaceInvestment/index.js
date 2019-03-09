@@ -13,20 +13,21 @@ const prefaceInvestment = ({ config }) => (
         <header className="header">
           <h2 className="headline">
             <span className="title title_type_main-attention">
-              Invest in the working ICO/STO
+              Invest now in equity of PLATINUM
             </span>
             <span className="title title_type_main">
-              consulting and management business
+              - successful Blockchain Development Company !
             </span>
           </h2>
           <h4 className="title title_type_subtitle">
-            One of the biggest and profitable companies on the crypto market
+            We are one of the biggest and profitable companies at the crypto
+            market
           </h4>
         </header>
         <ContactForm
           label="Enter your email to get the prospectus"
           placeholder="Your email*"
-          buttonText="Get information"
+          buttonText="Get more details now!"
           config={config.contactForm}
         />
         <Socials />
