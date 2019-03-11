@@ -1,6 +1,6 @@
 import React from 'react'
 import './section_team.less'
-import Team from 'src/components/team'
+import 'platinum-ui/src/components/universal/project-team'
 
 const TeamSectionPure = () => (
   <section className="section section_team" id="platinum-team">
@@ -9,7 +9,7 @@ const TeamSectionPure = () => (
         <h2 className="title title_type_section">Our</h2>
         <h2 className="title title_type_section-attention">Team</h2>
       </header>
-      <Team />
+      <project-team />
     </div>
   </section>
 )
