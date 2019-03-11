@@ -1,6 +1,9 @@
 import React from 'react'
 import './section_team.less'
-import 'platinum-ui/src/components/universal/project-team'
+
+if (typeof window !== 'undefined') {
+  require('platinum-ui/src/components/universal/project-team')
+}
 
 const TeamSectionPure = () => (
   <section className="section section_team" id="platinum-team">
