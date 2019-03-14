@@ -10,9 +10,8 @@ const Footer = () => (
           itemscope
           itemtype="https://schema.org/Organization"
         >
-          <span itemprop="name">PLATINUM SECURITIES company LTD</span>,
+          <span itemprop="name">PLATINUM SECURITIES company LTD, </span>
           <span itemprop="streetAddress">
-            {' '}
             Global Gateway 8, Rue de la Perle
           </span>
           ,<span itemprop="addressRegion"> Providence, Mahe</span>,
