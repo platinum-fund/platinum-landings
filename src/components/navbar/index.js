@@ -8,34 +8,28 @@ const Navbar = props => (
       <img className="navbar__logo" src={logo} alt="" />
       <button className="navbar__menu-button">Services</button>
       <div className="navbar__links">
-        <a className="navbar__link" href="https://www.platinum.fund/sto/">
+        <a className="navbar__link" href="https://platinum.fund/sto/">
           STO
         </a>
-        <a className="navbar__link" href="https://www.platinum.fund/security/">
+        <a className="navbar__link" href="https://platinum.fund/security/">
           Create security token
         </a>
-        <a className="navbar__link" href="https://www.platinum.fund/listing/">
+        <a className="navbar__link" href="https://platinum.fund/listing/">
           Listing
         </a>
-        <a
-          className="navbar__link"
-          href="https://www.platinum.fund/ico-platform"
-        >
+        <a className="navbar__link" href="https://platinum.fund/ico-platform">
           STO & ICO dashboard
         </a>
-        <a className="navbar__link" href="https://www.platinum.fund/ico-start/">
+        <a className="navbar__link" href="https://platinum.fund/ico-start/">
           ICO start
         </a>
-        <a className="navbar__link" href="https://www.platinum.fund/legal/">
+        <a className="navbar__link" href="https://platinum.fund/legal/">
           Legal
         </a>
-        <a
-          className="navbar__link"
-          href="https://www.platinum.fund/marketmaking/"
-        >
+        <a className="navbar__link" href="https://platinum.fund/marketmaking/">
           Market making
         </a>
-        <a className="navbar__link" href="https://www.platinum.fund/zmest/">
+        <a className="navbar__link" href="https://platinum.fund/zmest/">
           Marketing
         </a>
         <a className="navbar__link" href="https://blog.platinum.fund/">
@@ -53,13 +47,10 @@ const Navbar = props => (
             <a className="navbar__link" href="https://platinum.fund/mlm/">
               MLM
             </a>
-            <a
-              className="navbar__link"
-              href="https://www.platinum.fund/wallet/"
-            >
+            <a className="navbar__link" href="https://platinum.fund/wallet/">
               Wallet
             </a>
-            <a className="navbar__link" href="https://www.platinum.fund/hr/">
+            <a className="navbar__link" href="https://platinum.fund/hr/">
               Hiring!
             </a>
           </div>
