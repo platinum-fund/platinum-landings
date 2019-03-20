@@ -4,7 +4,7 @@ const content = [
     icon: require('src/images/icons/social/telegram.svg')
   },
   {
-    link: 'https://medium.com/@PlatinumFund',
+    link: 'https://medium.com/platinum-fund',
     icon: require('src/images/icons/social/medium.svg')
   },
   {
