@@ -1,7 +1,7 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
-import TranslationProvider from 'src/components/translationProvider/TranslationProvider'
 import 'src/common.blocks/index.less'
+import LanguageContext from 'src/contexts/language'
 import Navbar from 'src/components/navbar'
 import { GoogleTagManagerBody, YandexMetrikaBody } from './scripts/analytics'
 
@@ -9,7 +9,7 @@ const LayoutPure = props => {
   const { pageTitle, language = 'en', children } = props
 
   return (
-    <>
+    <LanguageContext.Provider value={language}>
       <Helmet>
         <meta charSet="utf-8" />
         <title>{pageTitle}</title>
@@ -53,8 +53,8 @@ const LayoutPure = props => {
       <GoogleTagManagerBody />
       <YandexMetrikaBody />
       <Navbar />
-      <TranslationProvider language={language}>{children}</TranslationProvider>
-    </>
+      {children}
+    </LanguageContext.Provider>
   )
 }
 
