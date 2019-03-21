@@ -13,58 +13,63 @@ const PrefaceNav = () => (
         <div className="headline">
           <div className="headline _title">
             <h1 className="title title_type_main">
-              <FormattedHTMLMessage
-                id="fundraising"
-                defaultMessage={'fundraising'}
-              />
+              <FormattedHTMLMessage id="fundraising" />
             </h1>
             <h4 className="title title_type_second">
-              <FormattedHTMLMessage
-                id="getYourProjectReviewedNow"
-                defaultMessage={'getYourProjectReviewedNow'}
-              />
+              <FormattedHTMLMessage id="getYourProjectReviewedNow" />
             </h4>
           </div>
           <div className="wrapper_buttons">
             <button className="js-form-button button button_theme_main">
-              Free consultation!
+              <FormattedHTMLMessage id="freeConsultation" />
             </button>
           </div>
           <div className="wrapper_socials">
             <p className="title">
-              <FormattedHTMLMessage id="followUs" defaultMessage={'followUs'} />
+              <FormattedHTMLMessage id="followUs" />
             </p>
             <Socials />
           </div>
           <div className="card card_theme_navigation">
             <AnchorLink className="card__item" href="#stooverview">
-              <span>What is STO?</span>
+              <span>
+                <FormattedHTMLMessage id="whatIsSto" />
+              </span>
             </AnchorLink>
             <AnchorLink className="card__item" href="#advantages">
-              <span>Advantages of STO</span>
+              <span>
+                <FormattedHTMLMessage id="advantagesOfSto" />
+              </span>
             </AnchorLink>
             <AnchorLink className="card__item" href="#legal">
-              <span>Legal for STO</span>
+              <span>
+                <FormattedHTMLMessage id="legalForSto" />
+              </span>
             </AnchorLink>
             <AnchorLink className="card__item" href="#cases">
-              <span>Cases</span>
+              <span>
+                <FormattedHTMLMessage id="cases" />
+              </span>
             </AnchorLink>
             <AnchorLink className="card__item" href="#media">
-              <span>Platinum Media</span>
+              <span>
+                <FormattedHTMLMessage id="platinumMedia" />
+              </span>
             </AnchorLink>
             <AnchorLink className="card__item" href="#team">
-              <span>Platinum Team</span>
+              <span>
+                <FormattedHTMLMessage id="platinumTeam" />
+              </span>
             </AnchorLink>
             <AnchorLink className="card__item" href="#faq">
-              <span>FAQ</span>
+              <span>
+                <FormattedHTMLMessage id="faq" />
+              </span>
             </AnchorLink>
           </div>
           <div className="scroll-down">
             <p className="scroll-down__text">
-              <FormattedHTMLMessage
-                id="scrollToKnowMore"
-                defaultMessage={'scrollToKnowMore'}
-              />
+              <FormattedHTMLMessage id="scrollToKnowMore" />
             </p>
             <img
               className="scroll-down__icon"

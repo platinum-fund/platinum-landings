@@ -2,7 +2,7 @@
   "whatIs": "What is",
   "securityTokenOffering": "Security Token Offering",
   "aSecurityTokenOfferingSto": "A Security Token Offering (STO) is the cryptographic          tokenization of your capital providing investors with a digital share of your company.",
-  "securityTokens": "<span classname=\"section_description--bold\">           Security Tokens          </span>          are defined as          <span classname=\"section_description--bold\">            financial securities          </span>          in accordance with the Howey test and empower investors with financial benefits such as:",
+  "securityTokens": "<span class=\"section_description--bold\">           Security Tokens          </span>          are defined as          <span class=\"section_description--bold\">            financial securities          </span>          in accordance with the Howey test and empower investors with financial benefits such as:",
   "dividends": "DIVIDENDS",
   "equity": "EQUITY",
   "profitSharingRights": "PROFIT SHARING RIGHTS",

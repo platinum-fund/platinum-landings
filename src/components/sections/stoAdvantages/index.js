@@ -10,32 +10,20 @@ const StoAdvantagesPure = () => (
       <div className="wrapper_shrink">
         <div className="headline">
           <h2 className="title title_type_section">
-            <FormattedHTMLMessage
-              id="securityTokens"
-              defaultMessage={'securityTokens'}
-            />
+            <FormattedHTMLMessage id="securityTokens" />
           </h2>
           <h2 className="title title_type_section _orange">
-            <FormattedHTMLMessage
-              id="theOnlyWay"
-              defaultMessage={'theOnlyWay'}
-            />
+            <FormattedHTMLMessage id="theOnlyWay" />
           </h2>
         </div>
         <div className="wrapper_cards flex _wrap">
           <div className="card card_theme_tall card_theme_dark">
             <div className="card__row">
               <h6 className="card__main-title">
-                <FormattedHTMLMessage
-                  id="forCompanies"
-                  defaultMessage={'forCompanies'}
-                />
+                <FormattedHTMLMessage id="forCompanies" />
               </h6>
               <p className="card__description">
-                <FormattedHTMLMessage
-                  id="whyShouldYouCreateA"
-                  defaultMessage={'whyShouldYouCreateA'}
-                />
+                <FormattedHTMLMessage id="whyShouldYouCreateA" />
               </p>
             </div>
             <div className="card__row">
@@ -45,17 +33,11 @@ const StoAdvantagesPure = () => (
                   src={require('src/images/section-sto-advantages/liquidity.svg')}
                 />
                 <h6>
-                  <FormattedHTMLMessage
-                    id="liquidity"
-                    defaultMessage={'liquidity'}
-                  />
+                  <FormattedHTMLMessage id="liquidity" />
                 </h6>
               </div>
               <p className="card__description">
-                <FormattedHTMLMessage
-                  id="securityTokensProvideASubstantial"
-                  defaultMessage={'securityTokensProvideASubstantial'}
-                />
+                <FormattedHTMLMessage id="securityTokensProvideASubstantial" />
               </p>
             </div>
             <div className="card__row">
@@ -65,17 +47,11 @@ const StoAdvantagesPure = () => (
                   src={require('src/images/section-sto-advantages/efficiency.svg')}
                 />
                 <h6>
-                  <FormattedHTMLMessage
-                    id="effectiveness"
-                    defaultMessage={'effectiveness'}
-                  />
+                  <FormattedHTMLMessage id="effectiveness" />
                 </h6>
               </div>
               <p className="card__description">
-                <FormattedHTMLMessage
-                  id="attractInvestmentsInCryptocurrencyAnd"
-                  defaultMessage={'attractInvestmentsInCryptocurrencyAnd'}
-                />
+                <FormattedHTMLMessage id="attractInvestmentsInCryptocurrencyAnd" />
               </p>
             </div>
             <div className="card__row">
@@ -85,33 +61,21 @@ const StoAdvantagesPure = () => (
                   src={require('src/images/section-sto-advantages/transparency.svg')}
                 />
                 <h6>
-                  <FormattedHTMLMessage
-                    id="transparency"
-                    defaultMessage={'transparency'}
-                  />
+                  <FormattedHTMLMessage id="transparency" />
                 </h6>
               </div>
               <p className="card__description">
-                <FormattedHTMLMessage
-                  id="eachSecurityTokenProducerIs"
-                  defaultMessage={'eachSecurityTokenProducerIs'}
-                />
+                <FormattedHTMLMessage id="eachSecurityTokenProducerIs" />
               </p>
             </div>
           </div>
           <div className="card card_theme_tall card_theme_light">
             <div className="card__row">
               <h6 className="card__main-title">
-                <FormattedHTMLMessage
-                  id="forInvestors"
-                  defaultMessage={'forInvestors'}
-                />
+                <FormattedHTMLMessage id="forInvestors" />
               </h6>
               <p className="card__description">
-                <FormattedHTMLMessage
-                  id="whyShouldYouInvestIn"
-                  defaultMessage={'whyShouldYouInvestIn'}
-                />
+                <FormattedHTMLMessage id="whyShouldYouInvestIn" />
               </p>
             </div>
             <div className="card__row">
@@ -121,17 +85,11 @@ const StoAdvantagesPure = () => (
                   src={require('src/images/section-sto-advantages/lower-fees.svg')}
                 />
                 <h6>
-                  <FormattedHTMLMessage
-                    id="reducedCommissions"
-                    defaultMessage={'reducedCommissions'}
-                  />
+                  <FormattedHTMLMessage id="reducedCommissions" />
                 </h6>
               </div>
               <p className="card__description">
-                <FormattedHTMLMessage
-                  id="traditionalFinancialSystemsHaveMany"
-                  defaultMessage={'traditionalFinancialSystemsHaveMany'}
-                />
+                <FormattedHTMLMessage id="traditionalFinancialSystemsHaveMany" />
               </p>
             </div>
             <div className="card__row">
@@ -141,17 +99,11 @@ const StoAdvantagesPure = () => (
                   src={require('src/images/section-sto-advantages/markets.svg')}
                 />
                 <h6>
-                  <FormattedHTMLMessage
-                    id="unstoppableMarket"
-                    defaultMessage={'unstoppableMarket'}
-                  />
+                  <FormattedHTMLMessage id="unstoppableMarket" />
                 </h6>
               </div>
               <p className="card__description">
-                <FormattedHTMLMessage
-                  id="blockchainHasNoHolidaysDays"
-                  defaultMessage={'blockchainHasNoHolidaysDays'}
-                />
+                <FormattedHTMLMessage id="blockchainHasNoHolidaysDays" />
               </p>
             </div>
             <div className="card__row">
@@ -161,17 +113,11 @@ const StoAdvantagesPure = () => (
                   src={require('src/images/section-sto-advantages/crypto.svg')}
                 />
                 <h6>
-                  <FormattedHTMLMessage
-                    id="automatedCryptocurrencyFundraising"
-                    defaultMessage={'automatedCryptocurrencyFundraising'}
-                  />
+                  <FormattedHTMLMessage id="automatedCryptocurrencyFundraising" />
                 </h6>
               </div>
               <p className="card__description">
-                <FormattedHTMLMessage
-                  id="presentMoneyInCryptocurrencyAnd"
-                  defaultMessage={'presentMoneyInCryptocurrencyAnd'}
-                />
+                <FormattedHTMLMessage id="presentMoneyInCryptocurrencyAnd" />
               </p>
             </div>
             <div className="card__row">
@@ -181,17 +127,11 @@ const StoAdvantagesPure = () => (
                   src={require('src/images/section-sto-advantages/liquidity.svg')}
                 />
                 <h6>
-                  <FormattedHTMLMessage
-                    id="liquidityForPrivateSecurities"
-                    defaultMessage={'liquidityForPrivateSecurities'}
-                  />
+                  <FormattedHTMLMessage id="liquidityForPrivateSecurities" />
                 </h6>
               </div>
               <p className="card__description">
-                <FormattedHTMLMessage
-                  id="securityTokensProvideASubstantial"
-                  defaultMessage={'securityTokensProvideASubstantial'}
-                />
+                <FormattedHTMLMessage id="securityTokensProvideASubstantial" />
               </p>
             </div>
           </div>

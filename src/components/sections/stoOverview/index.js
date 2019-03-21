@@ -10,48 +10,30 @@ const StoOverview = () => (
       <div className="wrapper_shrink">
         <div className="wrapper _content">
           <h2 className="title title_type_section">
-            <FormattedHTMLMessage id="whatIs" defaultMessage={'whatIs'} />
+            <FormattedHTMLMessage id="whatIs" />
           </h2>
           <h2 className="title title_type_section _orange">
-            <FormattedHTMLMessage
-              id="securityTokenOffering"
-              defaultMessage={'securityTokenOffering'}
-            />
+            <FormattedHTMLMessage id="securityTokenOffering" />
           </h2>
           <h2 className="title title_type_section">?</h2>
           <p className="section_description">
-            <FormattedHTMLMessage
-              id="aSecurityTokenOfferingSto"
-              defaultMessage={'aSecurityTokenOfferingSto'}
-            />
+            <FormattedHTMLMessage id="aSecurityTokenOfferingSto" />
           </p>
           <p className="section_description">
-            <FormattedHTMLMessage
-              id="securityTokens"
-              defaultMessage={'securityTokens'}
-            />
+            <FormattedHTMLMessage id="securityTokens" />
           </p>
           <ul className="section__list theme_diamond">
             <li className="section__text">
-              <FormattedHTMLMessage
-                id="dividends"
-                defaultMessage={'dividends'}
-              />
+              <FormattedHTMLMessage id="dividends" />
             </li>
             <li className="section__text">
-              <FormattedHTMLMessage id="equity" defaultMessage={'equity'} />
+              <FormattedHTMLMessage id="equity" />
             </li>
             <li className="section__text">
-              <FormattedHTMLMessage
-                id="profitSharingRights"
-                defaultMessage={'profitSharingRights'}
-              />
+              <FormattedHTMLMessage id="profitSharingRights" />
             </li>
             <li className="section__text">
-              <FormattedHTMLMessage
-                id="buybackRights"
-                defaultMessage={'buybackRights'}
-              />
+              <FormattedHTMLMessage id="buybackRights" />
             </li>
           </ul>
         </div>

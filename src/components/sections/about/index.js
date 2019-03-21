@@ -13,24 +13,18 @@ const About = () => (
       <div className="wrapper_shrink">
         <div className="headline">
           <h2 className="title title_type_section">
-            <FormattedHTMLMessage id="about" defaultMessage={'about'} />
+            <FormattedHTMLMessage id="about" />
           </h2>
           <h2 className="title title_type_section _orange">
-            <FormattedHTMLMessage id="platinum" defaultMessage={'platinum'} />
+            <FormattedHTMLMessage id="platinum" />
           </h2>
         </div>
         <div className="card card_type_column">
           <h6 className="card__title">
-            <FormattedHTMLMessage
-              id="platinumIs"
-              defaultMessage={'platinumIs'}
-            />
+            <FormattedHTMLMessage id="platinumIs" />
           </h6>
           <p className="section_description">
-            <FormattedHTMLMessage
-              id="platinumfundIsAnInternationalStoieoicopost"
-              defaultMessage={'platinumfundIsAnInternationalStoieoicopost'}
-            />
+            <FormattedHTMLMessage id="platinumfundIsAnInternationalStoieoicopost" />
           </p>
         </div>
 
@@ -38,25 +32,19 @@ const About = () => (
           <div className="wrapper_card">
             <img className="card_image" src={firstImage} />
             <p className="card_description">
-              <FormattedHTMLMessage
-                id="fullCycleAgency"
-                defaultMessage={'fullCycleAgency'}
-              />
+              <FormattedHTMLMessage id="fullCycleAgency" />
             </p>
           </div>
           <div className="wrapper_card">
             <img className="card_image" src={secondImage} />
             <p className="card_description">
-              <FormattedHTMLMessage id="weAre" defaultMessage={'weAre'} />
+              <FormattedHTMLMessage id="weAre" />
             </p>
           </div>
           <div className="wrapper_card">
             <img className="card_image" src={thirdImage} />
             <p className="card_description">
-              <FormattedHTMLMessage
-                id="fundraisingAndRoadshows"
-                defaultMessage={'fundraisingAndRoadshows'}
-              />
+              <FormattedHTMLMessage id="fundraisingAndRoadshows" />
             </p>
           </div>
         </div>

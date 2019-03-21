@@ -13,23 +13,17 @@ const StoCategories = () => (
       <div className="wrapper_shrink">
         <div className="headline">
           <h2 className="title title_type_section">
-            <FormattedHTMLMessage id="theAre" defaultMessage={'theAre'} />
+            <FormattedHTMLMessage id="theAre" />
           </h2>
           <h2 className="title title_type_section _orange">
-            <FormattedHTMLMessage
-              id="3MainCategories"
-              defaultMessage={'3MainCategories'}
-            />
+            <FormattedHTMLMessage id="3MainCategories" />
           </h2>
           <br />
           <h2 className="title title_type_section">
-            <FormattedHTMLMessage
-              id="ofTokenizationAchievedViaAn"
-              defaultMessage={'ofTokenizationAchievedViaAn'}
-            />
+            <FormattedHTMLMessage id="ofTokenizationAchievedViaAn" />
           </h2>
           <h2 className="title title_type_section _orange">
-            <FormattedHTMLMessage id="sto" defaultMessage={'sto'} />
+            <FormattedHTMLMessage id="sto" />
           </h2>
         </div>
         <div className="wrapper_cards">
@@ -37,16 +31,10 @@ const StoCategories = () => (
             <div className="card card_theme_light card_type_column">
               <img className="card__image" src={firstImage} />
               <h6 className="card__title">
-                <FormattedHTMLMessage
-                  id="equityTokens"
-                  defaultMessage={'equityTokens'}
-                />
+                <FormattedHTMLMessage id="equityTokens" />
               </h6>
               <p className="card__description">
-                <FormattedHTMLMessage
-                  id="anStoWhereEachToken"
-                  defaultMessage={'anStoWhereEachToken'}
-                />
+                <FormattedHTMLMessage id="anStoWhereEachToken" />
               </p>
             </div>
           </div>
@@ -54,16 +42,10 @@ const StoCategories = () => (
             <div className="card card_theme_light card_type_column">
               <img className="card__image" src={secondImage} />
               <h6 className="card__title">
-                <FormattedHTMLMessage
-                  id="reserveAssetsToken"
-                  defaultMessage={'reserveAssetsToken'}
-                />
+                <FormattedHTMLMessage id="reserveAssetsToken" />
               </h6>
               <p className="card__description">
-                <FormattedHTMLMessage
-                  id="organizationsThatTradeInRealworld"
-                  defaultMessage={'organizationsThatTradeInRealworld'}
-                />
+                <FormattedHTMLMessage id="organizationsThatTradeInRealworld" />
               </p>
             </div>
           </div>
@@ -71,16 +53,10 @@ const StoCategories = () => (
             <div className="card card_theme_light card_type_column">
               <img className="card__image" src={thirdImage} />
               <h6 className="card__title">
-                <FormattedHTMLMessage
-                  id="debtToken"
-                  defaultMessage={'debtToken'}
-                />
+                <FormattedHTMLMessage id="debtToken" />
               </h6>
               <p className="card__description">
-                <FormattedHTMLMessage
-                  id="ratherThanTokenizingYourStock"
-                  defaultMessage={'ratherThanTokenizingYourStock'}
-                />
+                <FormattedHTMLMessage id="ratherThanTokenizingYourStock" />
               </p>
             </div>
           </div>
