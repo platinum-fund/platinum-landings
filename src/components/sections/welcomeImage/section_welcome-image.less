@@ -8,22 +8,6 @@
   flex-direction: column;
   align-items: center;
 
-  &::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    width: 100%;
-    height: 100%;
-    background-color: #0a0a0a;
-    background-size: cover;
-
-    @media @under-sm {
-      background-position: center -180px;
-    }
-  }
-
   .blockquote {
     background-color: rgba(255, 255, 255, 0.1);
     .blockquote__subtitle {
@@ -35,9 +19,20 @@
     .blockquote__text {
       color: rgba(255, 255, 255, 0.4);
       a {
-        color: #d13f4c;
+        color: #ffffff;
+        &.colored {
+          color: #d13f4c;
+        }
       }
     }
+  }
+
+  .section_welcome-image__background {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 
   .wrapper_shrink {

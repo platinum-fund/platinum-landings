@@ -10,8 +10,11 @@ const Blockquote = () => (
           0x056Fd409E1d7A124BD7017459dFEa2F387b6d5Cd
         </h2>
         <p className="blockquote__text">
-          Our smart contract code was audited by <a href="#">ProAudit</a>{' '}
-          company, whose report is publicly available here.
+          Our smart contract code was audited by{' '}
+          <a href="#" className="colored">
+            ProAudit
+          </a>{' '}
+          company, whose report is publicly available <a href="#">here</a>.
         </p>
       </div>
       <footer>
