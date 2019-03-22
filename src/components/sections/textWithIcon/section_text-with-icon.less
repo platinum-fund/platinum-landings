@@ -1,0 +1,133 @@
+@import '~src/common.blocks/imports/media.less';
+@import '~src/common.blocks/section/section';
+
+.section_text-with-icon {
+  .section();
+  position: relative;
+  color: #fff;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(240, 240, 240, 0.28);
+  z-index: 1;
+  padding-bottom: 10rem;
+
+  .wrapper_shrink {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4.8rem;
+
+    @media @under-md {
+      margin-top: 10rem;
+    }
+  }
+
+  .headline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 4.2em;
+
+    &._title {
+      margin-bottom: 0;
+    }
+
+    .title_type_main {
+      font-size: 3rem;
+      letter-spacing: 0.1em;
+      line-height: 1;
+      color: #000000;
+      font-family: 'Poppins', sans-serif;
+      margin-bottom: 0.5em;
+    }
+
+    .title_type_second {
+      color: #000000;
+      font-size: 1.5rem;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    @media @under-md {
+      .title_type_main {
+        width: 36rem;
+        font-size: 3.5rem;
+        line-height: 4rem;
+      }
+    }
+  }
+}
+.text-with-icon {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  .text-with-icon__item {
+    width: 30%;
+    margin-bottom: 4rem;
+
+    @media @under-md {
+      width: 40%;
+    }
+
+    @media @under-sm {
+      width: 100%;
+    }
+  }
+}
+.text-with-icon__text {
+  font-size: 1.5rem;
+  font-family: 'Poppins', sans-serif;
+  color: #000000;
+
+  @media @under-sm {
+    text-align: center;
+  }
+}
+.text-with-icon__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 2rem;
+
+  .text-with-icon__icon {
+    margin-right: 3rem;
+  }
+  @media @under-sm {
+    flex-direction: column;
+    align-items: center;
+
+    .text-with-icon__icon {
+      margin-bottom: 2rem;
+      order: 1;
+    }
+
+    .text-with-icon__text {
+      order: 2;
+    }
+  }
+}
+.text-with-icon__icon {
+  position: relative;
+
+  img {
+    position: relative;
+    z-index: 1;
+  }
+
+  &:before {
+    content: '';
+    position: absolute;
+    width: 9.5rem;
+    height: 9.5rem;
+    background: rgba(204, 62, 75, 0.1);
+    border-radius: 100%;
+    top: -1rem;
+    right: -3rem;
+    z-index: -1;
+  }
+}

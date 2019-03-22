@@ -6,7 +6,10 @@ const TranslationProvider = ({ language, translations, children }) => {
   return (
     <LanguageContext.Consumer>
       {language => (
-        <IntlProvider locale="en" messages={translations[language]}>
+        <IntlProvider
+          locale="en"
+          messages={translations[language] || translations['en']}
+        >
           {children}
         </IntlProvider>
       )}

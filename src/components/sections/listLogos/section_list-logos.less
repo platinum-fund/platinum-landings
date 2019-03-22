@@ -1,0 +1,112 @@
+@import '~src/common.blocks/imports/media.less';
+@import '~src/common.blocks/section/section';
+
+.section_list-logos {
+  .section();
+  position: relative;
+  color: #fff;
+  flex-direction: column;
+  align-items: center;
+  background-color: #d5505b;
+  z-index: 1;
+  .wrapper_shrink {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4.7rem;
+
+    @media @under-md {
+      margin-top: 10rem;
+    }
+  }
+  .headline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 4.2em;
+
+    &._title {
+      margin-bottom: 0;
+    }
+    .title_type_main {
+      font-size: 3rem;
+      letter-spacing: 0.1em;
+      line-height: 1;
+      color: #ffffff;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    @media @under-md {
+      .title_type_main {
+        width: 36rem;
+        font-size: 3.5rem;
+        line-height: 4rem;
+      }
+    }
+  }
+  .list-logos {
+    margin-bottom: 4rem;
+  }
+}
+.list-logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.list-logos__item {
+  width: 17.5rem;
+  height: 5.7rem;
+  background: #ffffff;
+  box-shadow: 0px 22px 49px rgba(0, 0, 0, 0.08);
+  margin: 0.9375rem 0.625rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.list-logos__item_height_auto {
+  background-color: transparent;
+  box-shadow: none;
+}
+.list-logos__item_button {
+  background: linear-gradient(
+      0deg,
+      rgba(17, 17, 17, 0.1),
+      rgba(17, 17, 17, 0.1)
+    ),
+    #1b1b1c;
+  font-weight: 500;
+  font-size: 1.5rem;
+  text-align: center;
+  cursor: pointer;
+}
+@media (max-width: 1200px) {
+  .list-logos__item_height_auto {
+    order: 1;
+  }
+}
+
+.list-logos__plus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  span {
+    font-size: 4rem;
+    color: #dec8cb;
+    font-weight: 800;
+  }
+  strong {
+    font-weight: 800;
+    line-height: 0.697674419em;
+    font-size: 4rem;
+    text-align: center;
+    letter-spacing: 0.428571px;
+    color: #dec8cb;
+  }
+}

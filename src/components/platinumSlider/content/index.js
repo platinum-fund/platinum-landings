@@ -3,115 +3,112 @@ import image2 from './images/2.png'
 import image3 from './images/3.png'
 import image4 from './images/4.png'
 import image5 from './images/5.png'
-import '../slider.less'
 
 const sliders = [
   {
-    title: 'Our  team',
+    title: 'ourTeam',
     image: image1,
     list: [
       {
-        title: '112+',
-        description:
-          'Members In-house IT, Marketing, Legal, Support, Sales departments and Call-centre '
+        title: 'slide1List1Title',
+        description: 'slide1List1Description'
       },
       {
-        title: '72,5%',
-        description: "Master's degree in IT, Marketing, Management and Finance"
+        title: 'slide1List2Title',
+        description: 'slide1List2Description'
       },
       {
-        title: '3+',
-        description: 'years experience in crypto markets '
+        title: 'slide1List3Title',
+        description: 'slide1List3Description'
       },
       {
-        title: '7+',
-        description: 'years experience in financial markets '
+        title: 'slide1List4Title',
+        description: 'slide1List4Description'
       }
     ]
   },
   {
-    title: 'Our  offices',
+    title: 'ourOffices',
     image: image2,
     listClassName: '_no-padding',
     list: [
       {
-        title: 'Minsk, Kiev, Moscow, Seoul, Singapore,',
+        title: 'slide2List1Title',
         description: ''
       },
       {
-        title: 'Shanghai, Bangkok, Tokyo, Yangon, Colombo',
+        title: 'slide2List2Title',
         description: ''
       }
     ]
   },
   {
-    title: 'Our  working  time',
+    title: 'ourWorkingTime',
     image: image3,
     listClassName: '_no-padding',
     list: [
       {
-        title: '24/7',
-        description: 'We are avaliable',
+        title: 'slide3List1Title',
+        description: 'slide3List1Description',
         className: '_reverse'
       },
       {
         title: '',
-        description:
-          'Our clients can take a rest, while we are taking care about the progress',
+        description: 'slide3List2Description',
         className: '_reverse'
       }
     ]
   },
   {
-    title: 'Partner network',
+    title: 'partnerNetwork',
     image: image4,
     listClassName: '_no-padding',
     list: [
       {
-        title: '978',
-        description: 'Global and regional media outlets'
+        title: 'slide4List1Title',
+        description: 'slide4List1Description'
       },
       {
-        title: '312',
-        description: 'Bloggers and Influencers'
+        title: 'slide4List2Title',
+        description: 'slide4List2Description'
       },
       {
-        title: '93',
-        description: 'Investment partners'
+        title: 'slide4List3Title',
+        description: 'slide4List3Description'
       },
       {
-        title: '17',
-        description: 'Crypto exchanges'
+        title: 'slide4List4Title',
+        description: 'slide4List4Description'
       }
     ]
   },
   {
-    title: 'Services',
+    title: 'services',
     image: image5,
     list: [
       {
         title: '',
-        description: 'Investment packages and fundraising for STO and ICO',
+        description: 'slide5List1Description',
         className: '_diamond'
       },
       {
         title: '',
-        description: 'Listing on exchanges and Market making',
+        description: 'slide5List2Description',
         className: '_diamond'
       },
       {
         title: '',
-        description: 'Tokenization and STO and ICO Dashboards',
+        description: 'slide5List3Description',
         className: '_diamond'
       },
       {
         title: '',
-        description: 'Legal framework and Incorporation',
+        description: 'slide5List4Description',
         className: '_diamond'
       },
       {
         title: '',
-        description: 'Marketing for STO, ICO and IEO projects',
+        description: 'slide5List5Description',
         className: '_diamond'
       }
     ]
