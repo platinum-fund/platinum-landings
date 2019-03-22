@@ -35,6 +35,7 @@
     &._title {
       margin-bottom: 0;
     }
+
     .title_type_main {
       font-size: 3rem;
       letter-spacing: 0.1em;
@@ -52,15 +53,19 @@
       }
     }
   }
+
   .row {
     display: flex;
     justify-content: space-between;
+
     @media @under-md {
       flex-direction: column;
       align-items: center;
     }
+
     .col {
       width: 30%;
+
       @media @under-md {
         width: 100%;
       }
@@ -71,6 +76,7 @@
   font-family: 'Poppins', sans-serif;
   display: flex;
   flex-direction: column;
+
   .roadmap__item {
     margin-bottom: 3.3rem;
   }
@@ -78,6 +84,7 @@
 .roadmap__item {
   display: flex;
   position: relative;
+
   &:before {
     content: '';
     position: absolute;
@@ -88,6 +95,7 @@
     top: 3rem;
     transition: all 0.3s;
   }
+
   &:after {
     content: '';
     position: absolute;
@@ -112,20 +120,24 @@
     min-width: 20rem;
     box-sizing: border-box;
   }
+
   @media @under-sm {
     min-width: auto;
     flex-direction: column;
     align-items: center;
+
     .roadmap__data {
       margin-bottom: 1em;
       padding-top: 3rem;
     }
+
     &:before {
       left: 0;
       right: 0;
       top: 5.5rem;
       margin: auto;
     }
+
     &:after {
       left: 0;
       right: 0;
@@ -139,6 +151,7 @@
   font-size: 1.5rem;
   line-height: normal;
   color: #ffffff;
+
   @media @under-sm {
     text-align: center;
   }
@@ -148,6 +161,7 @@
   font-size: 1.5rem;
   line-height: normal;
   color: #ffffff;
+
   @media @under-sm {
     text-align: center;
   }

@@ -6,11 +6,13 @@
   padding-top: 5rem;
   padding-bottom: 5rem;
   width: 100%;
+
   .blockquote__content {
     display: flex;
     flex-direction: column;
     max-width: 80%;
     margin-right: 5%;
+
     @media @under-sm {
       margin-bottom: 2rem;
       margin-right: 0;
@@ -18,40 +20,49 @@
       align-items: center;
     }
   }
+
   .blockquote__subtitle {
     margin-bottom: 1.3em;
   }
+
   .blockquote__title {
     margin-bottom: 0.9em;
   }
+
   .wrapper_shrink {
     margin-top: 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
     @media @under-sm {
       flex-direction: column;
       align-items: center;
     }
   }
 }
+
 .blockquote__subtitle {
   font-weight: 500;
   font-size: 1.5rem;
   line-height: 2em;
   letter-spacing: 0.428571px;
+
   @media @under-sm {
     text-align: center;
   }
 }
+
 .blockquote__title {
   font-weight: 800;
   font-size: 3rem;
   line-height: 1em;
   letter-spacing: 0.428571px;
+
   @media @under-md {
     font-size: 2rem;
   }
+
   @media @under-sm {
     text-align: center;
     word-wrap: break-word;
@@ -63,16 +74,20 @@
   font-size: 3rem;
   line-height: 1.2em;
   letter-spacing: 0.428571px;
+
   a {
     text-decoration: underline;
   }
+
   @media @under-md {
     font-size: 2rem;
   }
+
   @media @under-sm {
     text-align: center;
   }
 }
+
 .blockquote__button {
   background-color: #d13f4c;
   font-weight: 500;
@@ -84,6 +99,7 @@
   padding: 0.6em 1.5em;
   cursor: pointer;
   font-family: 'Poppins', sans-serif;
+
   @media @under-md {
     font-size: 2rem;
   }
