@@ -1,0 +1,154 @@
+@import '~src/common.blocks/imports/media.less';
+@import '~src/common.blocks/section/section';
+
+.section_roadmap {
+  .section();
+  position: relative;
+  color: #fff;
+  flex-direction: column;
+  align-items: center;
+  background-color: #000000;
+  z-index: 1;
+  padding-bottom: 4.5rem;
+
+  .wrapper_shrink {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4.8rem;
+
+    @media @under-md {
+      margin-top: 10rem;
+    }
+  }
+  .headline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 4rem;
+
+    &._title {
+      margin-bottom: 0;
+    }
+    .title_type_main {
+      font-size: 3rem;
+      letter-spacing: 0.1em;
+      line-height: 1;
+      color: #ffffff;
+      font-family: 'Poppins', sans-serif;
+      margin-bottom: 0.5em;
+    }
+
+    @media @under-md {
+      .title_type_main {
+        width: 36rem;
+        font-size: 3.5rem;
+        line-height: 4rem;
+      }
+    }
+  }
+  .row {
+    display: flex;
+    justify-content: space-between;
+    @media @under-md {
+      flex-direction: column;
+      align-items: center;
+    }
+    .col {
+      width: 30%;
+      @media @under-md {
+        width: 100%;
+      }
+    }
+  }
+}
+.roadmap {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  .roadmap__item {
+    margin-bottom: 3.3rem;
+  }
+}
+.roadmap__item {
+  display: flex;
+  position: relative;
+  &:before {
+    content: '';
+    position: absolute;
+    width: 12rem;
+    height: 0.2rem;
+    background-color: rgba(255, 255, 255, 0.4);
+    left: 4.5rem;
+    top: 3rem;
+    transition: all 0.3s;
+  }
+  &:after {
+    content: '';
+    position: absolute;
+    width: 2.723rem;
+    height: 2.908rem;
+    background-image: url('images/icon_ninja.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 14rem;
+    top: -0.2rem;
+    transition: all 0.3s;
+  }
+  &:hover {
+    &:before {
+      background-color: #d5505b;
+    }
+    &:after {
+      background-image: url('images/icon_ninja_colored.svg');
+    }
+  }
+  .roadmap__data {
+    min-width: 20rem;
+    box-sizing: border-box;
+  }
+  @media @under-sm {
+    min-width: auto;
+    flex-direction: column;
+    align-items: center;
+    .roadmap__data {
+      margin-bottom: 1em;
+      padding-top: 3rem;
+    }
+    &:before {
+      left: 0;
+      right: 0;
+      top: 5.5rem;
+      margin: auto;
+    }
+    &:after {
+      left: 0;
+      right: 0;
+      margin: auto;
+      top: 0rem;
+    }
+  }
+}
+.roadmap__data {
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: normal;
+  color: #ffffff;
+  @media @under-sm {
+    text-align: center;
+  }
+}
+.roadmap__text {
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: normal;
+  color: #ffffff;
+  @media @under-sm {
+    text-align: center;
+  }
+}
