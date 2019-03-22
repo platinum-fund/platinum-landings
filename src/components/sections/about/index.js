@@ -1,5 +1,5 @@
 import React from 'react'
-import { FormattedMessage, FormattedHTMLMessage } from 'react-intl'
+import { FormattedHTMLMessage } from 'react-intl'
 import TranslationProvider from 'src/components/translationProvider'
 import translations from './translations'
 import './about.less'

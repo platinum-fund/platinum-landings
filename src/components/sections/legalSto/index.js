@@ -1,53 +1,60 @@
 import React from 'react'
 import './legal-sto.less'
 import icon from '../../../images/favicon.png'
+import { FormattedHTMLMessage } from 'react-intl'
+import TranslationProvider from 'src/components/translationProvider'
+import translations from './translations'
 
-const LegalSto = ({ buttons }) => (
-  <section className="section section_legal-sto" id="legal">
-    <div className="wrapper_shrink">
-      <div className="headline">
-        <h2 className="title title_type_section">Legal for STO is IMPORTANT</h2>
-        <h4 className="title title_type_subtitle">
-          When conducting an STO, many factors must be considered. But one of
-          the most important is the choice of jurisdiction.
-        </h4>
-      </div>
-      <div className="wrapper_legalsto">
-        <div className="wrapper_list">
-          <h4 className="title-list">
-            What influences the choice of jurisdiction:
+const LegalSto = () => (
+  <TranslationProvider translations={translations}>
+    <section classname="section section_legal-sto" id="legal">
+      <div classname="wrapper_shrink">
+        <div classname="headline">
+          <h2 classname="title title_type_section">
+            <FormattedHTMLMessage id="legalForStoIsImportant" />
+          </h2>
+          <h4 classname="title title_type_subtitle">
+            <FormattedHTMLMessage id="whenConductingAnStoMany" />
           </h4>
-          <ul className="list theme_diamond">
-            <li className="section__text">
-              Features of your project or its ideas
-            </li>
-            <li className="section__text">
-              Level of legislative consolidation of the terms and rules <br />{' '}
-              necessary for the STO project
-            </li>
-            <li className="section__text">Taxation rules</li>
-            <li className="section__text">
-              Rules on the publicity of the placement of security tokens
-            </li>
-            <li className="section__text">
-              The need to conduct a legal analysis of the project
-            </li>
-          </ul>
         </div>
-        <div className="wrapper_card">
-          <h6 className="title_card">
-            Legal is complicated, we would like to help you
-          </h6>
-          <div className="wrapper_buttons">
-            <button className="js-form-button button button_theme_main">
-              Free consultation!
-            </button>
+        <div classname="wrapper_legalsto">
+          <div classname="wrapper_list">
+            <h4 classname="title-list">
+              <FormattedHTMLMessage id="whatInfluencesTheChoiceOf" />
+            </h4>
+            <ul classname="list theme_diamond">
+              <li classname="section__text">
+                <FormattedHTMLMessage id="featuresOfYourProjectOr" />
+              </li>
+              <li classname="section__text">
+                <FormattedHTMLMessage id="levelOfLegislativeConsolidationOf" />
+              </li>
+              <li classname="section__text">
+                <FormattedHTMLMessage id="taxationRules" />
+              </li>
+              <li classname="section__text">
+                <FormattedHTMLMessage id="rulesOnThePublicityOf" />
+              </li>
+              <li classname="section__text">
+                <FormattedHTMLMessage id="theNeedToConductA" />
+              </li>
+            </ul>
           </div>
-          <img className="image_card" src={icon} />
+          <div classname="wrapper_card">
+            <h6 classname="title_card">
+              <FormattedHTMLMessage id="legalIsComplicatedWeWould" />
+            </h6>
+            <div classname="wrapper_buttons">
+              <button classname="js-form-button button button_theme_main">
+                Free consultation!
+              </button>
+            </div>
+            <img classname="image_card" src={icon} />
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+  </TranslationProvider>
 )
 
 export default LegalSto
