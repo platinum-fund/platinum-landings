@@ -10,17 +10,26 @@ const StoOverview = () => (
       <div className="wrapper_shrink">
         <div className="wrapper _content">
           <h2 className="title title_type_section">
-            <FormattedHTMLMessage id="whatIs" />
+            <FormattedHTMLMessage id="securityTokenOffering1" />
           </h2>
           <h2 className="title title_type_section _orange">
-            <FormattedHTMLMessage id="securityTokenOffering" />
+            <FormattedHTMLMessage id="securityTokenOffering2" />
           </h2>
-          <h2 className="title title_type_section">?</h2>
+          <h2 className="title title_type_section">
+            <FormattedHTMLMessage id="securityTokenOffering3" />
+          </h2>
           <p className="section_description">
             <FormattedHTMLMessage id="aSecurityTokenOfferingSto" />
           </p>
           <p className="section_description">
-            <FormattedHTMLMessage id="securityTokens" />
+            <span className="section_description--bold">
+              <FormattedHTMLMessage id="securityTokens1" />
+            </span>
+            <FormattedHTMLMessage id="securityTokens2" />
+            <span className="section_description--bold">
+              <FormattedHTMLMessage id="securityTokens3" />
+            </span>
+            <FormattedHTMLMessage id="securityTokens4" />
           </p>
           <ul className="section__list theme_diamond">
             <li className="section__text">

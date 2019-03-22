@@ -46,7 +46,7 @@ const LegalSto = () => (
             </h6>
             <div className="wrapper_buttons">
               <button className="js-form-button button button_theme_main">
-                Free consultation!
+                <FormattedHTMLMessage id="freeConsultation" />
               </button>
             </div>
             <img className="image_card" src={icon} />

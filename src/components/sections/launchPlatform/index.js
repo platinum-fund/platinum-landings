@@ -15,14 +15,21 @@ const LaunchPlatform = () => (
               <FormattedHTMLMessage id="securedStoLaunchPlatform" />
             </h2>
             <p className="card__description">
-              <FormattedHTMLMessage id="acceptPaymentsIn" />
+              <FormattedHTMLMessage id="acceptPaymentsIn1" />
+              <span className="card__description _orange">
+                <FormattedHTMLMessage id="acceptPaymentsIn2" />
+              </span>
+              <FormattedHTMLMessage id="acceptPaymentsIn3" />
+              <span className="card__description _orange">
+                <FormattedHTMLMessage id="acceptPaymentsIn4" />
+              </span>
             </p>
             <p className="section_description">
               <FormattedHTMLMessage id="stoPlatformAllowsToEasily" />
             </p>
             <div className="wrapper_buttons" id="cases">
               <button className="js-form-button button button_theme_main">
-                Get platform demo
+                <FormattedHTMLMessage id="getPlatformDemo" />
               </button>
             </div>
           </div>

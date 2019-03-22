@@ -40,7 +40,7 @@ const ServicesList = ({ buttons }) => (
             </h5>
             <div className="wrapper_buttons">
               <button className="js-form-button button button_theme_main">
-                View more
+                <FormattedHTMLMessage id="viewMore" />
               </button>
             </div>
           </div>
@@ -61,7 +61,7 @@ const ServicesList = ({ buttons }) => (
             </h5>
             <div className="wrapper_buttons">
               <button className="js-form-button button button_theme_main">
-                View more
+                <FormattedHTMLMessage id="viewMore" />
               </button>
             </div>
           </div>
@@ -82,7 +82,7 @@ const ServicesList = ({ buttons }) => (
             </h5>
             <div className="wrapper_buttons">
               <button className="js-form-button button button_theme_main">
-                View more
+                <FormattedHTMLMessage id="viewMore" />
               </button>
             </div>
           </div>
@@ -103,7 +103,7 @@ const ServicesList = ({ buttons }) => (
             </h5>
             <div className="wrapper_buttons">
               <button className="js-form-button button button_theme_main">
-                View more
+                <FormattedHTMLMessage id="viewMore" />
               </button>
             </div>
           </div>
@@ -127,7 +127,7 @@ const ServicesList = ({ buttons }) => (
             </h5>
             <div className="wrapper_buttons">
               <button className="js-form-button button button_theme_main">
-                View more
+                <FormattedHTMLMessage id="viewMore" />
               </button>
             </div>
           </div>

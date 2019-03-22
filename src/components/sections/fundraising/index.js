@@ -29,13 +29,19 @@ const Fundraising = () => (
           <div className="wrapper_card">
             <img className="card_image" src={secondImage} />
             <p className="card_description">
-              <FormattedHTMLMessage id="40" />
+              <span className="card_description_orange">
+                <FormattedHTMLMessage id="40main" />
+              </span>
+              <FormattedHTMLMessage id="40second" />
             </p>
           </div>
           <div className="wrapper_card">
             <img className="card_image" src={thirdImage} />
             <p className="card_description">
-              <FormattedHTMLMessage id="200m" />
+              <span className="card_description_orange">
+                <FormattedHTMLMessage id="200m1" />
+              </span>
+              <FormattedHTMLMessage id="200m2" />
             </p>
           </div>
         </div>
@@ -45,7 +51,7 @@ const Fundraising = () => (
           </h6>
           <div className="wrapper_buttons">
             <button className="js-form-button button button_theme_main">
-              Get an invitation
+              <FormattedHTMLMessage id="getAnInvitation" />
             </button>
           </div>
         </div>

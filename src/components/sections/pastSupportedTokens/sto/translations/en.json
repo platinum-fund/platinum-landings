@@ -1,4 +1,5 @@
 {
-  "pastSupported": "<span className=\"title title_type_section\">PAST SUPPORTED</span> <span className=\"title title_type_section _orange\">TOKENS</span>",
+  "title": "PAST SUPPORTED",
+  "titleHighlighted": "TOKENS",
   "platinumTeamIsSupportingAnd": "Platinum team is supporting and consulting more than 400 tokens"
 }

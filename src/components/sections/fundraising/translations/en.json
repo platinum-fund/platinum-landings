@@ -1,8 +1,11 @@
 {
-  "40": "<span classname=\"card_description_orange\">40+ </span> Investors Meetups <br> in 2017-2018",
+  "40main": "40+",
+  "40second": " Investors Meetups <br> in 2017-2018",
   "fundraisingAndRoadshows": "Fundraising and roadshows",
   "wePromoteSelectedProjectsDirectly": "We promote selected projects directly to our extensive global network of private and institutional investors, arrange private meetups, roadshows and investor pitching sessions around the globe",
   "hugeNetworkOfInstitutionalInvestors": "Huge network of institutional investors and funds",
-  "200m": "<span classname=\"card_description_orange\">$200M+ </span> Funds Collected",
-  "doYouWantToReceive": "Do you want to receive an invitation <br> for the next meetup?"
+  "200m1": "$200M+",
+  "200m2": " Funds Collected",
+  "doYouWantToReceive": "Do you want to receive an invitation <br> for the next meetup?",
+  "getAnInvitation": "Get an invitation"
 }

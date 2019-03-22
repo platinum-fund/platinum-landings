@@ -18,7 +18,7 @@ const ActionAttention = () => (
         </p>
         <div className="wrapper_buttons">
           <button className="js-form-button button button_theme_light-white">
-            Launch SECURITY TOKEN
+            <FormattedHTMLMessage id="launchSTO" />
           </button>
         </div>
       </div>

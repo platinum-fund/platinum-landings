@@ -39,66 +39,103 @@ const Benefits = () => (
           <div className="card card_theme_light card_type_column">
             <img className="card__image" src={eyeImage} />
             <h6 className="card__description-big">
-              <FormattedHTMLMessage id="userfriendly" />
+              <FormattedHTMLMessage id="userfriendly1" />
+              <span className="card__description-big--orange">
+                <FormattedHTMLMessage id="userfriendly2" />
+              </span>
             </h6>
           </div>
           <div className="card card_theme_light card_type_column">
             <img className="card__image" src={coinImage} />
             <h6 className="card__description-big">
-              <FormattedHTMLMessage id="receivePaymentsIn" />
+              <FormattedHTMLMessage id="receivePaymentsIn1" />
+              <span className="card__description-big--orange">
+                <FormattedHTMLMessage id="receivePaymentsIn2" />
+              </span>
             </h6>
           </div>
           <div className="card card_theme_light card_type_column">
             <img className="card__image" src={cardsImage} />
             <h6 className="card__description-big">
-              <FormattedHTMLMessage id="receivePaymentsVia" />
+              <FormattedHTMLMessage id="receivePaymentsVia1" />
+              <span className="card__description-big--orange">
+                <FormattedHTMLMessage id="receivePaymentsVia2" />
+              </span>
             </h6>
           </div>
           <div className="card card_theme_light card_type_column">
             <img className="card__image" src={zoomImage} />
             <h6 className="card__description-big">
-              <FormattedHTMLMessage id="preciseAndDetailed" />
+              <FormattedHTMLMessage id="preciseAndDetailed1" />
+              <span className="card__description-big--orange">
+                <FormattedHTMLMessage id="preciseAndDetailed2" />
+              </span>
+              <FormattedHTMLMessage id="preciseAndDetailed3" />
             </h6>
           </div>
           <div className="card card_theme_light card_type_column">
-            <img classname="card__image" src={clockImage} />
-            <h6 classname="card__description-big">
-              <FormattedHTMLMessage id="fast" />
+            <img className="card__image" src={clockImage} />
+            <h6 className="card__description-big">
+              <FormattedHTMLMessage id="fast1" />
+              <span className="card__description-big--orange">
+                <FormattedHTMLMessage id="fast2" />
+              </span>
+              <FormattedHTMLMessage id="fast3" />
+              <span className="card__description-big--orange">
+                <FormattedHTMLMessage id="fast4" />
+              </span>
+              <FormattedHTMLMessage id="fast5" />
             </h6>
           </div>
-
-          <div classname="card card_theme_light card_type_column">
-            <img classname="card__image" src={workerImage} />
-            <h6 classname="card__description-big">
-              <FormattedHTMLMessage id="integratedSystemFor" />
+          <div className="card card_theme_light card_type_column">
+            <img className="card__image" src={workerImage} />
+            <h6 className="card__description-big">
+              <FormattedHTMLMessage id="integratedSystemFor1" />
+              <span className="card__description-big--orange">
+                <FormattedHTMLMessage id="integratedSystemFor2" />
+              </span>
+              <FormattedHTMLMessage id="integratedSystemFor3" />
             </h6>
           </div>
-
-          <div classname="card card_theme_light card_type_column">
-            <img classname="card__image" src={mobileImage} />
-            <h6 classname="card__description-big">
-              <FormattedHTMLMessage id="dividendStructureIssuance" />
+          <div className="card card_theme_light card_type_column">
+            <img className="card__image" src={mobileImage} />
+            <h6 className="card__description-big">
+              <FormattedHTMLMessage id="dividendStructureIssuance1" />
+              <span className="card__description-big--orange">
+                <FormattedHTMLMessage id="dividendStructureIssuance2" />
+              </span>
             </h6>
           </div>
-
-          <div classname="card card_theme_light card_type_column">
-            <img classname="card__image" src={lockImage} />
-            <h6 classname="card__description-big">
-              <FormattedHTMLMessage id="topNotch" />
+          <div className="card card_theme_light card_type_column">
+            <img className="card__image" src={lockImage} />
+            <h6 className="card__description-big">
+              <FormattedHTMLMessage id="topNotch1" />
+              <span className="card__description-big--orange">
+                <FormattedHTMLMessage id="topNotch2" />
+              </span>
+              <FormattedHTMLMessage id="topNotch3" />
+              <span className="card__description-big--orange">
+                <FormattedHTMLMessage id="topNotch4" />
+              </span>
+              <FormattedHTMLMessage id="topNotch5" />
             </h6>
           </div>
-
-          <div classname="card card_theme_light card_type_column">
-            <img classname="card__image" src={manImage} />
-            <h6 classname="card__description-big">
-              <FormattedHTMLMessage id="tokenSale" />
+          <div className="card card_theme_light card_type_column">
+            <img className="card__image" src={manImage} />
+            <h6 className="card__description-big">
+              <FormattedHTMLMessage id="tokenSale1" />
+              <span className="card__description-big--orange">
+                <FormattedHTMLMessage id="tokenSale2" />
+              </span>
             </h6>
           </div>
-
-          <div classname="card card_theme_light card_type_column">
-            <img classname="card__image" src={grafImage} />
-            <h6 classname="card__description-big">
-              <FormattedHTMLMessage id="sto" />
+          <div className="card card_theme_light card_type_column">
+            <img className="card__image" src={grafImage} />
+            <h6 className="card__description-big">
+              <FormattedHTMLMessage id="sto1" />
+              <span className="card__description-big--orange">
+                <FormattedHTMLMessage id="sto2" />
+              </span>
             </h6>
           </div>
         </div>

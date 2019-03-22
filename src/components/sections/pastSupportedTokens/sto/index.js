@@ -11,7 +11,12 @@ const PastSupportedTokens = () => (
       <div className="wrapper_section-content">
         <header className="headline">
           <h2 className="title">
-            <FormattedHTMLMessage id="pastSupported" />
+            <span className="title title_type_section">
+              <FormattedHTMLMessage id="title" />
+            </span>
+            <span className="title title_type_section _orange">
+              <FormattedHTMLMessage id="titleHighlighted" />
+            </span>
           </h2>
           <h4 className="title title_type_subtitle">
             <FormattedHTMLMessage id="platinumTeamIsSupportingAnd" />

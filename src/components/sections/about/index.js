@@ -32,19 +32,36 @@ const About = () => (
           <div className="wrapper_card">
             <img className="card_image" src={firstImage} />
             <p className="card_description">
-              <FormattedHTMLMessage id="fullCycleAgency" />
+              <span className="card_description_orange">
+                <FormattedHTMLMessage id="fullCycleAgency1" />
+              </span>
+              <FormattedHTMLMessage id="fullCycleAgency2" />
             </p>
           </div>
           <div className="wrapper_card">
             <img className="card_image" src={secondImage} />
             <p className="card_description">
-              <FormattedHTMLMessage id="weAre" />
+              <FormattedHTMLMessage id="weAre1" />
+              <span className="card_description_orange">
+                <FormattedHTMLMessage id="weAre2" />
+              </span>
+              <FormattedHTMLMessage id="weAre3" />
             </p>
           </div>
           <div className="wrapper_card">
             <img className="card_image" src={thirdImage} />
             <p className="card_description">
-              <FormattedHTMLMessage id="fundraisingAndRoadshows" />
+              <span className="card_description_orange">
+                <FormattedHTMLMessage id="fundraisingAndRoadshows1" />
+              </span>
+              <FormattedHTMLMessage id="fundraisingAndRoadshows2" />
+              <span className="card_description_orange">
+                <FormattedHTMLMessage id="fundraisingAndRoadshows3" />
+              </span>
+              <FormattedHTMLMessage id="fundraisingAndRoadshows4" />
+              <span className="card_description_orange">
+                <FormattedHTMLMessage id="fundraisingAndRoadshows5" />
+              </span>
             </p>
           </div>
         </div>

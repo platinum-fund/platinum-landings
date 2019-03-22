@@ -13,7 +13,11 @@ const PrefaceNav = () => (
         <div className="headline">
           <div className="headline _title">
             <h1 className="title title_type_main">
-              <FormattedHTMLMessage id="fundraising" />
+              <FormattedHTMLMessage id="mainTitle1" />
+              <span className="title title_type_main _white">
+                <FormattedHTMLMessage id="mainTitle2" />
+              </span>
+              <FormattedHTMLMessage id="mainTitle3" />
             </h1>
             <h4 className="title title_type_second">
               <FormattedHTMLMessage id="getYourProjectReviewedNow" />
