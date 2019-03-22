@@ -1,35 +1,54 @@
 import React from 'react'
+import { FormattedHTMLMessage } from 'react-intl'
+import TranslationProvider from 'src/components/translationProvider'
+import translations from './translations'
 import './sto-overview.less'
 
-
 const StoOverview = () => (
-  <section className="section section_sto-overview" id="stooverview">
-    <div className="wrapper_shrink">
-      <div className="wrapper _content">
-        <h2 className="title title_type_section">What is</h2>
-        <h2 className="title title_type_section _orange">Security Token Offering</h2>
-        <h2 className="title title_type_section">?</h2>
-        <p className="section_description">A Security Token Offering (STO) is the cryptographic
-          tokenization of your capital providing investors with a digital share of your company.</p>
-        <p className="section_description">
-          <span className="section_description--bold">
-           Security Tokens
-          </span>
-          are defined as
-          <span className="section_description--bold">
-            financial securities
-          </span>
-          in accordance with the Howey test and empower investors with financial benefits such as:
-        </p>
-        <ul className="section__list theme_diamond">
-          <li className="section__text">DIVIDENDS</li>
-          <li className="section__text">EQUITY</li>
-          <li className="section__text">PROFIT SHARING RIGHTS</li>
-          <li className="section__text">BUY-BACK RIGHTS</li>
-        </ul>
+  <TranslationProvider translations={translations}>
+    <section className="section section_sto-overview" id="stooverview">
+      <div className="wrapper_shrink">
+        <div className="wrapper _content">
+          <h2 className="title title_type_section">
+            <FormattedHTMLMessage id="securityTokenOffering1" />
+          </h2>
+          <h2 className="title title_type_section _orange">
+            <FormattedHTMLMessage id="securityTokenOffering2" />
+          </h2>
+          <h2 className="title title_type_section">
+            <FormattedHTMLMessage id="securityTokenOffering3" />
+          </h2>
+          <p className="section_description">
+            <FormattedHTMLMessage id="aSecurityTokenOfferingSto" />
+          </p>
+          <p className="section_description">
+            <span className="section_description--bold">
+              <FormattedHTMLMessage id="securityTokens1" />
+            </span>
+            <FormattedHTMLMessage id="securityTokens2" />
+            <span className="section_description--bold">
+              <FormattedHTMLMessage id="securityTokens3" />
+            </span>
+            <FormattedHTMLMessage id="securityTokens4" />
+          </p>
+          <ul className="section__list theme_diamond">
+            <li className="section__text">
+              <FormattedHTMLMessage id="dividends" />
+            </li>
+            <li className="section__text">
+              <FormattedHTMLMessage id="equity" />
+            </li>
+            <li className="section__text">
+              <FormattedHTMLMessage id="profitSharingRights" />
+            </li>
+            <li className="section__text">
+              <FormattedHTMLMessage id="buybackRights" />
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
+  </TranslationProvider>
 )
 
 export default StoOverview
