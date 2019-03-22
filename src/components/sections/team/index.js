@@ -10,13 +10,13 @@ if (typeof window !== 'undefined') {
 
 const TeamSectionPure = () => (
   <TranslationProvider translations={translations}>
-    <section classname="section section_team" id="platinum-team">
-      <div classname="wrapper_section-content">
-        <header classname="headline">
-          <h2 classname="title title_type_section">
+    <section className="section section_team" id="platinum-team">
+      <div className="wrapper_section-content">
+        <header className="headline">
+          <h2 className="title title_type_section">
             <FormattedHTMLMessage id="our" />
           </h2>
-          <h2 classname="title title_type_section-attention">
+          <h2 className="title title_type_section-attention">
             <FormattedHTMLMessage id="team" />
           </h2>
         </header>

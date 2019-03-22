@@ -7,13 +7,13 @@ import translations from './translations'
 
 const PastSupportedTokens = () => (
   <TranslationProvider translations={translations}>
-    <section classname="section section_past-supported-tokens-sto">
-      <div classname="wrapper_section-content">
-        <header classname="headline">
-          <h2 classname="title">
+    <section className="section section_past-supported-tokens-sto">
+      <div className="wrapper_section-content">
+        <header className="headline">
+          <h2 className="title">
             <FormattedHTMLMessage id="pastSupported" />
           </h2>
-          <h4 classname="title title_type_subtitle">
+          <h4 className="title title_type_subtitle">
             <FormattedHTMLMessage id="platinumTeamIsSupportingAnd" />
           </h4>
         </header>

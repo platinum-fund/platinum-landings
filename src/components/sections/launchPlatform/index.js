@@ -7,27 +7,27 @@ import translations from './translations'
 
 const LaunchPlatform = () => (
   <TranslationProvider translations={translations}>
-    <section classname="section launch-platform">
-      <div classname="wrapper_shrink">
-        <div classname="wrapper_cards">
-          <div classname="card_contain">
-            <h2 classname="title title_type_section">
+    <section className="section launch-platform">
+      <div className="wrapper_shrink">
+        <div className="wrapper_cards">
+          <div className="card_contain">
+            <h2 className="title title_type_section">
               <FormattedHTMLMessage id="securedStoLaunchPlatform" />
             </h2>
-            <p classname="card__description">
+            <p className="card__description">
               <FormattedHTMLMessage id="acceptPaymentsIn" />
             </p>
-            <p classname="section_description">
+            <p className="section_description">
               <FormattedHTMLMessage id="stoPlatformAllowsToEasily" />
             </p>
-            <div classname="wrapper_buttons" id="cases">
-              <button classname="js-form-button button button_theme_main">
+            <div className="wrapper_buttons" id="cases">
+              <button className="js-form-button button button_theme_main">
                 Get platform demo
               </button>
             </div>
           </div>
-          <div classname="wrapper_image">
-            <img classname="card_image" src={image} />
+          <div className="wrapper_image">
+            <img className="card_image" src={image} />
           </div>
         </div>
       </div>
