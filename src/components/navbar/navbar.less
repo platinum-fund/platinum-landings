@@ -38,10 +38,6 @@
     }
   }
 
-  &__menu-button:focus ~ &__links {
-    display: flex;
-  }
-
   &__links {
     position: relative;
     display: flex;
@@ -64,6 +60,10 @@
         display: flex;
       }
     }
+  }
+
+  &__links.shown {
+    display: flex;
   }
 
   &__link {
