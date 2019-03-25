@@ -18,6 +18,7 @@ import Articles from 'src/components/sections/articles'
 import CreateSecurityToken from 'src/components/sections/createSecurityToken'
 import Footer from 'src/components/sections/footer'
 import ContactForm from 'src/components/contactFormPopup'
+import Share from '../../components/sections/shareNow'
 
 const IndexPage = () => (
   <Layout
@@ -39,6 +40,7 @@ const IndexPage = () => (
       <Reviews />
       <Articles />
       <LastChance />
+      <Share />
       <Footer />
       <ContactForm config={config.contactForm} />
     </main>
