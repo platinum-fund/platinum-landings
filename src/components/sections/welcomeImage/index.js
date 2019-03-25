@@ -1,6 +1,5 @@
 import React from 'react'
 import './section_welcome-image.less'
-import Blockquote from 'src/components/sections/blockquote'
 import backgroundImage from './images/background-usdq.png'
 
 const WelcomeImage = () => (
@@ -22,7 +21,6 @@ const WelcomeImage = () => (
       </div>
     </div>
     <img className="section_welcome-image__background" src={backgroundImage} />
-    {/*<Blockquote />*/}
   </section>
 )
 
