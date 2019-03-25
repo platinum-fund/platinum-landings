@@ -11,18 +11,6 @@ const StablecoinInfo = () => (
           </h2>
         </div>
       </div>
-      {/*<div className="row">*/}
-      {/*<div className="col">*/}
-      {/*<p className="text text_size_big">MARKET CAP : $93,235,484.07</p>*/}
-      {/*<p className="text text_size_big">*/}
-      {/*Total Supply: 93,947,432.673681354349164009 USDQ*/}
-      {/*</p>*/}
-      {/*</div>*/}
-      {/*<div className="col">*/}
-      {/*<p className="text text_size_big">Holders: 18,475 addresses</p>*/}
-      {/*<p className="text text_size_big">Transfers: 729,476</p>*/}
-      {/*</div>*/}
-      {/*</div>*/}
       <div className="table">
         <div className="table__content">
           <div className="table__col table__col_first">
@@ -38,22 +26,6 @@ const StablecoinInfo = () => (
             <div className="table__row">71.302</div>
           </div>
         </div>
-        {/*<div className="table__footer table__content">*/}
-        {/*<div className="table__col table__col_first">*/}
-        {/*<p className="table__text">*/}
-        {/*The development of our project is public. Follow the links below:*/}
-        {/*</p>*/}
-        {/*<p className="table__text">*/}
-        {/*<a href="#">Roadmap</a>*/}
-        {/*</p>*/}
-        {/*<p className="table__text">*/}
-        {/*<a href="#">Github</a>*/}
-        {/*</p>*/}
-        {/*</div>*/}
-        {/*<div className="table__col">*/}
-        {/*<button className="button">View Scanner</button>*/}
-        {/*</div>*/}
-        {/*</div>*/}
       </div>
     </div>
     <div className="section_stablecoin-info__background">USDQ</div>
