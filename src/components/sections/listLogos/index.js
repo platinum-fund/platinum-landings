@@ -109,9 +109,6 @@ const ListLogos = () => (
             alt="Mercstox"
           />
         </div>
-        <button className="list-logos__item list-logos__item_button">
-          View more
-        </button>
       </div>
     </div>
   </section>
