@@ -19,7 +19,7 @@ const IndexPage = () => (
   >
     <main className="page_usdq">
       <WelcomeImage />
-      {/*<StablecoinInfo />*/}
+      <StablecoinInfo />
       <ListLogos />
       <TextWithIcon />
       <HowItWorkStableCoin />
