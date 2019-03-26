@@ -16,8 +16,10 @@ import ServiceProviders from 'src/components/sections/serviceProviders'
 import LastChance from 'src/components/sections/lastChance'
 import Articles from 'src/components/sections/articles'
 import CreateSecurityToken from 'src/components/sections/createSecurityToken'
+import Share from 'src/components/sections/shareNow'
 import Footer from 'src/components/sections/footer'
 import ContactForm from 'src/components/contactFormPopup'
+
 
 const IndexPage = () => (
   <Layout
@@ -39,6 +41,7 @@ const IndexPage = () => (
       <Reviews />
       <Articles />
       <LastChance />
+      <Share />
       <Footer />
       <ContactForm config={config.contactForm} />
     </main>
