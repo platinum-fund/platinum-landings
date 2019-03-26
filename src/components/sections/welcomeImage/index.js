@@ -8,9 +8,10 @@ const WelcomeImage = () => (
       <div className="headline">
         <div className="headline _title">
           <h1 className="title title_type_main _white">
-            decentralized stable trading asset collateralized by bitcoin
+            it's fully decentralized stable trading asset (collateralized by
+            BTC)
           </h1>
-          <h4 className="title title_type_second">1 USDq = 1$</h4>
+          <h4 className="title title_type_second">1 USDQ = $1</h4>
           <button
             className="button js-popup__button"
             data-popup-id="onePageUsdq"

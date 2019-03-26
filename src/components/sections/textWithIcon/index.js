@@ -14,8 +14,7 @@ const TextWithIcon = () => (
         <div className="headline _title">
           <h2 className="title title_type_main _white">What is USDQ ?</h2>
           <h4 className="title title_type_second">
-            USDQ is a unique digital utility stable cryptocurrency that
-            represents the future of money.
+            USDQ is one of its kind decentralized stable asset
           </h4>
         </div>
       </div>
