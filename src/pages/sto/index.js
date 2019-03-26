@@ -19,6 +19,7 @@ import Benefits from 'src/components/sections/benefits'
 import Reviews from 'src/components/sections/reviews'
 import Team from 'src/components/sections/team'
 import PastSupportedTokens from 'src/components/sections/pastSupportedTokens/sto'
+import Share from 'src/components/sections/shareNow'
 import Footer from 'src/components/sections/footer'
 import Articles from 'src/components/sections/articles'
 import ContactForm from 'src/components/contactFormPopup'
@@ -47,6 +48,7 @@ const IndexPage = () => (
       <Articles />
       <Team />
       <PastSupportedTokens />
+      <Share />
       <Footer />
       <ContactForm config={config.contactForm} />
     </main>
