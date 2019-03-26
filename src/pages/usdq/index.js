@@ -19,7 +19,6 @@ const IndexPage = () => (
   >
     <main className="page_usdq">
       <WelcomeImage />
-      <StablecoinInfo />
       <ListLogos />
       <TextWithIcon />
       <HowItWorkStableCoin />

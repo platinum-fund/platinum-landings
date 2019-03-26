@@ -20,10 +20,11 @@ const Roadmap = () => (
           </p>
         </article>
         <article className="roadmap__item">
-          <div className="roadmap__data">April, 2019</div>
+          <div className="roadmap__data">April-June, 2019</div>
           <p className="roadmap__text">
-            Listing on the first exchanges. The release of the first Y USDQ on
-            the secondary market.
+            Listing on the first exchanges: BTCNext, CoinBene, BitForex,
+            CoinAll, BTCAlfa. The release of the first USDQ Tokens on the
+            secondary market.
           </p>
         </article>
         <article className="roadmap__item">
