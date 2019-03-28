@@ -5,6 +5,10 @@ import { FormattedHTMLMessage } from 'react-intl'
 import TranslationProvider from 'src/components/translationProvider'
 import translations from './translations'
 
+if (typeof window !== 'undefined') {
+  require('platinum-ui/src/components/universal/tokens-slider')
+}
+
 const PastSupportedTokens = () => (
   <TranslationProvider translations={translations}>
     <section className="section section_past-supported-tokens-sto">
@@ -22,7 +26,7 @@ const PastSupportedTokens = () => (
             <FormattedHTMLMessage id="platinumTeamIsSupportingAnd" />
           </h4>
         </header>
-        <TokenList />
+        <tokens-slider />
       </div>
     </section>
   </TranslationProvider>

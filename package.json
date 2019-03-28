@@ -4,6 +4,7 @@
   "version": "0.1.0",
   "author": "Platinum dev team",
   "dependencies": {
+    "@webcomponents/custom-elements": "^1.2.1",
     "and": "0.0.3",
     "gatsby": "^2.0.76",
     "gatsby-image": "^2.0.20",

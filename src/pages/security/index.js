@@ -19,7 +19,7 @@ import CreateSecurityToken from 'src/components/sections/createSecurityToken'
 import Share from 'src/components/sections/shareNow'
 import Footer from 'src/components/sections/footer'
 import ContactForm from 'src/components/contactFormPopup'
-
+import PastSupportedTokens from '../../components/sections/pastSupportedTokens/sto'
 
 const IndexPage = () => (
   <Layout
@@ -37,6 +37,7 @@ const IndexPage = () => (
       <ActionAttention />
       <CodeExample />
       <Team />
+      <PastSupportedTokens />
       <ServiceProviders />
       <Reviews />
       <Articles />
