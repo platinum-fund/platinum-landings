@@ -11,41 +11,44 @@ const Roadmap = () => (
       </div>
       <div className="roadmap">
         <article className="roadmap__item">
-          <div className="roadmap__data">April, 2019</div>
+          <div className="roadmap__data">April-May, 2019</div>
           <p className="roadmap__text">
             The release of a standard contract with USDQ backed with bitcoin
             assets. Creating the simplest landing site for monitoring of
-            collateral and released assets, describing the main concepts and
-            ideas.
+            collateral and released assets. Listing of the tokens on the first
+            exchanges.
           </p>
         </article>
         <article className="roadmap__item">
-          <div className="roadmap__data">April-June, 2019</div>
+          <div className="roadmap__data">July-August, 2019</div>
           <p className="roadmap__text">
-            Listing on the first exchanges: BTCNext, CoinBene, BitForex,
-            CoinAll, BTCAlfa. The release of the first USDQ Tokens on the
-            secondary market.
+            Closed beta test of the loan interface. We give the first loans
+            secured by your bitcoins in semi-automatic mode. Expansion of the
+            list of exchanges for listing. Release of new USDQ tokens on the
+            secondary market. Launch of JPYQ, KRWQ, CNYQ tokens. Loans will be
+            processed manually.
           </p>
         </article>
         <article className="roadmap__item">
-          <div className="roadmap__data">May, 2019</div>
+          <div className="roadmap__data">November-December, 2019</div>
           <p className="roadmap__text">
-            Beta start of loan interface. Closed test for those who enrolled in
-            the white list. We give the first loans secured by your bitcoins in
-            semi-automatic mode.
+            The release of the first public beta. Automation of the loan
+            process. Implementation of the voting system. The limited launch of
+            predictor robots within the team of the project. The release of the
+            managing token.
           </p>
         </article>
         <article className="roadmap__item">
-          <div className="roadmap__data">July, 2019</div>
+          <div className="roadmap__data">January-February, 2019</div>
           <p className="roadmap__text">
-            Automation of the loan process, the release of the first public
-            beta.
+            The release of the first public predictor robots. Start mining
+            process.
           </p>
         </article>
         <article className="roadmap__item">
-          <div className="roadmap__data">September, 2019</div>
+          <div className="roadmap__data">March-April, 2019</div>
           <p className="roadmap__text">
-            The launch of predictor robots, full system launch.
+            Automation of the loan process of JPYQ, KRWQ, CNYQ tokens.
           </p>
         </article>
       </div>
