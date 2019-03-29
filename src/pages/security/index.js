@@ -12,6 +12,7 @@ import CodeExample from 'src/components/sections/codeExample'
 import PlatinumEquivalency from 'src/components/sections/platinumEquivalency'
 import Reviews from 'src/components/sections/reviews'
 import Team from 'src/components/sections/team'
+import PastSupportedTokens from 'src/components/sections/pastSupportedTokens/sto'
 import ServiceProviders from 'src/components/sections/serviceProviders'
 import LastChance from 'src/components/sections/lastChance'
 import Articles from 'src/components/sections/articles'
@@ -19,7 +20,7 @@ import CreateSecurityToken from 'src/components/sections/createSecurityToken'
 import Share from 'src/components/sections/shareNow'
 import Footer from 'src/components/sections/footer'
 import ContactForm from 'src/components/contactFormPopup'
-import PastSupportedTokens from '../../components/sections/pastSupportedTokens/sto'
+
 
 const IndexPage = () => (
   <Layout

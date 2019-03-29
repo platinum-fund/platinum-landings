@@ -25,7 +25,9 @@ const PrefacePure = () => (
           GET FREE CONSULTATION!
         </button>
       </div>
-      <media-preview />
+      <div className="section_media-preview">
+        <media-preview />
+      </div>
       <div className="scroll-down">
         <p className="scroll-down__text">scroll to know more</p>
         <img
