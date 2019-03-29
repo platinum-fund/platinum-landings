@@ -16,28 +16,19 @@ const Blockquote = () => (
   <blockquote className="section blockquote">
     <div className="wrapper_shrink">
       <div className="blockquote__content">
-        <h3 className="blockquote__subtitle">Contract address:</h3>
-        <h2 className="blockquote__title" id="smart_contract_address">
-          0x4bc78aec3f32eba2228c216103265bae67993839
-        </h2>
-        <p className="blockquote__text">
-          Our smart contract code was audited by{' '}
+        <h3 className="blockquote__subtitle">
+          Our contract address is fully transparent:
+        </h3>
+        <h2 className="blockquote__title">
           <a
-            href="https://www.proaudit.co/"
-            className="colored"
-            target="_blank"
-          >
-            ProAudit
-          </a>{' '}
-          company, whose report is publicly available{' '}
-          <a
+            className="link"
             href="https://ropsten.etherscan.io/address/0x4bc78aec3f32eba2228c216103265bae67993839#code"
             target="_blank"
+            id="smart_contract_address"
           >
-            here
+            0x4bc78aec3f32eba2228c216103265bae67993839
           </a>
-          .
-        </p>
+        </h2>
       </div>
       <footer>
         <button className="blockquote__button" onClick={copyToClipBoard}>
