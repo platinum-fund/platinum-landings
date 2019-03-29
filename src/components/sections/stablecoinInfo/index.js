@@ -9,7 +9,10 @@ const StablecoinInfo = () => (
           <div className="table__col table__col_first">
             <div className="table__title">Wallets</div>
             <div className="table__row">
-              <a href="https://www.blockchain.com/ru/btc/address/3L9gemtonHADkBproAsywkqNxCcsSYkoEC">
+              <a
+                href="https://www.blockchain.com/ru/btc/address/3L9gemtonHADkBproAsywkqNxCcsSYkoEC"
+                className="link"
+              >
                 3L9gemtonHADkBproAsywkqNxCcsSYkoEC
               </a>
             </div>

@@ -21,6 +21,7 @@ const Blockquote = () => (
         </h3>
         <h2 className="blockquote__title">
           <a
+            className="link"
             href="https://ropsten.etherscan.io/address/0x4bc78aec3f32eba2228c216103265bae67993839#code"
             target="_blank"
             id="smart_contract_address"
