@@ -15,14 +15,7 @@ const LaunchPlatform = () => (
               <FormattedHTMLMessage id="securedStoLaunchPlatform" />
             </h2>
             <p className="card__description">
-              <FormattedHTMLMessage id="acceptPaymentsIn1" />
-              <span className="card__description _orange">
-                <FormattedHTMLMessage id="acceptPaymentsIn2" />
-              </span>
-              <FormattedHTMLMessage id="acceptPaymentsIn3" />
-              <span className="card__description _orange">
-                <FormattedHTMLMessage id="acceptPaymentsIn4" />
-              </span>
+              <FormattedHTMLMessage id="acceptPaymentsIn" />
             </p>
             <p className="section_description">
               <FormattedHTMLMessage id="stoPlatformAllowsToEasily" />

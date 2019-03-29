@@ -13,17 +13,7 @@ const StoCategories = () => (
       <div className="wrapper_shrink">
         <div className="headline">
           <h2 className="title title_type_section">
-            <FormattedHTMLMessage id="theAre" />
-          </h2>
-          <h2 className="title title_type_section _orange">
-            <FormattedHTMLMessage id="3MainCategories" />
-          </h2>
-          <br />
-          <h2 className="title title_type_section">
-            <FormattedHTMLMessage id="ofTokenizationAchievedViaAn" />
-          </h2>
-          <h2 className="title title_type_section _orange">
-            <FormattedHTMLMessage id="sto" />
+            <FormattedHTMLMessage id="theAre3MainCategories" />
           </h2>
         </div>
         <div className="wrapper_cards">
