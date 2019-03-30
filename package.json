@@ -15,7 +15,7 @@
     "gatsby-source-filesystem": "^2.0.8",
     "gatsby-transformer-sharp": "^2.1.8",
     "less": "^3.9.0",
-    "platinum-ui": "^1.2.3",
+    "platinum-ui": "^1.2.4",
     "prop-types": "^15.6.2",
     "react": "^16.6.3",
     "react-anchor-link-smooth-scroll": "^1.0.11",

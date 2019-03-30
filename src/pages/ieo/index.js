@@ -3,9 +3,11 @@ import './page_ieo.less'
 import config from 'src/config/ieoPage'
 import Layout from 'src/components/layout/LayoutPure'
 import Preface from 'src/components/sections/preface/ieo'
+import MediaPreview from 'src/components/sections/mediaPreview'
 import About from 'src/components/sections/about'
 import PlatinumSlider from 'src/components/sections/about-slider'
 import Team from 'src/components/sections/team'
+import PastSupportedTokens from 'src/components/sections/pastSupportedTokens/sto'
 import Share from 'src/components/sections/shareNow'
 import Footer from 'src/components/sections/footer'
 import Articles from 'src/components/sections/articles'
@@ -21,12 +23,14 @@ const IndexPage = () => (
   >
     <main className="page_ieo">
       <Preface />
+      <MediaPreview />
       <About />
       <PlatinumSlider />
       <Details />
       <ActionAttention />
       <Articles />
       <Team />
+      <PastSupportedTokens />
       <Share />
       <Footer />
       <ContactForm config={config.contactForm} />
