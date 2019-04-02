@@ -48,19 +48,13 @@ const Benefits = () => (
           <div className="card card_theme_light card_type_column">
             <img className="card__image" src={coinImage} />
             <h6 className="card__description-big">
-              <FormattedHTMLMessage id="receivePaymentsIn1" />
-              <span className="card__description-big--orange">
-                <FormattedHTMLMessage id="receivePaymentsIn2" />
-              </span>
+              <FormattedHTMLMessage id="receivePaymentsIn" />
             </h6>
           </div>
           <div className="card card_theme_light card_type_column">
             <img className="card__image" src={cardsImage} />
             <h6 className="card__description-big">
-              <FormattedHTMLMessage id="receivePaymentsVia1" />
-              <span className="card__description-big--orange">
-                <FormattedHTMLMessage id="receivePaymentsVia2" />
-              </span>
+              <FormattedHTMLMessage id="receivePaymentsVia" />
             </h6>
           </div>
           <div className="card card_theme_light card_type_column">
@@ -76,15 +70,7 @@ const Benefits = () => (
           <div className="card card_theme_light card_type_column">
             <img className="card__image" src={clockImage} />
             <h6 className="card__description-big">
-              <FormattedHTMLMessage id="fast1" />
-              <span className="card__description-big--orange">
-                <FormattedHTMLMessage id="fast2" />
-              </span>
-              <FormattedHTMLMessage id="fast3" />
-              <span className="card__description-big--orange">
-                <FormattedHTMLMessage id="fast4" />
-              </span>
-              <FormattedHTMLMessage id="fast5" />
+              <FormattedHTMLMessage id="fastSystemDeployment" />
             </h6>
           </div>
           <div className="card card_theme_light card_type_column">
@@ -100,10 +86,7 @@ const Benefits = () => (
           <div className="card card_theme_light card_type_column">
             <img className="card__image" src={mobileImage} />
             <h6 className="card__description-big">
-              <FormattedHTMLMessage id="dividendStructureIssuance1" />
-              <span className="card__description-big--orange">
-                <FormattedHTMLMessage id="dividendStructureIssuance2" />
-              </span>
+              <FormattedHTMLMessage id="dividendStructureIssuance" />
             </h6>
           </div>
           <div className="card card_theme_light card_type_column">

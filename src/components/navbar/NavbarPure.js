@@ -56,7 +56,7 @@ const Navbar = ({ closeMenu, toggleMenu, isMenuShown }) => {
                   className="navbar__link"
                   href="https://platinum.fund/business/"
                 >
-                  Business
+                  Buy Platinum Equity
                 </a>
                 <a className="navbar__link" href="https://platinum.fund/mlm/">
                   MLM

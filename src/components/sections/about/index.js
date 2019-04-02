@@ -13,10 +13,7 @@ const About = () => (
       <div className="wrapper_shrink">
         <div className="headline">
           <h2 className="title title_type_section">
-            <FormattedHTMLMessage id="about" />
-          </h2>
-          <h2 className="title title_type_section _orange">
-            <FormattedHTMLMessage id="platinum" />
+            <FormattedHTMLMessage id="aboutPlatinum" />
           </h2>
         </div>
         <div className="card card_type_column">
@@ -41,11 +38,7 @@ const About = () => (
           <div className="wrapper_card">
             <img className="card_image" src={secondImage} />
             <p className="card_description">
-              <FormattedHTMLMessage id="weAre1" />
-              <span className="card_description_orange">
-                <FormattedHTMLMessage id="weAre2" />
-              </span>
-              <FormattedHTMLMessage id="weAre3" />
+              <FormattedHTMLMessage id="weAre" />
             </p>
           </div>
           <div className="wrapper_card">
