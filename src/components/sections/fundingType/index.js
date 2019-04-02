@@ -46,16 +46,7 @@ const FundingType = () => (
         </div>
         <div className="headline">
           <h4 className="title title_type_second">
-            <FormattedHTMLMessage id="getYou" />
-          </h4>
-          <h4 className="title title_type_second _orange">
-            <FormattedHTMLMessage id="freeConsultation" />
-          </h4>
-          <h4 className="title title_type_second">
-            <FormattedHTMLMessage id="and" />
-          </h4>
-          <h4 className="title title_type_second _orange">
-            <FormattedHTMLMessage id="projectReview" />
+            <FormattedHTMLMessage id="getYourFreeConsultation" />
           </h4>
         </div>
         <div className="wrapper_buttons">

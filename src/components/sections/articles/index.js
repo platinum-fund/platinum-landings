@@ -14,7 +14,7 @@ const ArticlesSection = () => (
       <div className="wrapper_shrink">
         <div className="headline">
           <h2 className="title title_type_section">
-            <FormattedHTMLMessage id="findUsIn" />
+            <FormattedHTMLMessage id="findUsInMedia" />
           </h2>
           <h2 className="title title_type_section _orange">
             <FormattedHTMLMessage id="media" />
