@@ -1,9 +1,6 @@
 {
   "securedStoLaunchPlatform": "SECURED STO LAUNCH PLATFORM",
-  "acceptPaymentsIn1": " Accept Payments in",
-  "acceptPaymentsIn2": " CRYPTOCURRENCY, FIAT",
-  "acceptPaymentsIn3": " or via",
-  "acceptPaymentsIn4": " BANK TRANSFER",
+  "acceptPaymentsIn": " Accept Payments in <span class=\"card__description _orange\">CRYPTOCURRENCY, FIAT</span> or via <span class=\"card__description _orange\">BANK TRANSFER</span>",
   "stoPlatformAllowsToEasily": "STO Platform allows to easily accept crypto from investors, manage STO stages and marketing campaigns, process KYC/AML",
   "getPlatformDemo": "Get platform demo"
 }

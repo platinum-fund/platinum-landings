@@ -1,9 +1,6 @@
 {
   "comparingToAnotherFundingType": "Comparing to another funding type",
-  "getYou": "GET YOU",
-  "freeConsultation": "FREE CONSULTATION",
-  "and": "AND",
-  "projectReview": "PROJECT REVIEW",
+  "getYourFreeConsultation": "GET YOUR <span class=\"title _orange\">FREE CONSULTATION</span> AND <span class=\"title _orange\">PROJECT REVIEW</span>",
   "vc": "VC",
   "ipo": "IPO",
   "ico": "ICO",

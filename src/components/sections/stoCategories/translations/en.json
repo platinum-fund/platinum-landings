@@ -1,8 +1,5 @@
 {
-  "theAre": "THE ARE",
-  "3MainCategories": "3 MAIN CATEGORIES",
-  "ofTokenizationAchievedViaAn": "OF TOKENIZATION ACHIEVED VIA AN",
-  "sto": "STO",
+  "theAre3MainCategories": "THE ARE <span class=\"title _orange\">3 MAIN CATEGORIES</span> OF TOKENIZATION ACHIEVED VIA AN <span class=\"title _orange\">STO</span>",
   "equityTokens": "Equity Tokens",
   "anStoWhereEachToken": "An STO where each token is secured against stock in              your company providing token holders equivalent rights to voting and dividend issuance              as your actual stockholders.",
   "reserveAssetsToken": "Reserve Assets Token",
