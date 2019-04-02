@@ -1,6 +1,5 @@
 import React from 'react'
 import './section_articles.less'
-import Articles from 'src/components/articles'
 import { FormattedHTMLMessage } from 'react-intl'
 import TranslationProvider from 'src/components/translationProvider'
 import translations from './translations'
