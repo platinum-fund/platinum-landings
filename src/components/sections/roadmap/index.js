@@ -39,14 +39,14 @@ const Roadmap = () => (
           </p>
         </article>
         <article className="roadmap__item">
-          <div className="roadmap__data">January-February, 2019</div>
+          <div className="roadmap__data">January-February, 2020</div>
           <p className="roadmap__text">
             The release of the first public predictor robots. Start mining
             process.
           </p>
         </article>
         <article className="roadmap__item">
-          <div className="roadmap__data">March-April, 2019</div>
+          <div className="roadmap__data">March-April, 2020</div>
           <p className="roadmap__text">
             Automation of the loan process of JPYQ, KRWQ, CNYQ tokens.
           </p>
