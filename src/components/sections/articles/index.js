@@ -1,9 +1,12 @@
 import React from 'react'
 import './section_articles.less'
-import Articles from 'src/components/articles'
 import { FormattedHTMLMessage } from 'react-intl'
 import TranslationProvider from 'src/components/translationProvider'
 import translations from './translations'
+
+if (typeof window !== 'undefined') {
+  require('platinum-ui/src/components/universal/media-section')
+}
 
 const ArticlesSection = () => (
   <TranslationProvider translations={translations}>
@@ -17,7 +20,7 @@ const ArticlesSection = () => (
             <FormattedHTMLMessage id="media" />
           </h2>
         </div>
-        <Articles />
+        <media-section />
       </div>
     </section>
   </TranslationProvider>
