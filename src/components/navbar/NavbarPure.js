@@ -39,8 +39,8 @@ const Navbar = ({ closeMenu, toggleMenu, isMenuShown }) => {
               <a className="navbar__link" href={hrefWithLanguage('sto')}>
                 <FormattedHTMLMessage id="sTO" />
               </a>
-              <a className="navbar__link" href={hrefWithLanguage('security')}>
-                <FormattedHTMLMessage id="createSecurityToken" />
+              <a className="navbar__link" href={hrefWithLanguage('ieo')}>
+                <FormattedHTMLMessage id="ieo" />
               </a>
               <a className="navbar__link" href={hrefWithLanguage('listing')}>
                 <FormattedHTMLMessage id="listing" />
@@ -72,8 +72,11 @@ const Navbar = ({ closeMenu, toggleMenu, isMenuShown }) => {
               <div className="navbar__links-group-wrapper">
                 <p className="navbar__link navbar__more-button">More</p>
                 <div className="navbar__links-group">
-                  <a className="navbar__link" href={hrefWithLanguage('ieo')}>
-                    <FormattedHTMLMessage id="ieo" />
+                  <a
+                    className="navbar__link"
+                    href={hrefWithLanguage('security')}
+                  >
+                    <FormattedHTMLMessage id="createSecurityToken" />
                   </a>
                   <a
                     className="navbar__link"
