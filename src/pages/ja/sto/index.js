@@ -29,6 +29,8 @@ const IndexPage = () => (
   <Layout
     pageTitle="Services for STO: Security Token Offering Consulting from Agency Platinum.fund"
     language="ja"
+    landingName={config.contactForm.landingName}
+    locales={config.languages}
   >
     <main className="page_sto">
       <PrefaceNav />
