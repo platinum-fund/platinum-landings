@@ -11,10 +11,10 @@
     border-radius: 3px;
     background-color: #fff;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.13);
-    &_hidden {
+    &--hidden {
       display: none;
     }
-    &_shown {
+    &--shown {
       display: block;
     }
     &:hover {
@@ -40,10 +40,10 @@
   .languages-menu__current-option {
     all: unset;
     .languages-menu__option();
-    color: inherit;
-    cursor: pointer;
     position: relative;
     z-index: 1;
+    color: inherit;
+    cursor: pointer;
     .languages-menu__option-image,
     .languages-menu__option-name {
       z-index: -1;

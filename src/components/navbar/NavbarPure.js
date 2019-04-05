@@ -12,6 +12,7 @@ import LanguageMenu from '../languageMenu'
 const Navbar = ({ closeMenu, toggleMenu, isMenuShown }) => {
   const currentLanguage = LanguageContext._currentValue
   const domainHref = 'https://platinum.fund/'
+
   const hrefWithLanguage = pageName => {
     if (
       configPages[pageName] &&
