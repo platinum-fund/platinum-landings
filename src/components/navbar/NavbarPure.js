@@ -70,6 +70,9 @@ const Navbar = ({ closeMenu, toggleMenu, isMenuShown }) => {
                 <a className="navbar__link" href="https://platinum.fund/hr/">
                   Hiring!
                 </a>
+                <a className="navbar__link" href="https://www.prttps.com/">
+                  Protypes Bureau
+                </a>
               </div>
             </div>
           </div>
