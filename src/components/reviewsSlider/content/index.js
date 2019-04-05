@@ -59,7 +59,7 @@ const sliders = [
     tokenLink: ``
   },
   {
-    photo: defaultPhoto,
+    photo: logoSpatium,
     text: `These guys are real professionals! They know their business 
 			perfectly. In comparison with other law firms they have the lowest 
 			prices with very high level of service. They know everything about ICOs, 
@@ -72,12 +72,13 @@ const sliders = [
 			is their own one.`,
     name: ``,
     position: ``,
-    tokenLogotype: logoSpatium,
+    tokenLogotype: ``,
     tokenPrice: ``,
-    tokenDescription: ``
+    tokenDescription: ``,
+    isLogo: true
   },
   {
-    photo: defaultPhoto,
+    photo: logoTrader0x,
     text: `To be honest, before we met Platinum's team, we didn't realize 
 			that our startup needed a lawyer. We were shocked after we spend more 
 			than 12 hours together working on the detailed analysis of our project 
@@ -89,7 +90,7 @@ const sliders = [
 			further actions.`,
     name: `Yuriy Kovalev`,
     position: `Founder`,
-    tokenLogotype: logoTrader0x,
+    tokenLogotype: ``,
     tokenPrice: ``,
     tokenDescription: ``
   },
@@ -209,7 +210,7 @@ const sliders = [
     tokenLink: ``
   },
   {
-    photo: defaultPhoto,
+    photo: logoTokenLinkercoin,
     text: `We highly appreciate services Platinum team were provided. 
 		They are responsive and responsible partners, it's worth 
 		a lot in this fast-changing market. We luckily got an 
@@ -217,10 +218,11 @@ const sliders = [
 		convinced us in their professionilsm.`,
     name: `Hwi Ram Jeong`,
     position: `Global Business Team At Linker Coin`,
-    tokenLogotype: logoTokenLinkercoin,
+    tokenLogotype: ``,
     tokenPrice: ``,
     tokenDescription: ``,
-    tokenLink: `https://www.linkercoin.com/`
+    tokenLink: `https://www.linkercoin.com/`,
+    isLogo: true
   },
   {
     photo: photoAlexeyShmonov,
@@ -249,17 +251,18 @@ const sliders = [
     tokenLink: `https://www.multiversum.io/`
   },
   {
-    photo: defaultPhoto,
+    photo: logoTokenTmbk2,
     text: `We've listed with Platinum two tokens ACChain and CCDC. They
 		take the pain away, for sure. Sometimes you don't know who is
 		at the other end, because of the lack of time for meeting,
 		but service is helpful. I love what they did!`,
     name: `Genevieve Leveille`,
     position: `Director of Timbuktu Capital`,
-    tokenLogotype: logoTokenTmbk2,
+    tokenLogotype: ``,
     tokenPrice: ``,
     tokenDescription: ``,
-    tokenLink: ``
+    tokenLink: ``,
+    isLogo: true
   },
   {
     photo: photoInaSamovich,
@@ -275,18 +278,19 @@ const sliders = [
     tokenDescription: ``
   },
   {
-    photo: defaultPhoto,
+    photo: logoAtfs,
     text: `We are thankful for the Telegram support service from Platinum 
 			during our ICO campaign period. They were professional and 
 			always online. The group was managed 24/7 and overall, we were satisfied.`,
     name: `Rachel Chung`,
     position: `Marketing Lead and co-founder`,
-    tokenLogotype: logoAtfs,
+    tokenLogotype: ``,
     tokenPrice: ``,
-    tokenDescription: ``
+    tokenDescription: ``,
+    isLogo: true
   },
   {
-    photo: defaultPhoto,
+    photo: logoMicromoney,
     text: `PLATINUM provided us with services for ICO. It’s a perfect team 
 			capable of everything you need! They have organized a campaign accurately 
 			through the broad media coverage and ICO websites calendars. Their 
@@ -295,21 +299,23 @@ const sliders = [
 			on when we were ready to give up.`,
     name: `Sai Hnin Aung`,
     position: `Co-founder, COO`,
-    tokenLogotype: logoMicromoney,
+    tokenLogotype: ``,
     tokenPrice: ``,
-    tokenDescription: ``
+    tokenDescription: ``,
+    isLogo: true
   },
   {
-    photo: defaultPhoto,
+    photo: logoUnicontv,
     text: `PLATINUM performs valuable support from creating an editorial 
 			policy to writing exclusive materials. We got marketing support for 
 			the news portal as well. Now we have a perfectly operating news 
 			platform with a growing community of our think-alikes.`,
     name: `Dan Khomenko`,
     position: `UNICOIN TV co-founder`,
-    tokenLogotype: logoUnicontv,
+    tokenLogotype: ``,
     tokenPrice: ``,
-    tokenDescription: ``
+    tokenDescription: ``,
+    isLogo: true
   }
 ]
 
