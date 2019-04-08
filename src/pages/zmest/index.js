@@ -13,7 +13,10 @@ import { FormattedHTMLMessage } from 'react-intl'
 const IndexPage = () => (
   <Layout
     pageTitle="ICO \ STO Marketing Consulting: Get Free Consultation | Platinum.fund"
+    description="Marketing services for ICO and STO projects. We provide consulting services for a long time and have already conducted more than 100 successful STO and ICO companies. Get a free consultation right now."
     language="en"
+    landingName={config.contactForm.landingName}
+    locales={config.languages}
   >
     <TranslationProvider translations={translations}>
       <main className="page_zmest">
