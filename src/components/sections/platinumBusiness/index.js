@@ -46,7 +46,7 @@ const PlatinumBusiness = ({ config }) => (
             />
             <p className="card__list">
               - average monthly revenue
-              <span className="card__description-attention"> $80,000 </span>
+              <span className="card__description-attention"> $750,000 </span>
               <br />- in our company the professional are from
               <span className="card__description-attention">
                 15 countries 112 employees{' '}
@@ -93,10 +93,7 @@ const PlatinumBusiness = ({ config }) => (
               - <span className="card__description-attention">dividents </span>
               based on the company's income
               <br />-{' '}
-              <span className="card__description-attention">
-                {' '}
-                equity tokens{' '}
-              </span>
+              <span className="card__description-attention"> equity</span>
             </p>
           </div>
         </div>
