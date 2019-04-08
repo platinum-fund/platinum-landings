@@ -7,7 +7,9 @@ const Navbar = ({ closeMenu, toggleMenu, isMenuShown }) => {
   return (
     <div className="navbar">
       <div className="wrapper_shrink">
-        <img className="navbar__logo" src={logo} alt="" />
+        <a href="https://platinum.fund/sto/">
+          <img className="navbar__logo" src={logo} alt="" />
+        </a>
         <div className="navbar__menu-button" onClick={toggleMenu}>
           Services
         </div>
