@@ -22,8 +22,9 @@ import PastSupportedTokens from 'src/components/sections/pastSupportedTokens/sto
 import Share from 'src/components/sections/shareNow'
 import Footer from 'src/components/sections/footer'
 import Articles from 'src/components/sections/articles'
-import ContactForm from 'src/components/contactFormPopup'
 import MediaPreview from 'src/components/sections/mediaPreview'
+import Contacts from 'src/components/sections/contacts'
+import ContactForm from 'src/components/contactFormPopup'
 
 const IndexPage = () => (
   <Layout
@@ -51,6 +52,7 @@ const IndexPage = () => (
       <Team />
       <PastSupportedTokens />
       <Share />
+      <Contacts />
       <Footer />
       <ContactForm config={config.contactForm} />
     </main>
