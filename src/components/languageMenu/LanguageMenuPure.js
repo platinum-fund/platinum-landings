@@ -2,19 +2,21 @@ import React from 'react'
 import OutsideClickHandler from 'react-outside-click-handler'
 import './language-menu.less'
 import configPages from 'src/config'
-import GetLocationPathName from './GetLocationPathName'
+import locationPathName from './locationPathName'
 import { CurrentLanguage } from './CurrentLanguage'
 import { CurrentLanguageList } from './CurrentLanguageList'
 
 const LanguageMenuPure = props => {
   const { closeLanguageMenu, toggleLanguageMenu, isLanguageMenuShown } = props
 
-  const locationPathname = GetLocationPathName
+  const locationPathNameCurrentPage = locationPathName
 
-  const currentPageConfig = configPages[locationPathname]
-  const currentPageLanguages = currentPageConfig.languages
-
-  if (currentPageConfig && currentPageLanguages) {
+  if (
+    configPages[locationPathNameCurrentPage] &&
+    configPages[locationPathNameCurrentPage].languages
+  ) {
+    const currentPageConfig = configPages[locationPathNameCurrentPage]
+    const currentPageLanguages = currentPageConfig.languages
     return (
       <div className="languages-menu">
         <CurrentLanguage toggleLanguageMenu={toggleLanguageMenu} />
@@ -26,7 +28,7 @@ const LanguageMenuPure = props => {
           >
             <CurrentLanguageList
               currentPageLanguages={currentPageLanguages}
-              locationPathname={locationPathname}
+              locationPathname={locationPathNameCurrentPage}
             />
           </div>
         </OutsideClickHandler>
