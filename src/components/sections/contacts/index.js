@@ -5,7 +5,7 @@ import { FormattedHTMLMessage } from 'react-intl'
 import TranslationProvider from 'src/components/translationProvider'
 import translations from './translations'
 
-const CodeExamplePure = () => (
+const ContactsSection = () => (
   <TranslationProvider translations={translations}>
     <section className="section section_contacts">
       <div className="wrapper_section-content">
@@ -20,4 +20,4 @@ const CodeExamplePure = () => (
   </TranslationProvider>
 )
 
-export default CodeExamplePure
+export default ContactsSection
