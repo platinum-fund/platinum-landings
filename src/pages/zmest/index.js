@@ -4,9 +4,9 @@ import config from 'src/config/zmestPage'
 import Layout from 'src/components/layout/LayoutPure'
 import Team from 'src/components/sections/team'
 import Reviews from 'src/components/sections/reviews'
-import { handleClick } from './handleSendEmailClick.js'
+import handleClick from '../../components/pages/zmest/handleSendEmailClick.js'
 import Footer from 'src/components/sections/footer'
-import translations from './translations'
+import translations from '../../components/pages/zmest/translations'
 import TranslationProvider from '../../components/translationProvider'
 import { FormattedHTMLMessage } from 'react-intl'
 
@@ -47,7 +47,7 @@ const IndexPage = () => (
             <img
               className="img-responsive"
               id="we-do-image"
-              src={require('./content/images/who-we-are.png')}
+              src={require('../../components/pages/zmest/content/images/who-we-are.png')}
             />
           </div>
         </div>
@@ -58,7 +58,9 @@ const IndexPage = () => (
             </h2>
             <div className="row">
               <div className="col-md-4 service-block">
-                <img src={require('./content/images/listings.png')} />
+                <img
+                  src={require('../../components/pages/zmest/content/images/listings.png')}
+                />
                 <span>
                   {' '}
                   <FormattedHTMLMessage id="icoListings" />{' '}
@@ -73,7 +75,9 @@ const IndexPage = () => (
                 </div>
               </div>
               <div className="col-md-4 service-block">
-                <img src={require('./content/images/media_buying.png')} />
+                <img
+                  src={require('../../components/pages/zmest/content/images/media_buying.png')}
+                />
                 <span>
                   {' '}
                   <FormattedHTMLMessage id="mediaBuying" />{' '}
@@ -88,7 +92,9 @@ const IndexPage = () => (
                 </div>
               </div>
               <div className="col-md-4 service-block -last">
-                <img src={require('./content/images/community.png')} />
+                <img
+                  src={require('../../components/pages/zmest/content/images/community.png')}
+                />
                 <span>
                   <FormattedHTMLMessage id="communityManagement" />
                 </span>
@@ -102,7 +108,9 @@ const IndexPage = () => (
                 </div>
               </div>
               <div className="col-md-4 service-block -bottom">
-                <img src={require('./content/images/pr.png')} />{' '}
+                <img
+                  src={require('../../components/pages/zmest/content/images/pr.png')}
+                />{' '}
                 <span>
                   {' '}
                   <FormattedHTMLMessage id="pr" />{' '}
@@ -118,7 +126,9 @@ const IndexPage = () => (
                 </div>
               </div>
               <div className="col-md-4 service-block -bottom">
-                <img src={require('./content/images/bounty.png')} />
+                <img
+                  src={require('../../components/pages/zmest/content/images/bounty.png')}
+                />
                 <span>
                   <FormattedHTMLMessage id="bountyCampaignManagement" />
                 </span>
@@ -132,7 +142,9 @@ const IndexPage = () => (
                 </div>
               </div>
               <div className="col-md-4 service-block -bottom -last">
-                <img src={require('./content/images/traffic.png')} />
+                <img
+                  src={require('../../components/pages/zmest/content/images/traffic.png')}
+                />
                 <span>
                   <FormattedHTMLMessage id="trafficAcquisition" />
                 </span>
@@ -223,7 +235,9 @@ const IndexPage = () => (
                     <FormattedHTMLMessage id="businessCaseImmlaRaise" />
                   </span>
                 </p>
-                <img src={require('./content/images/immla-white.png')} />
+                <img
+                  src={require('../../components/pages/zmest/content/images/immla-white.png')}
+                />
               </div>
               <div className="item">
                 <div className="title">CopPay</div>
@@ -237,7 +251,9 @@ const IndexPage = () => (
                     <FormattedHTMLMessage id="businessCaseCopPayRaise" />
                   </span>
                 </p>
-                <img src={require('./content/images/coppay-white.png')} />
+                <img
+                  src={require('../../components/pages/zmest/content/images/coppay-white.png')}
+                />
               </div>
               <div className="item">
                 <div className="title">Micromoney</div>
@@ -251,7 +267,9 @@ const IndexPage = () => (
                     <FormattedHTMLMessage id="businessCaseMicroMoneyRaise" />
                   </span>
                 </p>
-                <img src={require('./content/images/micromoney-white.png')} />
+                <img
+                  src={require('../../components/pages/zmest/content/images/micromoney-white.png')}
+                />
               </div>
             </div>
           </div>
@@ -316,7 +334,10 @@ const IndexPage = () => (
         <Team />
         <div className="section footer">
           <div className="container text-center">
-            <img src={require('./content/images/logo-white.png')} width="90" />
+            <img
+              src={require('../../components/pages/zmest/content/images/logo-white.png')}
+              width="90"
+            />
             <p>Zmest Marketing Group</p>
             <ul className="list-inline mail">
               <li>
@@ -330,7 +351,7 @@ const IndexPage = () => (
               <li>
                 <a href="https://www.facebook.com/zmest/" className="facebook">
                   <img
-                    src={require('./content/images/facebook-logo.svg')}
+                    src={require('../../components/pages/zmest/content/images/facebook-logo.svg')}
                     alt="facebook"
                   />
                 </a>
@@ -341,7 +362,7 @@ const IndexPage = () => (
                   className="linkedin"
                 >
                   <img
-                    src={require('./content/images/linkedin-logo.svg')}
+                    src={require('../../components/pages/zmest/content/images/linkedin-logo.svg')}
                     alt="facebook"
                   />
                 </a>

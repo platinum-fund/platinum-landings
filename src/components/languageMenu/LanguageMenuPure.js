@@ -1,73 +1,35 @@
 import React from 'react'
 import OutsideClickHandler from 'react-outside-click-handler'
-import LanguageContext from 'src/contexts/language'
 import './language-menu.less'
 import configPages from 'src/config'
+import locationPathName from './locationPathName'
+import { CurrentLanguage } from './CurrentLanguage'
+import { CurrentLanguageList } from './CurrentLanguageList'
 
-const LanguageMenuPure = ({
-  closeLanguageMenu,
-  toggleLanguageMenu,
-  isLanguageMenuShown
-}) => {
-  const locationPathname = window.location.href
-    .split('/')
-    .filter(function(element) {
-      return element !== ''
-    })
-    .pop()
+const LanguageMenuPure = props => {
+  const { closeLanguageMenu, toggleLanguageMenu, isLanguageMenuShown } = props
+
+  const locationPathNameCurrentPage = locationPathName
+
   if (
-    configPages[locationPathname] &&
-    configPages[locationPathname].languages !== -1
+    configPages[locationPathNameCurrentPage] &&
+    configPages[locationPathNameCurrentPage].languages
   ) {
-    const currentLanguage = LanguageContext._currentValue
-    const currentAvailableLanguage = configPages[locationPathname].languages
-    const domainHref = 'https://platinum.fund/'
-
-    const currentLanguageContent = (
-      <button
-        className="languages-menu__current-option"
-        onClick={toggleLanguageMenu}
-      >
-        <img
-          alt="Language en"
-          className="languages-menu__option-image"
-          src={require('./images/languages/' + currentLanguage + '.png')}
-          data-option="en"
-        />
-        <p className="languages-menu__option-name">{currentLanguage}</p>
-      </button>
-    )
-
-    const currentLanguageList = currentAvailableLanguage.map(
-      (element, index) => {
-        return (
-          <a
-            className="languages-menu__option"
-            href={'/' + element + '/' + locationPathname + '/'}
-            data-option={element}
-            key={index}
-          >
-            <img
-              alt={'Language ' + element}
-              className="languages-menu__option-image"
-              src={require('./images/languages/' + element + '.png')}
-            />
-            <p className="languages-menu__option-name">{element}</p>
-          </a>
-        )
-      }
-    )
-
+    const currentPageConfig = configPages[locationPathNameCurrentPage]
+    const currentPageLanguages = currentPageConfig.languages
     return (
       <div className="languages-menu">
-        {currentLanguageContent}
+        <CurrentLanguage toggleLanguageMenu={toggleLanguageMenu} />
         <OutsideClickHandler onOutsideClick={closeLanguageMenu}>
           <div
-            className={`languages-menu__options languages-menu__options_${
+            className={`languages-menu__options languages-menu__options--${
               isLanguageMenuShown ? 'shown' : 'hidden'
             }`}
           >
-            {currentLanguageList}
+            <CurrentLanguageList
+              currentPageLanguages={currentPageLanguages}
+              locationPathname={locationPathNameCurrentPage}
+            />
           </div>
         </OutsideClickHandler>
       </div>
