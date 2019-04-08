@@ -1,0 +1,9 @@
+{
+  "theAre3MainCategories": "<span class=\"title _orange\">STO</span>によって発行できるセキュリティトークンは、<span class=\"title _orange\">3つの分類</span>があります。",
+  "equityTokens": "株式型トークン",
+  "anStoWhereEachToken": "御社の株に担保されるセキュリティトークン。トークン保有者に御社の実際の株主と同じ投票権利および配当発行に対する権利を提供します。",
+  "reserveAssetsToken": "準備資産型トークン",
+  "organizationsThatTradeInRealworld": "金、不動産などの実物理商品を取引する会社にとっては、基礎となる資産ベースの準備金によってトークンが保護されているSTOを立ち上げることができます。",
+  "debtToken": "債券型トークン",
+  "ratherThanTokenizingYourStock": "御社の株式や準備資産をトークン化するためだけでなく、STOは資金調達の目的でも実施できます。その場合、セキュリティトークンを債券として発行し、投資家への払い戻しを約束します。"
+}
