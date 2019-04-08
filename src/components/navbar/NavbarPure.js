@@ -28,7 +28,9 @@ const Navbar = ({ closeMenu, toggleMenu, isMenuShown }) => {
     <TranslationProvider translations={translations}>
       <div className="navbar">
         <div className="wrapper_shrink">
-          <img className="navbar__logo" src={logo} alt="" />
+          <a href="https://platinum.fund/sto/">
+            <img className="navbar__logo" src={logo} alt="" />
+          </a>
           <div className="navbar__menu-button" onClick={toggleMenu}>
             <FormattedHTMLMessage id="services" />
           </div>
@@ -39,8 +41,8 @@ const Navbar = ({ closeMenu, toggleMenu, isMenuShown }) => {
               <a className="navbar__link" href={hrefWithLanguage('sto')}>
                 <FormattedHTMLMessage id="sTO" />
               </a>
-              <a className="navbar__link" href={hrefWithLanguage('security')}>
-                <FormattedHTMLMessage id="createSecurityToken" />
+              <a className="navbar__link" href={hrefWithLanguage('ieo')}>
+                <FormattedHTMLMessage id="ieo" />
               </a>
               <a className="navbar__link" href={hrefWithLanguage('listing')}>
                 <FormattedHTMLMessage id="listing" />
@@ -72,8 +74,11 @@ const Navbar = ({ closeMenu, toggleMenu, isMenuShown }) => {
               <div className="navbar__links-group-wrapper">
                 <p className="navbar__link navbar__more-button">More</p>
                 <div className="navbar__links-group">
-                  <a className="navbar__link" href={hrefWithLanguage('ieo')}>
-                    <FormattedHTMLMessage id="ieo" />
+                  <a
+                    className="navbar__link"
+                    href={hrefWithLanguage('security')}
+                  >
+                    <FormattedHTMLMessage id="createSecurityToken" />
                   </a>
                   <a
                     className="navbar__link"
