@@ -1,4 +1,11 @@
 module.exports = {
+  siteMetadata: {
+    title: `Platinum.fund`,
+    description: ``,
+    author: `@FundPlatinum`,
+    siteURL: `https://platinum.fund`,
+    defaultLocale: ['en']
+  },
   plugins: [
     `gatsby-plugin-react-helmet`,
     {

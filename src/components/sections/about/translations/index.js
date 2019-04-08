@@ -1,3 +1,4 @@
 import en from './en.json'
+import ja from './ja.json'
 
-export default { en }
+export default { en, ja }
