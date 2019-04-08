@@ -11,6 +11,7 @@ import Reviews from 'src/components/sections/reviews'
 import Articles from 'src/components/sections/articles'
 import Team from 'src/components/sections/team'
 import EmployeeFeedback from 'src/components/sections/employeeFeedback'
+import Contacts from 'src/components/sections/contacts'
 import Footer from 'src/components/sections/footer'
 import ContactForm from 'src/components/contactFormPopup'
 
@@ -26,6 +27,7 @@ const IndexPage = () => (
       <Reviews />
       <Articles />
       <Team />
+      <Contacts />
       <Footer />
       <ContactForm config={config.contactForm} />
     </main>
