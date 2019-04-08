@@ -49,7 +49,10 @@ const ReviewsSlider = props => {
             <div className="slide" key={`review${slider.name + index}`}>
               <div className="slide__content">
                 <div className="slide__main-image-wrapper">
-                  <img className="slide__main-image" src={slider.photo} />
+                  <img
+                    className={`slide__main-image ${slider.isLogo && '_logo'}`}
+                    src={slider.photo}
+                  />
                 </div>
                 <p className="slide__main">{slider.text}</p>
                 <div className="slide__description">
