@@ -1,5 +1,5 @@
 import React from 'react'
-import './page_market-making.less'
+import '../../marketmaking/page_market-making.less'
 import config from 'src/config/marketmakingPage'
 import Layout from 'src/components/layout/LayoutPure'
 import MarketMakingSlider from 'src/components/sections/marketMakingSlider'
@@ -20,14 +20,13 @@ import ContactForm from 'src/components/contactFormPopup'
 const IndexPage = () => (
   <Layout
     pageTitle="Market Making and Liquidity Management on Crypto Exchanges | Platinum.fund"
-    language="en"
+    language="zh"
     landingName={config.contactForm.landingName}
     locales={config.languages}
   >
     <main className="page_market-making">
       <MarketMakingSlider />
       <MediaPreview />
-      <Contacts />
       <DescriptionWithDocuments />
       <TokenToTheMoon />
       <WhyLiquidityMatters />
@@ -36,6 +35,7 @@ const IndexPage = () => (
       <PastSupportedTokens />
       <Reviews />
       <Articles />
+      <Contacts />
       <Share />
       <Footer />
       <ContactForm config={config.contactForm} />
