@@ -16,9 +16,6 @@ const ArticlesSection = () => (
           <h2 className="title title_type_section">
             <FormattedHTMLMessage id="findUsInMedia" />
           </h2>
-          <h2 className="title title_type_section _orange">
-            <FormattedHTMLMessage id="media" />
-          </h2>
         </div>
         <media-section />
       </div>
