@@ -16,24 +16,31 @@ import Share from 'src/components/sections/shareNow'
 import Footer from 'src/components/sections/footer'
 import ContactForm from 'src/components/contactFormPopup'
 
-const IndexPage = () => (
-  <Layout pageTitle="Listing on Crypto Exchanges | Platinum.fund" language="en">
-    <main className="page_listing">
-      <Preface />
-      <MediaPreview />
-      <ListingSuccessful />
-      <ListingExchanges />
-      <ListingClients />
-      <ListingExtra />
-      <ListingPrices />
-      <Reviews />
-      <Team />
-      <PastSupportedTokens />
-      <Share />
-      <Footer />
-      <ContactForm config={config.contactForm} />
-    </main>
-  </Layout>
-)
+const IndexPage = props => {
+  return (
+    <Layout
+      pageTitle="Listing on Crypto Exchanges | Platinum.fund"
+      language={props.language ? props.language : 'en'}
+      landingName={config.contactForm.landingName}
+      locales={config.languages}
+    >
+      <main className="page_listing">
+        <Preface />
+        <MediaPreview />
+        <ListingSuccessful />
+        <ListingExchanges />
+        <ListingClients />
+        <ListingExtra />
+        <ListingPrices />
+        <Reviews />
+        <Team />
+        <PastSupportedTokens />
+        <Share />
+        <Footer />
+        <ContactForm config={config.contactForm} />
+      </main>
+    </Layout>
+  )
+}
 
 export default IndexPage
