@@ -13,8 +13,8 @@ import Footer from 'src/components/sections/footer'
 import Articles from 'src/components/sections/articles'
 import Details from 'src/components/sections/details/ieo'
 import ActionAttention from 'src/components/sections/actionAttention/ieo'
+import Contacts from 'src/components/sections/contacts'
 import ContactForm from 'src/components/contactFormPopup'
-
 
 const IndexPage = () => (
   <Layout
@@ -32,6 +32,7 @@ const IndexPage = () => (
       <Team />
       <PastSupportedTokens />
       <Share />
+      <Contacts />
       <Footer />
       <ContactForm config={config.contactForm} />
     </main>

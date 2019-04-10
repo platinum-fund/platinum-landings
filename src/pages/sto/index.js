@@ -22,13 +22,16 @@ import PastSupportedTokens from 'src/components/sections/pastSupportedTokens/sto
 import Share from 'src/components/sections/shareNow'
 import Footer from 'src/components/sections/footer'
 import Articles from 'src/components/sections/articles'
-import ContactForm from 'src/components/contactFormPopup'
 import MediaPreview from 'src/components/sections/mediaPreview'
+import Contacts from 'src/components/sections/contacts'
+import ContactForm from 'src/components/contactFormPopup'
 
 const IndexPage = () => (
   <Layout
     pageTitle="Services for STO: Security Token Offering Consulting from Agency Platinum.fund"
     language="en"
+    landingName={config.contactForm.landingName}
+    locales={config.languages}
   >
     <main className="page_sto">
       <PrefaceNav />
@@ -51,6 +54,7 @@ const IndexPage = () => (
       <Team />
       <PastSupportedTokens />
       <Share />
+      <Contacts />
       <Footer />
       <ContactForm config={config.contactForm} />
     </main>

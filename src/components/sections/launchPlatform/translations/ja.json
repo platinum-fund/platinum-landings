@@ -1,0 +1,6 @@
+{
+  "securedStoLaunchPlatform": "安全なSTOプラットフォーム",
+  "acceptPaymentsIn": " Accept Payments in <span class=\"card__description _orange\">仮想通貨、フィアット通貨、</span>または<span class=\"card__description _orange\">銀行振込</span>で支払い受け入れ可能",
+  "stoPlatformAllowsToEasily": "STOプラットフォームは、投資家からの仮想通貨を受け入れ、STOおよびマーケティングキャンペーンの進歩を管理し、KYC／AMLに対応することを容易に行わらせます。",
+  "getPlatformDemo": "STOプラットフォームのデモバージョンをお試し"
+}
