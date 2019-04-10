@@ -1,0 +1,152 @@
+.section_market-making-prices {
+  padding: 70px 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f5f5;
+
+  .wrapper_section-content {
+  }
+
+  .c-title {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 28px;
+    letter-spacing: 3px;
+    color: #333;
+  }
+
+  .o-prices {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 5rem;
+  }
+
+  .o-price-block {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 340px;
+    max-width: 100%;
+    height: 850px;
+    margin: 20px 10px;
+    background-color: white;
+    border-radius: 15px;
+    color: #333;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.1), 0 10px 10px rgba(0, 0, 0, 0.1);
+
+    .c-pairs-top {
+      margin: 0;
+      padding: 24px 0;
+      width: 100%;
+      box-sizing: border-box;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 19px;
+      text-align: center;
+      color: black;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+      background-color: rgb(251, 251, 251);
+    }
+
+    .o-price-info {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 50px;
+      padding-bottom: 30px;
+      margin: 0 30px;
+      border-bottom: 1px solid #c5c5c5;
+
+      .c-currency {
+        font-size: 18px;
+        color: #3c3c3c;
+      }
+
+      .c-price {
+        margin: 0 10px;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 72px;
+        color: #3c3c3c;
+      }
+
+      .c-pairs {
+        font-size: 18px;
+        line-height: 0;
+        color: rgba(68, 68, 68, 0.8);
+      }
+    }
+
+    .c-price-free {
+      padding-top: 50px;
+      padding-bottom: 30px;
+      margin: 0 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 60px;
+      line-height: 72px;
+      color: #3c3c3c;
+      padding-bottom: 10%;
+      border-bottom: 1px solid #c5c5c5;
+    }
+
+    .o-price-includes {
+      margin-top: 38px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: auto;
+      text-align: center;
+    }
+
+    .c-price-include {
+      padding: 20px 0;
+      margin: 0 20px;
+      font-size: 16px;
+      line-height: 19px;
+      letter-spacing: 0;
+      color: #3c3c3c;
+      border-bottom: 1px solid #ededef;
+    }
+
+    .o-price-btn {
+      display: flex;
+      justify-content: center;
+      margin-top: auto;
+      margin-bottom: 30px;
+      width: 100%;
+    }
+
+    .button {
+      margin-bottom: 2rem;
+      width: 80%;
+    }
+  }
+
+  .o-price-block--active {
+    transform: scale(1.02);
+    box-shadow: 0 2px 1px #f0830e, 2px 0px 1px #f0830e, -2px 0px 1px #f0830e,
+      0 14px 28px rgba(0, 0, 0, 0.1), 0 10px 10px rgba(0, 0, 0, 0.1);
+
+    .c-pairs-top {
+      background-color: #f0830e;
+      color: white;
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .section_market-making-prices {
+    .o-prices {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .o-price-block {
+      height: auto;
+    }
+  }
+}

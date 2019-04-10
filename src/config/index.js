@@ -4,6 +4,7 @@ import security from './securityPage'
 import usdq from './usdqPage'
 import sto from './stoPage'
 import zmest from './zmestPage'
+import marketmaking from './marketmakingPage'
 
 export default {
   busines,
@@ -11,5 +12,6 @@ export default {
   security,
   usdq,
   sto,
-  zmest
+  zmest,
+  marketmaking
 }
