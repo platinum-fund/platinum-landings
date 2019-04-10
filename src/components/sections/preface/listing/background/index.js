@@ -2,14 +2,19 @@ import * as THREE from 'three'
 
 var mouseX = 0,
   mouseY = 0,
-  windowHalfX = window.innerWidth / 2,
-  windowHalfY = window.innerHeight / 2,
+  windowHalfX = 0,
+  windowHalfY = 0,
   SEPARATION = 200,
   AMOUNTX = 10,
   AMOUNTY = 10,
   camera,
   scene,
   renderer
+
+if (typeof window !== 'undefined') {
+  windowHalfX = window.innerWidth / 2
+  windowHalfY = window.innerHeight / 2
+}
 
 // init();
 // animate();
