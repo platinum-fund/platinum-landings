@@ -1,0 +1,169 @@
+.document-files-subsection {
+  .c-download-header {
+    padding: 1rem 0;
+    font-weight: 900;
+    font-size: 24px;
+    letter-spacing: 3px;
+  }
+
+  .o-doc-files {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15%;
+  }
+
+  .o-doc-file {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    min-width: 50%;
+    margin: 0 5%;
+    text-decoration: none;
+    cursor: pointer;
+
+    .c-file-img {
+      transition: transform 0.3s;
+    }
+
+    .c-file-format {
+      color: #9b9b9b;
+      font-size: 11px;
+      transition: color 0.3s;
+
+      &::before {
+        content: '';
+        position: absolute;
+        right: 35px;
+        top: -30px;
+        display: block;
+        width: 2px;
+        height: 12px;
+        background-color: #e6e6e6;
+      }
+    }
+
+    .c-file-desc {
+      position: absolute;
+      top: 0;
+      left: 20%;
+      width: 60%;
+      text-align: right;
+      text-decoration: none;
+      font-size: 16px;
+      color: #333;
+      background-color: #f8f8f8;
+    }
+
+    &:hover {
+      .c-file-img {
+        transform: scale(1.1);
+      }
+      .c-file-format {
+        color: #333;
+      }
+    }
+  }
+
+  .o-doc-desc-back {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    animation: block-showing 0.39s ease-out;
+
+    .o-doc-desc {
+      position: relative;
+      z-index: 11;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 40px 35px;
+      width: 90%;
+      max-height: 90%;
+      overflow-y: auto;
+      max-width: 1000px;
+      box-sizing: border-box;
+      background-color: #fff;
+      box-shadow: 0 25px 45px rgba(0, 0, 0, 0.15);
+    }
+
+    .c-doc-desc-name {
+      margin-top: 0;
+      margin-bottom: 2rem;
+      padding-right: 20px;
+      font-weight: 700;
+      font-size: 18px;
+      letter-spacing: 5px;
+      text-transform: uppercase;
+      color: #000;
+    }
+
+    .c-close-btn {
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: inherit;
+      cursor: pointer;
+    }
+
+    .c-doc-desc {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 21px;
+      letter-spacing: 1px;
+      color: #000;
+    }
+  }
+
+  .block-disappears {
+    opacity: 0;
+    animation: block-disappears 0.39s ease-out;
+  }
+
+  @keyframes block-showing {
+    from {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes block-disappears {
+    from {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .document-files-subsection {
+    text-align: center;
+
+    .o-doc-files {
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      margin-top: 30px;
+    }
+
+    .o-doc-file {
+      margin: 30px 0;
+      width: 100%;
+    }
+
+    .c-file-desc {
+      left: 0 !important;
+    }
+  }
+}

@@ -1,0 +1,96 @@
+.section_market-making-slider {
+  font-family: 'Roboto', sans-serif;
+
+  .o-content {
+    display: block;
+    padding-top: 120px;
+  }
+
+  .slick-list {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1140px;
+  }
+
+  .o-slide {
+    position: relative;
+    padding-bottom: 15px;
+
+    &:focus {
+      outline: 0;
+    }
+  }
+
+  .o-slide-txt {
+    position: absolute;
+    left: 10px;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    max-width: 90vw;
+  }
+
+  .o-slide-head {
+    margin: 0 0 10px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #f0830e;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  .o-slide-main {
+    margin: 0;
+    margin-bottom: 30px;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 3px;
+    color: #333;
+    letter-spacing: 3px;
+  }
+
+  .c-slide-skull {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .c-graph-img {
+    margin-right: 0;
+    margin-left: auto;
+  }
+
+  .slick-dots li button::before {
+    margin-top: 20px;
+    color: #f0830e;
+    font-size: 20px;
+  }
+
+  .slick-track {
+    width: 100vw;
+  }
+
+  .button {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .section_market-making-slider {
+    .o-slide-txt {
+      position: relative;
+      display: flex;
+      justify-content: center;
+    }
+
+    .o-slide-head {
+      font-size: 20px;
+    }
+
+    .c-graph-img {
+      display: none;
+    }
+  }
+}
