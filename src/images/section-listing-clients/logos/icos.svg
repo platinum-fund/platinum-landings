@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 33</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#8FF6E6" offset="0%"></stop>
+            <stop stop-color="#50E3C2" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Platinum-Listing-eng11-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1028.000000, -1811.000000)">
+        <g id="Group-33" transform="translate(1028.000000, 1811.000000)">
+            <rect id="Rectangle-11" fill="url(#linearGradient-1)" x="0" y="0" width="17" height="17" rx="5"></rect>
+            <path d="M7,12.8198381 L7,4.18016194 C7,3.39338338 7.50162365,3 8.50488599,3 C9.50163365,3 10,3.39338338 10,4.18016194 L10,12.8198381 C10,13.1711668 9.8648222,13.4556894 9.59446254,13.6734143 C9.32410288,13.8911392 8.96091433,14 8.50488599,14 C8.04234296,14 7.67589712,13.8911392 7.40553746,13.6734143 C7.1351778,13.4556894 7,13.1711668 7,12.8198381 Z" id="I" stroke="#FFFFFF" stroke-width="1.5" fill-opacity="0" fill="#FFFFFF"/>
+        </g>
+    </g>
+</svg>

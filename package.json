@@ -27,6 +27,7 @@
     "react-swipeable": "^4.3.2",
     "reset-css": "^4.0.1",
     "slick-carousel": "^1.8.1",
+    "three": "^0.67.0",
     "yarn": "^1.15.2"
   },
   "keywords": [

@@ -5,6 +5,7 @@ import usdq from './usdqPage'
 import sto from './stoPage'
 import zmest from './zmestPage'
 import marketmaking from './marketmakingPage'
+import listing from './listingPage'
 
 export default {
   busines,
@@ -13,5 +14,6 @@ export default {
   usdq,
   sto,
   zmest,
-  marketmaking
+  marketmaking,
+  listing
 }

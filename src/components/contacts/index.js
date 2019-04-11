@@ -6,8 +6,8 @@ import translations from './content/translations'
 
 const Socials = ({ contact }) => (
   <div className="contact__socials">
-    {contact.socials.map(item => (
-      <div className="contact__social">
+    {contact.socials.map((item, i) => (
+      <div key={`social${i}`} className="contact__social">
         <header className="contact__social-header">
           <img
             className="contact__social-icon"
@@ -28,8 +28,8 @@ const Socials = ({ contact }) => (
 const Contacts = () => (
   <TranslationProvider translations={translations}>
     <div className="contacts">
-      {content.map(contact => (
-        <div className="contact">
+      {content.map((contact, i) => (
+        <div key={`contact${i}`} className="contact">
           <header className="contact__header">
             <div className="contact__photo-wrapper">
               <img className="contact__photo" src={contact.photo} alt="photo" />
