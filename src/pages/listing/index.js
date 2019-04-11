@@ -16,11 +16,11 @@ import Share from 'src/components/sections/shareNow'
 import Footer from 'src/components/sections/footer'
 import ContactForm from 'src/components/contactFormPopup'
 
-const IndexPage = props => {
+const IndexPage = ({ language = 'en' }) => {
   return (
     <Layout
       pageTitle="Listing on Crypto Exchanges | Platinum.fund"
-      language={props.language ? props.language : 'en'}
+      language={language}
       landingName={config.contactForm.landingName}
       locales={config.languages}
     >
