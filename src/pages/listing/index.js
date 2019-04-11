@@ -13,6 +13,8 @@ import Reviews from 'src/components/sections/reviews'
 import PastSupportedTokens from 'src/components/sections/pastSupportedTokens/sto'
 import Team from 'src/components/sections/team'
 import Share from 'src/components/sections/shareNow'
+import Contacts from 'src/components/sections/contacts'
+import Articles from 'src/components/sections/articles'
 import Footer from 'src/components/sections/footer'
 import ContactForm from 'src/components/contactFormPopup'
 
@@ -33,9 +35,11 @@ const IndexPage = ({ language = 'en' }) => {
         <ListingExtra />
         <ListingPrices />
         <Reviews />
+        <Articles />
         <Team />
         <PastSupportedTokens />
         <Share />
+        <Contacts />
         <Footer />
         <ContactForm config={config.contactForm} />
       </main>
