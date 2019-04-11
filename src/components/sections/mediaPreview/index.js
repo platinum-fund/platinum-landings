@@ -6,11 +6,11 @@ if (typeof window !== 'undefined') {
 }
 
 const MediaSectionPure = () => (
-    <section className="section section_media-preview">
-      <div className="wrapper_section-content">
-        <media-preview />
-      </div>
-    </section>
+  <section className="section section_media-preview">
+    <div className="wrapper_section-content">
+      <media-preview />
+    </div>
+  </section>
 )
 
 export default MediaSectionPure

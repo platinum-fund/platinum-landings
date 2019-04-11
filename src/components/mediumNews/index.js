@@ -19,7 +19,6 @@ class MediumNews extends React.Component {
 
   render() {
     const { feed, isLoading, error } = this.state
-
     return <MediumNewsPure feed={feed} isLoading={isLoading} error={error} />
   }
 }

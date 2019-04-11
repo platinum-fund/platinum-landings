@@ -3,25 +3,48 @@ import './medium-article.less'
 import platinumLogo from 'src/images/favicon.png'
 import extractContent from 'src/utils/extractContent'
 
-const Article = ({ article }) => (
-  <article className="medium-article">
-    <div className="medium-article__cover-wrapper">
-      <img className="medium-article__cover" src={article.thumbnail} />
-    </div>
-    <header className="medium-article__header">
-      <img className="medium-article__author-logo" src={platinumLogo} />
-      <div className="medium-article__info">
-        <p className="medium-article__author-name">PLATINUM</p>
-        <p className="medium-article__date">{article.pubDate}</p>
+function isThumbnailValid(url) {
+  return new URL(url).hostname === 'cdn-images-1.medium.com'
+}
+
+const Article = ({ article }) => {
+  const coverShown = isThumbnailValid(article.thumbnail)
+
+  return (
+    <a className="medium-article" href={article.link} target="_blank">
+      {coverShown && (
+        <div className="medium-article__cover-wrapper">
+          <img
+            className="medium-article__cover"
+            src={article.thumbnail}
+            alt="article cover"
+          />
+        </div>
+      )}
+      <header className="medium-article__header">
+        <img
+          className="medium-article__author-logo"
+          src={platinumLogo}
+          alt="platinum logo"
+        />
+        <div className="medium-article__info">
+          <p className="medium-article__author-name">PLATINUM</p>
+          <p className="medium-article__date">
+            {new Date(article.pubDate).toDateString()}
+          </p>
+        </div>
+      </header>
+      <div className="medium-article__body">
+        <h6 className="medium-article__title">{article.title}</h6>
+        <p className="medium-article__description">
+          {coverShown
+            ? extractContent(article.description).slice(0, 190)
+            : extractContent(article.description).slice(0, 647)}{' '}
+          ...
+        </p>
       </div>
-    </header>
-    <div className="medium-article__body">
-      <h6 className="medium-article__title">{article.title}</h6>
-      <p className="medium-article__description">
-        {extractContent(article.description).slice(0, 190)} ...
-      </p>
-    </div>
-  </article>
-)
+    </a>
+  )
+}
 
 export default Article
