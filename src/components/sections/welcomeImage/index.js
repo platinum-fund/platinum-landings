@@ -13,6 +13,12 @@ const WelcomeImage = () => (
             BTC)
           </h1>
           <h4 className="title title_type_second">1 USDQ = $1</h4>
+          <button
+            className="button js-popup__button"
+            data-popup-id="onePageUsdq"
+          >
+            OnePager
+          </button>
         </div>
       </div>
     </div>
