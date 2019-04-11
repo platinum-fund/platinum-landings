@@ -1,0 +1,121 @@
+@import '~src/common.blocks/imports/media.less';
+@import '~src/common.blocks/section/section';
+
+.section_our-clients {
+  display: flex;
+  margin-bottom: 3rem;
+
+  header {
+    text-align: center;
+  }
+
+  .title {
+    font-weight: 700;
+  }
+
+  &__container {
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  &__content {
+    display: flex;
+    margin-top: 3rem;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+
+    @media @under-md {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  .listing-clients {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+
+    &__col {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      margin-right: 5rem;
+    }
+
+    &__item {
+      margin-bottom: 3rem;
+    }
+
+    &__header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 0.5rem;
+    }
+
+    &__icon {
+      width: 2.125rem;
+      height: 2.125rem;
+      margin-right: 1.6875em;
+
+      img {
+        width: 100%;
+        height: auto;
+        max-height: 2.125rem;
+      }
+    }
+
+    &__title {
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 14px;
+      letter-spacing: 4px;
+      color: #000;
+    }
+
+    &__plus {
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      font-size: 1.6rem;
+      letter-spacing: 0.628571px;
+      color: #000;
+      max-width: 18.3rem;
+
+      span {
+        color: #d7d7d7;
+        font-weight: 700;
+        font-size: 2.5rem;
+        float: left;
+        margin-right: 0.3em;
+      }
+
+      strong {
+        font-weight: 700;
+        color: #fd6700;
+      }
+    }
+  }
+
+  .listing-image-block {
+    flex: 1;
+    max-width: 60rem;
+
+    &__image {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 1.875em;
+    }
+
+    &__description {
+      font-weight: 600;
+      line-height: 1.4375em;
+      font-size: 1.8rem;
+      letter-spacing: 1px;
+      color: #000;
+    }
+  }
+}
