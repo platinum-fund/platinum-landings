@@ -15,12 +15,13 @@ import Contacts from 'src/components/sections/contacts'
 import Footer from 'src/components/sections/footer'
 import Articles from 'src/components/sections/articles'
 import MediaPreview from 'src/components/sections/mediaPreview'
+import MediumNews from 'src/components/sections/mediumNews'
 import ContactForm from 'src/components/contactFormPopup'
 
-const IndexPage = () => (
+const IndexPage = ({ language = 'en' }) => (
   <Layout
     pageTitle="Market Making and Liquidity Management on Crypto Exchanges | Platinum.fund"
-    language="en"
+    language={language}
     landingName={config.contactForm.landingName}
     locales={config.languages}
   >
@@ -36,6 +37,7 @@ const IndexPage = () => (
       <PastSupportedTokens />
       <Reviews />
       <Articles />
+      <MediumNews />
       <Share />
       <Footer />
       <ContactForm config={config.contactForm} />
