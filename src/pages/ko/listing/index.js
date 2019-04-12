@@ -1,7 +1,6 @@
 import React from 'react'
+import Page from 'src/pages/listing'
 
-import ListingPage from '../../listing'
+const IndexPage = () => <Page language="ko" />
 
-const IndexedPage = () => <ListingPage language="ko" />
-
-export default IndexedPage
+export default IndexPage

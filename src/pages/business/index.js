@@ -12,6 +12,7 @@ import Articles from 'src/components/sections/articles'
 import Team from 'src/components/sections/team'
 import EmployeeFeedback from 'src/components/sections/employeeFeedback'
 import Contacts from 'src/components/sections/contacts'
+import MediumNews from 'src/components/sections/mediumNews'
 import Footer from 'src/components/sections/footer'
 import ContactForm from 'src/components/contactFormPopup'
 
@@ -26,6 +27,7 @@ const IndexPage = () => (
       <PastSupportedTokens />
       <Reviews />
       <Articles />
+      <MediumNews />
       <Team />
       <Contacts />
       <Footer />

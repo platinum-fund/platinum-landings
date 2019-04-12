@@ -15,6 +15,7 @@ import Team from 'src/components/sections/team'
 import Share from 'src/components/sections/shareNow'
 import Contacts from 'src/components/sections/contacts'
 import Articles from 'src/components/sections/articles'
+import MediumNews from 'src/components/sections/mediumNews'
 import Footer from 'src/components/sections/footer'
 import ContactForm from 'src/components/contactFormPopup'
 
@@ -36,6 +37,7 @@ const IndexPage = ({ language = 'en' }) => {
         <ListingPrices />
         <Reviews />
         <Articles />
+        <MediumNews />
         <Team />
         <PastSupportedTokens />
         <Share />

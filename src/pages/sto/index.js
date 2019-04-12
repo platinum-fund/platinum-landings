@@ -24,12 +24,13 @@ import Footer from 'src/components/sections/footer'
 import Articles from 'src/components/sections/articles'
 import MediaPreview from 'src/components/sections/mediaPreview'
 import Contacts from 'src/components/sections/contacts'
+import MediumNews from 'src/components/sections/mediumNews'
 import ContactForm from 'src/components/contactFormPopup'
 
-const IndexPage = () => (
+const IndexPage = ({ language = 'en' }) => (
   <Layout
     pageTitle="Services for STO: Security Token Offering Consulting from Agency Platinum.fund"
-    language="en"
+    language={language}
     landingName={config.contactForm.landingName}
     locales={config.languages}
   >
@@ -51,6 +52,7 @@ const IndexPage = () => (
       <Benefits />
       <Reviews />
       <Articles />
+      <MediumNews />
       <Team />
       <PastSupportedTokens />
       <Share />
