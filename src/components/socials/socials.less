@@ -1,4 +1,24 @@
+@import '~src/common.blocks/imports/media.less';
+
 .socials {
+  &__sidebar {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: -1rem;
+    align-items: center;
+    z-index: 1;
+    top: 10%;
+
+    @media @under-sm {
+      left: -1rem;
+    }
+
+    &.fixed {
+      position: fixed;
+    }
+  }
+
   &__link {
     padding: 1.6rem;
     filter: grayscale(100%);

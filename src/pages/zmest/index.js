@@ -9,6 +9,7 @@ import Footer from 'src/components/sections/footer'
 import translations from '../../components/pages/zmest/translations'
 import TranslationProvider from '../../components/translationProvider'
 import { FormattedHTMLMessage } from 'react-intl'
+import Socials from 'src/components/socials'
 
 const IndexPage = ({ language = 'en' }) => (
   <Layout
@@ -50,6 +51,7 @@ const IndexPage = ({ language = 'en' }) => (
               src={require('../../components/pages/zmest/content/images/who-we-are.png')}
             />
           </div>
+          <Socials sidebar />
         </div>
         <div className="section section-anchor services" id="services">
           <div className="container">

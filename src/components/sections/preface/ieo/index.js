@@ -34,6 +34,7 @@ const PrefacePure = () => (
         />
       </div>
     </div>
+    <Socials sidebar />
   </section>
 )
 
