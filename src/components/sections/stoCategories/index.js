@@ -1,5 +1,6 @@
 import React from 'react'
-import { FormattedMessage, FormattedHTMLMessage } from 'react-intl'
+import { FormattedHTMLMessage } from 'react-intl'
+import LazyImage from 'src/components/lazyImage'
 import TranslationProvider from 'src/components/translationProvider'
 import translations from './translations'
 import './sto-categories.less'
@@ -19,7 +20,7 @@ const StoCategories = () => (
         <div className="wrapper_cards">
           <div className="wrapper_card">
             <div className="card card_theme_light card_type_column">
-              <img className="card__image" src={firstImage} />
+              <LazyImage className="card__image" src={firstImage} />
               <h6 className="card__title">
                 <FormattedHTMLMessage id="equityTokens" />
               </h6>
@@ -30,7 +31,7 @@ const StoCategories = () => (
           </div>
           <div className="wrapper_card">
             <div className="card card_theme_light card_type_column">
-              <img className="card__image" src={secondImage} />
+              <LazyImage className="card__image" src={secondImage} />
               <h6 className="card__title">
                 <FormattedHTMLMessage id="reserveAssetsToken" />
               </h6>
@@ -41,7 +42,7 @@ const StoCategories = () => (
           </div>
           <div className="wrapper_card">
             <div className="card card_theme_light card_type_column">
-              <img className="card__image" src={thirdImage} />
+              <LazyImage className="card__image" src={thirdImage} />
               <h6 className="card__title">
                 <FormattedHTMLMessage id="debtToken" />
               </h6>
