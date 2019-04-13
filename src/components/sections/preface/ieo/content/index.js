@@ -1,24 +1,27 @@
+import React from 'react'
+import { FormattedHTMLMessage } from 'react-intl'
+
 const content = {
   sectionsNavbar: {
     links: [
       {
-        name: 'About Platinum',
+        name: <FormattedHTMLMessage id="aboutPlatinum" />,
         href: '#section-about'
       },
       {
-        name: 'IEO in details',
+        name: <FormattedHTMLMessage id="iEOInDetails" />,
         href: '#section-details-ieo'
       },
       {
-        name: 'Find us in Media',
+        name: <FormattedHTMLMessage id="findUsInMedia" />,
         href: '#media'
       },
       {
-        name: 'Our Team',
+        name: <FormattedHTMLMessage id="ourTeam" />,
         href: '#platinum-team'
       },
       {
-        name: 'Start your IEO!',
+        name: <FormattedHTMLMessage id="startYourIEO" />,
         href: '#action-attention-ieo'
       }
     ]
