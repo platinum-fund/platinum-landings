@@ -1,4 +1,5 @@
 import React from 'react'
+import LazyImage from 'src/components/lazyImage'
 import content from './content'
 import './contacts.less'
 import TranslationProvider from 'src/components/translationProvider'
@@ -32,7 +33,11 @@ const Contacts = () => (
         <div key={`contact${i}`} className="contact">
           <header className="contact__header">
             <div className="contact__photo-wrapper">
-              <img className="contact__photo" src={contact.photo} alt="photo" />
+              <LazyImage
+                className="contact__photo"
+                src={contact.photo}
+                alt="photo"
+              />
             </div>
             <p className="contact__name">{contact.name}</p>
             <p className="contact__position">{contact.position}</p>

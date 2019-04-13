@@ -2,6 +2,7 @@ import React from 'react'
 import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
+import LazyImage from 'src/components/lazyImage'
 import './reviews-slider.less'
 import sliders from './content'
 
@@ -49,7 +50,7 @@ const ReviewsSlider = props => {
             <div className="slide" key={`review${slider.name + index}`}>
               <div className="slide__content">
                 <div className="slide__main-image-wrapper">
-                  <img
+                  <LazyImage
                     className={`slide__main-image ${slider.isLogo && '_logo'}`}
                     src={slider.photo}
                   />
@@ -60,7 +61,7 @@ const ReviewsSlider = props => {
                   <p className="author-position">{slider.position}</p>
                 </div>
                 <div className="slide__footer">
-                  <img
+                  <LazyImage
                     className="slide__footer-image"
                     src={slider.tokenLogotype}
                   />

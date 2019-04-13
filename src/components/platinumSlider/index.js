@@ -3,6 +3,7 @@ import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import './slider.less'
+import LazyImage from 'src/components/lazyImage'
 import sliders from './content'
 import TranslationProvider from 'src/components/translationProvider'
 import translations from './content/translations'
@@ -35,7 +36,7 @@ const ReviewsSlider = props => {
           {sliders.map((slider, index) => (
             <div className="slide" key={`review${slider.name + index}`}>
               <div className="slide-index">{'0' + (index + 1)}</div>
-              <img className="image" src={slider.image} />
+              <LazyImage className="image" src={slider.image} />
               <div className="wrapper _content">
                 <h4 className="title">
                   <FormattedHTMLMessage id={slider.title} />
