@@ -1,5 +1,6 @@
 import React from 'react'
-import { FormattedMessage, FormattedHTMLMessage } from 'react-intl'
+import { FormattedHTMLMessage } from 'react-intl'
+import LazyImage from 'src/components/lazyImage'
 import TranslationProvider from 'src/components/translationProvider'
 import translations from './translations'
 import './funding-type.less'
@@ -19,26 +20,26 @@ const FundingType = () => (
         </div>
         <div className="wrapper_images">
           <div className="wrapper_image">
-            <img className="card_image" src={vcImage} alt="VC" />
+            <LazyImage className="card_image" src={vcImage} alt="VC" />
             <div className="card_text">
               <FormattedHTMLMessage id="vc" />
             </div>
           </div>
           <div className="wrapper_image">
-            <img className="card_image" src={ipoImage} alt="IPO" />
+            <LazyImage className="card_image" src={ipoImage} alt="IPO" />
             <div className="card_text">
               <FormattedHTMLMessage id="ipo" />
             </div>
           </div>
           <div className="wrapper_image">
-            <img className="card_image" src={icoImage} alt="ICO" />
+            <LazyImage className="card_image" src={icoImage} alt="ICO" />
             <div className="card_text">
               <FormattedHTMLMessage id="ico" />
             </div>
           </div>
 
           <div className="wrapper_image">
-            <img className="card_image" src={stoImage} alt="STO" />
+            <LazyImage className="card_image" src={stoImage} alt="STO" />
             <div className="card_text">
               <FormattedHTMLMessage id="sto" />
             </div>
