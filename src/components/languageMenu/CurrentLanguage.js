@@ -9,10 +9,10 @@ export const CurrentLanguage = ({ toggleLanguageMenu }) => {
       onClick={toggleLanguageMenu}
     >
       <img
-        alt="Language en"
+        alt={'Language ' + currentLanguage}
         className="languages-menu__option-image"
         src={require('./images/languages/' + currentLanguage + '.png')}
-        data-option="en"
+        data-option={currentLanguage}
       />
       <p className="languages-menu__option-name">{currentLanguage}</p>
     </button>
