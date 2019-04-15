@@ -17,10 +17,11 @@ import Contacts from 'src/components/sections/contacts'
 import MediumNews from 'src/components/sections/mediumNews'
 import ContactForm from 'src/components/contactFormPopup'
 
-const IndexPage = () => (
+const IndexPage = ({ language = 'en' }) => (
   <Layout
     pageTitle="Services for IEO: Security Token Offering Consulting from Agency Platinum.fund"
-    language="en"
+    language={language}
+    landingName={config.contactForm.landingName}
   >
     <main className="page_ieo">
       <Preface />
