@@ -3,6 +3,7 @@ import './section_listing-successful.less'
 import TranslationProvider from 'src/components/translationProvider'
 import translations from './content/translations'
 import { FormattedHTMLMessage } from 'react-intl'
+import Socials from 'src/components/socials'
 
 const ListingSuccessfulPure = () => (
   <TranslationProvider translations={translations}>
@@ -79,6 +80,7 @@ const ListingSuccessfulPure = () => (
           </a>
         </div>
       </div>
+      <Socials sidebar />
     </section>
   </TranslationProvider>
 )

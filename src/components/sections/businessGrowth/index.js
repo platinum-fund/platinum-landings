@@ -5,6 +5,7 @@ import timeImage from 'src/images/section-business-growth/time.png'
 import middlemanImage from 'src/images/section-business-growth/middleman.png'
 import accessImage from 'src/images/section-business-growth/access.png'
 import equityImage from 'src/images/section-business-growth/equity.png'
+import Socials from 'src/components/socials'
 
 const BusinessGrowthPure = () => (
   <section className="section_business-growth">
@@ -56,6 +57,7 @@ const BusinessGrowthPure = () => (
         </div>
       </div>
     </div>
+    <Socials sidebar />
   </section>
 )
 

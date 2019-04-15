@@ -14,6 +14,10 @@ const content = [
   {
     link: 'https://twitter.com/FundPlatinum',
     icon: require('src/images/icons/social/twitter.svg')
+  },
+  {
+    link: 'https://www.linkedin.com/company/platinum-co/',
+    icon: require('src/images/icons/social/linkedin.svg')
   }
 ]
 
