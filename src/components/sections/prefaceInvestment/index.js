@@ -30,7 +30,6 @@ const prefaceInvestment = ({ config }) => (
           buttonText="Get more details now!"
           config={config.contactForm}
         />
-        <Socials />
       </div>
       <div className="column_right">
         <Slider>
@@ -46,6 +45,7 @@ const prefaceInvestment = ({ config }) => (
         </Slider>
       </div>
     </div>
+    <Socials sidebar />
   </section>
 )
 

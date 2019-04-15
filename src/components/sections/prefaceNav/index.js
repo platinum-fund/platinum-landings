@@ -82,6 +82,7 @@ const PrefaceNav = () => (
           </div>
         </div>
       </div>
+      <Socials sidebar />
     </section>
   </TranslationProvider>
 )

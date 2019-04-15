@@ -6,6 +6,7 @@ import './section_market-making-slider.less'
 import graph1 from './content/images/graphs/graph1.jpg'
 import graph2 from './content/images/graphs/graph2.png'
 import SliderText from './SliderText'
+import Socials from 'src/components/socials'
 
 const SlickSlider = () => {
   const settings = {
@@ -49,6 +50,7 @@ const SlickSlider = () => {
           </div>
         </Slider>
       </div>
+      <Socials sidebar />
     </div>
   )
 }
