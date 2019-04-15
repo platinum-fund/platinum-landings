@@ -10,7 +10,7 @@ class SocialsSmart extends React.Component {
   }
 
   render() {
-    const className = `${this.props.sidebar ? 'socials__sidebar' : ''}`
+    const className = `${this.props.sidebar ? 'socials_sidebar' : ''}`
 
     return (
       <div className={`socials ${className}`}>

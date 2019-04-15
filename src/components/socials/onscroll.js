@@ -1,5 +1,5 @@
-export default (onscroll = () => {
-  const elements = document.getElementsByClassName('socials__sidebar')
+const onscroll = () => {
+  const elements = document.getElementsByClassName('socials_sidebar')
   if (elements.length > 0) {
     let sidebar = elements[0]
     let parent = sidebar.parentElement
@@ -15,10 +15,17 @@ export default (onscroll = () => {
 
     const parentTop = parent.getBoundingClientRect().top
 
-    if (parentTop <= 0 && !sidebar.classList.contains('fixed')) {
-      sidebar.classList.add('fixed')
-    } else if (parentTop > 0 && sidebar.classList.contains('fixed')) {
-      sidebar.classList.remove('fixed')
+    const classNameFixed = 'socials_sidebar--fixed'
+    if (parentTop <= 0 && !sidebar.classList.contains(classNameFixed)) {
+      sidebar.classList.add(classNameFixed)
+    } else if (parentTop > 0 && sidebar.classList.contains(classNameFixed)) {
+      sidebar.classList.remove(classNameFixed)
     }
   }
-})
+}
+
+if (typeof window !== 'undefined') {
+  window.addEventListener('scroll', onscroll)
+}
+
+export default onscroll
