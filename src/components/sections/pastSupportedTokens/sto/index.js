@@ -1,6 +1,5 @@
 import React from 'react'
 import './section_past-supported-tokens-sto.less'
-import TokenList from 'src/components/tokenList'
 import { FormattedHTMLMessage } from 'react-intl'
 import TranslationProvider from 'src/components/translationProvider'
 import translations from '../translations'
