@@ -65,8 +65,8 @@ const Navbar = ({ closeMenu, toggleMenu, isMenuShown }) => {
               >
                 <FormattedHTMLMessage id="marketMaking" />
               </a>
-              <a className="navbar__link" href={hrefWithLanguage('zmest')}>
-                <FormattedHTMLMessage id="marketing" />
+              <a className="navbar__link" href={hrefWithLanguage('usdq-2')}>
+                <FormattedHTMLMessage id="usdq" />
               </a>
               <a className="navbar__link" href="https://blog.platinum.fund/">
                 <FormattedHTMLMessage id="blog" />
@@ -74,6 +74,9 @@ const Navbar = ({ closeMenu, toggleMenu, isMenuShown }) => {
               <div className="navbar__links-group-wrapper">
                 <p className="navbar__link navbar__more-button">More</p>
                 <div className="navbar__links-group">
+                  <a className="navbar__link" href={hrefWithLanguage('zmest')}>
+                    <FormattedHTMLMessage id="marketing" />
+                  </a>
                   <a
                     className="navbar__link"
                     href={hrefWithLanguage('security')}
