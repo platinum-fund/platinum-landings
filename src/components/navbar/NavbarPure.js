@@ -14,8 +14,8 @@ const Navbar = ({ closeMenu, toggleMenu, isMenuShown }) => {
   const domainHref = 'https://platinum.fund/'
   const hrefWithLanguage = pageName => {
     if (
-      configPages[pageName] &&
-      configPages[pageName].languages &&
+      configPages[pageName] !== undefined &&
+      configPages[pageName].languages !== undefined &&
       configPages[pageName].languages.indexOf(currentLanguage) !== -1
     ) {
       return domainHref + currentLanguage + '/' + pageName + '/'

@@ -5,10 +5,14 @@ export const CurrentLanguageList = ({
   locationPathname
 }) =>
   currentPageLanguages.map((element, index) => {
+    let locationPart = '/'
+    if (element !== 'en') {
+      locationPart = '/' + element + '/'
+    }
     return (
       <a
         className="languages-menu__option"
-        href={'/' + element + '/' + locationPathname + '/'}
+        href={locationPart + locationPathname + '/'}
         data-option={element}
         key={index}
       >
