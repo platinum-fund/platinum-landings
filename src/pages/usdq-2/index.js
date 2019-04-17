@@ -1,6 +1,5 @@
 import React from 'react'
 import './page_usdq.less'
-import config from 'src/config/usdqPage'
 import Layout from 'src/components/layout/LayoutPure'
 import WelcomeImage from 'src/components/sections/welcomeImage'
 import StablecoinInfo from 'src/components/sections/stablecoinInfo'
@@ -46,7 +45,7 @@ const IndexPage = () => (
           </object>
         }
       />
-      <Footer />
+      <Footer noJapaneseAddress />
     </main>
   </Layout>
 )
