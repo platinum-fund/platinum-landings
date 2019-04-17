@@ -25,11 +25,11 @@ const IndexPage = () => (
       <PlatinumBusiness config={config} />
       <EmployeeFeedback />
       <PastSupportedTokens />
+      <Contacts />
       <Reviews />
       <Articles />
       <MediumNews />
       <Team />
-      <Contacts />
       <Footer />
       <ContactForm config={config.contactForm} />
     </main>

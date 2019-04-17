@@ -26,6 +26,7 @@ const IndexPage = ({ language = 'en' }) => (
     <main className="page_ieo">
       <Preface />
       <MediaPreview />
+      <Contacts />
       <About />
       <PlatinumSlider />
       <Details />
@@ -35,7 +36,6 @@ const IndexPage = ({ language = 'en' }) => (
       <Team />
       <PastSupportedTokens />
       <Share />
-      <Contacts />
       <Footer />
       <ContactForm config={config.contactForm} />
     </main>

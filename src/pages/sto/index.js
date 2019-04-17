@@ -37,6 +37,7 @@ const IndexPage = ({ language = 'en' }) => (
     <main className="page_sto">
       <PrefaceNav />
       <MediaPreview />
+      <Contacts />
       <StoOverview />
       <StoCategories />
       <StoAdvantages />
@@ -56,7 +57,6 @@ const IndexPage = ({ language = 'en' }) => (
       <Team />
       <PastSupportedTokens />
       <Share />
-      <Contacts />
       <Footer />
       <ContactForm config={config.contactForm} />
     </main>

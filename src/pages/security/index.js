@@ -30,6 +30,7 @@ const IndexPage = () => (
   >
     <main className="page_security">
       <Preface />
+      <Contacts />
       <BusinessGrowth />
       <StoAdvantages />
       <CreateSecurityToken config={config} />
@@ -46,7 +47,6 @@ const IndexPage = () => (
       <MediumNews />
       <LastChance />
       <Share />
-      <Contacts />
       <Footer />
       <ContactForm config={config.contactForm} />
     </main>
