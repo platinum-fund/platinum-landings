@@ -11,7 +11,7 @@ export const CurrentLanguage = ({ toggleLanguageMenu }) => {
       <img
         alt={'Language ' + currentLanguage}
         className="languages-menu__option-image"
-        src={require('./images/languages/' + currentLanguage + '.png')}
+        src={require('./images/languages/' + currentLanguage + '.svg')}
         data-option={currentLanguage}
       />
       <p className="languages-menu__option-name">{currentLanguage}</p>
