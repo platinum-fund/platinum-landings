@@ -18,7 +18,8 @@ const Navbar = ({ closeMenu, toggleMenu, isMenuShown }) => {
     if (
       configPages[pageName] !== undefined &&
       configPages[pageName].languages !== undefined &&
-      configPages[pageName].languages.indexOf(currentLanguage) !== -1
+      configPages[pageName].languages.indexOf(currentLanguage) !== -1 &&
+      currentLanguage !== 'en'
     ) {
       return domainHref + currentLanguage + '/' + pageName + '/'
     } else {
