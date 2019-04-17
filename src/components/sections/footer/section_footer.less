@@ -40,9 +40,26 @@
     font-size: 2rem;
   }
 
+  .card__subtitle {
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    opacity: 0.8;
+  }
+
   .card__description {
     font-size: 1.6rem;
     line-height: 2.8rem;
+  }
+
+  .card__address {
+    position: relative;
+    padding-left: 1.5rem;
+
+    &:before {
+      content: '-';
+      position: absolute;
+      left: 0;
+    }
   }
 
   .copyright {
