@@ -5,14 +5,7 @@ import 'slick-carousel/slick/slick-theme.css'
 import LazyImage from 'src/components/lazyImage'
 import './reviews-slider.less'
 import sliders from './content'
-
-const PrevArrow = ({ onClick }) => (
-  <div className={`arrow _left`} onClick={onClick} />
-)
-
-const NextArrow = ({ onClick }) => (
-  <div className={`arrow _right`} onClick={onClick} />
-)
+import { NextArrow, PrevArrow } from 'src/components/slickSlider'
 
 const ReviewsSlider = props => {
   const settings = {
