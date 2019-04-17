@@ -20,8 +20,8 @@ const ListLogos = () => (
       <div className="headline">
         <div className="headline _title">
           <h2 className="title title_type_main _white">
-            We are confident our stable asset will be in a big demand and will
-            be listed on a large number of exchanges:
+            Currently we are applying for listings on a large number of
+            exchanges including:
           </h2>
         </div>
       </div>
