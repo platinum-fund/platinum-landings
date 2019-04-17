@@ -6,7 +6,6 @@ export const CurrentLanguageList = ({
 }) =>
   currentPageLanguages.map((element, index) => {
     let locationPart = '/'
-    console.log(element)
     if (element !== 'en') {
       locationPart = '/' + element + '/'
     }
