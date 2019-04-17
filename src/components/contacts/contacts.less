@@ -11,9 +11,16 @@
   }
 
   .slick-dots li button::before {
-    margin-top: 15px;
+    font-size: 1.5rem;
     color: #f0830e;
-    font-size: 15px;
+
+    @media @under-md {
+      margin-top: 1rem;
+    }
+
+    @media @after-md {
+      margin-top: -2rem;
+    }
   }
 }
 
