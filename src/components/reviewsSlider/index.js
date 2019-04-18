@@ -3,6 +3,9 @@ import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import LazyImage from 'src/components/lazyImage'
+import { FormattedHTMLMessage } from 'react-intl'
+import TranslationProvider from 'src/components/translationProvider'
+import translations from './translations'
 import './reviews-slider.less'
 import sliders from './content'
 import { NextArrow, PrevArrow } from 'src/components/slickSlider'
@@ -36,35 +39,46 @@ const ReviewsSlider = props => {
   }
 
   return (
-    <div className="reviews-slider">
-      <Slider {...settings}>
-        {sliders.map((slider, index) => (
-          <div className="slide-wrapper" key={slider.name + index}>
-            <div className="slide" key={`review${slider.name + index}`}>
-              <div className="slide__content">
-                <div className="slide__main-image-wrapper">
-                  <LazyImage
-                    className={`slide__main-image ${slider.isLogo && '_logo'}`}
-                    src={slider.photo}
-                  />
-                </div>
-                <p className="slide__main">{slider.text}</p>
-                <div className="slide__description">
-                  <p className="author-name">{slider.name}</p>
-                  <p className="author-position">{slider.position}</p>
-                </div>
-                <div className="slide__footer">
-                  <LazyImage
-                    className="slide__footer-image"
-                    src={slider.tokenLogotype}
-                  />
+    <TranslationProvider translations={translations}>
+      <div className="reviews-slider">
+        <Slider {...settings}>
+          {sliders.map((slider, index) => (
+            <div className="slide-wrapper" key={slider.name + index}>
+              <div className="slide" key={`review${slider.name + index}`}>
+                <div className="slide__content">
+                  <div className="slide__main-image-wrapper">
+                    <LazyImage
+                      className={`slide__main-image ${slider.isLogo &&
+                        '_logo'}`}
+                      src={slider.photo}
+                    />
+                  </div>
+                  <p className="slide__main">
+                    <FormattedHTMLMessage id={slider.text} />
+                  </p>
+                  <div className="slide__description">
+                    <p className="author-name">
+                      {slider.name && <FormattedHTMLMessage id={slider.name} />}
+                    </p>
+                    <p className="author-position">
+                      {slider.position && (
+                        <FormattedHTMLMessage id={slider.position} />
+                      )}
+                    </p>
+                  </div>
+                  <div className="slide__footer">
+                    <LazyImage
+                      className="slide__footer-image"
+                      src={slider.tokenLogotype}
+                    />
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-        ))}
-      </Slider>
-    </div>
+          ))}
+        </Slider>
+      </div>
+    </TranslationProvider>
   )
 }
 
