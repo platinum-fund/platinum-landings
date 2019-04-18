@@ -19,7 +19,7 @@ export const CurrentLanguageList = ({
         <img
           alt={'Language ' + element}
           className="languages-menu__option-image"
-          src={require('./images/languages/' + element + '.png')}
+          src={require('./images/languages/' + element + '.svg')}
         />
         <p className="languages-menu__option-name">{element}</p>
       </a>
