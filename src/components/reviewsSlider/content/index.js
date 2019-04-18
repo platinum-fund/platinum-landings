@@ -37,20 +37,8 @@ import logoUnicontv from './images/logos/logo-unicontv.svg'
 const sliders = [
   {
     photo: photoNoahProjectTeam,
-    text: `The Platinum team works on targeted to the English-speaking 
-		audience post-IСO promotion of our project. The task of the Platinum 
-		team is to attract the crypto community to our project, to increase 
-		knowledge on our products through stories and various articles 
-		describing our activities, the creation of info breaks and images 
-		to them, as well as the placement in media. The Platinum team made 
-		the design of our new site for Post-ICO activities (www.noahcoin.org) 
-		which we launched in August 2018. PLATINUM provided a perfect support 
-		service and community management 24/7. Text writing is of a single note, 
-		the authors always had an idea of ​​what to write about. They did it on 
-		time and very thoroughly without missing a thing. Platinum has 
-		established itself as an excellent professional team, which shows a 
-		high level of quality in its work.`,
-    name: `Noah Project team`,
+    text: `thePlatinumTeamWorks`,
+    name: `noahProjectTeam`,
     position: ``,
     tokenLogotype: photoTokenNoah,
     tokenPrice: ``,
@@ -59,16 +47,7 @@ const sliders = [
   },
   {
     photo: logoSpatium,
-    text: `These guys are real professionals! They know their business 
-			perfectly. In comparison with other law firms they have the lowest 
-			prices with very high level of service. They know everything about ICOs, 
-			providing full stack of services and possibilites. I couldn’t even expect 
-			that managing partners will care about client and project so much, 
-			providing support and answering questions 24/7. I have never seen such 
-			approach before. I guess the difference between lawyers from Platinum and 
-			other lawyers is that the first ones do not hunt for clients’ money 
-			billing each hours. They help to reach success like client's project 
-			is their own one.`,
+    text: `theseGuysAreReal`,
     name: ``,
     position: ``,
     tokenLogotype: ``,
@@ -78,39 +57,27 @@ const sliders = [
   },
   {
     photo: logoTrader0x,
-    text: `To be honest, before we met Platinum's team, we didn't realize 
-			that our startup needed a lawyer. We were shocked after we spend more 
-			than 12 hours together working on the detailed analysis of our project 
-			on our very first meeting. There are a lot of nuances as, for example, 
-			what to agree first in relations with investors.  The important thing 
-			in business is to make money, not to lose them because people are using 
-			your legal illiteracy. Such specialists should be part of the team to 
-			advise, or at least to guide you when you set the course of your 
-			further actions.`,
-    name: `Yuriy Kovalev`,
-    position: `Founder`,
+    text: `toBeHonestBeforeWeMet`,
+    name: `yuriyKovalev`,
+    position: `founder`,
     tokenLogotype: ``,
     tokenPrice: ``,
     tokenDescription: ``
   },
   {
     photo: photoAndrewPlotnikov,
-    text: `We ordered Legal opinion, and the team made everything great and 
-			in short terms. They also provided additional services as a bonus. Thank 
-			you very much for a good-quality service.`,
-    name: `Andrew Plotnikov`,
-    position: `Chief Risk Officer`,
+    text: `weOrderedLegalOpinion`,
+    name: `andrewPlotnikov`,
+    position: `chiefRiskOfficer`,
     tokenLogotype: logoHyperquant,
     tokenPrice: ``,
     tokenDescription: ``
   },
   {
     photo: photoGustavoAstiazaran,
-    text: `The work from Platinum was of the highest quality and 
-			the service by there team was excellent. They always kept me informed 
-			about every step in the process and delivered on time.`,
-    name: `Gustavo Astiazaran`,
-    position: `CMO`,
+    text: `theWorkFromPlatinum`,
+    name: `gustavoAstiazaran`,
+    position: `cmo`,
     tokenLogotype: logoDocademic,
     tokenPrice: ``,
     tokenDescription: ``,
@@ -118,12 +85,9 @@ const sliders = [
   },
   {
     photo: photoRachelChung,
-    text: `We worked with Platinum after our token sale. They swiftly 
-		helped us get in touch with the exchange of our choice and delivered 
-		obviously successful results. They provided sound guidance befitting to 
-		our scale. Thank you.`,
-    name: `Rachel Chung`,
-    position: `Marketing Planner`,
+    text: `weWorkedWithPlatinumAfter`,
+    name: `rachelChung`,
+    position: `marketingPlanner`,
     tokenLogotype: logoTokenAtfs,
     tokenPrice: `$1.5M`,
     tokenDescription: `ATFS`,
@@ -131,9 +95,8 @@ const sliders = [
   },
   {
     photo: photoDavid,
-    text: `Service was good, wish we had engaged you guys earlier. Happy to 
-		be a reference point for other clients.`,
-    name: `David`,
+    text: `serviceWasGoodWishWeHad`,
+    name: `david`,
     position: ``,
     tokenLogotype: logoTokenHero,
     tokenPrice: `$40m`,
@@ -142,10 +105,8 @@ const sliders = [
   },
   {
     photo: photoPeiHanChuang,
-    text: `MarketMaking Listing provides professional and responsive 
-		assistance on listing and post ico marketing. They are always around the 
-		clock solving and replying to our questions.`,
-    name: `Pei-Han Chuang`,
+    text: `marketMakingListingProvidesProfessional`,
+    name: `peiHanChuang`,
     position: ``,
     tokenLogotype: logoTokenMorpheuslabs,
     tokenPrice: `$10,1m`,
@@ -154,10 +115,8 @@ const sliders = [
   },
   {
     photo: photoPersioFlexa,
-    text: `It was great to work with your team, pass confidence, respond 
-		quickly, everything done correctly and with deadlines. We will negotiate 
-		again with certainty.`,
-    name: `Persio Flexa`,
+    text: `itWasGreatToWorkWithYourTeam`,
+    name: `persioFlexa`,
     position: ``,
     tokenLogotype: logoTokenGimmer,
     tokenPrice: ``,
@@ -166,10 +125,9 @@ const sliders = [
   },
   {
     photo: photoEricZhang,
-    text: `Dan and Drew's team is very professional and efficient, making the 
-		process smooth and easy.`,
-    name: `Eric Zhang`,
-    position: `Founder of TopHacker Group`,
+    text: `danAndDrewsTeamIsVeryProfessional`,
+    name: `ericZhang`,
+    position: `founderOfTopHackerGroup`,
     tokenLogotype: logoTokenTrueChain,
     tokenPrice: ``,
     tokenDescription: `TrueChain`,
@@ -177,9 +135,9 @@ const sliders = [
   },
   {
     photo: photoFlaviusBurca,
-    text: `I am happy with your services so far. The feedback is great!`,
-    name: `Flavius Burca`,
-    position: `CTO`,
+    text: `iAmHappyWithYourServices`,
+    name: `flaviusBurca`,
+    position: `cTO`,
     tokenLogotype: logoTokenSether,
     tokenPrice: `$28M`,
     tokenDescription: `Sether`,
@@ -187,11 +145,9 @@ const sliders = [
   },
   {
     photo: photoAkshayMehra,
-    text: `Your team has been extremely responsive, but more importantly in 
-		the crypto space, you are one of the few teams that delivers what is 
-		promised. We look forward to working together in the future too`,
-    name: `Akshay Mehra`,
-    position: `CEO, Co-Founder`,
+    text: `yourTeamHasBeenExtremelyResponsive`,
+    position: `ceoCoFounder`,
+    name: `akshayMehra`,
     tokenLogotype: logoTokenGenieICO,
     tokenPrice: `$555,000`,
     tokenDescription: `GenieICO`,
@@ -199,10 +155,9 @@ const sliders = [
   },
   {
     photo: photoRinatArslanov,
-    text: `Everything was great! We had a 100% service for Okex! Platinum 
-		listing was efficient, solid and super helpful!`,
-    name: `Rinat Arslanov`,
-    position: `CEO`,
+    text: `everythingWasGreatWeHad`,
+    name: `rinatArslanov`,
+    position: `ceo`,
     tokenLogotype: logoTokenRevain,
     tokenPrice: `$12.5M`,
     tokenDescription: `Revain`,
@@ -210,13 +165,9 @@ const sliders = [
   },
   {
     photo: logoTokenLinkercoin,
-    text: `We highly appreciate services Platinum team were provided. 
-		They are responsive and responsible partners, it's worth 
-		a lot in this fast-changing market. We luckily got an 
-		additional consultation from the team, where they finally 
-		convinced us in their professionilsm.`,
-    name: `Hwi Ram Jeong`,
-    position: `Global Business Team At Linker Coin`,
+    text: `weHighlyAppreciateServices`,
+    name: `hwiRamJeong`,
+    position: `globalBusinessTeamAtLinkerCoin`,
     tokenLogotype: ``,
     tokenPrice: ``,
     tokenDescription: ``,
@@ -225,12 +176,9 @@ const sliders = [
   },
   {
     photo: photoAlexeyShmonov,
-    text: `Platinum team is great, they proved themselves as first-class
-		professionals in what they do. Our token was listed right on
-		time, and more than that, they booked for us exactly the date
-		we wanted. We highly recommend the service!`,
-    name: `Alexey Shmonov`,
-    position: `HOQU CEO and Co-founder`,
+    text: `platinumTeamIsGreatTheyProved`,
+    name: `alexeyShmonov`,
+    position: `hOQUCEO`,
     tokenLogotype: logoTokenHoqu,
     tokenPrice: ``,
     tokenDescription: ``,
@@ -238,12 +186,9 @@ const sliders = [
   },
   {
     photo: photoSimoneCosta,
-    text: `We are really satisfied with responsiveness and professionalism
-		given us by Platinum during its listing operations. Their
-		constant guidance, supervision, and support qualified us
-		to work under the best conditions`,
-    name: `Simone Costa`,
-    position: `BUSINESS & MARKETING OPERATIONS - Distribution/Airdrop`,
+    text: `weAreReallySatisfiedWithResponsiveness`,
+    name: `simoneCosta`,
+    position: `businessAndMarketing`,
     tokenLogotype: logoTokenMultiversum,
     tokenPrice: ``,
     tokenDescription: ``,
@@ -251,12 +196,9 @@ const sliders = [
   },
   {
     photo: logoTokenTmbk2,
-    text: `We've listed with Platinum two tokens ACChain and CCDC. They
-		take the pain away, for sure. Sometimes you don't know who is
-		at the other end, because of the lack of time for meeting,
-		but service is helpful. I love what they did!`,
-    name: `Genevieve Leveille`,
-    position: `Director of Timbuktu Capital`,
+    text: `weveListedWithPlatinumTwoTokens`,
+    name: `genevieveLeveille`,
+    position: `directorOfTimbuktuCapital`,
     tokenLogotype: ``,
     tokenPrice: ``,
     tokenDescription: ``,
@@ -265,24 +207,18 @@ const sliders = [
   },
   {
     photo: photoInaSamovich,
-    text: `I consider Platinum a good project partner with lots of experience 
-			in PR, marketing and product development. They listen to the needs of a 
-			client and bring their expertise for the best decision. This wonderful 
-			team is able to implement related activities on a proper level and 
-			contribute to the project results.`,
-    name: `Ina Samovich`,
-    position: `CEO`,
+    text: `iConsiderPlatinumAGoodProject`,
+    name: `inaSamovich`,
+    position: `ceo`,
     tokenLogotype: logoCoppay,
     tokenPrice: ``,
     tokenDescription: ``
   },
   {
     photo: logoAtfs,
-    text: `We are thankful for the Telegram support service from Platinum 
-			during our ICO campaign period. They were professional and 
-			always online. The group was managed 24/7 and overall, we were satisfied.`,
-    name: `Rachel Chung`,
-    position: `Marketing Lead and co-founder`,
+    text: `weAreThankfulForTheTelegramSupport`,
+    name: `rachelChung`,
+    position: `marketingLeadAndCoFounder`,
     tokenLogotype: ``,
     tokenPrice: ``,
     tokenDescription: ``,
@@ -290,14 +226,9 @@ const sliders = [
   },
   {
     photo: logoMicromoney,
-    text: `PLATINUM provided us with services for ICO. It’s a perfect team 
-			capable of everything you need! They have organized a campaign accurately 
-			through the broad media coverage and ICO websites calendars. Their 
-			team-members fully understand the audience. It’s thanks to them that we 
-			have raised a part of the funds, they have always pushed us, made us go 
-			on when we were ready to give up.`,
-    name: `Sai Hnin Aung`,
-    position: `Co-founder, COO`,
+    text: `platinumProvidedUsWithServicesForICO`,
+    name: `saiHninAung`,
+    position: `coFounderCOO`,
     tokenLogotype: ``,
     tokenPrice: ``,
     tokenDescription: ``,
@@ -305,12 +236,9 @@ const sliders = [
   },
   {
     photo: logoUnicontv,
-    text: `PLATINUM performs valuable support from creating an editorial 
-			policy to writing exclusive materials. We got marketing support for 
-			the news portal as well. Now we have a perfectly operating news 
-			platform with a growing community of our think-alikes.`,
-    name: `Dan Khomenko`,
-    position: `UNICOIN TV co-founder`,
+    text: `platinumPerformsValuableSupport`,
+    name: `danKhomenko`,
+    position: `uNICOINTVCoFounder`,
     tokenLogotype: ``,
     tokenPrice: ``,
     tokenDescription: ``,

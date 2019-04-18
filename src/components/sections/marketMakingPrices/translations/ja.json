@@ -1,5 +1,5 @@
 {
-  "ourPrices": "サービスの価格",
+  "ourPrices": "各サービスの価格",
   "freeConsultation": "相談は無料！",
   "free": "無料",
   "freeConsultationAboutMarketMaking": "お客様のICOのためにマーケットメーキングにおける無料相談",
@@ -13,7 +13,7 @@
   "3Pair": "/3つのペア",
   "supportOf3TradingPair": "３つの取引ペアをサポート",
   "allExtraPairsAreOnly": "追加ペアは+0,25BTC／ペア",
-  "monthlyReports": "月例報告",
-  "personalAccountManager": "個人アカウントマネージャー",
+  "monthlyReports": "月次レポート",
+  "personalAccountManager": "専用アカウントマネージャー",
   "getStarted": "申し込む"
 }

@@ -1,14 +1,14 @@
 {
   "whyVolumeLiquidityMatters": "何故取引量と流動性は重要ですか？",
   "addYourTokenToThe": "取引量と流動性が高ければ、トップ１０の取引所に上場は簡単です！",
-  "marketCapAndTradingVolume": "時価総額と取引量が成功するプロジェクトの兆候です",
-  "decentTradingVolumeAttractsNew": "かなりの取引量が新しい投資家とトレーダーを引き付けられます。",
+  "marketCapAndTradingVolume": "時価総額と取引量が成功するプロジェクトの兆候になる。",
+  "decentTradingVolumeAttractsNew": "取引量の高いプロジェクトは、流通市場の新しい投資家とトレーダーを引き付けられます。",
   "classicVentureCapitalistsAndAngels": "有利な投資をするために、クラシック系のベンチャーキャピタリストとエンジェル投資家が成功するプロジェクトの進歩を注視します。",
   "utilityIsAPrimaryFunction": "トークンの主な機能は実用性です。トークンを利用する方にとってはトークンを買うこと・売ることが簡単ですか？コストの低くて素早い取引をできますか？",
-  "ourSolutionAlgorithmicTrading": "弊社に提供されるソリューションはアルゴリズム取引のボットです！",
-  "youWillGetBestPrice": "ベストプライスで！:",
-  "weWillSaveYourMoney": "お客様のお金を節約:呼び値スプレッドは１％以下",
-  "refinedAndSolidLiquidityStrategy": "流動性を高めるための最善策",
-  "anyExchangesNoAdditionalFee": "どこの取引所でも良いです。追加料金なしで",
-  "transparentFundsForMarketmakingUnder": "透明性が高いです。マーケットメーキング用の資金質はいつでも確認できます"
+  "ourSolutionAlgorithmicTrading": "弊社が提供するソリューションは<br>アルゴリズム取引ボットです！",
+  "youWillGetBestPrice": "ベストプライスで：",
+  "weWillSaveYourMoney": "お金の節約：価格スプレッドは１％以下",
+  "refinedAndSolidLiquidityStrategy": "流動性を高めるための微細な最善策",
+  "anyExchangesNoAdditionalFee": "どこの取引所でも対応可能。追加料金不要。",
+  "transparentFundsForMarketmakingUnder": "透明性の高いサービス。マーケットメーキング用の費用はいつでも確認できます。"
 }
