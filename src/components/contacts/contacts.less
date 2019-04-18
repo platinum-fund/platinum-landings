@@ -1,18 +1,46 @@
 @import '~src/common.blocks/imports/media.less';
+@import '~src/components/slickSlider/slick-slider-arrow.less';
 
-.contacts .contact {
-  margin-bottom: 4.4rem;
+.contacts {
+  .slick-slider-arrow--left {
+    left: -3.5rem;
+  }
+
+  .slick-slider-arrow--right {
+    right: -3.5rem;
+  }
+
+  .slick-dots li button::before {
+    font-size: 1.5rem;
+    color: #f0830e;
+
+    @media @under-md {
+      margin-top: 1rem;
+    }
+
+    @media @after-md {
+      margin-top: -2rem;
+    }
+  }
+}
+
+.contact-wrapper {
+  padding-bottom: 1rem;
+  width: 132.1rem;
+  max-width: 100%;
+  box-sizing: border-box;
+  outline: none;
 }
 
 .contact {
   display: flex;
   flex-wrap: wrap;
   padding: 4.5rem 3.3rem 1rem;
-  max-width: 132.1rem;
+  width: 100%;
+  box-sizing: border-box;
   font-family: 'Montserrat', inherit, sans-serif;
   color: #000000;
   background: #ffffff;
-  box-shadow: 0 2px 28px rgba(0, 0, 0, 0.0669441);
   border-radius: 20px;
 
   &__header {

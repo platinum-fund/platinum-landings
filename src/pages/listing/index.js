@@ -30,6 +30,7 @@ const IndexPage = ({ language = 'en' }) => {
       <main className="page_listing">
         <Preface />
         <MediaPreview />
+        <Contacts />
         <ListingSuccessful />
         <ListingExchanges />
         <ListingClients />
@@ -41,7 +42,6 @@ const IndexPage = ({ language = 'en' }) => {
         <Team />
         <PastSupportedTokens />
         <Share />
-        <Contacts />
         <Footer />
         <ContactForm config={config.contactForm} />
       </main>
