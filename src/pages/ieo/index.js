@@ -22,6 +22,7 @@ const IndexPage = ({ language = 'en' }) => (
     pageTitle="Services for IEO: Security Token Offering Consulting from Agency Platinum.fund"
     language={language}
     landingName={config.contactForm.landingName}
+    locales={config.languages}
   >
     <main className="page_ieo">
       <Preface />
