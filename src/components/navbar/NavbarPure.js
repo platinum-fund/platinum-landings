@@ -8,6 +8,8 @@ import logo from 'src/images/logo.svg'
 import './navbar.less'
 import configPages from 'src/config'
 import LanguageMenu from '../languageMenu'
+import locationPathName from '../languageMenu/locationPathName'
+import { NavbarData } from './NavbarData'
 
 const Navbar = ({ closeMenu, toggleMenu, isMenuShown }) => {
   const currentLanguage = LanguageContext._currentValue
@@ -24,6 +26,28 @@ const Navbar = ({ closeMenu, toggleMenu, isMenuShown }) => {
       return domainHref + pageName + '/'
     }
   }
+  const navigationObject = NavbarData
+  const navigationItems = (start, limit) => {
+    let result = []
+    if (limit - start <= navigationObject.length) {
+      for (let i = start; i <= limit; i++) {
+        let linkClassName = 'navbar__link'
+        if (locationPathName === navigationObject[i].hrefName) {
+          linkClassName += ' navbar__link_active'
+        }
+        let linkHref = hrefWithLanguage(navigationObject[i].hrefName)
+        if (navigationObject[i].hrefName.indexOf('http') !== -1) {
+          linkHref = navigationObject[i].hrefName
+        }
+        result.push(
+          <a className={linkClassName} href={linkHref}>
+            <FormattedHTMLMessage id={navigationObject[i].titleId} />
+          </a>
+        )
+      }
+    }
+    return result
+  }
 
   return (
     <TranslationProvider translations={translations}>
@@ -39,66 +63,11 @@ const Navbar = ({ closeMenu, toggleMenu, isMenuShown }) => {
             <div
               className={`navbar__links ${isMenuShown ? 'shown' : 'hidden'}`}
             >
-              <a className="navbar__link" href={hrefWithLanguage('sto')}>
-                <FormattedHTMLMessage id="sTO" />
-              </a>
-              <a className="navbar__link" href={hrefWithLanguage('ieo')}>
-                <FormattedHTMLMessage id="ieo" />
-              </a>
-              <a className="navbar__link" href={hrefWithLanguage('listing')}>
-                <FormattedHTMLMessage id="listing" />
-              </a>
-              <a
-                className="navbar__link"
-                href={hrefWithLanguage('ico-platform')}
-              >
-                <FormattedHTMLMessage id="sTOICODashboard" />
-              </a>
-              <a className="navbar__link" href={hrefWithLanguage('ico-start')}>
-                <FormattedHTMLMessage id="iCOStart" />
-              </a>
-              <a className="navbar__link" href={hrefWithLanguage('legal')}>
-                <FormattedHTMLMessage id="legal" />
-              </a>
-              <a
-                className="navbar__link"
-                href="https://platinum.fund/marketmaking/"
-              >
-                <FormattedHTMLMessage id="marketMaking" />
-              </a>
-              <a className="navbar__link" href={hrefWithLanguage('usdq-2')}>
-                <FormattedHTMLMessage id="usdq" />
-              </a>
-              <a className="navbar__link" href="https://blog.platinum.fund/">
-                <FormattedHTMLMessage id="blog" />
-              </a>
+              {navigationItems(0, 9)}
               <div className="navbar__links-group-wrapper">
                 <p className="navbar__link navbar__more-button">More</p>
                 <div className="navbar__links-group">
-                  <a className="navbar__link" href={hrefWithLanguage('zmest')}>
-                    <FormattedHTMLMessage id="marketing" />
-                  </a>
-                  <a
-                    className="navbar__link"
-                    href={hrefWithLanguage('security')}
-                  >
-                    <FormattedHTMLMessage id="createSecurityToken" />
-                  </a>
-                  <a
-                    className="navbar__link"
-                    href={hrefWithLanguage('business')}
-                  >
-                    <FormattedHTMLMessage id="buyPlatinumEquity" />
-                  </a>
-                  <a className="navbar__link" href={hrefWithLanguage('mlm')}>
-                    <FormattedHTMLMessage id="mlm" />
-                  </a>
-                  <a className="navbar__link" href={hrefWithLanguage('wallet')}>
-                    <FormattedHTMLMessage id="wallet" />
-                  </a>
-                  <a className="navbar__link" href={hrefWithLanguage('hr')}>
-                    <FormattedHTMLMessage id="hiring" />
-                  </a>
+                  {navigationItems(10, 14)}
                 </div>
               </div>
             </div>

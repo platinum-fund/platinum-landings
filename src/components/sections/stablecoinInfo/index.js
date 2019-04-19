@@ -10,16 +10,16 @@ const StablecoinInfo = () => (
             <div className="table__title">Wallets</div>
             <div className="table__row">
               <a
-                href="https://www.blockchain.com/ru/btc/address/33rBa5czk6HHTNWr1MUGXTeSXto47V5UnS"
+                href="https://www.blockchain.com/ru/btc/address/35dKsg2C8yeMHH53WSCfSKLiK8yifEo6KL"
                 className="link"
               >
-                33rBa5czk6HHTNWr1MUGXTeSXto47V5UnS
+                35dKsg2C8yeMHH53WSCfSKLiK8yifEo6KL
               </a>
             </div>
           </div>
           <div className="table__col">
             <div className="table__title">The amount of locked BTC</div>
-            <div className="table__row">11.00015207</div>
+            <div className="table__row">10.97997293</div>
           </div>
         </div>
       </div>

@@ -10,13 +10,17 @@ class Slider extends React.Component {
     }
   }
 
+  initAutoSlide() {
+    clearTimeout(this.autoSlideTimeout)
+    this.autoSlideTimeout = setTimeout(() => {
+      this.nextSlide()
+    }, 20000)
+  }
+
   componentDidMount() {
     const childrenCount = React.Children.count(this.props.children)
     this.setState({ lastSlideIndex: childrenCount - 1 })
-
-    setInterval(() => {
-      this.nextSlide()
-    }, 20000)
+    this.initAutoSlide()
   }
 
   nextSlide = () => {
@@ -27,6 +31,8 @@ class Slider extends React.Component {
     } else {
       this.setState({ currentSlideIndex: 0 })
     }
+
+    this.initAutoSlide()
   }
 
   prevSlide = () => {
@@ -35,6 +41,8 @@ class Slider extends React.Component {
     if (currentSlideIndex > 0) {
       this.setState({ currentSlideIndex: currentSlideIndex - 1 })
     }
+
+    this.initAutoSlide()
   }
 
   swipingLeft = (e, absX) => {
