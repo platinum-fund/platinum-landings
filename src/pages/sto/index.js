@@ -18,6 +18,7 @@ import LaunchPLatform from 'src/components/sections/launchPlatform'
 import Benefits from 'src/components/sections/benefits'
 import Reviews from 'src/components/sections/reviews'
 import Team from 'src/components/sections/team'
+import ItTeam from 'src/components/sections/itTeam'
 import PastSupportedTokens from 'src/components/sections/pastSupportedTokens/sto'
 import Share from 'src/components/sections/shareNow'
 import Footer from 'src/components/sections/footer'
@@ -55,6 +56,7 @@ const IndexPage = ({ language = 'en' }) => (
       <Articles />
       <MediumNews />
       <Team />
+      <ItTeam />
       <PastSupportedTokens />
       <Share />
       <Footer />
