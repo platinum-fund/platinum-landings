@@ -25,6 +25,7 @@ const IndexPage = () => (
       <Roadmap />
       <Popup
         popupId="onePageUsdq"
+        theme="pdf-viewer"
         content={
           <object
             data={OnePagerUsdqPdf}
