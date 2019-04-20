@@ -24,14 +24,10 @@ const FullViewMember = ({ member }) => (
 )
 
 const ItMemberPopup = ({ member }) => {
-  if (!member) {
-    return <div />
-  }
-
   return (
     <Popup
       popupId="fullViewOfItMember"
-      content={<FullViewMember member={member} />}
+      content={member && <FullViewMember member={member} />}
     />
   )
 }
