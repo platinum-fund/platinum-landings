@@ -47,17 +47,6 @@ const content = [
     },
     photo: require('./photos/alexey-adilshin.jpg')
   }
-  // {
-  //   name: 'Andrey',
-  //   description: 'andreyDescription',
-  //   position: 'webDeveloper',
-  //   socials: [
-  //     {
-  //       name: '',
-  //       link: ''
-  //     }
-  //   ]
-  // }
 ]
 
 export default content
