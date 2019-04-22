@@ -74,7 +74,9 @@ const ListingPricesPure = () => (
             </a>
           </div>
           <div className="listing-prices__item">
-            <h6 className="listing-prices__header">wallets</h6>
+            <h6 className="listing-prices__header">
+              <FormattedHTMLMessage id="wallets" />
+            </h6>
             <div className="listing-prices__box">
               <p className="listing-prices__currency">
                 <FormattedHTMLMessage id="btcFrom" />
