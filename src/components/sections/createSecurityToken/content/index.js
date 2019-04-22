@@ -3,44 +3,44 @@ const content = {
     inputs: [
       {
         required: true,
-        placeholder: 'Token name*',
+        placeholder: 'tokenName',
         type: 'text',
         name: 'tokenName'
       },
       {
         required: true,
-        placeholder: 'Token price in USD*',
+        placeholder: 'tokenPriceInUSD',
         type: 'price',
         name: 'tokenPrice'
       },
       {
         required: false,
-        placeholder: 'How much are you aiming to raise?',
+        placeholder: 'howMuchAreYouAimingToRaise',
         type: 'cost',
         name: 'planToRaise'
       },
       {
         required: false,
-        placeholder: 'Company name',
+        placeholder: 'companyName',
         type: 'text',
         name: 'companyName'
       },
       {
         required: false,
-        placeholder: 'Company website',
+        placeholder: 'companyWebsite',
         type: 'text',
         name: 'CompanyWebsite'
       },
       {
         required: true,
-        placeholder: 'Your email*',
+        placeholder: 'yourEmail',
         type: 'email',
         name: 'email'
       }
     ],
     radioBoxes: [
       {
-        label: 'Are you looking for help bringing investors for you?',
+        label: 'areYouLookingForHelp',
         name: 'bringing-investors',
         values: ['yes', 'no']
       }

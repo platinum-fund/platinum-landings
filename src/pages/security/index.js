@@ -23,10 +23,12 @@ import MediumNews from 'src/components/sections/mediumNews'
 import Footer from 'src/components/sections/footer'
 import ContactForm from 'src/components/contactFormPopup'
 
-const IndexPage = () => (
+const IndexPage = ({ language = 'en' }) => (
   <Layout
     pageTitle="Services for STO: Security Token Offering Consulting from Agency Platinum.fund"
-    language="en"
+    language={language}
+    landingName={config.contactForm.landingName}
+    locales={config.languages}
   >
     <main className="page_security">
       <Preface />

@@ -1,25 +1,30 @@
 import React from 'react'
 import './section_service-providers.less'
+import TranslationProvider from 'src/components/translationProvider'
+import translations from './translations'
+import { FormattedHTMLMessage } from 'react-intl'
 
 const ServiceProviders = props => (
-  <section className="section_service-providers">
-    <div className="wrapper_shrink">
-      <div className="headline">
-        <h2 className="title title_type_section">Service</h2>
-        <h2 className="title title_type_section _orange">Providers</h2>
-        <h4 className="title title_type_subtitle">
-          Do you provide services to companies that are raising capital and
-          issuing securities?
-        </h4>
+  <TranslationProvider translations={translations}>
+    <section className="section_service-providers">
+      <div className="wrapper_shrink">
+        <div className="headline">
+          <h2 className="title title_type_section">
+            <FormattedHTMLMessage id="service" />
+          </h2>
+          <h4 className="title title_type_subtitle">
+            <FormattedHTMLMessage id="doYouProvideServices" />
+          </h4>
+        </div>
+        <div className="service-providers">
+          <img
+            className="image"
+            src={require('src/images/section-service-providers/service-providers.png')}
+          />
+        </div>
       </div>
-      <div className="service-providers">
-        <img
-          className="image"
-          src={require('src/images/section-service-providers/service-providers.png')}
-        />
-      </div>
-    </div>
-  </section>
+    </section>
+  </TranslationProvider>
 )
 
 export default ServiceProviders
