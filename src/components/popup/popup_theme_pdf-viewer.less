@@ -1,0 +1,20 @@
+@import '~src/common.blocks/imports/media.less';
+@import './popup.less';
+
+.popup_theme_pdf-viewer {
+  .popup;
+
+  .popup__container {
+    width: 70%;
+    max-width: 80%;
+    height: 60rem;
+    min-height: unset;
+    overflow-y: unset;
+    font-size: 1rem;
+
+    @media @under-md {
+      height: 40rem;
+      min-height: unset;
+    }
+  }
+}

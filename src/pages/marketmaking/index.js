@@ -16,6 +16,8 @@ import Footer from 'src/components/sections/footer'
 import Articles from 'src/components/sections/articles'
 import MediaPreview from 'src/components/sections/mediaPreview'
 import MediumNews from 'src/components/sections/mediumNews'
+import ItTeam from 'src/components/sections/itTeam'
+import EmployeesCompaniesHistory from 'src/components/sections/employeesCompaniesHistory'
 import ContactForm from 'src/components/contactFormPopup'
 
 const IndexPage = ({ language = 'en' }) => (
@@ -38,6 +40,8 @@ const IndexPage = ({ language = 'en' }) => (
       <Reviews />
       <Articles />
       <MediumNews />
+      <ItTeam />
+      <EmployeesCompaniesHistory />
       <Share />
       <Footer />
       <ContactForm config={config.contactForm} />
