@@ -13,6 +13,8 @@ import Team from 'src/components/sections/team'
 import EmployeeFeedback from 'src/components/sections/employeeFeedback'
 import Contacts from 'src/components/sections/contacts'
 import MediumNews from 'src/components/sections/mediumNews'
+import ItTeam from 'src/components/sections/itTeam'
+import EmployeesCompaniesHistory from 'src/components/sections/employeesCompaniesHistory'
 import Footer from 'src/components/sections/footer'
 import ContactForm from 'src/components/contactFormPopup'
 
@@ -30,6 +32,8 @@ const IndexPage = () => (
       <Articles />
       <MediumNews />
       <Team />
+      <ItTeam />
+      <EmployeesCompaniesHistory />
       <Footer />
       <ContactForm config={config.contactForm} />
     </main>
