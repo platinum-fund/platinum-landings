@@ -20,6 +20,8 @@ import CreateSecurityToken from 'src/components/sections/createSecurityToken'
 import Share from 'src/components/sections/shareNow'
 import Contacts from 'src/components/sections/contacts'
 import MediumNews from 'src/components/sections/mediumNews'
+import ItTeam from 'src/components/sections/itTeam'
+import EmployeesCompaniesHistory from 'src/components/sections/employeesCompaniesHistory'
 import Footer from 'src/components/sections/footer'
 import ContactForm from 'src/components/contactFormPopup'
 
@@ -40,6 +42,8 @@ const IndexPage = () => (
       <ActionAttention />
       <CodeExample />
       <Team />
+      <ItTeam />
+      <EmployeesCompaniesHistory />
       <PastSupportedTokens />
       <ServiceProviders />
       <Reviews />
