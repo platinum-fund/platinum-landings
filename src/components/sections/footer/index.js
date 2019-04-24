@@ -21,15 +21,12 @@ const Footer = ({ noJapaneseAddress }) => (
             <span itemprop="streetAddress">
               <FormattedHTMLMessage id="streetAddress" />
             </span>
-            ,
             <span itemprop="addressRegion">
               <FormattedHTMLMessage id="addressRegion" />
             </span>
-            ,
             <span itemprop="addressCountry">
               <FormattedHTMLMessage id="addressCountry" />
             </span>
-            .
           </p>
           <div className="card">
             <h6 className="card__title">
