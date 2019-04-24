@@ -1,0 +1,13 @@
+{
+  "createYourSecurityToken": "Create your Security Token",
+  "noMoreWait": "No more wait! Start to raise funds in crypto industry.",
+  "tokenName": "Token name*",
+  "tokenPriceInUSD": "Token price in USD*",
+  "howMuchAreYouAimingToRaise": "How much are you aiming to raise?",
+  "companyName": "Company name",
+  "companyWebsite": "Company website",
+  "yourEmail": "Your email*",
+  "areYouLookingForHelp": "Are you looking for help bringing investors for you?",
+  "yes": "yes",
+  "no": "no"
+}

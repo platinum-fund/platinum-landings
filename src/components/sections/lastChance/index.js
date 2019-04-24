@@ -1,25 +1,32 @@
 import React from 'react'
 import './section_last-chance.less'
+import TranslationProvider from 'src/components/translationProvider'
+import translations from './translations'
+import { FormattedHTMLMessage } from 'react-intl'
 
 const LastChance = props => (
-  <section className="section_last-chance">
-    <div className="wrapper_shrink">
-      <div className="headline">
-        <h2 className="title title_type_main _orange">Huge funds</h2>
-        <h2 className="title title_type_main">rushing to the</h2>
-        <h2 className="title title_type_main _orange">blockchain</h2>
-        <h4 className="title title_type_subtitle">Don’t waste a chance!</h4>
+  <TranslationProvider translations={translations}>
+    <section className="section_last-chance">
+      <div className="wrapper_shrink">
+        <div className="headline">
+          <h2 className="title title_type_main">
+            <FormattedHTMLMessage id="hugeFunds" />
+          </h2>
+          <h4 className="title title_type_subtitle">
+            <FormattedHTMLMessage id="dontWasteAChance" />
+          </h4>
+        </div>
+        <div className="wrapper_buttons">
+          <button className="js-form-button button button_theme_main">
+            <FormattedHTMLMessage id="cREATESECURITYTOKENNOW" />
+          </button>
+          <button className="js-form-button button button_theme_light-black">
+            <FormattedHTMLMessage id="gETFREECONSULTATION" />
+          </button>
+        </div>
       </div>
-      <div className="wrapper_buttons">
-        <button className="js-form-button button button_theme_main">
-          CREATE SECURITY TOKEN NOW!
-        </button>
-        <button className="js-form-button button button_theme_light-black">
-          GET FREE CONSULTATION!
-        </button>
-      </div>
-    </div>
-  </section>
+    </section>
+  </TranslationProvider>
 )
 
 export default LastChance
