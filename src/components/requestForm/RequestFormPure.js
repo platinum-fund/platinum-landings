@@ -1,5 +1,6 @@
 import React from 'react'
 import './request-form.less'
+import { FormattedMessage } from 'react-intl'
 
 const Radio = ({ value, name }) => (
   <div className="request-form__radio-wrapper">
@@ -15,7 +16,9 @@ const Radio = ({ value, name }) => (
 
 const RadioBox = ({ box }) => (
   <>
-    <label className="request-form__radios-label">{box.label}</label>
+    <label className="request-form__radios-label">
+      <FormattedMessage id={box.label} />
+    </label>
     <div className="request-form__radios-wrapper">
       {box.values.map((value, i) => (
         <Radio value={value} name={box.name} key={`radioBox${box.name}${i}`} />
@@ -28,14 +31,18 @@ const RequestFormPure = ({ content, handleSubmit, buttonStatus }) => {
   return (
     <form className="request-form" onSubmit={handleSubmit}>
       {content.inputs.map((input, i) => (
-        <input
-          className="request-form__input"
-          type={input.type}
-          placeholder={input.placeholder}
-          required={input.required}
-          name={input.name}
-          key={`requestFormInput${i}`}
-        />
+        <FormattedMessage id={input.placeholder}>
+          {placeholder => (
+            <input
+              className="request-form__input"
+              type={input.type}
+              placeholder={placeholder}
+              required={input.required}
+              name={input.name}
+              key={`requestFormInput${i}`}
+            />
+          )}
+        </FormattedMessage>
       ))}
       <div className="request-form__radio-boxes">
         {content.radioBoxes.map((radioBox, boxIndex) => (
