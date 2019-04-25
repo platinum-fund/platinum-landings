@@ -1,11 +1,15 @@
-export const NavbarData = [
+const navbarData = [
   {
-    hrefName: 'sto',
-    titleId: 'sTO'
+    hrefName: 'usdq',
+    titleId: 'usdq'
   },
   {
     hrefName: 'ieo',
     titleId: 'ieo'
+  },
+  {
+    hrefName: 'sto',
+    titleId: 'sTO'
   },
   {
     hrefName: 'listing',
@@ -26,10 +30,6 @@ export const NavbarData = [
   {
     hrefName: 'https://platinum.fund/marketmaking/',
     titleId: 'marketMaking'
-  },
-  {
-    hrefName: 'usdq',
-    titleId: 'usdq'
   },
   {
     hrefName: 'https://blog.platinum.fund/',
@@ -60,3 +60,5 @@ export const NavbarData = [
     titleId: 'hiring'
   }
 ]
+
+export default navbarData
