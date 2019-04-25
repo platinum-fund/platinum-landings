@@ -1,64 +1,64 @@
-const navbarData = [
+const links = [
   {
-    hrefName: 'usdq',
+    pageName: 'usdq',
     titleId: 'usdq'
   },
   {
-    hrefName: 'ieo',
+    pageName: 'ieo',
     titleId: 'ieo'
   },
   {
-    hrefName: 'sto',
+    pageName: 'sto',
     titleId: 'sTO'
   },
   {
-    hrefName: 'listing',
+    pageName: 'listing',
     titleId: 'listing'
   },
   {
-    hrefName: 'ico-platform',
+    pageName: 'ico-platform',
     titleId: 'sTOICODashboard'
   },
   {
-    hrefName: 'ico-start',
+    pageName: 'ico-start',
     titleId: 'iCOStart'
   },
   {
-    hrefName: 'legal',
+    pageName: 'legal',
     titleId: 'legal'
   },
   {
-    hrefName: 'https://platinum.fund/marketmaking/',
+    pageName: 'marketmaking',
     titleId: 'marketMaking'
   },
   {
-    hrefName: 'https://blog.platinum.fund/',
+    href: 'https://blog.platinum.fund/',
     titleId: 'blog'
   },
   {
-    hrefName: 'zmest',
+    pageName: 'zmest',
     titleId: 'marketing'
   },
   {
-    hrefName: 'security',
+    pageName: 'security',
     titleId: 'createSecurityToken'
   },
   {
-    hrefName: 'business',
+    pageName: 'business',
     titleId: 'buyPlatinumEquity'
   },
   {
-    hrefName: 'mlm',
+    pageName: 'mlm',
     titleId: 'mlm'
   },
   {
-    hrefName: 'wallet',
+    pageName: 'wallet',
     titleId: 'wallet'
   },
   {
-    hrefName: 'hr',
+    pageName: 'hr',
     titleId: 'hiring'
   }
 ]
 
-export default navbarData
+export default links
