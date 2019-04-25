@@ -9,7 +9,7 @@ import './navbar.less'
 import configPages from 'src/config'
 import LanguageMenu from '../languageMenu'
 import locationPathName from '../languageMenu/locationPathName'
-import { NavbarData } from './NavbarData'
+import navigationObject from './navbarData'
 
 const Navbar = ({ closeMenu, toggleMenu, isMenuShown }) => {
   const currentLanguage = LanguageContext._currentValue
@@ -26,7 +26,7 @@ const Navbar = ({ closeMenu, toggleMenu, isMenuShown }) => {
       return domainHref + pageName + '/'
     }
   }
-  const navigationObject = NavbarData
+
   const navigationItems = (start, limit) => {
     let result = []
     if (limit - start <= navigationObject.length) {
