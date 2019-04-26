@@ -11,7 +11,17 @@ class WordSeparationSmart extends React.Component {
     const separatedWordsArray = new TinySegmenter().segment(text)
 
     let separatedWordsByTag = ''
-    const separateExceptions = ['。', '、', '(', ')', ':', '！']
+    const separateExceptions = [
+      '。',
+      '、',
+      '(',
+      ')',
+      '（',
+      '）',
+      ':',
+      '！',
+      '?'
+    ]
 
     for (let i = 0; i < separatedWordsArray.length; i++) {
       let word = separatedWordsArray[i]
