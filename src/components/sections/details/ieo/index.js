@@ -1,9 +1,10 @@
 import React from 'react'
 import './section_details-ieo.less'
-import { FormattedHTMLMessage } from 'react-intl'
+import { FormattedHTMLMessage } from 'src/components/i18n'
 import TranslationProvider from 'src/components/translationProvider'
 import translations from './translations'
 import content from './content'
+import LazyImage from 'src/components/lazyImage'
 
 const Details = () => (
   <TranslationProvider translations={translations}>
@@ -17,7 +18,7 @@ const Details = () => (
         <div className="wrapper_cards">
           {content.features.map((feature, i) => (
             <div className="card card_theme_light card_type_column" key={i}>
-              <img className="card__image" src={feature.image} />
+              <LazyImage className="card__image" src={feature.image} />
               <h6 className="card__title">
                 <FormattedHTMLMessage id={feature.title} />
               </h6>

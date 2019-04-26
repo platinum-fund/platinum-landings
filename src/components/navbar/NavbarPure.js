@@ -1,7 +1,7 @@
 import React from 'react'
 import OutsideClickHandler from 'react-outside-click-handler'
 import TranslationProvider from '../translationProvider'
-import { FormattedHTMLMessage } from 'react-intl'
+import { FormattedHTMLMessage } from 'src/components/i18n'
 import translations from './translations'
 import logo from 'src/images/logo.svg'
 import './navbar.less'

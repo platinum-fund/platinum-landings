@@ -7,9 +7,10 @@ import ItMemberPopup from './ItMemberPopup'
 import Socials from './Socials'
 import './it-member.less'
 import './it-team.less'
-import { FormattedHTMLMessage } from 'react-intl'
+import { FormattedHTMLMessage } from 'src/components/i18n'
 import TranslationProvider from 'src/components/translationProvider'
 import translations from './translations'
+import LazyImage from 'src/components/lazyImage'
 
 const ItTeam = ({ sliderSettings, handleClick, shownMember }) => (
   <TranslationProvider translations={translations}>
@@ -19,7 +20,7 @@ const ItTeam = ({ sliderSettings, handleClick, shownMember }) => (
           <div className="it-member-wrapper" key={member.name}>
             <div className="it-member">
               <div className="it-member__photo-wrapper">
-                <img
+                <LazyImage
                   className="it-member__photo"
                   src={member.photo}
                   alt="photo"

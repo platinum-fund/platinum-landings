@@ -3,12 +3,13 @@ import './token-list.less'
 import tokenList from './content'
 import Slider from 'src/components/slider'
 import SliderItem from 'src/components/slider/SliderItemPure'
+import LazyImage from 'src/components/lazyImage'
 
 const TokenList = ({ list }) => (
   <div className="token-list">
     {list.map((token, i) => (
       <div className="token-list__item" key={`tokenListItem${i}`}>
-        <img
+        <LazyImage
           className="token-list__image"
           src={token.image}
           alt={token.imageAlt}

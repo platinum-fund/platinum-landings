@@ -3,7 +3,7 @@ import './section_preface-listing.less'
 import { init, animate } from './background'
 import TranslationProvider from 'src/components/translationProvider'
 import translations from './content/translations'
-import { FormattedHTMLMessage } from 'react-intl'
+import { FormattedHTMLMessage } from 'src/components/i18n'
 
 class PrefaceSmart extends Component {
   constructor(props) {

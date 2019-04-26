@@ -8,7 +8,8 @@ import equityImage from 'src/images/section-business-growth/equity.png'
 import Socials from 'src/components/socials'
 import TranslationProvider from 'src/components/translationProvider'
 import translations from './translations'
-import { FormattedHTMLMessage } from 'react-intl'
+import LazyImage from 'src/components/lazyImage'
+import { FormattedHTMLMessage } from 'src/components/i18n'
 
 const Details = () => (
   <TranslationProvider translations={translations}>
@@ -21,7 +22,7 @@ const Details = () => (
         </div>
         <div className="wrapper_cards">
           <div className="card card_theme_light card_type_column">
-            <img className="card__image" src={equityImage} />
+            <LazyImage className="card__image" src={equityImage} />
             <h6 className="card__title">
               <FormattedHTMLMessage id="equityDevelopment" />
             </h6>
@@ -30,7 +31,7 @@ const Details = () => (
             </p>
           </div>
           <div className="card card_theme_light card_type_column">
-            <img className="card__image" src={raiseCryptoImage} />
+            <LazyImage className="card__image" src={raiseCryptoImage} />
             <h6 className="card__title">
               <FormattedHTMLMessage id="СRyptocurrencyFundraising" />
             </h6>
@@ -39,7 +40,7 @@ const Details = () => (
             </p>
           </div>
           <div className="card card_theme_light card_type_column">
-            <img className="card__image" src={timeImage} />
+            <LazyImage className="card__image" src={timeImage} />
             <h6 className="card__title">
               <FormattedHTMLMessage id="unstoppableMarket" />
             </h6>
@@ -48,7 +49,7 @@ const Details = () => (
             </p>
           </div>
           <div className="card card_theme_light card_type_column">
-            <img className="card__image" src={middlemanImage} />
+            <LazyImage className="card__image" src={middlemanImage} />
             <h6 className="card__title">
               <FormattedHTMLMessage id="noIntermediaries" />
             </h6>
@@ -57,7 +58,7 @@ const Details = () => (
             </p>
           </div>
           <div className="card card_theme_light card_type_column">
-            <img className="card__image" src={accessImage} />
+            <LazyImage className="card__image" src={accessImage} />
             <h6 className="card__title">
               <FormattedHTMLMessage id="accessToBillionsOfUnbanked" />{' '}
             </h6>

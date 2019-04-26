@@ -1,11 +1,11 @@
 import React from 'react'
-import { FormattedHTMLMessage } from 'react-intl'
+import { FormattedHTMLMessage } from 'src/components/i18n'
 
 const content = [
   {
     name: 'Anton Dziatkovskii',
     position: <FormattedHTMLMessage id="coFounder" />,
-    photo: require('./images/photos/anton.png'),
+    photo: require('./images/photos/anton.jpg'),
     socials: [
       {
         user: 'antondz',

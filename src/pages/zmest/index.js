@@ -8,7 +8,7 @@ import handleClick from '../../components/pages/zmest/handleSendEmailClick.js'
 import Footer from 'src/components/sections/footer'
 import translations from '../../components/pages/zmest/translations'
 import TranslationProvider from '../../components/translationProvider'
-import { FormattedHTMLMessage } from 'react-intl'
+import { FormattedHTMLMessage } from 'src/components/i18n'
 import Socials from 'src/components/socials'
 
 const IndexPage = ({ language = 'en' }) => (

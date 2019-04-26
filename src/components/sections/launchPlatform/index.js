@@ -1,9 +1,10 @@
 import React from 'react'
 import './launch-platform.less'
 import image from '../../../images/section-launch-platform/mac.png'
-import { FormattedHTMLMessage } from 'react-intl'
+import { FormattedHTMLMessage } from 'src/components/i18n'
 import TranslationProvider from 'src/components/translationProvider'
 import translations from './translations'
+import LazyImage from 'src/components/lazyImage'
 
 const LaunchPlatform = () => (
   <TranslationProvider translations={translations}>
@@ -27,7 +28,7 @@ const LaunchPlatform = () => (
             </div>
           </div>
           <div className="wrapper_image">
-            <img className="card_image" src={image} />
+            <LazyImage className="card_image" src={image} />
           </div>
         </div>
       </div>

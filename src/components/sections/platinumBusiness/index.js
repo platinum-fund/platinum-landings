@@ -1,6 +1,7 @@
 import React from 'react'
 import './section_platinum-business.less'
 import ContactForm from 'src/components/contactForm'
+import LazyImage from 'src/components/lazyImage'
 
 const PlatinumBusiness = ({ config }) => (
   <section className="section section_platinum-business">
@@ -10,7 +11,7 @@ const PlatinumBusiness = ({ config }) => (
         <span className="title title_type_section-big-attention">business</span>
       </h2>
       <div className="section__preface">
-        <img
+        <LazyImage
           className="image"
           src={require('src/images/section-platinum-business/anton.png')}
         />
@@ -40,7 +41,7 @@ const PlatinumBusiness = ({ config }) => (
         <div className="card card_theme_features-list">
           <h6 className="card__title">Why does it cost so?</h6>
           <div className="card__description">
-            <img
+            <LazyImage
               className="card__image"
               src={require('src/images/section-platinum-business/cost.png')}
             />
@@ -64,7 +65,7 @@ const PlatinumBusiness = ({ config }) => (
         <div className="card card_theme_features-list">
           <h6 className="card__title">Our plans for development</h6>
           <div className="card__description">
-            <img
+            <LazyImage
               className="card__image"
               src={require('src/images/section-platinum-business/investment.png')}
             />
@@ -85,7 +86,7 @@ const PlatinumBusiness = ({ config }) => (
             What will the investor get after buying our tokens?
           </h6>
           <div className="card__description">
-            <img
+            <LazyImage
               className="card__image"
               src={require('src/images/section-platinum-business/plan.png')}
             />

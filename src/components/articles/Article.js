@@ -1,5 +1,6 @@
 import React from 'react'
 import './stylesheets/article.less'
+import LazyImage from 'src/components/lazyImage'
 
 const Article = props => {
   const { date, image, title, text, source, sourcePage } = props
@@ -7,7 +8,7 @@ const Article = props => {
   return (
     <div className="article">
       <div className="article__header flex _aic _jcsb">
-        <img className="article__header-image" src={image} />
+        <LazyImage className="article__header-image" src={image} />
         <p className="article__header-text">{date}</p>
       </div>
       <div className="article__main">

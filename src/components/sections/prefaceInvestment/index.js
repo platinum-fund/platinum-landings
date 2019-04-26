@@ -5,6 +5,7 @@ import Slider from 'src/components/slider'
 import SliderItem from 'src/components/slider/SliderItemPure'
 import Socials from 'src/components/socials'
 import content from './content'
+import LazyImage from 'src/components/lazyImage'
 
 const prefaceInvestment = ({ config }) => (
   <section className="section section_preface-investment">
@@ -39,7 +40,10 @@ const prefaceInvestment = ({ config }) => (
               subtitle={slide.subtitle}
               key={`prefaceTeamSlide${i}`}
             >
-              <img className="slider-item__background" src={slide.image} />
+              <LazyImage
+                className="slider-item__background"
+                src={slide.image}
+              />
             </SliderItem>
           ))}
         </Slider>
