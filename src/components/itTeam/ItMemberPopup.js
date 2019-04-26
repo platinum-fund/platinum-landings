@@ -2,11 +2,12 @@ import React from 'react'
 import Popup from 'src/components/popup'
 import { FormattedHTMLMessage } from 'react-intl'
 import Socials from './Socials'
+import LazyImage from 'src/components/lazyImage'
 
 const FullViewMember = ({ member }) => (
   <div className="it-member">
     <div className="it-member__photo-wrapper">
-      <img className="it-member__photo" src={member.photo} alt="photo" />
+      <LazyImage className="it-member__photo" src={member.photo} alt="photo" />
     </div>
     <p className="it-member__name">{member.name}</p>
     <p className="it-member__position">

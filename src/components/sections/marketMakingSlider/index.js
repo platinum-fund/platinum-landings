@@ -7,6 +7,7 @@ import graph1 from './content/images/graphs/graph1.jpg'
 import graph2 from './content/images/graphs/graph2.png'
 import SliderText from './SliderText'
 import Socials from 'src/components/socials'
+import LazyImage from 'src/components/lazyImage'
 
 const SlickSlider = () => {
   const settings = {
@@ -33,7 +34,7 @@ const SlickSlider = () => {
       <div className="o-content">
         <Slider {...settings}>
           <div className="o-slide">
-            <img className="c-graph-img" src={graph1} alt="graph" />
+            <LazyImage className="c-graph-img" src={graph1} alt="graph" />
             <SliderText
               firstPart={'doNotLetYour'}
               secondPart={'tokenDie'}
@@ -41,7 +42,7 @@ const SlickSlider = () => {
             />
           </div>
           <div className="o-slide">
-            <img className="c-graph-img" src={graph2} alt="graph" />
+            <LazyImage className="c-graph-img" src={graph2} alt="graph" />
             <SliderText
               firstPart={'makeYourToken'}
               secondPart={'superstar'}

@@ -5,6 +5,7 @@ import platinumGraphImage from 'src/images/section-platinum-equivalency/platinum
 import TranslationProvider from 'src/components/translationProvider'
 import translations from './translations'
 import { FormattedHTMLMessage } from 'react-intl'
+import LazyImage from 'src/components/lazyImage'
 
 const PlatinumEquivalencyPure = () => (
   <TranslationProvider translations={translations}>
@@ -19,8 +20,8 @@ const PlatinumEquivalencyPure = () => (
           </h4>
         </div>
         <div className="wrapper_images">
-          <img className="image" src={ethGraphImage} />
-          <img className="image" src={platinumGraphImage} />
+          <LazyImage className="image" src={ethGraphImage} />
+          <LazyImage className="image" src={platinumGraphImage} />
         </div>
       </div>
     </section>

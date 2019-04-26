@@ -3,6 +3,7 @@ import './section_securities-services.less'
 import TranslationProvider from 'src/components/translationProvider'
 import translations from './translations'
 import { FormattedHTMLMessage } from 'react-intl'
+import LazyImage from 'src/components/lazyImage'
 
 const SecuritiesServicesPure = () => (
   <TranslationProvider translations={translations}>

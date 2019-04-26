@@ -3,6 +3,7 @@ import { FormattedHTMLMessage } from 'react-intl'
 import TranslationProvider from 'src/components/translationProvider'
 import translations from './translations'
 import './about.less'
+import LazyImage from 'src/components/lazyImage'
 import firstImage from '../../../images/section-about/1.png'
 import secondImage from '../../../images/section-about/2.png'
 import thirdImage from '../../../images/section-about/3.png'
@@ -27,7 +28,7 @@ const About = () => (
 
         <div className="wrapper_cards">
           <div className="wrapper_card">
-            <img className="card_image" src={firstImage} />
+            <LazyImage className="card_image" src={firstImage} />
             <p className="card_description">
               <span className="card_description_orange">
                 <FormattedHTMLMessage id="fullCycleAgency1" />
@@ -36,13 +37,13 @@ const About = () => (
             </p>
           </div>
           <div className="wrapper_card">
-            <img className="card_image" src={secondImage} />
+            <LazyImage className="card_image" src={secondImage} />
             <p className="card_description">
               <FormattedHTMLMessage id="weAre" />
             </p>
           </div>
           <div className="wrapper_card">
-            <img className="card_image" src={thirdImage} />
+            <LazyImage className="card_image" src={thirdImage} />
             <p className="card_description">
               <span className="card_description_orange">
                 <FormattedHTMLMessage id="fundraisingAndRoadshows1" />

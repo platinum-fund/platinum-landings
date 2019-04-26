@@ -6,6 +6,7 @@ import thirdImage from '../../../images/section-fundraising/woman.png'
 import { FormattedHTMLMessage } from 'react-intl'
 import TranslationProvider from 'src/components/translationProvider'
 import translations from './translations'
+import LazyImage from 'src/components/lazyImage'
 
 const Fundraising = () => (
   <TranslationProvider translations={translations}>
@@ -21,13 +22,13 @@ const Fundraising = () => (
         </div>
         <div className="wrapper_cards">
           <div className="wrapper_card">
-            <img className="card_image" src={firstImage} />
+            <LazyImage className="card_image" src={firstImage} />
             <p className="card_description">
               <FormattedHTMLMessage id="hugeNetworkOfInstitutionalInvestors" />
             </p>
           </div>
           <div className="wrapper_card">
-            <img className="card_image" src={secondImage} />
+            <LazyImage className="card_image" src={secondImage} />
             <p className="card_description">
               <span className="card_description_orange">
                 <FormattedHTMLMessage id="40main" />
@@ -36,7 +37,7 @@ const Fundraising = () => (
             </p>
           </div>
           <div className="wrapper_card">
-            <img className="card_image" src={thirdImage} />
+            <LazyImage className="card_image" src={thirdImage} />
             <p className="card_description">
               <span className="card_description_orange">
                 <FormattedHTMLMessage id="200m1" />
