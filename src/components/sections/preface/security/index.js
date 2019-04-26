@@ -2,7 +2,7 @@ import React from 'react'
 import '../section_preface.less'
 import TranslationProvider from 'src/components/translationProvider'
 import translations from './translations'
-import { FormattedHTMLMessage } from 'react-intl'
+import { FormattedHTMLMessage } from 'src/components/i18n'
 
 if (typeof window !== 'undefined') {
   require('platinum-ui/src/components/universal/media-preview')

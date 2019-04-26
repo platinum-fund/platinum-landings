@@ -7,7 +7,7 @@ import LazyImage from 'src/components/lazyImage'
 import sliders from './content'
 import TranslationProvider from 'src/components/translationProvider'
 import translations from './content/translations'
-import { FormattedHTMLMessage } from 'react-intl'
+import { FormattedHTMLMessage } from 'src/components/i18n'
 
 const PrevArrow = ({ onClick }) => (
   <div className={`arrow _left`} onClick={onClick} />

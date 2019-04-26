@@ -2,7 +2,7 @@ import React from 'react'
 import './section_securities-services.less'
 import TranslationProvider from 'src/components/translationProvider'
 import translations from './translations'
-import { FormattedHTMLMessage } from 'react-intl'
+import { FormattedHTMLMessage } from 'src/components/i18n'
 
 const SecuritiesServicesPure = () => (
   <TranslationProvider translations={translations}>

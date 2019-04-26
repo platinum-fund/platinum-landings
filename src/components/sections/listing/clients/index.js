@@ -2,7 +2,7 @@ import React from 'react'
 import './section_our-clients.less'
 import TranslationProvider from 'src/components/translationProvider'
 import translations from './content/translations'
-import { FormattedHTMLMessage } from 'react-intl'
+import { FormattedHTMLMessage } from 'src/components/i18n'
 
 import graphImg from 'src/images/section-listing-clients/graph.svg'
 

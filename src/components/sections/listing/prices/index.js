@@ -2,7 +2,7 @@ import React from 'react'
 import './section_listing-prices.less'
 import TranslationProvider from 'src/components/translationProvider'
 import translations from './content/translations'
-import { FormattedHTMLMessage } from 'react-intl'
+import { FormattedHTMLMessage } from 'src/components/i18n'
 
 const ListingPricesPure = () => (
   <TranslationProvider translations={translations}>

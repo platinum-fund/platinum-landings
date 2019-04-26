@@ -2,7 +2,7 @@ import React from 'react'
 import './section_last-chance.less'
 import TranslationProvider from 'src/components/translationProvider'
 import translations from './translations'
-import { FormattedHTMLMessage } from 'react-intl'
+import { FormattedHTMLMessage } from 'src/components/i18n'
 
 const LastChance = props => (
   <TranslationProvider translations={translations}>

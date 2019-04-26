@@ -1,7 +1,7 @@
 import React from 'react'
 import skull from './content/images/skull.png'
 import TranslationProvider from 'src/components/translationProvider'
-import { FormattedHTMLMessage } from 'react-intl'
+import { FormattedHTMLMessage } from 'src/components/i18n'
 import translations from './content/translations'
 
 const SliderText = ({ firstPart, secondPart }) => (

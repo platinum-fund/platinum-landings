@@ -4,7 +4,7 @@ import RequestForm from 'src/components/requestForm'
 import content from './content'
 import TranslationProvider from 'src/components/translationProvider'
 import translations from './translations'
-import { FormattedHTMLMessage } from 'react-intl'
+import { FormattedHTMLMessage } from 'src/components/i18n'
 
 const CreateSecurityToken = ({ config }) => (
   <TranslationProvider translations={translations}>

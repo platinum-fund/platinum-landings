@@ -3,7 +3,7 @@ import './section_listing-exchanges.less'
 import logos from './content'
 import TranslationProvider from 'src/components/translationProvider'
 import translations from './content/translations'
-import { FormattedHTMLMessage } from 'react-intl'
+import { FormattedHTMLMessage } from 'src/components/i18n'
 
 const ListingExchangesPure = () => (
   <TranslationProvider translations={translations}>

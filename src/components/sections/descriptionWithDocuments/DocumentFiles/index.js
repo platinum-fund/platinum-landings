@@ -2,7 +2,7 @@ import React from 'react'
 import './document-files-subsection.less'
 import docImg from '../content/images/icons/pdf.svg'
 import closeBtn from '../content/images/icons/closebut.svg'
-import { FormattedHTMLMessage } from 'react-intl'
+import { FormattedHTMLMessage } from 'src/components/i18n'
 
 const docsList = [
   {
