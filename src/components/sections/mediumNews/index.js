@@ -1,7 +1,7 @@
 import React from 'react'
 import './section_medium-news.less'
 import MediumNews from 'src/components/mediumNews'
-import { FormattedHTMLMessage } from 'react-intl'
+import { FormattedHTMLMessage } from 'src/components/i18n'
 import TranslationProvider from 'src/components/translationProvider'
 import translations from './translations'
 

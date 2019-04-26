@@ -2,7 +2,7 @@ import React from 'react'
 import './section_service-providers.less'
 import TranslationProvider from 'src/components/translationProvider'
 import translations from './translations'
-import { FormattedHTMLMessage } from 'react-intl'
+import { FormattedHTMLMessage } from 'src/components/i18n'
 import LazyImage from 'src/components/lazyImage'
 
 const ServiceProviders = props => (

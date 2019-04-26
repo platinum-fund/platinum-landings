@@ -1,7 +1,7 @@
 import React from 'react'
 import './section_team.less'
 import WithLanguageContext from 'src/contexts/language/WithLanguageContext'
-import { FormattedHTMLMessage } from 'react-intl'
+import { FormattedHTMLMessage } from 'src/components/i18n'
 import TranslationProvider from 'src/components/translationProvider'
 import translations from './translations'
 

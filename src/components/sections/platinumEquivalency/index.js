@@ -4,7 +4,7 @@ import ethGraphImage from 'src/images/section-platinum-equivalency/eth-graph.png
 import platinumGraphImage from 'src/images/section-platinum-equivalency/platinum-graph.png'
 import TranslationProvider from 'src/components/translationProvider'
 import translations from './translations'
-import { FormattedHTMLMessage } from 'react-intl'
+import { FormattedHTMLMessage } from 'src/components/i18n'
 import LazyImage from 'src/components/lazyImage'
 
 const PlatinumEquivalencyPure = () => (

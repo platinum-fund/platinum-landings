@@ -1,6 +1,6 @@
 import React from 'react'
 import Popup from 'src/components/popup'
-import { FormattedHTMLMessage } from 'react-intl'
+import { FormattedHTMLMessage } from 'src/components/i18n'
 import Socials from './Socials'
 import LazyImage from 'src/components/lazyImage'
 
