@@ -1,6 +1,6 @@
 import React from 'react'
 import './request-form.less'
-import { FormattedMessage } from 'react-intl'
+import { FormattedHTMLMessage, FormattedMessage } from 'src/components/i18n'
 
 const Radio = ({ value, name }) => (
   <div className="request-form__radio-wrapper">
@@ -17,7 +17,7 @@ const Radio = ({ value, name }) => (
 const RadioBox = ({ box }) => (
   <>
     <label className="request-form__radios-label">
-      <FormattedMessage id={box.label} />
+      <FormattedHTMLMessage id={box.label} />
     </label>
     <div className="request-form__radios-wrapper">
       {box.values.map((value, i) => (

@@ -1,5 +1,5 @@
 import React from 'react'
-import { FormattedHTMLMessage } from 'react-intl'
+import { FormattedHTMLMessage } from 'src/components/i18n'
 import TranslationProvider from 'src/components/translationProvider'
 import translations from './translations'
 import './section_preface-nav.less'

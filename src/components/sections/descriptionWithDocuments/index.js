@@ -3,7 +3,7 @@ import './section_description-with-documents.less'
 import DocumentFiles from './DocumentFiles'
 import TranslationProvider from 'src/components/translationProvider'
 import translations from './content/translations'
-import { FormattedHTMLMessage } from 'react-intl'
+import { FormattedHTMLMessage } from 'src/components/i18n'
 
 const DescriptionWithDocuments = () => (
   <TranslationProvider translations={translations}>

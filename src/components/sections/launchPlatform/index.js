@@ -1,7 +1,7 @@
 import React from 'react'
 import './launch-platform.less'
 import image from '../../../images/section-launch-platform/mac.png'
-import { FormattedHTMLMessage } from 'react-intl'
+import { FormattedHTMLMessage } from 'src/components/i18n'
 import TranslationProvider from 'src/components/translationProvider'
 import translations from './translations'
 
