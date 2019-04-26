@@ -3,6 +3,7 @@ import './section_service-providers.less'
 import TranslationProvider from 'src/components/translationProvider'
 import translations from './translations'
 import { FormattedHTMLMessage } from 'src/components/i18n'
+import LazyImage from 'src/components/lazyImage'
 
 const ServiceProviders = props => (
   <TranslationProvider translations={translations}>
@@ -17,7 +18,7 @@ const ServiceProviders = props => (
           </h4>
         </div>
         <div className="service-providers">
-          <img
+          <LazyImage
             className="image"
             src={require('src/images/section-service-providers/service-providers.png')}
           />

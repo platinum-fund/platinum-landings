@@ -2,6 +2,7 @@ import React from 'react'
 import './medium-article.less'
 import platinumLogo from 'src/images/favicon.png'
 import extractContent from 'src/utils/extractContent'
+import LazyImage from 'src/components/lazyImage'
 
 function isThumbnailValid(url) {
   return new URL(url).hostname === 'cdn-images-1.medium.com'
@@ -14,7 +15,7 @@ const Article = ({ article }) => {
     <a className="medium-article" href={article.link} target="_blank">
       {coverShown && (
         <div className="medium-article__cover-wrapper">
-          <img
+          <LazyImage
             className="medium-article__cover"
             src={article.thumbnail}
             alt="article cover"
@@ -22,7 +23,7 @@ const Article = ({ article }) => {
         </div>
       )}
       <header className="medium-article__header">
-        <img
+        <LazyImage
           className="medium-article__author-logo"
           src={platinumLogo}
           alt="platinum logo"

@@ -3,6 +3,7 @@ import './benefits.less'
 import { FormattedHTMLMessage } from 'src/components/i18n'
 import TranslationProvider from 'src/components/translationProvider'
 import translations from './translations'
+import LazyImage from 'src/components/lazyImage'
 import eyeImage from '../../../images/section-benefit/1.png'
 import coinImage from '../../../images/section-benefit/2.png'
 import cardsImage from '../../../images/section-benefit/10.png'
@@ -37,7 +38,7 @@ const Benefits = () => (
         </div>
         <div className="wrapper_cards">
           <div className="card card_theme_light card_type_column">
-            <img className="card__image" src={eyeImage} />
+            <LazyImage className="card__image" src={eyeImage} />
             <h6 className="card__description-big">
               <FormattedHTMLMessage id="userfriendly1" />
               <span className="card__description-big--orange">
@@ -46,19 +47,19 @@ const Benefits = () => (
             </h6>
           </div>
           <div className="card card_theme_light card_type_column">
-            <img className="card__image" src={coinImage} />
+            <LazyImage className="card__image" src={coinImage} />
             <h6 className="card__description-big">
               <FormattedHTMLMessage id="receivePaymentsIn" />
             </h6>
           </div>
           <div className="card card_theme_light card_type_column">
-            <img className="card__image" src={cardsImage} />
+            <LazyImage className="card__image" src={cardsImage} />
             <h6 className="card__description-big">
               <FormattedHTMLMessage id="receivePaymentsVia" />
             </h6>
           </div>
           <div className="card card_theme_light card_type_column">
-            <img className="card__image" src={zoomImage} />
+            <LazyImage className="card__image" src={zoomImage} />
             <h6 className="card__description-big">
               <FormattedHTMLMessage id="preciseAndDetailed1" />
               <span className="card__description-big--orange">
@@ -68,13 +69,13 @@ const Benefits = () => (
             </h6>
           </div>
           <div className="card card_theme_light card_type_column">
-            <img className="card__image" src={clockImage} />
+            <LazyImage className="card__image" src={clockImage} />
             <h6 className="card__description-big">
               <FormattedHTMLMessage id="fastSystemDeployment" />
             </h6>
           </div>
           <div className="card card_theme_light card_type_column">
-            <img className="card__image" src={workerImage} />
+            <LazyImage className="card__image" src={workerImage} />
             <h6 className="card__description-big">
               <FormattedHTMLMessage id="integratedSystemFor1" />
               <span className="card__description-big--orange">
@@ -84,13 +85,13 @@ const Benefits = () => (
             </h6>
           </div>
           <div className="card card_theme_light card_type_column">
-            <img className="card__image" src={mobileImage} />
+            <LazyImage className="card__image" src={mobileImage} />
             <h6 className="card__description-big">
               <FormattedHTMLMessage id="dividendStructureIssuance" />
             </h6>
           </div>
           <div className="card card_theme_light card_type_column">
-            <img className="card__image" src={lockImage} />
+            <LazyImage className="card__image" src={lockImage} />
             <h6 className="card__description-big">
               <FormattedHTMLMessage id="topNotch1" />
               <span className="card__description-big--orange">
@@ -104,7 +105,7 @@ const Benefits = () => (
             </h6>
           </div>
           <div className="card card_theme_light card_type_column">
-            <img className="card__image" src={manImage} />
+            <LazyImage className="card__image" src={manImage} />
             <h6 className="card__description-big">
               <FormattedHTMLMessage id="tokenSale1" />
               <span className="card__description-big--orange">
@@ -113,7 +114,7 @@ const Benefits = () => (
             </h6>
           </div>
           <div className="card card_theme_light card_type_column">
-            <img className="card__image" src={grafImage} />
+            <LazyImage className="card__image" src={grafImage} />
             <h6 className="card__description-big">
               <FormattedHTMLMessage id="sto1" />
               <span className="card__description-big--orange">

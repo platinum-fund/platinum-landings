@@ -3,10 +3,9 @@ import './section_our-clients.less'
 import TranslationProvider from 'src/components/translationProvider'
 import translations from './content/translations'
 import { FormattedHTMLMessage } from 'src/components/i18n'
-
 import graphImg from 'src/images/section-listing-clients/graph.svg'
-
 import content from './content'
+import LazyImage from 'src/components/lazyImage'
 
 const OurClientsPure = () => (
   <TranslationProvider translations={translations}>
@@ -54,7 +53,7 @@ const OurClientsPure = () => (
             })}
           </div>
           <div className="listing-image-block">
-            <img
+            <LazyImage
               className="listing-image-block__image"
               src={graphImg}
               alt="The percentage of hit and sales of our customers on the top
