@@ -5,7 +5,7 @@ const content = [
   {
     name: 'Anton Dziatkovskii',
     position: <FormattedHTMLMessage id="coFounder" />,
-    photo: require('./images/photos/anton.png'),
+    photo: require('./images/photos/anton.jpg'),
     socials: [
       {
         user: 'antondz',
