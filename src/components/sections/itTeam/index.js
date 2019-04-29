@@ -1,6 +1,6 @@
 import React from 'react'
 import './section_it-team.less'
-import ItTeam from 'src/components/ItTeam'
+import ItTeam from 'src/components/itTeam'
 import { FormattedHTMLMessage } from 'src/components/i18n'
 import TranslationProvider from 'src/components/translationProvider'
 import translations from './translations'
